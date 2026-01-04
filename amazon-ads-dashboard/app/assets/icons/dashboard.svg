@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+  xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Dashboard">
+  <path d="M4 4h7v7H4V4Z" stroke="white" stroke-opacity="0.9" stroke-width="1.6" />
+  <path d="M13 4h7v4h-7V4Z" stroke="white" stroke-opacity="0.9" stroke-width="1.6" />
+  <path d="M13 10h7v10h-7V10Z" stroke="white" stroke-opacity="0.9" stroke-width="1.6" />
+  <path d="M4 13h7v7H4v-7Z" stroke="white" stroke-opacity="0.9" stroke-width="1.6" />
+</svg>
