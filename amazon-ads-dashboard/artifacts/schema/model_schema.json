@@ -1,0 +1,54 @@
+{
+  "features": [
+    "campaign_id",
+    "campaign_name",
+    "impressions",
+    "clicks",
+    "cost",
+    "orders",
+    "sales",
+    "ctr",
+    "cpc",
+    "cvr",
+    "acos",
+    "roas",
+    "spend_share_daily",
+    "sales_share_daily",
+    "share_gap_daily",
+    "spend_share_total",
+    "sales_share_total",
+    "share_gap_total",
+    "cost_d1",
+    "cost_d7",
+    "cost_z",
+    "cost_spike",
+    "sales_d1",
+    "sales_d7",
+    "sales_z",
+    "sales_spike",
+    "roas_d1",
+    "roas_d7",
+    "roas_z",
+    "roas_spike",
+    "acos_d1",
+    "acos_d7",
+    "acos_z",
+    "acos_spike"
+  ],
+  "categorical_features": [
+    "campaign_id",
+    "campaign_name"
+  ],
+  "categorical_feature_indices": [
+    0,
+    1
+  ],
+  "labels": {
+    "classifier": "waste_risk_label",
+    "regressor": "future7_roas"
+  },
+  "notes": {
+    "attribution_window_used_in_metrics": "14d",
+    "waste_threshold": 1.0
+  }
+}
