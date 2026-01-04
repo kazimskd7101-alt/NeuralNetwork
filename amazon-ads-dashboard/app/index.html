@@ -4,287 +4,14 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Amazon Ads Dashboard (SP) — Modern Starter</title>
-  <meta name="description" content="Modern Amazon Ads dashboard starter (HTML/CSS/JS). Built for CTR, CPC, CVR, ACOS, ROAS, shares, zero-sales flags, spikes." />
+  <meta name="description" content="Modern Amazon Ads dashboard starter (HTML/CSS/JS). KPIs, shares, zero-sales flags, spikes." />
 
-  <style>
-    /* ---------- Reset (minimal) ---------- */
-    *, *::before, *::after { box-sizing: border-box; }
-    html, body { height: 100%; }
-    body { margin: 0; font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji","Segoe UI Emoji"; }
-    img { max-width: 100%; display: block; }
-    button, input { font: inherit; }
-    a { color: inherit; text-decoration: none; }
-
-    /* ---------- Theme ---------- */
-    :root{
-      --bg: #0b1020;
-      --panel: rgba(255,255,255,0.06);
-      --panel-2: rgba(255,255,255,0.10);
-      --text: rgba(255,255,255,0.92);
-      --muted: rgba(255,255,255,0.62);
-      --muted-2: rgba(255,255,255,0.45);
-      --border: rgba(255,255,255,0.10);
-      --shadow: 0 14px 30px rgba(0,0,0,0.35);
-      --radius: 18px;
-      --radius-sm: 12px;
-      --pad: 18px;
-
-      --good: #2ef2a4;
-      --warn: #ffcc66;
-      --bad: #ff5c7a;
-      --accent: #7c5cff; /* modern purple */
-      --accent-2: #2dd4bf; /* teal */
-    }
-
-    /* ---------- Layout ---------- */
-    .app {
-      min-height: 100%;
-      background:
-        radial-gradient(900px 380px at 12% 12%, rgba(124,92,255,0.35), transparent 60%),
-        radial-gradient(800px 340px at 85% 12%, rgba(45,212,191,0.25), transparent 60%),
-        radial-gradient(900px 420px at 35% 100%, rgba(255,92,122,0.10), transparent 60%),
-        var(--bg);
-      color: var(--text);
-      display: grid;
-      grid-template-columns: 280px 1fr;
-    }
-
-    .sidebar {
-      border-right: 1px solid var(--border);
-      padding: 18px;
-      position: sticky;
-      top: 0;
-      height: 100vh;
-      overflow: auto;
-      backdrop-filter: blur(10px);
-    }
-
-    .brand {
-      display: flex;
-      gap: 12px;
-      align-items: center;
-      padding: 10px 10px;
-      border: 1px solid var(--border);
-      border-radius: var(--radius);
-      background: linear-gradient(180deg, rgba(255,255,255,0.07), rgba(255,255,255,0.03));
-      box-shadow: var(--shadow);
-    }
-    .brand img { width: 40px; height: 40px; }
-    .brand .title { font-weight: 700; letter-spacing: 0.2px; }
-    .brand .sub { font-size: 12px; color: var(--muted); margin-top: 2px; }
-
-    .nav {
-      margin-top: 16px;
-      display: grid;
-      gap: 8px;
-    }
-    .nav a{
-      display: flex;
-      align-items: center;
-      gap: 10px;
-      padding: 10px 12px;
-      border-radius: 14px;
-      border: 1px solid transparent;
-      color: var(--muted);
-      background: transparent;
-    }
-    .nav a img { width: 18px; height: 18px; opacity: 0.95; }
-    .nav a.active{
-      color: var(--text);
-      border-color: rgba(124,92,255,0.45);
-      background: rgba(124,92,255,0.12);
-    }
-    .nav a:hover{
-      border-color: var(--border);
-      background: rgba(255,255,255,0.04);
-      color: var(--text);
-    }
-
-    .sidebar .note {
-      margin-top: 18px;
-      padding: 14px;
-      border: 1px solid var(--border);
-      border-radius: var(--radius);
-      background: rgba(255,255,255,0.04);
-      color: var(--muted);
-      font-size: 13px;
-      line-height: 1.4;
-    }
-
-    .main {
-      padding: 20px;
-      display: grid;
-      grid-template-rows: auto 1fr;
-      gap: 14px;
-    }
-
-    .topbar {
-      display: grid;
-      grid-template-columns: 1fr auto;
-      gap: 12px;
-      align-items: center;
-    }
-
-    .topbar .left h1{
-      font-size: 18px;
-      margin: 0;
-      letter-spacing: 0.2px;
-    }
-    .topbar .left p{
-      margin: 6px 0 0;
-      color: var(--muted);
-      font-size: 13px;
-    }
-
-    .controls {
-      display: flex;
-      gap: 10px;
-      align-items: center;
-      flex-wrap: wrap;
-      justify-content: flex-end;
-    }
-
-    .pill {
-      display: inline-flex;
-      align-items: center;
-      gap: 8px;
-      padding: 10px 12px;
-      border: 1px solid var(--border);
-      background: rgba(255,255,255,0.04);
-      border-radius: 999px;
-      color: var(--muted);
-      font-size: 13px;
-    }
-    .pill strong{ color: var(--text); font-weight: 600; }
-
-    .btn {
-      cursor: pointer;
-      border: 1px solid rgba(124,92,255,0.45);
-      background: rgba(124,92,255,0.14);
-      color: var(--text);
-      padding: 10px 12px;
-      border-radius: 999px;
-      font-weight: 600;
-      font-size: 13px;
-      transition: transform 0.05s ease, background 0.15s ease;
-    }
-    .btn:hover { background: rgba(124,92,255,0.20); }
-    .btn:active { transform: translateY(1px); }
-
-    .grid {
-      display: grid;
-      gap: 14px;
-      grid-template-columns: 1.2fr 0.8fr;
-      align-items: start;
-    }
-
-    .panel {
-      border: 1px solid var(--border);
-      background: rgba(255,255,255,0.04);
-      border-radius: var(--radius);
-      box-shadow: var(--shadow);
-      overflow: hidden;
-    }
-
-    .panel .hd{
-      padding: 14px 16px;
-      border-bottom: 1px solid var(--border);
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 10px;
-    }
-    .panel .hd h2{ margin: 0; font-size: 14px; letter-spacing: 0.2px; }
-    .panel .hd .meta{ color: var(--muted); font-size: 12px; }
-
-    .panel .bd{ padding: 16px; }
-
-    .kpis{
-      display: grid;
-      grid-template-columns: repeat(3, minmax(0, 1fr));
-      gap: 12px;
-    }
-    .card{
-      border: 1px solid var(--border);
-      background: linear-gradient(180deg, rgba(255,255,255,0.06), rgba(255,255,255,0.03));
-      border-radius: var(--radius);
-      padding: 14px;
-      min-height: 92px;
-      display: grid;
-      gap: 6px;
-    }
-    .card .label{ color: var(--muted); font-size: 12px; }
-    .card .value{ font-size: 20px; font-weight: 800; letter-spacing: 0.2px; }
-    .card .hint{ color: var(--muted-2); font-size: 12px; }
-
-    .badges{
-      display: flex;
-      flex-wrap: wrap;
-      gap: 8px;
-      margin-top: 10px;
-    }
-    .badge{
-      display: inline-flex;
-      align-items: center;
-      gap: 8px;
-      padding: 8px 10px;
-      border-radius: 999px;
-      font-size: 12px;
-      border: 1px solid var(--border);
-      background: rgba(255,255,255,0.03);
-      color: var(--muted);
-    }
-    .badge img{ width: 16px; height: 16px; }
-    .badge.good{ border-color: rgba(46,242,164,0.35); background: rgba(46,242,164,0.10); color: rgba(255,255,255,0.88); }
-    .badge.warn{ border-color: rgba(255,204,102,0.35); background: rgba(255,204,102,0.10); color: rgba(255,255,255,0.88); }
-    .badge.bad{ border-color: rgba(255,92,122,0.45); background: rgba(255,92,122,0.10); color: rgba(255,255,255,0.92); }
-
-    .chartBox{
-      height: 300px;
-      border: 1px dashed rgba(255,255,255,0.18);
-      border-radius: var(--radius);
-      background: rgba(255,255,255,0.02);
-      display: grid;
-      place-items: center;
-      color: var(--muted);
-      font-size: 13px;
-    }
-
-    .tableWrap{
-      border: 1px solid var(--border);
-      border-radius: var(--radius);
-      overflow: hidden;
-      background: rgba(255,255,255,0.03);
-    }
-    table{
-      width: 100%;
-      border-collapse: collapse;
-      font-size: 13px;
-    }
-    th, td{
-      padding: 10px 12px;
-      border-bottom: 1px solid rgba(255,255,255,0.08);
-      text-align: left;
-      vertical-align: middle;
-    }
-    th{ color: var(--muted); font-weight: 600; background: rgba(255,255,255,0.03); }
-    tr:hover td{ background: rgba(255,255,255,0.03); }
-    .right{ text-align: right; }
-    .mono{ font-variant-numeric: tabular-nums; font-feature-settings: "tnum"; }
-
-    .page { display: none; }
-    .page.active { display: block; }
-
-    @media (max-width: 980px){
-      .app{ grid-template-columns: 1fr; }
-      .sidebar{ position: relative; height: auto; }
-      .grid{ grid-template-columns: 1fr; }
-      .kpis{ grid-template-columns: repeat(2, minmax(0, 1fr)); }
-    }
-    @media (max-width: 520px){
-      .kpis{ grid-template-columns: 1fr; }
-    }
-  </style>
+  <!-- CSS (no inline styles) -->
+  <link rel="stylesheet" href="css/reset.css" />
+  <link rel="stylesheet" href="css/theme.css" />
+  <link rel="stylesheet" href="css/layout.css" />
+  <link rel="stylesheet" href="css/components.css" />
+  <link rel="stylesheet" href="css/charts.css" />
 </head>
 
 <body>
@@ -348,13 +75,8 @@
               <div class="meta">Campaign daily • aggregated</div>
             </div>
             <div class="bd">
-              <div class="kpis" id="kpiGrid">
-                <!-- Filled by JS -->
-              </div>
-
-              <div class="badges" id="overviewBadges">
-                <!-- Filled by JS -->
-              </div>
+              <div class="kpis" id="kpiGrid"></div>
+              <div class="badges" id="overviewBadges"></div>
             </div>
           </div>
 
@@ -373,9 +95,7 @@
                       <th class="right">Count</th>
                     </tr>
                   </thead>
-                  <tbody id="alertTableBody">
-                    <!-- Filled by JS -->
-                  </tbody>
+                  <tbody id="alertTableBody"></tbody>
                 </table>
               </div>
               <div style="margin-top:10px; color:var(--muted); font-size:12px;">
@@ -429,7 +149,7 @@
   </div>
 
   <script>
-    // --------- Tiny, safe utilities ----------
+    // --------- Format helpers ----------
     const fmt = {
       num: (v) => {
         const n = Number(v);
@@ -448,7 +168,7 @@
       }
     };
 
-    // --------- Minimal SPA navigation ----------
+    // --------- Navigation ----------
     const pages = {
       overview: document.getElementById("page-overview"),
       drilldown: document.getElementById("page-drilldown"),
@@ -481,7 +201,7 @@
       });
     });
 
-    // --------- Demo data (will be replaced by real backend fetch) ----------
+    // --------- Demo data (temporary) ----------
     const demo = {
       dateRange: "2020-02-01 → 2020-02-29",
       kpis: [
