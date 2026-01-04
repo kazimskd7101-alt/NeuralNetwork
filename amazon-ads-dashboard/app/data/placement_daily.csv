@@ -1,0 +1,546 @@
+date,campaign_id,campaign_name,placement,impressions,clicks,cost,orders,sales,ctr,cpc,cvr,acos,roas,zero_sales_spend_flag
+2020-02-01,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Pain Relief Oil || SP || Automatic || 22nd Nov'19,First page Top of Search on Amazon,29,0,0.0,0,0.0,0.0,,,,,False
+2020-02-01,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Product pages on Amazon,867,2,12.585,0,0.0,0.002306805074971165,6.2925,0.0,,0.0,True
+2020-02-01,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Rest of search on Amazon,64,1,12.65,0,0.0,0.015625,12.65,0.0,,0.0,True
+2020-02-01,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,First page Top of Search on Amazon,114,3,39.803333333333335,0,0.0,0.02631578947368421,13.267777777777779,0.0,,0.0,True
+2020-02-01,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,Product pages on Amazon,2408,3,32.84333333333333,0,0.0,0.0012458471760797341,10.947777777777775,0.0,,0.0,True
+2020-02-01,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,Rest of search on Amazon,347,0,0.0,0,0.0,0.0,,,,,False
+2020-02-01,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,First page Top of Search on Amazon,96,11,11.35,3,961.62,0.11458333333333333,1.0318181818181817,0.2727272727272727,0.011802999105675838,84.72422907488988,False
+2020-02-01,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,Product pages on Amazon,651,2,38.415,0,0.0,0.0030721966205837174,19.2075,0.0,,0.0,True
+2020-02-01,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,Rest of search on Amazon,35,0,0.0,0,0.0,0.0,,,,,False
+2020-02-01,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,First page Top of Search on Amazon,39,2,1.0,0,0.0,0.05128205128205128,0.5,0.0,,0.0,True
+2020-02-01,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,Product pages on Amazon,1342,2,18.945,0,0.0,0.0014903129657228018,9.4725,0.0,,0.0,True
+2020-02-01,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,Rest of search on Amazon,2512,14,15.430714285714286,0,0.0,0.005573248407643312,1.1021938775510205,0.0,,0.0,True
+2020-02-02,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Pain Relief Oil || SP || Automatic || 22nd Nov'19,First page Top of Search on Amazon,39,0,0.0,0,0.0,0.0,,,,,False
+2020-02-02,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Product pages on Amazon,1444,1,12.76,0,0.0,0.0006925207756232687,12.76,0.0,,0.0,True
+2020-02-02,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Rest of search on Amazon,91,0,0.0,0,0.0,0.0,,,,,False
+2020-02-02,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,First page Top of Search on Amazon,131,7,41.15285714285714,1,320.54,0.05343511450381679,5.878979591836734,0.14285714285714285,0.1283860271506119,7.7890096157184034,False
+2020-02-02,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,Product pages on Amazon,2187,7,30.82,1,320.54,0.003200731595793324,4.402857142857143,0.14285714285714285,0.09615024645910027,10.400389357560027,False
+2020-02-02,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,Rest of search on Amazon,374,3,19.51333333333333,0,0.0,0.008021390374331552,6.5044444444444425,0.0,,0.0,True
+2020-02-02,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,First page Top of Search on Amazon,94,8,3.68125,2,1282.16,0.0851063829787234,0.46015625,0.25,0.0028711315280464215,348.2947368421053,False
+2020-02-02,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,Product pages on Amazon,628,0,0.0,0,0.0,0.0,,,,,False
+2020-02-02,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,Rest of search on Amazon,21,1,15.41,0,0.0,0.047619047619047616,15.41,0.0,,0.0,True
+2020-02-02,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,First page Top of Search on Amazon,76,7,17.042857142857144,2,1164.42,0.09210526315789473,2.4346938775510205,0.2857142857142857,0.014636348691071215,68.323051131601,False
+2020-02-02,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,Product pages on Amazon,1803,1,19.91,0,0.0,0.0005546311702717693,19.91,0.0,,0.0,True
+2020-02-02,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,Rest of search on Amazon,3667,22,17.295909090909092,2,776.28,0.0059994545950368145,0.7861776859504133,0.09090909090909091,0.02228050328606829,44.882289558750095,False
+2020-02-03,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Pain Relief Oil || SP || Automatic || 22nd Nov'19,First page Top of Search on Amazon,61,5,9.868,0,0.0,0.08196721311475409,1.9736,0.0,,0.0,True
+2020-02-03,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Product pages on Amazon,1769,0,0.0,0,0.0,0.0,,,,,False
+2020-02-03,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Rest of search on Amazon,101,1,11.7,0,0.0,0.009900990099009901,11.7,0.0,,0.0,True
+2020-02-03,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,First page Top of Search on Amazon,81,1,16.92,0,0.0,0.012345679012345678,16.92,0.0,,0.0,True
+2020-02-03,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,Product pages on Amazon,2107,2,28.415,0,0.0,0.0009492168960607499,14.2075,0.0,,0.0,True
+2020-02-03,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,Rest of search on Amazon,294,2,27.715000000000003,0,0.0,0.006802721088435374,13.857500000000002,0.0,,0.0,True
+2020-02-03,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,First page Top of Search on Amazon,74,17,3.168823529411765,3,1226.8,0.22972972972972974,0.186401384083045,0.17647058823529413,0.002582999290358465,387.14683497308334,False
+2020-02-03,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,Product pages on Amazon,652,0,0.0,0,0.0,0.0,,,,,False
+2020-02-03,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,Rest of search on Amazon,33,0,0.0,0,0.0,0.0,,,,,False
+2020-02-03,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,First page Top of Search on Amazon,50,1,15.86,0,0.0,0.02,15.86,0.0,,0.0,True
+2020-02-03,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,Product pages on Amazon,2891,0,0.0,0,0.0,0.0,,,,,False
+2020-02-03,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,Rest of search on Amazon,3512,11,19.514545454545456,2,776.28,0.003132118451025057,1.7740495867768595,0.18181818181818182,0.025138539514795506,39.77955837137799,False
+2020-02-04,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Pain Relief Oil || SP || Automatic || 22nd Nov'19,First page Top of Search on Amazon,37,0,0.0,0,0.0,0.0,,,,,False
+2020-02-04,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Product pages on Amazon,1190,0,0.0,0,0.0,0.0,,,,,False
+2020-02-04,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Rest of search on Amazon,85,0,0.0,0,0.0,0.0,,,,,False
+2020-02-04,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,First page Top of Search on Amazon,123,6,40.138333333333335,0,0.0,0.04878048780487805,6.689722222222223,0.0,,0.0,True
+2020-02-04,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,Product pages on Amazon,1475,2,30.935,0,0.0,0.0013559322033898306,15.4675,0.0,,0.0,True
+2020-02-04,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,Rest of search on Amazon,254,1,3.35,1,320.54,0.003937007874015748,3.35,1.0,0.010451113745554377,95.68358208955225,False
+2020-02-04,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,First page Top of Search on Amazon,123,19,4.632631578947369,4,1282.16,0.15447154471544716,0.24382271468144048,0.21052631578947367,0.0036131462367780687,276.76709838673025,False
+2020-02-04,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,Product pages on Amazon,626,0,0.0,0,0.0,0.0,,,,,False
+2020-02-04,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,Rest of search on Amazon,33,0,0.0,0,0.0,0.0,,,,,False
+2020-02-04,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,First page Top of Search on Amazon,22,3,6.463333333333334,0,0.0,0.13636363636363635,2.1544444444444446,0.0,,0.0,True
+2020-02-04,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,Product pages on Amazon,1561,3,19.21333333333333,1,388.14,0.0019218449711723255,6.404444444444444,0.3333333333333333,0.04950103914395149,20.201596113809856,False
+2020-02-04,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,Rest of search on Amazon,2067,8,18.03,0,0.0,0.0038703434929850023,2.25375,0.0,,0.0,True
+2020-02-05,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Pain Relief Oil || SP || Automatic || 22nd Nov'19,First page Top of Search on Amazon,25,1,1.74,0,0.0,0.04,1.74,0.0,,0.0,True
+2020-02-05,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Product pages on Amazon,993,1,13.1,0,0.0,0.0010070493454179255,13.1,0.0,,0.0,True
+2020-02-05,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Rest of search on Amazon,45,0,0.0,0,0.0,0.0,,,,,False
+2020-02-05,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,First page Top of Search on Amazon,136,3,36.22666666666667,0,0.0,0.022058823529411766,12.075555555555555,0.0,,0.0,True
+2020-02-05,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,Product pages on Amazon,2292,4,37.345,0,0.0,0.0017452006980802793,9.33625,0.0,,0.0,True
+2020-02-05,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,Rest of search on Amazon,327,0,0.0,0,0.0,0.0,,,,,False
+2020-02-05,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,First page Top of Search on Amazon,131,17,8.842352941176472,6,1923.24,0.1297709923664122,0.5201384083044983,0.35294117647058826,0.004597633650078239,217.50319318786586,False
+2020-02-05,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,Product pages on Amazon,435,1,25.13,0,0.0,0.0022988505747126436,25.13,0.0,,0.0,True
+2020-02-05,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,Rest of search on Amazon,38,0,0.0,0,0.0,0.0,,,,,False
+2020-02-05,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,First page Top of Search on Amazon,28,1,34.85,0,0.0,0.03571428571428571,34.85,0.0,,0.0,True
+2020-02-05,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,Product pages on Amazon,1097,0,0.0,0,0.0,0.0,,,,,False
+2020-02-05,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,Rest of search on Amazon,1919,11,19.286363636363635,1,388.14,0.005732152162584679,1.7533057851239668,0.09090909090909091,0.04968919368362868,20.12510016497761,False
+2020-02-06,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Pain Relief Oil || SP || Automatic || 22nd Nov'19,First page Top of Search on Amazon,37,3,6.616666666666667,0,0.0,0.08108108108108109,2.2055555555555557,0.0,,0.0,True
+2020-02-06,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Product pages on Amazon,1304,0,0.0,0,0.0,0.0,,,,,False
+2020-02-06,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Rest of search on Amazon,74,0,0.0,0,0.0,0.0,,,,,False
+2020-02-06,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,First page Top of Search on Amazon,130,0,0.0,0,0.0,0.0,,,,,False
+2020-02-06,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,Product pages on Amazon,2362,3,26.883333333333336,0,0.0,0.0012701100762066045,8.961111111111112,0.0,,0.0,True
+2020-02-06,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,Rest of search on Amazon,319,1,20.34,0,0.0,0.003134796238244514,20.34,0.0,,0.0,True
+2020-02-06,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,First page Top of Search on Amazon,129,19,5.838947368421053,5,1602.7,0.14728682170542637,0.30731301939058175,0.2631578947368421,0.003643194215025303,274.4844059852172,False
+2020-02-06,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,Product pages on Amazon,422,1,48.45,0,0.0,0.002369668246445498,48.45,0.0,,0.0,True
+2020-02-06,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,Rest of search on Amazon,27,0,0.0,0,0.0,0.0,,,,,False
+2020-02-06,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,First page Top of Search on Amazon,51,10,5.159000000000001,0,0.0,0.19607843137254902,0.5159,0.0,,0.0,True
+2020-02-06,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,Product pages on Amazon,2287,1,20.83,0,0.0,0.00043725404459991256,20.83,0.0,,0.0,True
+2020-02-06,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,Rest of search on Amazon,1962,10,19.763,1,388.14,0.0050968399592252805,1.9763000000000002,0.1,0.05091719482660896,19.639730810099678,False
+2020-02-07,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Pain Relief Oil || SP || Automatic || 22nd Nov'19,First page Top of Search on Amazon,46,1,10.6,1,320.54,0.021739130434782608,10.6,1.0,0.033069195732201906,30.23962264150944,False
+2020-02-07,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Product pages on Amazon,1489,0,0.0,0,0.0,0.0,,,,,False
+2020-02-07,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Rest of search on Amazon,73,0,0.0,0,0.0,0.0,,,,,False
+2020-02-07,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,First page Top of Search on Amazon,134,1,34.26,0,0.0,0.007462686567164179,34.26,0.0,,0.0,True
+2020-02-07,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,Product pages on Amazon,2179,5,40.018,0,0.0,0.002294630564479119,8.0036,0.0,,0.0,True
+2020-02-07,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,Rest of search on Amazon,444,0,0.0,0,0.0,0.0,,,,,False
+2020-02-07,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,First page Top of Search on Amazon,110,15,10.089333333333334,3,961.62,0.13636363636363635,0.6726222222222222,0.2,0.010492016943629848,95.31055900621118,False
+2020-02-07,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,Product pages on Amazon,377,0,0.0,0,0.0,0.0,,,,,False
+2020-02-07,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,Rest of search on Amazon,29,0,0.0,0,0.0,0.0,,,,,False
+2020-02-07,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,First page Top of Search on Amazon,26,0,0.0,0,0.0,0.0,,,,,False
+2020-02-07,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,Product pages on Amazon,1992,1,18.54,0,0.0,0.000502008032128514,18.54,0.0,,0.0,True
+2020-02-07,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,Rest of search on Amazon,2155,10,18.939,0,0.0,0.004640371229698376,1.8939,0.0,,0.0,True
+2020-02-08,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Pain Relief Oil || SP || Automatic || 22nd Nov'19,First page Top of Search on Amazon,30,3,10.126666666666669,1,320.54,0.1,3.375555555555556,0.3333333333333333,0.03159252095422309,31.653061224489793,False
+2020-02-08,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Product pages on Amazon,935,0,0.0,0,0.0,0.0,,,,,False
+2020-02-08,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Rest of search on Amazon,51,0,0.0,0,0.0,0.0,,,,,False
+2020-02-08,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,First page Top of Search on Amazon,141,4,29.22,2,641.08,0.028368794326241134,7.305,0.5,0.045579334872402816,21.939767282683096,False
+2020-02-08,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,Product pages on Amazon,2478,4,27.68,0,0.0,0.0016142050040355124,6.92,0.0,,0.0,True
+2020-02-08,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,Rest of search on Amazon,390,3,22.590000000000003,0,0.0,0.007692307692307693,7.530000000000001,0.0,,0.0,True
+2020-02-08,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,First page Top of Search on Amazon,151,17,3.5429411764705883,7,2564.32,0.11258278145695365,0.2084083044982699,0.4117647058823529,0.001381629896608297,723.7828324755105,False
+2020-02-08,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,Product pages on Amazon,407,0,0.0,0,0.0,0.0,,,,,False
+2020-02-08,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,Rest of search on Amazon,37,0,0.0,0,0.0,0.0,,,,,False
+2020-02-08,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,First page Top of Search on Amazon,32,2,6.37,0,0.0,0.0625,3.185,0.0,,0.0,True
+2020-02-08,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,Product pages on Amazon,1754,1,18.86,0,0.0,0.0005701254275940707,18.86,0.0,,0.0,True
+2020-02-08,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,Rest of search on Amazon,1988,9,19.2,0,0.0,0.004527162977867203,2.1333333333333333,0.0,,0.0,True
+2020-02-09,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Pain Relief Oil || SP || Automatic || 22nd Nov'19,First page Top of Search on Amazon,45,0,0.0,0,0.0,0.0,,,,,False
+2020-02-09,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Product pages on Amazon,1493,2,10.355,0,0.0,0.0013395847287340924,5.1775,0.0,,0.0,True
+2020-02-09,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Rest of search on Amazon,75,0,0.0,0,0.0,0.0,,,,,False
+2020-02-09,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,First page Top of Search on Amazon,145,3,29.89333333333333,0,0.0,0.020689655172413793,9.964444444444444,0.0,,0.0,True
+2020-02-09,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,Product pages on Amazon,2979,2,23.075,0,0.0,0.000671366230278617,11.5375,0.0,,0.0,True
+2020-02-09,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,Rest of search on Amazon,406,2,25.765,0,0.0,0.0049261083743842365,12.8825,0.0,,0.0,True
+2020-02-09,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,First page Top of Search on Amazon,112,19,5.508421052631578,6,1825.02,0.16964285714285715,0.2899168975069252,0.3157894736842105,0.0030182798285123334,331.3145423275368,False
+2020-02-09,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,Product pages on Amazon,540,3,28.57333333333333,1,320.54,0.005555555555555556,9.524444444444443,0.3333333333333333,0.08914124082277822,11.21815212319179,False
+2020-02-09,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,Rest of search on Amazon,18,0,0.0,0,0.0,0.0,,,,,False
+2020-02-09,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,First page Top of Search on Amazon,40,3,1.8666666666666665,0,0.0,0.075,0.6222222222222221,0.0,,0.0,True
+2020-02-09,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,Product pages on Amazon,2283,1,18.93,0,0.0,0.0004380201489268506,18.93,0.0,,0.0,True
+2020-02-09,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,Rest of search on Amazon,2267,19,17.96421052631579,0,0.0,0.008381120423467137,0.9454847645429363,0.0,,0.0,True
+2020-02-10,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Pain Relief Oil || SP || Automatic || 22nd Nov'19,First page Top of Search on Amazon,41,1,7.48,0,0.0,0.024390243902439025,7.48,0.0,,0.0,True
+2020-02-10,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Product pages on Amazon,1681,1,10.52,0,0.0,0.000594883997620464,10.52,0.0,,0.0,True
+2020-02-10,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Rest of search on Amazon,67,1,9.19,0,0.0,0.014925373134328358,9.19,0.0,,0.0,True
+2020-02-10,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,First page Top of Search on Amazon,133,5,40.75,0,0.0,0.03759398496240601,8.15,0.0,,0.0,True
+2020-02-10,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,Product pages on Amazon,2259,2,19.665,0,0.0,0.0008853474988933156,9.8325,0.0,,0.0,True
+2020-02-10,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,Rest of search on Amazon,346,4,29.1625,0,0.0,0.011560693641618497,7.290625,0.0,,0.0,True
+2020-02-10,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,First page Top of Search on Amazon,106,6,5.578333333333333,3,961.62,0.05660377358490566,0.9297222222222222,0.5,0.005800974744008374,172.38482222886168,False
+2020-02-10,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,Product pages on Amazon,439,1,27.4,0,0.0,0.002277904328018223,27.4,0.0,,0.0,True
+2020-02-10,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,Rest of search on Amazon,39,0,0.0,0,0.0,0.0,,,,,False
+2020-02-10,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,First page Top of Search on Amazon,61,5,1.074,1,388.14,0.08196721311475409,0.21480000000000002,0.2,0.002767042819601175,361.3966480446927,False
+2020-02-10,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,Product pages on Amazon,1842,4,24.9175,0,0.0,0.002171552660152009,6.229375,0.0,,0.0,True
+2020-02-10,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,Rest of search on Amazon,1863,10,19.19,0,0.0,0.005367686527106817,1.919,0.0,,0.0,True
+2020-02-11,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Pain Relief Oil || SP || Automatic || 22nd Nov'19,First page Top of Search on Amazon,33,0,0.0,0,0.0,0.0,,,,,False
+2020-02-11,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Product pages on Amazon,1592,0,0.0,0,0.0,0.0,,,,,False
+2020-02-11,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Rest of search on Amazon,73,1,9.12,0,0.0,0.0136986301369863,9.12,0.0,,0.0,True
+2020-02-11,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,First page Top of Search on Amazon,121,3,25.820000000000004,1,320.54,0.024793388429752067,8.606666666666667,0.3333333333333333,0.08055156922692956,12.414407436096049,False
+2020-02-11,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,Product pages on Amazon,2102,6,36.56333333333333,0,0.0,0.0028544243577545195,6.0938888888888885,0.0,,0.0,True
+2020-02-11,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,Rest of search on Amazon,277,1,18.19,0,0.0,0.0036101083032490976,18.19,0.0,,0.0,True
+2020-02-11,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,First page Top of Search on Amazon,101,11,3.6454545454545455,2,641.08,0.10891089108910891,0.33140495867768593,0.18181818181818182,0.005686426881909505,175.85735660847882,False
+2020-02-11,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,Product pages on Amazon,407,0,0.0,0,0.0,0.0,,,,,False
+2020-02-11,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,Rest of search on Amazon,37,0,0.0,0,0.0,0.0,,,,,False
+2020-02-11,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,First page Top of Search on Amazon,48,2,14.555,0,0.0,0.041666666666666664,7.2775,0.0,,0.0,True
+2020-02-11,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,Product pages on Amazon,3534,2,17.59,0,0.0,0.0005659309564233164,8.795,0.0,,0.0,True
+2020-02-11,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,Rest of search on Amazon,2534,13,17.913846153846155,0,0.0,0.005130228887134964,1.3779881656804736,0.0,,0.0,True
+2020-02-12,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Pain Relief Oil || SP || Automatic || 22nd Nov'19,First page Top of Search on Amazon,30,2,11.295,0,0.0,0.06666666666666667,5.6475,0.0,,0.0,True
+2020-02-12,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Product pages on Amazon,685,0,0.0,0,0.0,0.0,,,,,False
+2020-02-12,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Rest of search on Amazon,57,0,0.0,0,0.0,0.0,,,,,False
+2020-02-12,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,First page Top of Search on Amazon,124,3,27.036666666666665,1,302.68,0.024193548387096774,9.012222222222222,0.3333333333333333,0.08932425884322276,11.195167057082974,False
+2020-02-12,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,Product pages on Amazon,2010,1,30.32,1,320.54,0.0004975124378109452,30.32,1.0,0.09459037873588319,10.571899736147758,False
+2020-02-12,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,Rest of search on Amazon,420,2,15.48,0,0.0,0.004761904761904762,7.74,0.0,,0.0,True
+2020-02-12,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,First page Top of Search on Amazon,103,22,3.4986363636363635,5,1308.04,0.21359223300970873,0.1590289256198347,0.22727272727272727,0.0026747166475309344,373.8713784591399,False
+2020-02-12,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,Product pages on Amazon,223,2,31.52,0,0.0,0.008968609865470852,15.76,0.0,,0.0,True
+2020-02-12,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,Rest of search on Amazon,33,0,0.0,0,0.0,0.0,,,,,False
+2020-02-12,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,First page Top of Search on Amazon,48,1,1.0,0,0.0,0.020833333333333332,1.0,0.0,,0.0,True
+2020-02-12,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,Product pages on Amazon,2838,6,20.031666666666663,0,0.0,0.0021141649048625794,3.3386111111111103,0.0,,0.0,True
+2020-02-12,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,Rest of search on Amazon,1443,5,18.006,0,0.0,0.003465003465003465,3.6012,0.0,,0.0,True
+2020-02-13,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Pain Relief Oil || SP || Automatic || 22nd Nov'19,First page Top of Search on Amazon,43,3,5.203333333333333,0,0.0,0.06976744186046512,1.7344444444444445,0.0,,0.0,True
+2020-02-13,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Product pages on Amazon,634,0,0.0,0,0.0,0.0,,,,,False
+2020-02-13,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Rest of search on Amazon,55,0,0.0,0,0.0,0.0,,,,,False
+2020-02-13,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,First page Top of Search on Amazon,139,3,29.44666666666667,0,0.0,0.02158273381294964,9.815555555555557,0.0,,0.0,True
+2020-02-13,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,Product pages on Amazon,2314,1,43.04,0,0.0,0.000432152117545376,43.04,0.0,,0.0,True
+2020-02-13,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,Rest of search on Amazon,363,0,0.0,0,0.0,0.0,,,,,False
+2020-02-13,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,First page Top of Search on Amazon,93,13,11.52846153846154,1,320.54,0.13978494623655913,0.8868047337278108,0.07692307692307693,0.03596575010439115,27.804230332955225,False
+2020-02-13,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,Product pages on Amazon,227,0,0.0,0,0.0,0.0,,,,,False
+2020-02-13,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,Rest of search on Amazon,14,0,0.0,0,0.0,0.0,,,,,False
+2020-02-13,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,First page Top of Search on Amazon,51,2,9.775,0,0.0,0.0392156862745098,4.8875,0.0,,0.0,True
+2020-02-13,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,Product pages on Amazon,3968,1,18.82,0,0.0,0.00025201612903225806,18.82,0.0,,0.0,True
+2020-02-13,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,Rest of search on Amazon,2077,15,19.270666666666664,2,669.49,0.007221954742416947,1.284711111111111,0.13333333333333333,0.028784099339298066,34.741403168892276,False
+2020-02-14,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Pain Relief Oil || SP || Automatic || 22nd Nov'19,First page Top of Search on Amazon,24,0,0.0,0,0.0,0.0,,,,,False
+2020-02-14,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Product pages on Amazon,610,0,0.0,0,0.0,0.0,,,,,False
+2020-02-14,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Rest of search on Amazon,43,0,0.0,0,0.0,0.0,,,,,False
+2020-02-14,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,First page Top of Search on Amazon,92,2,42.295,0,0.0,0.021739130434782608,21.1475,0.0,,0.0,True
+2020-02-14,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,Product pages on Amazon,1629,1,17.83,1,605.36,0.0006138735420503376,17.83,1.0,0.02945354830183692,33.951766685361754,False
+2020-02-14,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,Rest of search on Amazon,322,0,0.0,0,0.0,0.0,,,,,False
+2020-02-14,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,First page Top of Search on Amazon,85,18,8.611666666666666,6,2421.44,0.21176470588235294,0.4784259259259259,0.3333333333333333,0.003556423725827056,281.1813431391523,False
+2020-02-14,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,Product pages on Amazon,179,0,0.0,0,0.0,0.0,,,,,False
+2020-02-14,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,Rest of search on Amazon,37,0,0.0,0,0.0,0.0,,,,,False
+2020-02-14,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,First page Top of Search on Amazon,447,13,14.747692307692308,0,0.0,0.029082774049217,1.1344378698224853,0.0,,0.0,True
+2020-02-14,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,Product pages on Amazon,3134,1,20.23,0,0.0,0.0003190810465858328,20.23,0.0,,0.0,True
+2020-02-14,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,Rest of search on Amazon,1381,12,19.804166666666667,0,0.0,0.008689355539464157,1.6503472222222222,0.0,,0.0,True
+2020-02-15,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Pain Relief Oil || SP || Automatic || 22nd Nov'19,First page Top of Search on Amazon,51,2,7.48,0,0.0,0.0392156862745098,3.74,0.0,,0.0,True
+2020-02-15,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Product pages on Amazon,762,0,0.0,0,0.0,0.0,,,,,False
+2020-02-15,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Rest of search on Amazon,38,0,0.0,0,0.0,0.0,,,,,False
+2020-02-15,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,First page Top of Search on Amazon,100,3,37.95333333333333,0,0.0,0.03,12.651111111111112,0.0,,0.0,True
+2020-02-15,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,Product pages on Amazon,1857,4,34.295,0,0.0,0.002154011847065159,8.57375,0.0,,0.0,True
+2020-02-15,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,Rest of search on Amazon,402,1,3.36,0,0.0,0.0024875621890547263,3.36,0.0,,0.0,True
+2020-02-15,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,First page Top of Search on Amazon,77,15,1.768,5,1816.08,0.19480519480519481,0.11786666666666666,0.3333333333333333,0.0009735253953570327,1027.1945701357465,False
+2020-02-15,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,Product pages on Amazon,257,0,0.0,0,0.0,0.0,,,,,False
+2020-02-15,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,Rest of search on Amazon,31,0,0.0,0,0.0,0.0,,,,,False
+2020-02-15,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,First page Top of Search on Amazon,77,2,1.0,1,887.28,0.025974025974025976,0.5,0.5,0.001127039942295555,887.28,False
+2020-02-15,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,Product pages on Amazon,4013,3,20.246666666666663,0,0.0,0.00074757039621231,6.748888888888888,0.0,,0.0,True
+2020-02-15,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,Rest of search on Amazon,1426,11,18.265454545454546,1,295.76,0.007713884992987377,1.660495867768595,0.09090909090909091,0.06175769051073352,16.192315349392793,False
+2020-02-16,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Pain Relief Oil || SP || Automatic || 22nd Nov'19,First page Top of Search on Amazon,51,4,7.877499999999999,1,1210.72,0.0784313725490196,1.9693749999999997,0.25,0.006506458966565348,153.69343065693434,False
+2020-02-16,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Product pages on Amazon,1305,2,12.27,0,0.0,0.0015325670498084292,6.135,0.0,,0.0,True
+2020-02-16,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Rest of search on Amazon,67,0,0.0,0,0.0,0.0,,,,,False
+2020-02-16,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,First page Top of Search on Amazon,116,1,12.58,0,0.0,0.008620689655172414,12.58,0.0,,0.0,True
+2020-02-16,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,Product pages on Amazon,1944,1,39.84,0,0.0,0.00051440329218107,39.84,0.0,,0.0,True
+2020-02-16,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,Rest of search on Amazon,413,0,0.0,0,0.0,0.0,,,,,False
+2020-02-16,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,First page Top of Search on Amazon,83,11,5.920000000000001,5,1816.08,0.13253012048192772,0.5381818181818182,0.45454545454545453,0.003259768292145721,306.7702702702702,False
+2020-02-16,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,Product pages on Amazon,287,0,0.0,0,0.0,0.0,,,,,False
+2020-02-16,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,Rest of search on Amazon,28,0,0.0,0,0.0,0.0,,,,,False
+2020-02-16,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,First page Top of Search on Amazon,205,4,7.6075,0,0.0,0.01951219512195122,1.901875,0.0,,0.0,True
+2020-02-16,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,Product pages on Amazon,6449,2,20.51,0,0.0,0.0003101256008683517,10.255,0.0,,0.0,True
+2020-02-16,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,Rest of search on Amazon,2763,18,19.656666666666663,0,0.0,0.006514657980456026,1.092037037037037,0.0,,0.0,True
+2020-02-17,Hair Oil || SP|| Automatic || 17th Feb'20,Hair Oil || SP|| Automatic || 17th Feb'20,First page Top of Search on Amazon,5,0,0.0,0,0.0,0.0,,,,,False
+2020-02-17,Hair Oil || SP|| Automatic || 17th Feb'20,Hair Oil || SP|| Automatic || 17th Feb'20,Product pages on Amazon,66,0,0.0,0,0.0,0.0,,,,,False
+2020-02-17,Hair Oil || SP|| Automatic || 17th Feb'20,Hair Oil || SP|| Automatic || 17th Feb'20,Rest of search on Amazon,7,0,0.0,0,0.0,0.0,,,,,False
+2020-02-17,Night Cream || SP || Automatic || 22nd Nov'19,Night Cream || SP || Automatic || 22nd Nov'19,First page Top of Search on Amazon,3,0,0.0,0,0.0,0.0,,,,,False
+2020-02-17,Night Cream || SP || Automatic || 22nd Nov'19,Night Cream || SP || Automatic || 22nd Nov'19,Product pages on Amazon,48,0,0.0,0,0.0,0.0,,,,,False
+2020-02-17,Night Cream || SP || Automatic || 22nd Nov'19,Night Cream || SP || Automatic || 22nd Nov'19,Rest of search on Amazon,29,0,0.0,0,0.0,0.0,,,,,False
+2020-02-17,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Pain Relief Oil || SP || Automatic || 22nd Nov'19,First page Top of Search on Amazon,35,1,10.59,0,0.0,0.02857142857142857,10.59,0.0,,0.0,True
+2020-02-17,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Product pages on Amazon,1395,1,10.63,0,0.0,0.0007168458781362007,10.63,0.0,,0.0,True
+2020-02-17,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Rest of search on Amazon,72,0,0.0,0,0.0,0.0,,,,,False
+2020-02-17,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,First page Top of Search on Amazon,95,7,27.72857142857143,0,0.0,0.07368421052631578,3.9612244897959186,0.0,,0.0,True
+2020-02-17,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,Product pages on Amazon,2475,2,18.865,0,0.0,0.0008080808080808081,9.4325,0.0,,0.0,True
+2020-02-17,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,Rest of search on Amazon,358,3,24.343333333333334,0,0.0,0.008379888268156424,8.114444444444445,0.0,,0.0,True
+2020-02-17,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,First page Top of Search on Amazon,103,13,6.463076923076924,3,1210.72,0.1262135922330097,0.49715976331360956,0.23076923076923078,0.00533820943164144,187.32873125446318,False
+2020-02-17,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,Product pages on Amazon,173,2,17.605,0,0.0,0.011560693641618497,8.8025,0.0,,0.0,True
+2020-02-17,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,Rest of search on Amazon,25,0,0.0,0,0.0,0.0,,,,,False
+2020-02-17,Sunscreen || SP || Automatic || 22nd Nov'19,Sunscreen || SP || Automatic || 22nd Nov'19,First page Top of Search on Amazon,211,4,17.1625,0,0.0,0.018957345971563982,4.290625,0.0,,0.0,True
+2020-02-17,Sunscreen || SP || Automatic || 22nd Nov'19,Sunscreen || SP || Automatic || 22nd Nov'19,Product pages on Amazon,223,0,0.0,0,0.0,0.0,,,,,False
+2020-02-17,Sunscreen || SP || Automatic || 22nd Nov'19,Sunscreen || SP || Automatic || 22nd Nov'19,Rest of search on Amazon,310,1,12.9,0,0.0,0.0032258064516129032,12.9,0.0,,0.0,True
+2020-02-17,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,First page Top of Search on Amazon,195,4,10.16,1,295.76,0.020512820512820513,2.54,0.25,0.034352177441168516,29.11023622047244,False
+2020-02-17,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,Product pages on Amazon,9724,7,19.48,1,295.76,0.0007198683669271905,2.782857142857143,0.14285714285714285,0.06586421422775224,15.182751540041068,False
+2020-02-17,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,Rest of search on Amazon,2871,15,18.965333333333334,0,0.0,0.00522466039707419,1.2643555555555557,0.0,,0.0,True
+2020-02-18,Hair Oil || SP|| Automatic || 17th Feb'20,Hair Oil || SP|| Automatic || 17th Feb'20,First page Top of Search on Amazon,2,0,0.0,0,0.0,0.0,,,,,False
+2020-02-18,Hair Oil || SP|| Automatic || 17th Feb'20,Hair Oil || SP|| Automatic || 17th Feb'20,Product pages on Amazon,329,0,0.0,0,0.0,0.0,,,,,False
+2020-02-18,Hair Oil || SP|| Automatic || 17th Feb'20,Hair Oil || SP|| Automatic || 17th Feb'20,Rest of search on Amazon,34,0,0.0,0,0.0,0.0,,,,,False
+2020-02-18,Night Cream || SP || Automatic || 22nd Nov'19,Night Cream || SP || Automatic || 22nd Nov'19,First page Top of Search on Amazon,2,0,0.0,0,0.0,0.0,,,,,False
+2020-02-18,Night Cream || SP || Automatic || 22nd Nov'19,Night Cream || SP || Automatic || 22nd Nov'19,Product pages on Amazon,104,2,11.595,0,0.0,0.019230769230769232,5.7975,0.0,,0.0,True
+2020-02-18,Night Cream || SP || Automatic || 22nd Nov'19,Night Cream || SP || Automatic || 22nd Nov'19,Rest of search on Amazon,42,0,0.0,0,0.0,0.0,,,,,False
+2020-02-18,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Pain Relief Oil || SP || Automatic || 22nd Nov'19,First page Top of Search on Amazon,49,1,3.29,0,0.0,0.02040816326530612,3.29,0.0,,0.0,True
+2020-02-18,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Product pages on Amazon,817,0,0.0,0,0.0,0.0,,,,,False
+2020-02-18,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Rest of search on Amazon,64,0,0.0,0,0.0,0.0,,,,,False
+2020-02-18,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,First page Top of Search on Amazon,115,2,39.385000000000005,1,265.18,0.017391304347826087,19.692500000000003,0.5,0.14852175880533977,6.733020185349751,False
+2020-02-18,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,Product pages on Amazon,2091,0,0.0,0,0.0,0.0,,,,,False
+2020-02-18,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,Rest of search on Amazon,350,4,26.505000000000003,0,0.0,0.011428571428571429,6.626250000000001,0.0,,0.0,True
+2020-02-18,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,First page Top of Search on Amazon,101,15,2.948,4,1210.72,0.1485148514851485,0.19653333333333334,0.26666666666666666,0.0024349147614642526,410.6919945725916,False
+2020-02-18,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,Product pages on Amazon,189,1,46.32,0,0.0,0.005291005291005291,46.32,0.0,,0.0,True
+2020-02-18,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,Rest of search on Amazon,33,0,0.0,0,0.0,0.0,,,,,False
+2020-02-18,Sunscreen || SP || Automatic || 22nd Nov'19,Sunscreen || SP || Automatic || 22nd Nov'19,First page Top of Search on Amazon,676,17,18.73647058823529,0,0.0,0.02514792899408284,1.102145328719723,0.0,,0.0,True
+2020-02-18,Sunscreen || SP || Automatic || 22nd Nov'19,Sunscreen || SP || Automatic || 22nd Nov'19,Product pages on Amazon,1034,0,0.0,0,0.0,0.0,,,,,False
+2020-02-18,Sunscreen || SP || Automatic || 22nd Nov'19,Sunscreen || SP || Automatic || 22nd Nov'19,Rest of search on Amazon,685,2,9.22,0,0.0,0.00291970802919708,4.61,0.0,,0.0,True
+2020-02-18,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,First page Top of Search on Amazon,116,1,1.0,1,591.52,0.008620689655172414,1.0,1.0,0.0016905599134433326,591.52,False
+2020-02-18,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,Product pages on Amazon,7318,2,17.92,0,0.0,0.00027329871549603714,8.96,0.0,,0.0,True
+2020-02-18,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,Rest of search on Amazon,2575,6,17.706666666666667,0,0.0,0.002330097087378641,2.951111111111111,0.0,,0.0,True
+2020-02-19,Hair Oil || SP|| Automatic || 17th Feb'20,Hair Oil || SP|| Automatic || 17th Feb'20,First page Top of Search on Amazon,3,0,0.0,0,0.0,0.0,,,,,False
+2020-02-19,Hair Oil || SP|| Automatic || 17th Feb'20,Hair Oil || SP|| Automatic || 17th Feb'20,Product pages on Amazon,202,0,0.0,0,0.0,0.0,,,,,False
+2020-02-19,Hair Oil || SP|| Automatic || 17th Feb'20,Hair Oil || SP|| Automatic || 17th Feb'20,Rest of search on Amazon,15,0,0.0,0,0.0,0.0,,,,,False
+2020-02-19,Night Cream || SP || Automatic || 22nd Nov'19,Night Cream || SP || Automatic || 22nd Nov'19,First page Top of Search on Amazon,11,0,0.0,0,0.0,0.0,,,,,False
+2020-02-19,Night Cream || SP || Automatic || 22nd Nov'19,Night Cream || SP || Automatic || 22nd Nov'19,Product pages on Amazon,156,0,0.0,0,0.0,0.0,,,,,False
+2020-02-19,Night Cream || SP || Automatic || 22nd Nov'19,Night Cream || SP || Automatic || 22nd Nov'19,Rest of search on Amazon,28,0,0.0,0,0.0,0.0,,,,,False
+2020-02-19,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Pain Relief Oil || SP || Automatic || 22nd Nov'19,First page Top of Search on Amazon,42,2,12.51,0,0.0,0.047619047619047616,6.255,0.0,,0.0,True
+2020-02-19,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Product pages on Amazon,957,1,6.45,1,302.68,0.0010449320794148381,6.45,1.0,0.021309633936830975,46.927131782945736,False
+2020-02-19,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Rest of search on Amazon,59,1,3.83,0,0.0,0.01694915254237288,3.83,0.0,,0.0,True
+2020-02-19,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,First page Top of Search on Amazon,119,5,41.036,0,0.0,0.04201680672268908,8.2072,0.0,,0.0,True
+2020-02-19,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,Product pages on Amazon,1797,3,34.73,0,0.0,0.001669449081803005,11.576666666666666,0.0,,0.0,True
+2020-02-19,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,Rest of search on Amazon,339,1,22.56,0,0.0,0.0029498525073746312,22.56,0.0,,0.0,True
+2020-02-19,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,First page Top of Search on Amazon,95,8,2.62375,5,1816.08,0.08421052631578947,0.32796875,0.625,0.0014447326108981984,692.1696045736065,False
+2020-02-19,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,Product pages on Amazon,253,0,0.0,1,302.68,0.0,,,0.0,,False
+2020-02-19,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,Rest of search on Amazon,51,0,0.0,0,0.0,0.0,,,,,False
+2020-02-19,Sunscreen || SP || Automatic || 22nd Nov'19,Sunscreen || SP || Automatic || 22nd Nov'19,First page Top of Search on Amazon,663,18,18.139444444444443,1,295.76,0.027149321266968326,1.0077469135802468,0.05555555555555555,0.06133163525982027,16.304799240452056,False
+2020-02-19,Sunscreen || SP || Automatic || 22nd Nov'19,Sunscreen || SP || Automatic || 22nd Nov'19,Product pages on Amazon,1449,1,12.16,0,0.0,0.0006901311249137336,12.16,0.0,,0.0,True
+2020-02-19,Sunscreen || SP || Automatic || 22nd Nov'19,Sunscreen || SP || Automatic || 22nd Nov'19,Rest of search on Amazon,609,4,11.825,0,0.0,0.006568144499178982,2.95625,0.0,,0.0,True
+2020-02-19,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,First page Top of Search on Amazon,81,2,16.475,0,0.0,0.024691358024691357,8.2375,0.0,,0.0,True
+2020-02-19,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,Product pages on Amazon,5910,7,19.21142857142857,0,0.0,0.0011844331641285956,2.744489795918367,0.0,,0.0,True
+2020-02-19,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,Rest of search on Amazon,2147,11,20.515454545454546,2,591.52,0.005123428039124359,1.8650413223140496,0.18181818181818182,0.03468260506061426,28.8328975938317,False
+2020-02-20,Hair Oil || SP|| Automatic || 17th Feb'20,Hair Oil || SP|| Automatic || 17th Feb'20,First page Top of Search on Amazon,1,0,0.0,0,0.0,0.0,,,,,False
+2020-02-20,Hair Oil || SP|| Automatic || 17th Feb'20,Hair Oil || SP|| Automatic || 17th Feb'20,Product pages on Amazon,238,0,0.0,0,0.0,0.0,,,,,False
+2020-02-20,Hair Oil || SP|| Automatic || 17th Feb'20,Hair Oil || SP|| Automatic || 17th Feb'20,Rest of search on Amazon,19,0,0.0,0,0.0,0.0,,,,,False
+2020-02-20,Night Cream || SP || Automatic || 22nd Nov'19,Night Cream || SP || Automatic || 22nd Nov'19,First page Top of Search on Amazon,4,0,0.0,0,0.0,0.0,,,,,False
+2020-02-20,Night Cream || SP || Automatic || 22nd Nov'19,Night Cream || SP || Automatic || 22nd Nov'19,Product pages on Amazon,205,0,0.0,0,0.0,0.0,,,,,False
+2020-02-20,Night Cream || SP || Automatic || 22nd Nov'19,Night Cream || SP || Automatic || 22nd Nov'19,Rest of search on Amazon,37,1,7.96,0,0.0,0.02702702702702703,7.96,0.0,,0.0,True
+2020-02-20,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Pain Relief Oil || SP || Automatic || 22nd Nov'19,First page Top of Search on Amazon,11,0,0.0,0,0.0,0.0,,,,,False
+2020-02-20,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Product pages on Amazon,1069,0,0.0,0,0.0,0.0,,,,,False
+2020-02-20,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Rest of search on Amazon,51,2,5.86,0,0.0,0.0392156862745098,2.93,0.0,,0.0,True
+2020-02-20,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,First page Top of Search on Amazon,113,6,23.105,0,0.0,0.05309734513274336,3.8508333333333336,0.0,,0.0,True
+2020-02-20,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,Product pages on Amazon,2051,0,0.0,0,0.0,0.0,,,,,False
+2020-02-20,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,Rest of search on Amazon,265,1,31.39,0,0.0,0.0037735849056603774,31.39,0.0,,0.0,True
+2020-02-20,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,First page Top of Search on Amazon,91,17,2.684117647058823,9,3824.12,0.18681318681318682,0.15788927335640135,0.5294117647058824,0.0007018915847459868,1424.7214551829939,False
+2020-02-20,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,Product pages on Amazon,159,0,0.0,0,0.0,0.0,,,,,False
+2020-02-20,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,Rest of search on Amazon,36,0,0.0,0,0.0,0.0,,,,,False
+2020-02-20,Sunscreen || SP || Automatic || 22nd Nov'19,Sunscreen || SP || Automatic || 22nd Nov'19,First page Top of Search on Amazon,399,14,19.26928571428572,0,0.0,0.03508771929824561,1.3763775510204084,0.0,,0.0,True
+2020-02-20,Sunscreen || SP || Automatic || 22nd Nov'19,Sunscreen || SP || Automatic || 22nd Nov'19,Product pages on Amazon,1502,0,0.0,0,0.0,0.0,,,,,False
+2020-02-20,Sunscreen || SP || Automatic || 22nd Nov'19,Sunscreen || SP || Automatic || 22nd Nov'19,Rest of search on Amazon,560,3,6.859999999999999,0,0.0,0.005357142857142857,2.2866666666666666,0.0,,0.0,True
+2020-02-20,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,First page Top of Search on Amazon,37,0,0.0,1,295.76,0.0,,,0.0,,False
+2020-02-20,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,Product pages on Amazon,4164,4,28.615,0,0.0,0.0009606147934678194,7.15375,0.0,,0.0,True
+2020-02-20,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,Rest of search on Amazon,1577,9,16.64,1,295.76,0.0057070386810399495,1.848888888888889,0.1111111111111111,0.05626183391939411,17.77403846153846,False
+2020-02-21,Face Wash || SP || Auto || 21st Feb'20,Face Wash || SP || Auto || 21st Feb'20,First page Top of Search on Amazon,1,0,0.0,0,0.0,0.0,,,,,False
+2020-02-21,Face Wash || SP || Auto || 21st Feb'20,Face Wash || SP || Auto || 21st Feb'20,Product pages on Amazon,182,0,0.0,0,0.0,0.0,,,,,False
+2020-02-21,Face Wash || SP || Auto || 21st Feb'20,Face Wash || SP || Auto || 21st Feb'20,Rest of search on Amazon,4,0,0.0,0,0.0,0.0,,,,,False
+2020-02-21,Hair Oil || SP || Generic || 21st feb'20,Hair Oil || SP || Generic || 21st feb'20,First page Top of Search on Amazon,276,4,103.89,0,0.0,0.014492753623188406,25.9725,0.0,,0.0,True
+2020-02-21,Hair Oil || SP || Generic || 21st feb'20,Hair Oil || SP || Generic || 21st feb'20,Product pages on Amazon,10776,9,41.42,0,0.0,0.0008351893095768374,4.602222222222222,0.0,,0.0,True
+2020-02-21,Hair Oil || SP || Generic || 21st feb'20,Hair Oil || SP || Generic || 21st feb'20,Rest of search on Amazon,141,1,47.19,0,0.0,0.0070921985815602835,47.19,0.0,,0.0,True
+2020-02-21,Hair Oil || SP|| Automatic || 17th Feb'20,Hair Oil || SP|| Automatic || 17th Feb'20,First page Top of Search on Amazon,21,1,53.66,0,0.0,0.047619047619047616,53.66,0.0,,0.0,True
+2020-02-21,Hair Oil || SP|| Automatic || 17th Feb'20,Hair Oil || SP|| Automatic || 17th Feb'20,Product pages on Amazon,2704,3,17.456666666666667,0,0.0,0.0011094674556213018,5.818888888888889,0.0,,0.0,True
+2020-02-21,Hair Oil || SP|| Automatic || 17th Feb'20,Hair Oil || SP|| Automatic || 17th Feb'20,Rest of search on Amazon,131,0,0.0,0,0.0,0.0,,,,,False
+2020-02-21,Night Cream || SP || Automatic || 22nd Nov'19,Night Cream || SP || Automatic || 22nd Nov'19,First page Top of Search on Amazon,193,2,37.685,0,0.0,0.010362694300518135,18.8425,0.0,,0.0,True
+2020-02-21,Night Cream || SP || Automatic || 22nd Nov'19,Night Cream || SP || Automatic || 22nd Nov'19,Product pages on Amazon,6505,6,31.58,1,660.17,0.0009223674096848578,5.263333333333333,0.16666666666666666,0.04783616341245437,20.90468651044965,False
+2020-02-21,Night Cream || SP || Automatic || 22nd Nov'19,Night Cream || SP || Automatic || 22nd Nov'19,Rest of search on Amazon,860,3,25.723333333333333,0,0.0,0.0034883720930232558,8.574444444444444,0.0,,0.0,True
+2020-02-21,Night Cream || SP || Generic || 24th Nov'19,Night Cream || SP || Generic || 24th Nov'19,First page Top of Search on Amazon,14,0,0.0,0,0.0,0.0,,,,,False
+2020-02-21,Night Cream || SP || Generic || 24th Nov'19,Night Cream || SP || Generic || 24th Nov'19,Product pages on Amazon,4326,3,46.02666666666667,0,0.0,0.0006934812760055479,15.342222222222224,0.0,,0.0,True
+2020-02-21,Night Cream || SP || Generic || 24th Nov'19,Night Cream || SP || Generic || 24th Nov'19,Rest of search on Amazon,428,1,38.1,0,0.0,0.002336448598130841,38.1,0.0,,0.0,True
+2020-02-21,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Pain Relief Oil || SP || Automatic || 22nd Nov'19,First page Top of Search on Amazon,9,1,1.0,0,0.0,0.1111111111111111,1.0,0.0,,0.0,True
+2020-02-21,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Product pages on Amazon,848,0,0.0,0,0.0,0.0,,,,,False
+2020-02-21,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Rest of search on Amazon,52,1,12.48,0,0.0,0.019230769230769232,12.48,0.0,,0.0,True
+2020-02-21,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,First page Top of Search on Amazon,68,0,0.0,0,0.0,0.0,,,,,False
+2020-02-21,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,Product pages on Amazon,2286,2,54.285,0,0.0,0.0008748906386701663,27.1425,0.0,,0.0,True
+2020-02-21,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,Rest of search on Amazon,103,0,0.0,0,0.0,0.0,,,,,False
+2020-02-21,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,First page Top of Search on Amazon,64,8,7.9375,4,1513.4,0.125,0.9921875,0.5,0.00524481300383243,190.66456692913388,False
+2020-02-21,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,Product pages on Amazon,232,0,0.0,0,0.0,0.0,,,,,False
+2020-02-21,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,Rest of search on Amazon,21,0,0.0,0,0.0,0.0,,,,,False
+2020-02-21,Sunscreen || SP || Automatic || 22nd Nov'19,Sunscreen || SP || Automatic || 22nd Nov'19,First page Top of Search on Amazon,348,11,16.097272727272728,0,0.0,0.031609195402298854,1.463388429752066,0.0,,0.0,True
+2020-02-21,Sunscreen || SP || Automatic || 22nd Nov'19,Sunscreen || SP || Automatic || 22nd Nov'19,Product pages on Amazon,777,0,0.0,0,0.0,0.0,,,,,False
+2020-02-21,Sunscreen || SP || Automatic || 22nd Nov'19,Sunscreen || SP || Automatic || 22nd Nov'19,Rest of search on Amazon,417,2,14.815,0,0.0,0.004796163069544364,7.4075,0.0,,0.0,True
+2020-02-21,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,First page Top of Search on Amazon,2122,46,28.456739130434784,5,1774.56,0.021677662582469368,0.618624763705104,0.10869565217391304,0.01603594081374244,62.35992085621958,False
+2020-02-21,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,Product pages on Amazon,16997,6,29.5,0,0.0,0.0003530034712008001,4.916666666666667,0.0,,0.0,True
+2020-02-21,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,Rest of search on Amazon,2875,7,26.09857142857143,1,295.76,0.002434782608695652,3.7283673469387755,0.14285714285714285,0.08824239731056069,11.332421041107887,False
+2020-02-22,Face Wash || SP || Auto || 21st Feb'20,Face Wash || SP || Auto || 21st Feb'20,First page Top of Search on Amazon,0,0,0.0,0,0.0,,,,,,False
+2020-02-22,Face Wash || SP || Auto || 21st Feb'20,Face Wash || SP || Auto || 21st Feb'20,Product pages on Amazon,227,0,0.0,0,0.0,0.0,,,,,False
+2020-02-22,Face Wash || SP || Auto || 21st Feb'20,Face Wash || SP || Auto || 21st Feb'20,Rest of search on Amazon,17,0,0.0,0,0.0,0.0,,,,,False
+2020-02-22,Hair Oil || SP || Generic || 21st feb'20,Hair Oil || SP || Generic || 21st feb'20,First page Top of Search on Amazon,658,10,82.94300000000001,0,0.0,0.015197568389057751,8.294300000000002,0.0,,0.0,True
+2020-02-22,Hair Oil || SP || Generic || 21st feb'20,Hair Oil || SP || Generic || 21st feb'20,Product pages on Amazon,10639,7,44.79714285714285,0,0.0,0.0006579565748660588,6.399591836734693,0.0,,0.0,True
+2020-02-22,Hair Oil || SP || Generic || 21st feb'20,Hair Oil || SP || Generic || 21st feb'20,Rest of search on Amazon,245,0,0.0,1,311.61,0.0,,,0.0,,False
+2020-02-22,Hair Oil || SP|| Automatic || 17th Feb'20,Hair Oil || SP|| Automatic || 17th Feb'20,First page Top of Search on Amazon,71,1,49.62,0,0.0,0.014084507042253521,49.62,0.0,,0.0,True
+2020-02-22,Hair Oil || SP|| Automatic || 17th Feb'20,Hair Oil || SP|| Automatic || 17th Feb'20,Product pages on Amazon,10513,6,28.84,0,0.0,0.0005707219632835537,4.806666666666667,0.0,,0.0,True
+2020-02-22,Hair Oil || SP|| Automatic || 17th Feb'20,Hair Oil || SP|| Automatic || 17th Feb'20,Rest of search on Amazon,245,1,20.53,0,0.0,0.004081632653061225,20.53,0.0,,0.0,True
+2020-02-22,Night Cream || SP || Automatic || 22nd Nov'19,Night Cream || SP || Automatic || 22nd Nov'19,First page Top of Search on Amazon,179,1,71.43,0,0.0,0.00558659217877095,71.43,0.0,,0.0,True
+2020-02-22,Night Cream || SP || Automatic || 22nd Nov'19,Night Cream || SP || Automatic || 22nd Nov'19,Product pages on Amazon,4517,6,28.48333333333333,0,0.0,0.0013283152534868275,4.747222222222222,0.0,,0.0,True
+2020-02-22,Night Cream || SP || Automatic || 22nd Nov'19,Night Cream || SP || Automatic || 22nd Nov'19,Rest of search on Amazon,1043,7,27.48,0,0.0,0.006711409395973154,3.9257142857142857,0.0,,0.0,True
+2020-02-22,Night Cream || SP || Generic || 24th Nov'19,Night Cream || SP || Generic || 24th Nov'19,First page Top of Search on Amazon,12,0,0.0,0,0.0,0.0,,,,,False
+2020-02-22,Night Cream || SP || Generic || 24th Nov'19,Night Cream || SP || Generic || 24th Nov'19,Product pages on Amazon,3483,10,40.412,0,0.0,0.002871088142405972,4.0412,0.0,,0.0,True
+2020-02-22,Night Cream || SP || Generic || 24th Nov'19,Night Cream || SP || Generic || 24th Nov'19,Rest of search on Amazon,385,2,38.145,0,0.0,0.005194805194805195,19.0725,0.0,,0.0,True
+2020-02-22,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Pain Relief Oil || SP || Automatic || 22nd Nov'19,First page Top of Search on Amazon,8,0,0.0,0,0.0,0.0,,,,,False
+2020-02-22,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Product pages on Amazon,1019,1,13.02,0,0.0,0.0009813542688910696,13.02,0.0,,0.0,True
+2020-02-22,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Rest of search on Amazon,68,0,0.0,0,0.0,0.0,,,,,False
+2020-02-22,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,First page Top of Search on Amazon,91,2,46.23,0,0.0,0.02197802197802198,23.115,0.0,,0.0,True
+2020-02-22,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,Product pages on Amazon,2511,4,51.1925,0,0.0,0.0015929908403026682,12.798125,0.0,,0.0,True
+2020-02-22,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,Rest of search on Amazon,52,0,0.0,0,0.0,0.0,,,,,False
+2020-02-22,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,First page Top of Search on Amazon,90,10,5.688000000000001,2,605.36,0.1111111111111111,0.5688000000000001,0.2,0.009396061847495706,106.42756680731364,False
+2020-02-22,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,Product pages on Amazon,200,0,0.0,0,0.0,0.0,,,,,False
+2020-02-22,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,Rest of search on Amazon,28,1,25.89,0,0.0,0.03571428571428571,25.89,0.0,,0.0,True
+2020-02-22,Sunscreen || SP || Automatic || 22nd Nov'19,Sunscreen || SP || Automatic || 22nd Nov'19,First page Top of Search on Amazon,426,6,13.02,1,295.76,0.014084507042253521,2.17,0.16666666666666666,0.04402218014606438,22.715821812596005,False
+2020-02-22,Sunscreen || SP || Automatic || 22nd Nov'19,Sunscreen || SP || Automatic || 22nd Nov'19,Product pages on Amazon,718,1,14.18,0,0.0,0.001392757660167131,14.18,0.0,,0.0,True
+2020-02-22,Sunscreen || SP || Automatic || 22nd Nov'19,Sunscreen || SP || Automatic || 22nd Nov'19,Rest of search on Amazon,578,2,8.535,0,0.0,0.0034602076124567475,4.2675,0.0,,0.0,True
+2020-02-22,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,First page Top of Search on Amazon,1460,40,27.265,4,1478.8,0.0273972602739726,0.681625,0.1,0.018437246416012985,54.238034109664405,False
+2020-02-22,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,Product pages on Amazon,10379,7,28.875714285714285,1,295.76,0.0006744387705944696,4.125102040816326,0.14285714285714285,0.09763225008694308,10.242517191906199,False
+2020-02-22,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,Rest of search on Amazon,2697,16,27.103125,1,295.76,0.005932517612161661,1.6939453125,0.0625,0.09163891330808764,10.912394788423844,False
+2020-02-23,Face Wash || SP || Auto || 21st Feb'20,Face Wash || SP || Auto || 21st Feb'20,First page Top of Search on Amazon,3,0,0.0,0,0.0,0.0,,,,,False
+2020-02-23,Face Wash || SP || Auto || 21st Feb'20,Face Wash || SP || Auto || 21st Feb'20,Product pages on Amazon,357,0,0.0,0,0.0,0.0,,,,,False
+2020-02-23,Face Wash || SP || Auto || 21st Feb'20,Face Wash || SP || Auto || 21st Feb'20,Rest of search on Amazon,77,0,0.0,0,0.0,0.0,,,,,False
+2020-02-23,Hair Oil || SP || Generic || 21st feb'20,Hair Oil || SP || Generic || 21st feb'20,First page Top of Search on Amazon,842,10,81.11600000000001,1,311.61,0.011876484560570071,8.111600000000001,0.1,0.2603125701999294,3.841535578677449,False
+2020-02-23,Hair Oil || SP || Generic || 21st feb'20,Hair Oil || SP || Generic || 21st feb'20,Product pages on Amazon,16093,9,42.37555555555556,0,0.0,0.0005592493630771143,4.708395061728395,0.0,,0.0,True
+2020-02-23,Hair Oil || SP || Generic || 21st feb'20,Hair Oil || SP || Generic || 21st feb'20,Rest of search on Amazon,335,2,30.54,0,0.0,0.005970149253731343,15.27,0.0,,0.0,True
+2020-02-23,Hair Oil || SP|| Automatic || 17th Feb'20,Hair Oil || SP|| Automatic || 17th Feb'20,First page Top of Search on Amazon,61,0,0.0,0,0.0,0.0,,,,,False
+2020-02-23,Hair Oil || SP|| Automatic || 17th Feb'20,Hair Oil || SP|| Automatic || 17th Feb'20,Product pages on Amazon,12446,12,27.554166666666664,0,0.0,0.0009641651936365097,2.2961805555555554,0.0,,0.0,True
+2020-02-23,Hair Oil || SP|| Automatic || 17th Feb'20,Hair Oil || SP|| Automatic || 17th Feb'20,Rest of search on Amazon,209,1,1.0,0,0.0,0.004784688995215311,1.0,0.0,,0.0,True
+2020-02-23,Night Cream || SP || Automatic || 22nd Nov'19,Night Cream || SP || Automatic || 22nd Nov'19,First page Top of Search on Amazon,234,4,60.4275,0,0.0,0.017094017094017096,15.106875,0.0,,0.0,True
+2020-02-23,Night Cream || SP || Automatic || 22nd Nov'19,Night Cream || SP || Automatic || 22nd Nov'19,Product pages on Amazon,5234,9,37.284444444444446,0,0.0,0.001719526175009553,4.142716049382717,0.0,,0.0,True
+2020-02-23,Night Cream || SP || Automatic || 22nd Nov'19,Night Cream || SP || Automatic || 22nd Nov'19,Rest of search on Amazon,610,1,7.86,0,0.0,0.001639344262295082,7.86,0.0,,0.0,True
+2020-02-23,Night Cream || SP || Generic || 24th Nov'19,Night Cream || SP || Generic || 24th Nov'19,First page Top of Search on Amazon,3,1,44.87,0,0.0,0.3333333333333333,44.87,0.0,,0.0,True
+2020-02-23,Night Cream || SP || Generic || 24th Nov'19,Night Cream || SP || Generic || 24th Nov'19,Product pages on Amazon,2251,3,54.123333333333335,0,0.0,0.0013327410039982231,18.04111111111111,0.0,,0.0,True
+2020-02-23,Night Cream || SP || Generic || 24th Nov'19,Night Cream || SP || Generic || 24th Nov'19,Rest of search on Amazon,263,2,41.335,0,0.0,0.0076045627376425855,20.6675,0.0,,0.0,True
+2020-02-23,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Pain Relief Oil || SP || Automatic || 22nd Nov'19,First page Top of Search on Amazon,22,0,0.0,0,0.0,0.0,,,,,False
+2020-02-23,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Product pages on Amazon,500,0,0.0,0,0.0,0.0,,,,,False
+2020-02-23,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Rest of search on Amazon,51,0,0.0,0,0.0,0.0,,,,,False
+2020-02-23,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,First page Top of Search on Amazon,73,3,55.48666666666667,0,0.0,0.0410958904109589,18.49555555555556,0.0,,0.0,True
+2020-02-23,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,Product pages on Amazon,1379,1,62.23,0,0.0,0.0007251631617113851,62.23,0.0,,0.0,True
+2020-02-23,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,Rest of search on Amazon,45,0,0.0,0,0.0,0.0,,,,,False
+2020-02-23,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,First page Top of Search on Amazon,48,4,4.7825,3,1210.72,0.08333333333333333,1.195625,0.75,0.003950128848949385,253.15629900679562,False
+2020-02-23,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,Product pages on Amazon,326,0,0.0,0,0.0,0.0,,,,,False
+2020-02-23,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,Rest of search on Amazon,17,0,0.0,0,0.0,0.0,,,,,False
+2020-02-23,Sunscreen || SP || Automatic || 22nd Nov'19,Sunscreen || SP || Automatic || 22nd Nov'19,First page Top of Search on Amazon,20,2,10.925,0,0.0,0.1,5.4625,0.0,,0.0,True
+2020-02-23,Sunscreen || SP || Automatic || 22nd Nov'19,Sunscreen || SP || Automatic || 22nd Nov'19,Product pages on Amazon,251,0,0.0,0,0.0,0.0,,,,,False
+2020-02-23,Sunscreen || SP || Automatic || 22nd Nov'19,Sunscreen || SP || Automatic || 22nd Nov'19,Rest of search on Amazon,281,0,0.0,0,0.0,0.0,,,,,False
+2020-02-23,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,First page Top of Search on Amazon,447,7,11.262857142857143,1,295.76,0.015659955257270694,1.6089795918367347,0.14285714285714285,0.038081069593106386,26.259766615930996,False
+2020-02-23,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,Product pages on Amazon,13721,8,25.7775,0,0.0,0.0005830478828073755,3.2221875,0.0,,0.0,True
+2020-02-23,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,Rest of search on Amazon,4009,21,27.45142857142857,0,0.0,0.005238214018458469,1.3072108843537413,0.0,,0.0,True
+2020-02-24,Face Wash || SP || Auto || 21st Feb'20,Face Wash || SP || Auto || 21st Feb'20,First page Top of Search on Amazon,6,0,0.0,0,0.0,0.0,,,,,False
+2020-02-24,Face Wash || SP || Auto || 21st Feb'20,Face Wash || SP || Auto || 21st Feb'20,Product pages on Amazon,244,0,0.0,0,0.0,0.0,,,,,False
+2020-02-24,Face Wash || SP || Auto || 21st Feb'20,Face Wash || SP || Auto || 21st Feb'20,Rest of search on Amazon,21,0,0.0,0,0.0,0.0,,,,,False
+2020-02-24,Hair Oil || SP || Generic || 21st feb'20,Hair Oil || SP || Generic || 21st feb'20,First page Top of Search on Amazon,650,10,89.958,0,0.0,0.015384615384615385,8.9958,0.0,,0.0,True
+2020-02-24,Hair Oil || SP || Generic || 21st feb'20,Hair Oil || SP || Generic || 21st feb'20,Product pages on Amazon,9029,32,38.79125,1,311.61,0.0035441355631852917,1.2122265625,0.03125,0.12448653765925355,8.0329971320852,False
+2020-02-24,Hair Oil || SP || Generic || 21st feb'20,Hair Oil || SP || Generic || 21st feb'20,Rest of search on Amazon,76,0,0.0,0,0.0,0.0,,,,,False
+2020-02-24,Hair Oil || SP|| Automatic || 17th Feb'20,Hair Oil || SP|| Automatic || 17th Feb'20,First page Top of Search on Amazon,115,5,42.358,0,0.0,0.043478260869565216,8.471599999999999,0.0,,0.0,True
+2020-02-24,Hair Oil || SP|| Automatic || 17th Feb'20,Hair Oil || SP|| Automatic || 17th Feb'20,Product pages on Amazon,3116,2,33.34,0,0.0,0.0006418485237483953,16.67,0.0,,0.0,True
+2020-02-24,Hair Oil || SP|| Automatic || 17th Feb'20,Hair Oil || SP|| Automatic || 17th Feb'20,Rest of search on Amazon,144,0,0.0,0,0.0,0.0,,,,,False
+2020-02-24,Night Cream || SP || Automatic || 22nd Nov'19,Night Cream || SP || Automatic || 22nd Nov'19,First page Top of Search on Amazon,251,3,60.72333333333333,0,0.0,0.01195219123505976,20.24111111111111,0.0,,0.0,True
+2020-02-24,Night Cream || SP || Automatic || 22nd Nov'19,Night Cream || SP || Automatic || 22nd Nov'19,Product pages on Amazon,3102,4,32.385,0,0.0,0.0012894906511927789,8.09625,0.0,,0.0,True
+2020-02-24,Night Cream || SP || Automatic || 22nd Nov'19,Night Cream || SP || Automatic || 22nd Nov'19,Rest of search on Amazon,578,2,25.62,0,0.0,0.0034602076124567475,12.81,0.0,,0.0,True
+2020-02-24,Night Cream || SP || Generic || 24th Nov'19,Night Cream || SP || Generic || 24th Nov'19,First page Top of Search on Amazon,12,0,0.0,0,0.0,0.0,,,,,False
+2020-02-24,Night Cream || SP || Generic || 24th Nov'19,Night Cream || SP || Generic || 24th Nov'19,Product pages on Amazon,2666,5,47.584,0,0.0,0.0018754688672168042,9.5168,0.0,,0.0,True
+2020-02-24,Night Cream || SP || Generic || 24th Nov'19,Night Cream || SP || Generic || 24th Nov'19,Rest of search on Amazon,272,3,37.66,0,0.0,0.011029411764705883,12.553333333333333,0.0,,0.0,True
+2020-02-24,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Pain Relief Oil || SP || Automatic || 22nd Nov'19,First page Top of Search on Amazon,9,0,0.0,0,0.0,0.0,,,,,False
+2020-02-24,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Product pages on Amazon,247,0,0.0,0,0.0,0.0,,,,,False
+2020-02-24,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Rest of search on Amazon,51,0,0.0,0,0.0,0.0,,,,,False
+2020-02-24,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,First page Top of Search on Amazon,75,3,40.14000000000001,0,0.0,0.04,13.380000000000003,0.0,,0.0,True
+2020-02-24,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,Product pages on Amazon,1429,1,35.55,0,0.0,0.0006997900629811056,35.55,0.0,,0.0,True
+2020-02-24,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,Rest of search on Amazon,51,0,0.0,0,0.0,0.0,,,,,False
+2020-02-24,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,First page Top of Search on Amazon,75,5,12.196000000000002,1,302.68,0.06666666666666667,2.4392000000000005,0.2,0.04029337914629312,24.81797310593637,False
+2020-02-24,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,Product pages on Amazon,121,0,0.0,0,0.0,0.0,,,,,False
+2020-02-24,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,Rest of search on Amazon,30,0,0.0,0,0.0,0.0,,,,,False
+2020-02-24,Sunscreen || SP || Automatic || 22nd Nov'19,Sunscreen || SP || Automatic || 22nd Nov'19,First page Top of Search on Amazon,9,0,0.0,0,0.0,0.0,,,,,False
+2020-02-24,Sunscreen || SP || Automatic || 22nd Nov'19,Sunscreen || SP || Automatic || 22nd Nov'19,Product pages on Amazon,110,0,0.0,0,0.0,0.0,,,,,False
+2020-02-24,Sunscreen || SP || Automatic || 22nd Nov'19,Sunscreen || SP || Automatic || 22nd Nov'19,Rest of search on Amazon,57,2,10.67,0,0.0,0.03508771929824561,5.335,0.0,,0.0,True
+2020-02-24,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,First page Top of Search on Amazon,136,2,1.095,0,0.0,0.014705882352941176,0.5475,0.0,,0.0,True
+2020-02-24,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,Product pages on Amazon,12767,3,22.33666666666667,1,295.76,0.0002349808099005248,7.445555555555557,0.3333333333333333,0.07552294653322515,13.241008804656019,False
+2020-02-24,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,Rest of search on Amazon,4325,17,27.15529411764706,1,295.76,0.003930635838150289,1.5973702422145328,0.058823529411764705,0.0918153033461153,10.891430551945238,False
+2020-02-25,Face Wash || SP || Auto || 21st Feb'20,Face Wash || SP || Auto || 21st Feb'20,First page Top of Search on Amazon,12,0,0.0,0,0.0,0.0,,,,,False
+2020-02-25,Face Wash || SP || Auto || 21st Feb'20,Face Wash || SP || Auto || 21st Feb'20,Product pages on Amazon,399,0,0.0,0,0.0,0.0,,,,,False
+2020-02-25,Face Wash || SP || Auto || 21st Feb'20,Face Wash || SP || Auto || 21st Feb'20,Rest of search on Amazon,67,0,0.0,0,0.0,0.0,,,,,False
+2020-02-25,Hair Oil || SP || Generic || 21st feb'20,Hair Oil || SP || Generic || 21st feb'20,First page Top of Search on Amazon,1368,19,60.81736842105263,0,0.0,0.013888888888888888,3.2009141274238226,0.0,,0.0,True
+2020-02-25,Hair Oil || SP || Generic || 21st feb'20,Hair Oil || SP || Generic || 21st feb'20,Product pages on Amazon,10758,24,44.125416666666666,0,0.0,0.002230897936419409,1.8385590277777777,0.0,,0.0,True
+2020-02-25,Hair Oil || SP || Generic || 21st feb'20,Hair Oil || SP || Generic || 21st feb'20,Rest of search on Amazon,117,0,0.0,0,0.0,0.0,,,,,False
+2020-02-25,Hair Oil || SP|| Automatic || 17th Feb'20,Hair Oil || SP|| Automatic || 17th Feb'20,First page Top of Search on Amazon,492,16,30.635625,0,0.0,0.032520325203252036,1.9147265625,0.0,,0.0,True
+2020-02-25,Hair Oil || SP|| Automatic || 17th Feb'20,Hair Oil || SP|| Automatic || 17th Feb'20,Product pages on Amazon,8783,9,23.962222222222223,0,0.0,0.0010247068199931686,2.6624691358024695,0.0,,0.0,True
+2020-02-25,Hair Oil || SP|| Automatic || 17th Feb'20,Hair Oil || SP|| Automatic || 17th Feb'20,Rest of search on Amazon,255,0,0.0,0,0.0,0.0,,,,,False
+2020-02-25,Night Cream || SP || Automatic || 22nd Nov'19,Night Cream || SP || Automatic || 22nd Nov'19,First page Top of Search on Amazon,148,1,60.42,0,0.0,0.006756756756756757,60.42,0.0,,0.0,True
+2020-02-25,Night Cream || SP || Automatic || 22nd Nov'19,Night Cream || SP || Automatic || 22nd Nov'19,Product pages on Amazon,3229,5,34.902,0,0.0,0.001548467017652524,6.9804,0.0,,0.0,True
+2020-02-25,Night Cream || SP || Automatic || 22nd Nov'19,Night Cream || SP || Automatic || 22nd Nov'19,Rest of search on Amazon,890,5,16.851999999999997,0,0.0,0.0056179775280898875,3.370399999999999,0.0,,0.0,True
+2020-02-25,Night Cream || SP || Generic || 24th Nov'19,Night Cream || SP || Generic || 24th Nov'19,First page Top of Search on Amazon,8,1,69.95,0,0.0,0.125,69.95,0.0,,0.0,True
+2020-02-25,Night Cream || SP || Generic || 24th Nov'19,Night Cream || SP || Generic || 24th Nov'19,Product pages on Amazon,2514,6,31.801666666666662,0,0.0,0.002386634844868735,5.300277777777777,0.0,,0.0,True
+2020-02-25,Night Cream || SP || Generic || 24th Nov'19,Night Cream || SP || Generic || 24th Nov'19,Rest of search on Amazon,242,4,19.425,0,0.0,0.01652892561983471,4.85625,0.0,,0.0,True
+2020-02-25,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Pain Relief Oil || SP || Automatic || 22nd Nov'19,First page Top of Search on Amazon,20,0,0.0,0,0.0,0.0,,,,,False
+2020-02-25,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Product pages on Amazon,1329,0,0.0,0,0.0,0.0,,,,,False
+2020-02-25,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Rest of search on Amazon,75,0,0.0,0,0.0,0.0,,,,,False
+2020-02-25,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,First page Top of Search on Amazon,92,1,77.49,0,0.0,0.010869565217391304,77.49,0.0,,0.0,True
+2020-02-25,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,Product pages on Amazon,1640,2,33.17,0,0.0,0.0012195121951219512,16.585,0.0,,0.0,True
+2020-02-25,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,Rest of search on Amazon,73,0,0.0,0,0.0,0.0,,,,,False
+2020-02-25,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,First page Top of Search on Amazon,99,15,5.206666666666666,1,302.68,0.15151515151515152,0.3471111111111111,0.06666666666666667,0.0172018853794987,58.13316261203586,False
+2020-02-25,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,Product pages on Amazon,219,2,21.55,0,0.0,0.0091324200913242,10.775,0.0,,0.0,True
+2020-02-25,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,Rest of search on Amazon,36,0,0.0,0,0.0,0.0,,,,,False
+2020-02-25,Sunscreen || SP || Automatic || 22nd Nov'19,Sunscreen || SP || Automatic || 22nd Nov'19,First page Top of Search on Amazon,21,1,15.3,0,0.0,0.047619047619047616,15.3,0.0,,0.0,True
+2020-02-25,Sunscreen || SP || Automatic || 22nd Nov'19,Sunscreen || SP || Automatic || 22nd Nov'19,Product pages on Amazon,510,1,1.21,0,0.0,0.00196078431372549,1.21,0.0,,0.0,True
+2020-02-25,Sunscreen || SP || Automatic || 22nd Nov'19,Sunscreen || SP || Automatic || 22nd Nov'19,Rest of search on Amazon,319,1,4.02,0,0.0,0.003134796238244514,4.02,0.0,,0.0,True
+2020-02-25,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,First page Top of Search on Amazon,487,11,21.861818181818183,0,0.0,0.022587268993839837,1.9874380165289258,0.0,,0.0,True
+2020-02-25,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,Product pages on Amazon,16447,9,26.05111111111111,0,0.0,0.0005472122575545692,2.8945679012345678,0.0,,0.0,True
+2020-02-25,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,Rest of search on Amazon,5500,25,26.5176,0,0.0,0.004545454545454545,1.060704,0.0,,0.0,True
+2020-02-26,Face Wash || SP || Auto || 21st Feb'20,Face Wash || SP || Auto || 21st Feb'20,First page Top of Search on Amazon,9,0,0.0,0,0.0,0.0,,,,,False
+2020-02-26,Face Wash || SP || Auto || 21st Feb'20,Face Wash || SP || Auto || 21st Feb'20,Product pages on Amazon,135,0,0.0,0,0.0,0.0,,,,,False
+2020-02-26,Face Wash || SP || Auto || 21st Feb'20,Face Wash || SP || Auto || 21st Feb'20,Rest of search on Amazon,16,0,0.0,0,0.0,0.0,,,,,False
+2020-02-26,Hair Oil || SP || Generic || 21st feb'20,Hair Oil || SP || Generic || 21st feb'20,First page Top of Search on Amazon,1599,34,54.57058823529411,0,0.0,0.021263289555972485,1.6050173010380622,0.0,,0.0,True
+2020-02-26,Hair Oil || SP || Generic || 21st feb'20,Hair Oil || SP || Generic || 21st feb'20,Product pages on Amazon,9465,6,40.365,0,0.0,0.0006339144215530904,6.7275,0.0,,0.0,True
+2020-02-26,Hair Oil || SP || Generic || 21st feb'20,Hair Oil || SP || Generic || 21st feb'20,Rest of search on Amazon,86,0,0.0,0,0.0,0.0,,,,,False
+2020-02-26,Hair Oil || SP|| Automatic || 17th Feb'20,Hair Oil || SP|| Automatic || 17th Feb'20,First page Top of Search on Amazon,289,9,32.77555555555556,0,0.0,0.031141868512110725,3.641728395061729,0.0,,0.0,True
+2020-02-26,Hair Oil || SP|| Automatic || 17th Feb'20,Hair Oil || SP|| Automatic || 17th Feb'20,Product pages on Amazon,2626,1,26.87,0,0.0,0.0003808073115003808,26.87,0.0,,0.0,True
+2020-02-26,Hair Oil || SP|| Automatic || 17th Feb'20,Hair Oil || SP|| Automatic || 17th Feb'20,Rest of search on Amazon,91,0,0.0,0,0.0,0.0,,,,,False
+2020-02-26,Night Cream || SP || Automatic || 22nd Nov'19,Night Cream || SP || Automatic || 22nd Nov'19,First page Top of Search on Amazon,104,0,0.0,0,0.0,0.0,,,,,False
+2020-02-26,Night Cream || SP || Automatic || 22nd Nov'19,Night Cream || SP || Automatic || 22nd Nov'19,Product pages on Amazon,1437,1,16.7,0,0.0,0.0006958942240779402,16.7,0.0,,0.0,True
+2020-02-26,Night Cream || SP || Automatic || 22nd Nov'19,Night Cream || SP || Automatic || 22nd Nov'19,Rest of search on Amazon,342,1,17.4,0,0.0,0.0029239766081871343,17.4,0.0,,0.0,True
+2020-02-26,Night Cream || SP || Generic || 24th Nov'19,Night Cream || SP || Generic || 24th Nov'19,First page Top of Search on Amazon,2,1,73.62,0,0.0,0.5,73.62,0.0,,0.0,True
+2020-02-26,Night Cream || SP || Generic || 24th Nov'19,Night Cream || SP || Generic || 24th Nov'19,Product pages on Amazon,891,1,9.32,0,0.0,0.001122334455667789,9.32,0.0,,0.0,True
+2020-02-26,Night Cream || SP || Generic || 24th Nov'19,Night Cream || SP || Generic || 24th Nov'19,Rest of search on Amazon,178,1,32.84,0,0.0,0.0056179775280898875,32.84,0.0,,0.0,True
+2020-02-26,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Pain Relief Oil || SP || Automatic || 22nd Nov'19,First page Top of Search on Amazon,7,0,0.0,0,0.0,0.0,,,,,False
+2020-02-26,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Product pages on Amazon,946,0,0.0,0,0.0,0.0,,,,,False
+2020-02-26,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Rest of search on Amazon,42,0,0.0,0,0.0,0.0,,,,,False
+2020-02-26,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,First page Top of Search on Amazon,41,2,16.86,0,0.0,0.04878048780487805,8.43,0.0,,0.0,True
+2020-02-26,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,Product pages on Amazon,1036,1,26.95,0,0.0,0.0009652509652509653,26.95,0.0,,0.0,True
+2020-02-26,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,Rest of search on Amazon,33,0,0.0,0,0.0,0.0,,,,,False
+2020-02-26,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,First page Top of Search on Amazon,54,13,4.014615384615384,2,605.36,0.24074074074074073,0.30881656804733726,0.15384615384615385,0.006631781724288661,150.78904004598584,False
+2020-02-26,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,Product pages on Amazon,141,0,0.0,0,0.0,0.0,,,,,False
+2020-02-26,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,Rest of search on Amazon,22,0,0.0,0,0.0,0.0,,,,,False
+2020-02-26,Sunscreen || SP || Automatic || 22nd Nov'19,Sunscreen || SP || Automatic || 22nd Nov'19,First page Top of Search on Amazon,32,0,0.0,0,0.0,0.0,,,,,False
+2020-02-26,Sunscreen || SP || Automatic || 22nd Nov'19,Sunscreen || SP || Automatic || 22nd Nov'19,Product pages on Amazon,255,0,0.0,0,0.0,0.0,,,,,False
+2020-02-26,Sunscreen || SP || Automatic || 22nd Nov'19,Sunscreen || SP || Automatic || 22nd Nov'19,Rest of search on Amazon,148,1,10.66,0,0.0,0.006756756756756757,10.66,0.0,,0.0,True
+2020-02-26,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,First page Top of Search on Amazon,473,9,18.04222222222222,1,295.76,0.019027484143763214,2.0046913580246914,0.1111111111111111,0.061002915276650735,16.39265919448208,False
+2020-02-26,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,Product pages on Amazon,14809,3,29.116666666666664,0,0.0,0.00020257951245864002,9.705555555555554,0.0,,0.0,True
+2020-02-26,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,Rest of search on Amazon,4134,28,26.037857142857145,2,591.52,0.006773101112723754,0.9299234693877552,0.07142857142857142,0.044018557517678435,22.717691273694893,False
+2020-02-27,Face Wash || SP || Auto || 21st Feb'20,Face Wash || SP || Auto || 21st Feb'20,First page Top of Search on Amazon,7,0,0.0,0,0.0,0.0,,,,,False
+2020-02-27,Face Wash || SP || Auto || 21st Feb'20,Face Wash || SP || Auto || 21st Feb'20,Product pages on Amazon,432,0,0.0,0,0.0,0.0,,,,,False
+2020-02-27,Face Wash || SP || Auto || 21st Feb'20,Face Wash || SP || Auto || 21st Feb'20,Rest of search on Amazon,34,0,0.0,0,0.0,0.0,,,,,False
+2020-02-27,Hair Oil || SP || Generic || 21st feb'20,Hair Oil || SP || Generic || 21st feb'20,First page Top of Search on Amazon,1838,28,55.10285714285715,1,311.61,0.015233949945593036,1.9679591836734696,0.03571428571428571,0.17683276256492778,5.655060665767914,False
+2020-02-27,Hair Oil || SP || Generic || 21st feb'20,Hair Oil || SP || Generic || 21st feb'20,Product pages on Amazon,7302,7,48.12428571428571,0,0.0,0.000958641468090934,6.874897959183673,0.0,,0.0,True
+2020-02-27,Hair Oil || SP || Generic || 21st feb'20,Hair Oil || SP || Generic || 21st feb'20,Rest of search on Amazon,220,0,0.0,0,0.0,0.0,,,,,False
+2020-02-27,Hair Oil || SP|| Automatic || 17th Feb'20,Hair Oil || SP|| Automatic || 17th Feb'20,First page Top of Search on Amazon,176,2,40.54,0,0.0,0.011363636363636364,20.27,0.0,,0.0,True
+2020-02-27,Hair Oil || SP|| Automatic || 17th Feb'20,Hair Oil || SP|| Automatic || 17th Feb'20,Product pages on Amazon,1680,0,0.0,0,0.0,0.0,,,,,False
+2020-02-27,Hair Oil || SP|| Automatic || 17th Feb'20,Hair Oil || SP|| Automatic || 17th Feb'20,Rest of search on Amazon,137,0,0.0,0,0.0,0.0,,,,,False
+2020-02-27,Night Cream || SP || Automatic || 22nd Nov'19,Night Cream || SP || Automatic || 22nd Nov'19,First page Top of Search on Amazon,96,0,0.0,0,0.0,0.0,,,,,False
+2020-02-27,Night Cream || SP || Automatic || 22nd Nov'19,Night Cream || SP || Automatic || 22nd Nov'19,Product pages on Amazon,1560,6,21.58333333333333,0,0.0,0.0038461538461538464,3.5972222222222214,0.0,,0.0,True
+2020-02-27,Night Cream || SP || Automatic || 22nd Nov'19,Night Cream || SP || Automatic || 22nd Nov'19,Rest of search on Amazon,520,3,14.8,0,0.0,0.0057692307692307696,4.933333333333334,0.0,,0.0,True
+2020-02-27,Night Cream || SP || Generic || 24th Nov'19,Night Cream || SP || Generic || 24th Nov'19,First page Top of Search on Amazon,8,1,58.62,0,0.0,0.125,58.62,0.0,,0.0,True
+2020-02-27,Night Cream || SP || Generic || 24th Nov'19,Night Cream || SP || Generic || 24th Nov'19,Product pages on Amazon,1488,2,49.615,0,0.0,0.0013440860215053765,24.8075,0.0,,0.0,True
+2020-02-27,Night Cream || SP || Generic || 24th Nov'19,Night Cream || SP || Generic || 24th Nov'19,Rest of search on Amazon,227,1,27.85,0,0.0,0.004405286343612335,27.85,0.0,,0.0,True
+2020-02-27,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Pain Relief Oil || SP || Automatic || 22nd Nov'19,First page Top of Search on Amazon,15,0,0.0,0,0.0,0.0,,,,,False
+2020-02-27,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Product pages on Amazon,743,2,10.6,0,0.0,0.0026917900403768506,5.3,0.0,,0.0,True
+2020-02-27,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Rest of search on Amazon,94,0,0.0,0,0.0,0.0,,,,,False
+2020-02-27,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,First page Top of Search on Amazon,82,0,0.0,0,0.0,0.0,,,,,False
+2020-02-27,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,Product pages on Amazon,1432,2,46.42,0,0.0,0.0013966480446927375,23.21,0.0,,0.0,True
+2020-02-27,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,Rest of search on Amazon,54,0,0.0,0,0.0,0.0,,,,,False
+2020-02-27,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,First page Top of Search on Amazon,89,17,8.600588235294117,4,1183.93,0.19101123595505617,0.5059169550173009,0.23529411764705882,0.007264439819325565,137.65686341563506,False
+2020-02-27,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,Product pages on Amazon,173,0,0.0,0,0.0,0.0,,,,,False
+2020-02-27,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,Rest of search on Amazon,33,0,0.0,0,0.0,0.0,,,,,False
+2020-02-27,Sunscreen || SP || Automatic || 22nd Nov'19,Sunscreen || SP || Automatic || 22nd Nov'19,First page Top of Search on Amazon,21,1,16.1,0,0.0,0.047619047619047616,16.1,0.0,,0.0,True
+2020-02-27,Sunscreen || SP || Automatic || 22nd Nov'19,Sunscreen || SP || Automatic || 22nd Nov'19,Product pages on Amazon,544,0,0.0,0,0.0,0.0,,,,,False
+2020-02-27,Sunscreen || SP || Automatic || 22nd Nov'19,Sunscreen || SP || Automatic || 22nd Nov'19,Rest of search on Amazon,256,0,0.0,0,0.0,0.0,,,,,False
+2020-02-27,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,First page Top of Search on Amazon,366,4,17.5325,0,0.0,0.01092896174863388,4.383125,0.0,,0.0,True
+2020-02-27,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,Product pages on Amazon,19221,9,26.18555555555556,1,295.76,0.00046823786483533636,2.9095061728395066,0.1111111111111111,0.08853650106693116,11.29477659439046,False
+2020-02-27,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,Rest of search on Amazon,5983,33,26.12454545454545,1,591.52,0.005515627611566104,0.7916528925619833,0.030303030303030304,0.044165109302382766,22.642307826147476,False
+2020-02-28,Face Wash || SP || Auto || 21st Feb'20,Face Wash || SP || Auto || 21st Feb'20,First page Top of Search on Amazon,6,2,1.085,2,532.2,0.3333333333333333,0.5425,1.0,0.0020387072529124387,490.50691244239636,False
+2020-02-28,Face Wash || SP || Auto || 21st Feb'20,Face Wash || SP || Auto || 21st Feb'20,Product pages on Amazon,230,0,0.0,0,0.0,0.0,,,,,False
+2020-02-28,Face Wash || SP || Auto || 21st Feb'20,Face Wash || SP || Auto || 21st Feb'20,Rest of search on Amazon,21,0,0.0,0,0.0,0.0,,,,,False
+2020-02-28,Hair Oil || SP || Generic || 21st feb'20,Hair Oil || SP || Generic || 21st feb'20,First page Top of Search on Amazon,178,2,79.505,0,0.0,0.011235955056179775,39.7525,0.0,,0.0,True
+2020-02-28,Hair Oil || SP || Generic || 21st feb'20,Hair Oil || SP || Generic || 21st feb'20,Product pages on Amazon,3724,2,53.69,0,0.0,0.0005370569280343716,26.845,0.0,,0.0,True
+2020-02-28,Hair Oil || SP || Generic || 21st feb'20,Hair Oil || SP || Generic || 21st feb'20,Rest of search on Amazon,419,1,21.6,0,0.0,0.002386634844868735,21.6,0.0,,0.0,True
+2020-02-28,Hair Oil || SP|| Automatic || 17th Feb'20,Hair Oil || SP|| Automatic || 17th Feb'20,First page Top of Search on Amazon,5,0,0.0,0,0.0,0.0,,,,,False
+2020-02-28,Hair Oil || SP|| Automatic || 17th Feb'20,Hair Oil || SP|| Automatic || 17th Feb'20,Product pages on Amazon,144,0,0.0,0,0.0,0.0,,,,,False
+2020-02-28,Hair Oil || SP|| Automatic || 17th Feb'20,Hair Oil || SP|| Automatic || 17th Feb'20,Rest of search on Amazon,12,0,0.0,0,0.0,0.0,,,,,False
+2020-02-28,Night Cream || SP || Automatic || 22nd Nov'19,Night Cream || SP || Automatic || 22nd Nov'19,First page Top of Search on Amazon,30,0,0.0,0,0.0,0.0,,,,,False
+2020-02-28,Night Cream || SP || Automatic || 22nd Nov'19,Night Cream || SP || Automatic || 22nd Nov'19,Product pages on Amazon,1428,7,19.322857142857146,2,1320.34,0.004901960784313725,2.7604081632653066,0.2857142857142857,0.014634758579500088,68.33047464143131,False
+2020-02-28,Night Cream || SP || Automatic || 22nd Nov'19,Night Cream || SP || Automatic || 22nd Nov'19,Rest of search on Amazon,136,0,0.0,0,0.0,0.0,,,,,False
+2020-02-28,Night Cream || SP || Generic || 24th Nov'19,Night Cream || SP || Generic || 24th Nov'19,First page Top of Search on Amazon,1,0,0.0,0,0.0,0.0,,,,,False
+2020-02-28,Night Cream || SP || Generic || 24th Nov'19,Night Cream || SP || Generic || 24th Nov'19,Product pages on Amazon,2210,2,32.115,0,0.0,0.0009049773755656109,16.0575,0.0,,0.0,True
+2020-02-28,Night Cream || SP || Generic || 24th Nov'19,Night Cream || SP || Generic || 24th Nov'19,Rest of search on Amazon,114,0,0.0,0,0.0,0.0,,,,,False
+2020-02-28,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Pain Relief Oil || SP || Automatic || 22nd Nov'19,First page Top of Search on Amazon,11,1,9.13,0,0.0,0.09090909090909091,9.13,0.0,,0.0,True
+2020-02-28,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Product pages on Amazon,904,0,0.0,0,0.0,0.0,,,,,False
+2020-02-28,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Rest of search on Amazon,74,0,0.0,0,0.0,0.0,,,,,False
+2020-02-28,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,First page Top of Search on Amazon,68,2,57.23,0,0.0,0.029411764705882353,28.615,0.0,,0.0,True
+2020-02-28,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,Product pages on Amazon,1848,6,57.275,1,302.68,0.003246753246753247,9.545833333333333,0.16666666666666666,0.18922624553984405,5.284679179397643,False
+2020-02-28,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,Rest of search on Amazon,65,2,25.495,1,302.68,0.03076923076923077,12.7475,0.5,0.08423087088674508,11.872131790547165,False
+2020-02-28,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,First page Top of Search on Amazon,88,21,5.633333333333333,8,2973.2200000000003,0.23863636363636365,0.26825396825396824,0.38095238095238093,0.001894691053246424,527.7905325443788,False
+2020-02-28,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,Product pages on Amazon,447,0,0.0,0,0.0,0.0,,,,,False
+2020-02-28,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,Rest of search on Amazon,26,0,0.0,0,0.0,0.0,,,,,False
+2020-02-28,Sunscreen || SP || Automatic || 22nd Nov'19,Sunscreen || SP || Automatic || 22nd Nov'19,First page Top of Search on Amazon,38,4,14.36,0,0.0,0.10526315789473684,3.59,0.0,,0.0,True
+2020-02-28,Sunscreen || SP || Automatic || 22nd Nov'19,Sunscreen || SP || Automatic || 22nd Nov'19,Product pages on Amazon,1152,0,0.0,0,0.0,0.0,,,,,False
+2020-02-28,Sunscreen || SP || Automatic || 22nd Nov'19,Sunscreen || SP || Automatic || 22nd Nov'19,Rest of search on Amazon,169,0,0.0,0,0.0,0.0,,,,,False
+2020-02-28,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,First page Top of Search on Amazon,440,5,12.352,3,2384.74,0.011363636363636364,2.4704,0.6,0.005179600291855716,193.0650906735751,False
+2020-02-28,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,Product pages on Amazon,19991,6,30.97666666666667,0,0.0,0.0003001350607773498,5.162777777777778,0.0,,0.0,True
+2020-02-28,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,Rest of search on Amazon,6378,29,26.74034482758621,2,532.2,0.004546879899655064,0.9220808561236624,0.06896551724137931,0.05024491700034988,19.90251073542497,False
+2020-02-29,Face Wash || SP || Auto || 21st Feb'20,Face Wash || SP || Auto || 21st Feb'20,First page Top of Search on Amazon,7,1,25.6,0,0.0,0.14285714285714285,25.6,0.0,,0.0,True
+2020-02-29,Face Wash || SP || Auto || 21st Feb'20,Face Wash || SP || Auto || 21st Feb'20,Product pages on Amazon,354,0,0.0,0,0.0,0.0,,,,,False
+2020-02-29,Face Wash || SP || Auto || 21st Feb'20,Face Wash || SP || Auto || 21st Feb'20,Rest of search on Amazon,17,0,0.0,0,0.0,0.0,,,,,False
+2020-02-29,Hair Oil || SP || Generic || 21st feb'20,Hair Oil || SP || Generic || 21st feb'20,First page Top of Search on Amazon,112,1,89.72,0,0.0,0.008928571428571428,89.72,0.0,,0.0,True
+2020-02-29,Hair Oil || SP || Generic || 21st feb'20,Hair Oil || SP || Generic || 21st feb'20,Product pages on Amazon,2103,2,45.47,0,0.0,0.0009510223490252021,22.735,0.0,,0.0,True
+2020-02-29,Hair Oil || SP || Generic || 21st feb'20,Hair Oil || SP || Generic || 21st feb'20,Rest of search on Amazon,229,0,0.0,0,0.0,0.0,,,,,False
+2020-02-29,Hair Oil || SP|| Automatic || 17th Feb'20,Hair Oil || SP|| Automatic || 17th Feb'20,Product pages on Amazon,7,0,0.0,0,0.0,0.0,,,,,False
+2020-02-29,Hair Oil || SP|| Automatic || 17th Feb'20,Hair Oil || SP|| Automatic || 17th Feb'20,Rest of search on Amazon,13,0,0.0,0,0.0,0.0,,,,,False
+2020-02-29,Night Cream || SP || Automatic || 22nd Nov'19,Night Cream || SP || Automatic || 22nd Nov'19,First page Top of Search on Amazon,43,0,0.0,0,0.0,0.0,,,,,False
+2020-02-29,Night Cream || SP || Automatic || 22nd Nov'19,Night Cream || SP || Automatic || 22nd Nov'19,Product pages on Amazon,1817,3,17.733333333333334,0,0.0,0.001651073197578426,5.911111111111111,0.0,,0.0,True
+2020-02-29,Night Cream || SP || Automatic || 22nd Nov'19,Night Cream || SP || Automatic || 22nd Nov'19,Rest of search on Amazon,132,0,0.0,0,0.0,0.0,,,,,False
+2020-02-29,Night Cream || SP || Generic || 24th Nov'19,Night Cream || SP || Generic || 24th Nov'19,First page Top of Search on Amazon,4,0,0.0,0,0.0,0.0,,,,,False
+2020-02-29,Night Cream || SP || Generic || 24th Nov'19,Night Cream || SP || Generic || 24th Nov'19,Product pages on Amazon,2360,2,23.115,0,0.0,0.000847457627118644,11.5575,0.0,,0.0,True
+2020-02-29,Night Cream || SP || Generic || 24th Nov'19,Night Cream || SP || Generic || 24th Nov'19,Rest of search on Amazon,134,3,24.386666666666667,0,0.0,0.022388059701492536,8.12888888888889,0.0,,0.0,True
+2020-02-29,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Pain Relief Oil || SP || Automatic || 22nd Nov'19,First page Top of Search on Amazon,8,1,9.51,0,0.0,0.125,9.51,0.0,,0.0,True
+2020-02-29,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Product pages on Amazon,1294,2,9.205,0,0.0,0.0015455950540958269,4.6025,0.0,,0.0,True
+2020-02-29,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Rest of search on Amazon,102,0,0.0,0,0.0,0.0,,,,,False
+2020-02-29,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,First page Top of Search on Amazon,98,2,54.81,0,0.0,0.02040816326530612,27.405,0.0,,0.0,True
+2020-02-29,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,Product pages on Amazon,2185,4,37.835,1,302.68,0.0018306636155606408,9.45875,0.25,0.125,8.0,False
+2020-02-29,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,Rest of search on Amazon,80,0,0.0,0,0.0,0.0,,,,,False
+2020-02-29,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,First page Top of Search on Amazon,50,5,12.77,3,908.04,0.1,2.554,0.6,0.014063257125236773,71.10728269381363,False
+2020-02-29,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,Product pages on Amazon,374,2,29.99,0,0.0,0.0053475935828877,14.995,0.0,,0.0,True
+2020-02-29,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,Rest of search on Amazon,24,0,0.0,0,0.0,0.0,,,,,False
+2020-02-29,Sunscreen || SP || Automatic || 22nd Nov'19,Sunscreen || SP || Automatic || 22nd Nov'19,First page Top of Search on Amazon,12,0,0.0,0,0.0,0.0,,,,,False
+2020-02-29,Sunscreen || SP || Automatic || 22nd Nov'19,Sunscreen || SP || Automatic || 22nd Nov'19,Product pages on Amazon,522,0,0.0,0,0.0,0.0,,,,,False
+2020-02-29,Sunscreen || SP || Automatic || 22nd Nov'19,Sunscreen || SP || Automatic || 22nd Nov'19,Rest of search on Amazon,229,1,3.86,0,0.0,0.004366812227074236,3.86,0.0,,0.0,True
+2020-02-29,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,First page Top of Search on Amazon,481,13,22.44769230769231,0,0.0,0.02702702702702703,1.7267455621301777,0.0,,0.0,True
+2020-02-29,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,Product pages on Amazon,19663,8,28.69875,0,0.0,0.00040685551543508114,3.58734375,0.0,,0.0,True
+2020-02-29,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,Rest of search on Amazon,6768,46,28.590434782608696,3,887.28,0.0067966903073286055,0.621531190926276,0.06521739130434782,0.03222256196759613,31.03415554001034,False

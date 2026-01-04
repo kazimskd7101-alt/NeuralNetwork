@@ -1,0 +1,924 @@
+date,campaign_id,campaign_name,search_term,impressions,clicks,cost,orders,sales,ctr,cpc,cvr,acos,roas,zero_sales_spend_flag
+2020-02-01,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Pain Relief Oil || SP || Automatic || 22nd Nov'19,b07t9tpjb5,5,1,12.69,0,0.0,0.2,12.69,0.0,,0.0,True
+2020-02-01,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Pain Relief Oil || SP || Automatic || 22nd Nov'19,b07vdqr758,1,1,12.48,0,0.0,1.0,12.48,0.0,,0.0,True
+2020-02-01,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Pain Relief Oil || SP || Automatic || 22nd Nov'19,muscle relief massage oil,1,1,12.65,0,0.0,1.0,12.65,0.0,,0.0,True
+2020-02-01,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,bone pain oil,123,1,29.74,0,0.0,0.008130081300813009,29.74,0.0,,0.0,True
+2020-02-01,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,chest muscle pain relief oil,5,1,37.79,0,0.0,0.2,37.79,0.0,,0.0,True
+2020-02-01,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,knee pain oil,14,1,31.35,0,0.0,0.07142857142857142,31.35,0.0,,0.0,True
+2020-02-01,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,opigesic pain oil,20,2,40.81,0,0.0,0.1,20.405,0.0,,0.0,True
+2020-02-01,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,pain relief oils,508,1,37.44,0,0.0,0.001968503937007874,37.44,0.0,,0.0,True
+2020-02-01,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,knee pain relief,15,1,46.8,0,0.0,0.06666666666666667,46.8,0.0,,0.0,True
+2020-02-01,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,myaxyl oil joint pain and inflammation,6,1,18.81,0,0.0,0.16666666666666666,18.81,0.0,,0.0,True
+2020-02-01,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,oil for muscle pain saudi arab,1,1,39.13,0,0.0,1.0,39.13,0.0,,0.0,True
+2020-02-01,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,rhuval oil,50,6,1.7016666666666669,3,961.62,0.12,0.28361111111111115,0.5,0.001769583272671811,565.1047992164544,False
+2020-02-01,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,rhuval oil for joint pain,8,2,6.87,0,0.0,0.25,3.435,0.0,,0.0,True
+2020-02-01,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,sandi sudha ayurvedic joint pain relief oil,35,1,42.96,0,0.0,0.02857142857142857,42.96,0.0,,0.0,True
+2020-02-01,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,wintergreen oil for joint pain,5,1,30.03,0,0.0,0.2,30.03,0.0,,0.0,True
+2020-02-01,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,aroma magic sunscreen spf 50,26,1,18.41,0,0.0,0.038461538461538464,18.41,0.0,,0.0,True
+2020-02-01,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,cetaphil sunscreen spf 50,41,1,17.67,0,0.0,0.024390243902439025,17.67,0.0,,0.0,True
+2020-02-01,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,evver sunscreen,4,2,1.0,0,0.0,0.5,0.5,0.0,,0.0,True
+2020-02-01,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,lakme sunscreen spf 50,54,1,18.31,0,0.0,0.018518518518518517,18.31,0.0,,0.0,True
+2020-02-01,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,spf 50,205,1,17.12,0,0.0,0.004878048780487805,17.12,0.0,,0.0,True
+2020-02-01,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,sunscreen,1277,7,18.767142857142854,0,0.0,0.00548159749412686,2.6810204081632647,0.0,,0.0,True
+2020-02-01,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,sunscreen spf 50,523,2,12.325,0,0.0,0.0038240917782026767,6.1625,0.0,,0.0,True
+2020-02-01,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,sunstop sunscreen spf 50,171,1,18.16,0,0.0,0.005847953216374269,18.16,0.0,,0.0,True
+2020-02-01,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,vitamin c sunscreen spf 50,2,2,4.115,0,0.0,1.0,2.0575,0.0,,0.0,True
+2020-02-02,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Pain Relief Oil || SP || Automatic || 22nd Nov'19,b078wvs75b,2,1,12.76,0,0.0,0.5,12.76,0.0,,0.0,True
+2020-02-02,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,ankle pain oil,7,1,14.1,0,0.0,0.14285714285714285,14.1,0.0,,0.0,True
+2020-02-02,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,austro pain oil,19,1,34.16,1,320.54,0.05263157894736842,34.16,1.0,0.10657016285019029,9.383489461358316,False
+2020-02-02,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,back pain oil for women,1,1,42.6,0,0.0,1.0,42.6,0.0,,0.0,True
+2020-02-02,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,bangasa pain oil,4,1,13.7,0,0.0,0.25,13.7,0.0,,0.0,True
+2020-02-02,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,doctor ortho oil,83,1,23.6,0,0.0,0.012048192771084338,23.6,0.0,,0.0,True
+2020-02-02,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,joint pain relief cream,22,1,17.06,0,0.0,0.045454545454545456,17.06,0.0,,0.0,True
+2020-02-02,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,old women calf pain oil,2,1,27.42,0,0.0,0.5,27.42,0.0,,0.0,True
+2020-02-02,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,opigesic pain oil,22,2,44.295,0,0.0,0.09090909090909091,22.1475,0.0,,0.0,True
+2020-02-02,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,pain oil himalaya,3,1,38.72,0,0.0,0.3333333333333333,38.72,0.0,,0.0,True
+2020-02-02,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,pain relief oil,195,4,34.9375,1,320.54,0.020512820512820513,8.734375,0.25,0.10899575715979284,9.174669051878356,False
+2020-02-02,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,pain relief oils,426,3,40.88333333333333,0,0.0,0.007042253521126761,13.627777777777778,0.0,,0.0,True
+2020-02-02,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,joint pain relief oil,32,1,15.41,0,0.0,0.03125,15.41,0.0,,0.0,True
+2020-02-02,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,rhuval oil,41,4,1.2575,1,961.62,0.0975609756097561,0.314375,0.25,0.0013076891079636447,764.7077534791252,False
+2020-02-02,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,rhuval oil for joint pain,13,4,6.105,1,320.54,0.3076923076923077,1.52625,0.25,0.01904598490048044,52.5045045045045,False
+2020-02-02,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,cetaphil daylong sunscreen spf 50,8,1,13.65,0,0.0,0.125,13.65,0.0,,0.0,True
+2020-02-02,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,dry skin sunscreen spf 50,1,1,17.89,0,0.0,1.0,17.89,0.0,,0.0,True
+2020-02-02,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,ekran sunscreen spf 50,7,1,17.44,0,0.0,0.14285714285714285,17.44,0.0,,0.0,True
+2020-02-02,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,evver sunscreen,4,2,1.0,2,1164.42,0.5,0.5,1.0,0.0008587966541282355,1164.42,False
+2020-02-02,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,evver uv guard,2,1,1.0,0,0.0,0.5,1.0,0.0,,0.0,True
+2020-02-02,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,greenberry sunscreen spf 50,6,2,16.55,0,0.0,0.3333333333333333,8.275,0.0,,0.0,True
+2020-02-02,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,mamaearth sunscreen spf 50,107,1,17.17,1,388.14,0.009345794392523364,17.17,1.0,0.04423661565414542,22.605707629586487,False
+2020-02-02,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,nivia sunscreen spf 50,1,1,17.7,0,0.0,1.0,17.7,0.0,,0.0,True
+2020-02-02,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,spf 50,116,2,39.31,0,0.0,0.017241379310344827,19.655,0.0,,0.0,True
+2020-02-02,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,sunscreen,2290,8,17.79,1,388.14,0.0034934497816593887,2.22375,0.125,0.04583397743082393,21.81787521079258,False
+2020-02-02,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,sunscreen cream,89,1,24.51,0,0.0,0.011235955056179775,24.51,0.0,,0.0,True
+2020-02-02,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,sunscreen spf 50,747,2,18.99,0,0.0,0.002677376171352075,9.495,0.0,,0.0,True
+2020-02-02,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,sunscreen spf 50 for oily skin,30,1,15.62,0,0.0,0.03333333333333333,15.62,0.0,,0.0,True
+2020-02-02,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,sunscreen spf 50 gel,4,1,15.8,0,0.0,0.25,15.8,0.0,,0.0,True
+2020-02-02,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,sunstop sunscreen spf 50,159,4,16.5275,0,0.0,0.025157232704402517,4.131875,0.0,,0.0,True
+2020-02-02,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,vaadi sunscreen spf 50,4,1,18.81,0,0.0,0.25,18.81,0.0,,0.0,True
+2020-02-03,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Pain Relief Oil || SP || Automatic || 22nd Nov'19,back massage oil,1,1,11.55,0,0.0,1.0,11.55,0.0,,0.0,True
+2020-02-03,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Pain Relief Oil || SP || Automatic || 22nd Nov'19,massage oil for pain relief,6,1,11.7,0,0.0,0.16666666666666666,11.7,0.0,,0.0,True
+2020-02-03,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Pain Relief Oil || SP || Automatic || 22nd Nov'19,massage oil for stiffness,2,2,10.97,0,0.0,1.0,5.485,0.0,,0.0,True
+2020-02-03,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Pain Relief Oil || SP || Automatic || 22nd Nov'19,oil for joints pain,1,1,12.38,0,0.0,1.0,12.38,0.0,,0.0,True
+2020-02-03,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Pain Relief Oil || SP || Automatic || 22nd Nov'19,rhuval oil roll on,1,1,3.47,0,0.0,1.0,3.47,0.0,,0.0,True
+2020-02-03,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,khadi joint pain massage oil,2,1,12.16,0,0.0,0.5,12.16,0.0,,0.0,True
+2020-02-03,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,ortho oil,284,2,28.415,0,0.0,0.007042253521126761,14.2075,0.0,,0.0,True
+2020-02-03,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,pain relief oils,344,1,43.27,0,0.0,0.0029069767441860465,43.27,0.0,,0.0,True
+2020-02-03,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,smoke pain oil,2,1,16.92,0,0.0,0.5,16.92,0.0,,0.0,True
+2020-02-03,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,rhuval oil,63,13,1.886153846153846,3,1226.8,0.20634920634920634,0.1450887573964497,0.23076923076923078,0.001537458303027263,650.4241435562806,False
+2020-02-03,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,rhuval oil for joint pain,14,4,7.3375,0,0.0,0.2857142857142857,1.834375,0.0,,0.0,True
+2020-02-03,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,bioderma sunscreen spf 50,13,1,14.66,0,0.0,0.07692307692307693,14.66,0.0,,0.0,True
+2020-02-03,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,lakme sunscreen spf 50,171,1,18.4,0,0.0,0.005847953216374269,18.4,0.0,,0.0,True
+2020-02-03,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,sunscreen,2578,3,19.03,0,0.0,0.0011636927851047323,6.343333333333334,0.0,,0.0,True
+2020-02-03,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,sunscreen cream,107,2,25.07,0,0.0,0.018691588785046728,12.535,0.0,,0.0,True
+2020-02-03,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,sunscreen spf 50,871,4,18.5925,1,388.14,0.004592422502870264,4.648125,0.25,0.047901530375637665,20.876159741831383,False
+2020-02-03,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,sunscreen spf 50 for dry skin,0,0,0.0,1,388.14,,,,0.0,,False
+2020-02-03,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,sunstop sunscreen spf 50,119,1,15.86,0,0.0,0.008403361344537815,15.86,0.0,,0.0,True
+2020-02-04,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,gultheria pain oil for knee,1,1,3.35,1,320.54,1.0,3.35,1.0,0.010451113745554377,95.68358208955225,False
+2020-02-04,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,muscle pain ointment,1,1,17.9,0,0.0,1.0,17.9,0.0,,0.0,True
+2020-02-04,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,muscle pain relief oil,17,1,22.84,0,0.0,0.058823529411764705,22.84,0.0,,0.0,True
+2020-02-04,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,opigesic pain oil,6,1,40.93,0,0.0,0.16666666666666666,40.93,0.0,,0.0,True
+2020-02-04,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,pain relief oils,399,4,44.39,0,0.0,0.010025062656641603,11.0975,0.0,,0.0,True
+2020-02-04,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,pains oil sex,1,1,43.47,0,0.0,1.0,43.47,0.0,,0.0,True
+2020-02-04,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,kalonji oil for joint pain,3,1,36.17,0,0.0,0.3333333333333333,36.17,0.0,,0.0,True
+2020-02-04,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,rhuval oil,39,13,1.4046153846153848,3,961.62,0.3333333333333333,0.10804733727810653,0.23076923076923078,0.0014606761346637807,684.6144578313252,False
+2020-02-04,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,rhuval oil for joint pain,14,4,4.7825,1,320.54,0.2857142857142857,1.195625,0.25,0.014920134772571285,67.02352326189232,False
+2020-02-04,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,sandi sudha massage oil joint pain,29,1,14.46,0,0.0,0.034482758620689655,14.46,0.0,,0.0,True
+2020-02-04,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,evver sunscreen,1,1,1.0,0,0.0,1.0,1.0,0.0,,0.0,True
+2020-02-04,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,evver uv guard,1,1,1.0,0,0.0,1.0,1.0,0.0,,0.0,True
+2020-02-04,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,fairness sunscreen spf 50,4,1,17.99,0,0.0,0.25,17.99,0.0,,0.0,True
+2020-02-04,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,neutrogena sunscreen spf 50,44,1,17.39,0,0.0,0.022727272727272728,17.39,0.0,,0.0,True
+2020-02-04,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,sunscreen,1242,6,18.688333333333333,1,388.14,0.004830917874396135,3.114722222222222,0.16666666666666666,0.04814843441369952,20.769107286185676,False
+2020-02-04,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,sunscreen spf 50,633,2,18.92,0,0.0,0.00315955766192733,9.46,0.0,,0.0,True
+2020-02-04,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,sunscreen spf 50 for dry skin,9,1,12.72,0,0.0,0.1111111111111111,12.72,0.0,,0.0,True
+2020-02-04,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,sunscreen spf 50+,13,1,21.2,0,0.0,0.07692307692307693,21.2,0.0,,0.0,True
+2020-02-05,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Pain Relief Oil || SP || Automatic || 22nd Nov'19,b0182i1coy,124,1,13.1,0,0.0,0.008064516129032258,13.1,0.0,,0.0,True
+2020-02-05,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Pain Relief Oil || SP || Automatic || 22nd Nov'19,instant pain relief,2,1,1.74,0,0.0,0.5,1.74,0.0,,0.0,True
+2020-02-05,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,baidyanath pain oil,2,1,33.38,0,0.0,0.5,33.38,0.0,,0.0,True
+2020-02-05,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,dr ortho oil,476,1,42.88,0,0.0,0.0021008403361344537,42.88,0.0,,0.0,True
+2020-02-05,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,dr. ortho oil,29,1,39.22,0,0.0,0.034482758620689655,39.22,0.0,,0.0,True
+2020-02-05,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,joint pain oil,41,1,29.16,0,0.0,0.024390243902439025,29.16,0.0,,0.0,True
+2020-02-05,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,joints pain relief,1,1,36.64,0,0.0,1.0,36.64,0.0,,0.0,True
+2020-02-05,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,knee oil pain,62,1,38.12,0,0.0,0.016129032258064516,38.12,0.0,,0.0,True
+2020-02-05,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,pain relief oils,360,1,38.66,0,0.0,0.002777777777777778,38.66,0.0,,0.0,True
+2020-02-05,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,knee pain relief products,113,1,25.13,0,0.0,0.008849557522123894,25.13,0.0,,0.0,True
+2020-02-05,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,rhuval oil,35,11,1.232727272727273,3,961.62,0.3142857142857143,0.11206611570247936,0.2727272727272727,0.0012819276561711205,780.075221238938,False
+2020-02-05,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,rhuval oil for joint pain,9,3,5.446666666666666,2,641.08,0.3333333333333333,1.8155555555555554,0.6666666666666666,0.008496079532455647,117.7013463892289,False
+2020-02-05,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,sandi sudha ayurvedic joint pain relief oil,57,1,34.27,0,0.0,0.017543859649122806,34.27,0.0,,0.0,True
+2020-02-05,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,sandi sudha massage oil joint pain,13,1,45.31,0,0.0,0.07692307692307693,45.31,0.0,,0.0,True
+2020-02-05,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,turpentine oil for joint pain,6,1,40.84,1,320.54,0.16666666666666666,40.84,1.0,0.12740999563237038,7.848677766895201,False
+2020-02-05,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,bioderma sunscreen spf 50,1,1,18.41,0,0.0,1.0,18.41,0.0,,0.0,True
+2020-02-05,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,organic sunscreen spf 50,5,1,18.54,0,0.0,0.2,18.54,0.0,,0.0,True
+2020-02-05,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,spf 50,95,1,34.85,0,0.0,0.010526315789473684,34.85,0.0,,0.0,True
+2020-02-05,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,sunscreen,1232,5,19.652,0,0.0,0.004058441558441558,3.9304,0.0,,0.0,True
+2020-02-05,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,sunscreen spf 50,638,2,19.87,1,388.14,0.003134796238244514,9.935,0.5,0.05119286855258413,19.533970810266734,False
+2020-02-05,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,sunscreen spf 50 for dry skin,7,1,18.73,0,0.0,0.14285714285714285,18.73,0.0,,0.0,True
+2020-02-05,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,sunscreen spf 50 for men,2,1,18.47,0,0.0,0.5,18.47,0.0,,0.0,True
+2020-02-06,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Pain Relief Oil || SP || Automatic || 22nd Nov'19,essentium phygen rhuval oil 100% natural,4,1,6.42,0,0.0,0.25,6.42,0.0,,0.0,True
+2020-02-06,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Pain Relief Oil || SP || Automatic || 22nd Nov'19,massage oil for bone,3,2,6.715,0,0.0,0.6666666666666666,3.3575,0.0,,0.0,True
+2020-02-06,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,back pain oils,122,1,31.43,0,0.0,0.00819672131147541,31.43,0.0,,0.0,True
+2020-02-06,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,dr ortho oil,365,1,20.32,0,0.0,0.0027397260273972603,20.32,0.0,,0.0,True
+2020-02-06,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,muscle relief oil,64,1,28.9,0,0.0,0.015625,28.9,0.0,,0.0,True
+2020-02-06,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,muscles pain relief,5,1,20.34,0,0.0,0.2,20.34,0.0,,0.0,True
+2020-02-06,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,healthbizz sandhi sudha plus joint pain relief oil,3,1,41.72,0,0.0,0.3333333333333333,41.72,0.0,,0.0,True
+2020-02-06,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,oil for joint pain,1,1,48.45,0,0.0,1.0,48.45,0.0,,0.0,True
+2020-02-06,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,rhuval oil,41,11,1.0,3,961.62,0.2682926829268293,0.09090909090909091,0.2727272727272727,0.0010399118154780474,961.62,False
+2020-02-06,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,rhuval oil for joint pain,14,7,8.317142857142857,2,641.08,0.5,1.1881632653061225,0.2857142857142857,0.012973642692242554,77.07935417382343,False
+2020-02-06,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,evver sunscreen,10,3,1.2933333333333332,0,0.0,0.3,0.43111111111111106,0.0,,0.0,True
+2020-02-06,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,evver uv guard,5,4,1.0,0,0.0,0.8,0.25,0.0,,0.0,True
+2020-02-06,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,jovees sunscreen spf 50,8,1,17.91,0,0.0,0.125,17.91,0.0,,0.0,True
+2020-02-06,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,spf 50,76,1,34.04,0,0.0,0.013157894736842105,34.04,0.0,,0.0,True
+2020-02-06,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,sunscreen,1976,9,20.247777777777777,0,0.0,0.004554655870445344,2.2497530864197532,0.0,,0.0,True
+2020-02-06,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,sunscreen spf 50 ayurveda,3,2,4.835,0,0.0,0.6666666666666666,2.4175,0.0,,0.0,True
+2020-02-06,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,sunscreen spf 50 for oily skin,20,1,18.32,1,388.14,0.05,18.32,1.0,0.04719946411088782,21.186681222707424,False
+2020-02-07,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Pain Relief Oil || SP || Automatic || 22nd Nov'19,oil for knee,1,1,10.6,1,320.54,1.0,10.6,1.0,0.033069195732201906,30.23962264150944,False
+2020-02-07,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,back pain oils,131,1,33.98,0,0.0,0.007633587786259542,33.98,0.0,,0.0,True
+2020-02-07,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,dr ortho oil,366,1,45.76,0,0.0,0.00273224043715847,45.76,0.0,,0.0,True
+2020-02-07,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,forest essentials back pain oil,5,1,37.43,0,0.0,0.2,37.43,0.0,,0.0,True
+2020-02-07,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,narayani oil for joint pain,3,1,34.26,0,0.0,0.3333333333333333,34.26,0.0,,0.0,True
+2020-02-07,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,pain relief oil,112,1,41.35,0,0.0,0.008928571428571428,41.35,0.0,,0.0,True
+2020-02-07,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,pain relief oils,553,1,41.57,0,0.0,0.0018083182640144665,41.57,0.0,,0.0,True
+2020-02-07,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,khadi pain relief massage oil,1,1,31.18,1,320.54,1.0,31.18,1.0,0.09727335121981655,10.280307889672867,False
+2020-02-07,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,pain relief massage oil,6,1,40.74,0,0.0,0.16666666666666666,40.74,0.0,,0.0,True
+2020-02-07,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,rhuval oil,30,8,1.71875,2,641.08,0.26666666666666666,0.21484375,0.25,0.002681022649279341,372.992,False
+2020-02-07,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,rhuval oil for joint pain,12,4,7.9575,0,0.0,0.3333333333333333,1.989375,0.0,,0.0,True
+2020-02-07,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,sandi sudha ayurvedic joint pain relief oil,24,1,33.84,0,0.0,0.041666666666666664,33.84,0.0,,0.0,True
+2020-02-07,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,avon sunscreen spf 50,5,1,15.15,0,0.0,0.2,15.15,0.0,,0.0,True
+2020-02-07,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,khadi sunscreen spf 50,10,1,18.77,0,0.0,0.1,18.77,0.0,,0.0,True
+2020-02-07,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,organic sunscreen spf 50,1,1,18.54,0,0.0,1.0,18.54,0.0,,0.0,True
+2020-02-07,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,sunscreen,1527,5,19.588,0,0.0,0.0032743942370661427,3.9176,0.0,,0.0,True
+2020-02-07,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,sunscreen spf 50,891,3,19.176666666666662,0,0.0,0.003367003367003367,6.3922222222222205,0.0,,0.0,True
+2020-02-08,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Pain Relief Oil || SP || Automatic || 22nd Nov'19,massage oil for arthritis,2,1,6.82,0,0.0,0.5,6.82,0.0,,0.0,True
+2020-02-08,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Pain Relief Oil || SP || Automatic || 22nd Nov'19,massage oil for stiffness,1,1,12.51,1,320.54,1.0,12.51,1.0,0.03902789043489112,25.622701838529178,False
+2020-02-08,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Pain Relief Oil || SP || Automatic || 22nd Nov'19,muscle relief massage oil,2,1,11.05,0,0.0,0.5,11.05,0.0,,0.0,True
+2020-02-08,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,dr pain oil,6,1,27.52,0,0.0,0.16666666666666666,27.52,0.0,,0.0,True
+2020-02-08,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,joint pain oil ayurvedic,3,1,17.54,0,0.0,0.3333333333333333,17.54,0.0,,0.0,True
+2020-02-08,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,knee oil pain,32,1,30.93,0,0.0,0.03125,30.93,0.0,,0.0,True
+2020-02-08,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,muscle pain oil,15,1,21.07,0,0.0,0.06666666666666667,21.07,0.0,,0.0,True
+2020-02-08,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,ortho oil,214,1,28.41,0,0.0,0.004672897196261682,28.41,0.0,,0.0,True
+2020-02-08,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,pain oil for back,2,1,25.86,1,320.54,0.5,25.86,1.0,0.08067635864478692,12.395204949729314,False
+2020-02-08,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,pain relief oils,502,4,24.875,1,320.54,0.00796812749003984,6.21875,0.25,0.07760341923004929,12.88603015075377,False
+2020-02-08,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,vine joint pain oil,2,1,44.54,0,0.0,0.5,44.54,0.0,,0.0,True
+2020-02-08,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,massage oil for joint pain,12,1,17.41,0,0.0,0.08333333333333333,17.41,0.0,,0.0,True
+2020-02-08,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,rhuval oil,26,12,2.4483333333333333,5,1602.7,0.46153846153846156,0.20402777777777778,0.4166666666666667,0.0015276304569372516,654.6085772634445,False
+2020-02-08,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,rhuval oil for joint pain,16,4,3.36,2,961.62,0.25,0.84,0.5,0.0034941037000062393,286.19642857142856,False
+2020-02-08,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,aroma magic sunscreen spf 50,44,1,16.76,0,0.0,0.022727272727272728,16.76,0.0,,0.0,True
+2020-02-08,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,cetaphil sunscreen spf 50,54,1,14.04,0,0.0,0.018518518518518517,14.04,0.0,,0.0,True
+2020-02-08,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,evver sunscreen,2,1,1.0,0,0.0,0.5,1.0,0.0,,0.0,True
+2020-02-08,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,non comedogenic sunscreen spf 50 uva uvb,1,1,17.54,0,0.0,1.0,17.54,0.0,,0.0,True
+2020-02-08,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,nutrogena sunscreen spf 50,102,1,18.86,0,0.0,0.00980392156862745,18.86,0.0,,0.0,True
+2020-02-08,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,sunscreen,1310,5,19.398,0,0.0,0.003816793893129771,3.8796,0.0,,0.0,True
+2020-02-08,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,sunscreen cream,116,1,27.47,0,0.0,0.008620689655172414,27.47,0.0,,0.0,True
+2020-02-08,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,sunstop sunscreen spf 50,72,1,11.74,0,0.0,0.013888888888888888,11.74,0.0,,0.0,True
+2020-02-09,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Pain Relief Oil || SP || Automatic || 22nd Nov'19,b07kk61mk1,2,1,12.37,0,0.0,0.5,12.37,0.0,,0.0,True
+2020-02-09,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Pain Relief Oil || SP || Automatic || 22nd Nov'19,back pain,22,1,8.34,0,0.0,0.045454545454545456,8.34,0.0,,0.0,True
+2020-02-09,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,back neck pain oil,1,1,39.36,0,0.0,1.0,39.36,0.0,,0.0,True
+2020-02-09,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,kobraa pain oil,2,1,10.94,0,0.0,0.5,10.94,0.0,,0.0,True
+2020-02-09,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,pain oil,173,1,24.7,0,0.0,0.005780346820809248,24.7,0.0,,0.0,True
+2020-02-09,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,pain oil herbal,19,1,25.9,0,0.0,0.05263157894736842,25.9,0.0,,0.0,True
+2020-02-09,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,pain relief oils,717,2,30.415,0,0.0,0.002789400278940028,15.2075,0.0,,0.0,True
+2020-02-09,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,safeshop joint pain oil,8,1,25.63,0,0.0,0.125,25.63,0.0,,0.0,True
+2020-02-09,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,knee pain relief products,47,1,32.8,0,0.0,0.02127659574468085,32.8,0.0,,0.0,True
+2020-02-09,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,massage oil for joint pain,4,2,32.305,1,320.54,0.5,16.1525,0.5,0.10078305359705496,9.922303049063613,False
+2020-02-09,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,myaxyl oil joint pain and inflammation,4,1,20.57,1,320.54,0.25,20.57,1.0,0.06417295813315031,15.58288770053476,False
+2020-02-09,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,rhuval oil,38,12,3.520833333333333,3,961.62,0.3157894736842105,0.29340277777777773,0.25,0.0036613561836622917,273.12284023668644,False
+2020-02-09,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,rhuval oil for joint pain,11,5,3.496,2,542.86,0.45454545454545453,0.6992,0.4,0.0064399661054415505,155.2803203661327,False
+2020-02-09,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,sandi sudha ayurvedic joint pain relief oil,39,1,12.67,0,0.0,0.02564102564102564,12.67,0.0,,0.0,True
+2020-02-09,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,evver sunscreen,6,2,2.185,0,0.0,0.3333333333333333,1.0925,0.0,,0.0,True
+2020-02-09,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,evver uv guard,4,1,1.23,0,0.0,0.25,1.23,0.0,,0.0,True
+2020-02-09,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,herbal sunscreen spf 50,5,2,18.785,0,0.0,0.4,9.3925,0.0,,0.0,True
+2020-02-09,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,nutriglow sunscreen spf 50,4,1,17.7,0,0.0,0.25,17.7,0.0,,0.0,True
+2020-02-09,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,olay sunscreen spf 50,5,1,18.75,0,0.0,0.2,18.75,0.0,,0.0,True
+2020-02-09,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,solasafe sunscreen spf 50 gel,201,1,18.93,0,0.0,0.004975124378109453,18.93,0.0,,0.0,True
+2020-02-09,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,solasafe sunscreen spf 50 pa +++,1,1,11.47,0,0.0,1.0,11.47,0.0,,0.0,True
+2020-02-09,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,suncross tint sunscreen spf 50,3,1,16.74,0,0.0,0.3333333333333333,16.74,0.0,,0.0,True
+2020-02-09,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,sunscreen,1977,6,19.496666666666663,0,0.0,0.0030349013657056147,3.249444444444444,0.0,,0.0,True
+2020-02-09,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,sunscreen spf 50,662,2,20.555,0,0.0,0.0030211480362537764,10.2775,0.0,,0.0,True
+2020-02-09,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,sunscreen spf 50 non comodogenic,1,1,18.97,0,0.0,1.0,18.97,0.0,,0.0,True
+2020-02-09,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,sunstop sunscreen spf 50,94,1,17.52,0,0.0,0.010638297872340425,17.52,0.0,,0.0,True
+2020-02-09,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,vlcc sunscreen spf 50,10,1,17.87,0,0.0,0.1,17.87,0.0,,0.0,True
+2020-02-09,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,wow sunscreen spf 50 for oily skin,2,2,13.32,0,0.0,1.0,6.66,0.0,,0.0,True
+2020-02-10,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Pain Relief Oil || SP || Automatic || 22nd Nov'19,arthritis for knees,4,1,7.48,0,0.0,0.25,7.48,0.0,,0.0,True
+2020-02-10,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Pain Relief Oil || SP || Automatic || 22nd Nov'19,b01j4eje40,147,1,10.52,0,0.0,0.006802721088435374,10.52,0.0,,0.0,True
+2020-02-10,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Pain Relief Oil || SP || Automatic || 22nd Nov'19,oils for back pain,8,1,9.19,0,0.0,0.125,9.19,0.0,,0.0,True
+2020-02-10,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,back pain oils,123,1,12.04,0,0.0,0.008130081300813009,12.04,0.0,,0.0,True
+2020-02-10,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,himalaya pain oil,5,1,43.45,0,0.0,0.2,43.45,0.0,,0.0,True
+2020-02-10,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,himalya pain oil,1,1,41.43,0,0.0,1.0,41.43,0.0,,0.0,True
+2020-02-10,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,pain oil for knee,14,1,32.04,0,0.0,0.07142857142857142,32.04,0.0,,0.0,True
+2020-02-10,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,pain relief oils,561,6,35.125,0,0.0,0.0106951871657754,5.854166666666667,0.0,,0.0,True
+2020-02-10,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,virdhi pain oil,10,1,20.02,0,0.0,0.1,20.02,0.0,,0.0,True
+2020-02-10,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,pain relief massage oil,20,1,24.52,1,320.54,0.05,24.52,1.0,0.07649591314656516,13.072593800978794,False
+2020-02-10,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,rhuval oil,33,4,8.1375,2,641.08,0.12121212121212122,2.034375,0.5,0.012693423597678916,78.7809523809524,False
+2020-02-10,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,rhuval oil for joint pain,5,2,1.9,0,0.0,0.4,0.95,0.0,,0.0,True
+2020-02-10,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,biotique sandalwood sunscreen spf 50,5,1,18.11,0,0.0,0.2,18.11,0.0,,0.0,True
+2020-02-10,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,evver sunscreen,5,4,10.8575,1,388.14,0.8,2.714375,0.25,0.027973154016591954,35.74856090260189,False
+2020-02-10,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,evver uv guard,2,2,1.0,0,0.0,1.0,0.5,0.0,,0.0,True
+2020-02-10,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,olay sunscreen spf 50,16,1,16.88,0,0.0,0.0625,16.88,0.0,,0.0,True
+2020-02-10,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,sunscreen,1882,7,19.45142857142857,0,0.0,0.0037194473963868225,2.778775510204081,0.0,,0.0,True
+2020-02-10,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,sunscreen spf 50,232,3,21.023333333333333,0,0.0,0.01293103448275862,7.007777777777778,0.0,,0.0,True
+2020-02-10,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,vlcc sunscreen spf 50 matte look,1,1,17.29,0,0.0,1.0,17.29,0.0,,0.0,True
+2020-02-11,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Pain Relief Oil || SP || Automatic || 22nd Nov'19,muscle relief massage oil,2,1,9.12,0,0.0,0.5,9.12,0.0,,0.0,True
+2020-02-11,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,back pain oils,94,1,16.15,1,320.54,0.010638297872340425,16.15,1.0,0.05038372745991139,19.847678018575856,False
+2020-02-11,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,dr ortho oil,457,1,46.6,0,0.0,0.002188183807439825,46.6,0.0,,0.0,True
+2020-02-11,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,joint pain relief oil,21,1,27.1,0,0.0,0.047619047619047616,27.1,0.0,,0.0,True
+2020-02-11,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,joint pain relief strapper belt electric,1,1,18.19,0,0.0,1.0,18.19,0.0,,0.0,True
+2020-02-11,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,kerala oil for joint pain,2,1,36.32,0,0.0,0.5,36.32,0.0,,0.0,True
+2020-02-11,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,knee pain relief oil,95,2,49.16,0,0.0,0.021052631578947368,24.58,0.0,,0.0,True
+2020-02-11,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,muscle pain oil,8,1,33.62,0,0.0,0.125,33.62,0.0,,0.0,True
+2020-02-11,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,orthoherb tablets and oil for joint pain,3,1,24.99,0,0.0,0.3333333333333333,24.99,0.0,,0.0,True
+2020-02-11,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,pain relief oils,424,1,13.74,0,0.0,0.0023584905660377358,13.74,0.0,,0.0,True
+2020-02-11,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,pain relief massage oil,14,1,16.93,0,0.0,0.07142857142857142,16.93,0.0,,0.0,True
+2020-02-11,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,rhuval oil,39,9,2.023333333333333,2,641.08,0.23076923076923078,0.22481481481481477,0.2222222222222222,0.003156132359975873,316.84349258649104,False
+2020-02-11,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,rhuval oil for joint pain,11,1,4.96,0,0.0,0.09090909090909091,4.96,0.0,,0.0,True
+2020-02-11,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,evver sunscreen,2,1,2.53,0,0.0,0.5,2.53,0.0,,0.0,True
+2020-02-11,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,herbal sunscreen spf 50,6,1,17.72,0,0.0,0.16666666666666666,17.72,0.0,,0.0,True
+2020-02-11,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,lakme sunscreen spf 50,268,1,14.11,0,0.0,0.0037313432835820895,14.11,0.0,,0.0,True
+2020-02-11,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,mamaearth sunscreen spf 50,88,1,18.21,0,0.0,0.011363636363636364,18.21,0.0,,0.0,True
+2020-02-11,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,solasafe sunscreen spf 50 gel,154,1,17.68,0,0.0,0.006493506493506494,17.68,0.0,,0.0,True
+2020-02-11,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,spf 50,131,1,26.58,0,0.0,0.007633587786259542,26.58,0.0,,0.0,True
+2020-02-11,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,sunscreen,3454,11,18.212727272727275,0,0.0,0.0031847133757961785,1.655702479338843,0.0,,0.0,True
+2020-02-12,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Pain Relief Oil || SP || Automatic || 22nd Nov'19,massage oil for bones,1,1,10.01,0,0.0,1.0,10.01,0.0,,0.0,True
+2020-02-12,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Pain Relief Oil || SP || Automatic || 22nd Nov'19,pain relief for knees,12,1,12.58,0,0.0,0.08333333333333333,12.58,0.0,,0.0,True
+2020-02-12,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,austro pain oil,12,1,34.48,0,0.0,0.08333333333333333,34.48,0.0,,0.0,True
+2020-02-12,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,back pain oil ayurveda,3,1,7.53,1,302.68,0.3333333333333333,7.53,1.0,0.024877758689044537,40.19654714475431,False
+2020-02-12,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,hiran pain oil,16,1,2.72,0,0.0,0.0625,2.72,0.0,,0.0,True
+2020-02-12,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,opigesic pain oil,29,1,39.1,0,0.0,0.034482758620689655,39.1,0.0,,0.0,True
+2020-02-12,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,pain relief oils,666,2,29.28,1,320.54,0.003003003003003003,14.64,0.5,0.09134585387159169,10.9474043715847,False
+2020-02-12,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,for knee pain relief,4,1,35.62,0,0.0,0.25,35.62,0.0,,0.0,True
+2020-02-12,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,himalaya pain relief massage oil,1,1,23.35,0,0.0,1.0,23.35,0.0,,0.0,True
+2020-02-12,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,knee massage oil,4,1,27.42,0,0.0,0.25,27.42,0.0,,0.0,True
+2020-02-12,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,rhuval oil,56,16,1.56625,2,542.86,0.2857142857142857,0.097890625,0.125,0.002885182183251667,346.5985634477255,False
+2020-02-12,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,rhuval oil for joint pain,10,5,5.712,3,765.18,0.5,1.1423999999999999,0.6,0.007464910217203796,133.96008403361344,False
+2020-02-12,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,aroma sunscreen spf 50,5,1,15.3,0,0.0,0.2,15.3,0.0,,0.0,True
+2020-02-12,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,evver sunscreen,9,1,1.0,0,0.0,0.1111111111111111,1.0,0.0,,0.0,True
+2020-02-12,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,organic sunscreen spf 50,2,1,18.83,0,0.0,0.5,18.83,0.0,,0.0,True
+2020-02-12,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,sunscreen,2282,7,19.435714285714287,0,0.0,0.003067484662576687,2.776530612244898,0.0,,0.0,True
+2020-02-12,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,sunscreen spf 50,283,1,21.09,0,0.0,0.0035335689045936395,21.09,0.0,,0.0,True
+2020-02-12,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,sunscreen spf 50 with braodspectrum for,1,1,18.95,0,0.0,1.0,18.95,0.0,,0.0,True
+2020-02-13,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Pain Relief Oil || SP || Automatic || 22nd Nov'19,essentium phygen,5,1,1.0,0,0.0,0.2,1.0,0.0,,0.0,True
+2020-02-13,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Pain Relief Oil || SP || Automatic || 22nd Nov'19,rhuval oil 100ml,3,2,7.305,0,0.0,0.6666666666666666,3.6525,0.0,,0.0,True
+2020-02-13,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,muscles pain massage oil,2,1,27.56,0,0.0,0.5,27.56,0.0,,0.0,True
+2020-02-13,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,oil for leg pain,6,1,23.96,0,0.0,0.16666666666666666,23.96,0.0,,0.0,True
+2020-02-13,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,opigesic pain oil,14,1,36.82,0,0.0,0.07142857142857142,36.82,0.0,,0.0,True
+2020-02-13,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,pain relief oils,583,1,43.04,0,0.0,0.0017152658662092624,43.04,0.0,,0.0,True
+2020-02-13,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,mahua oil for joint pain,2,1,7.98,0,0.0,0.5,7.98,0.0,,0.0,True
+2020-02-13,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,rhuval oil,26,7,2.322857142857143,1,320.54,0.2692307692307692,0.3318367346938776,0.14285714285714285,0.0072466997655741645,137.99384993849938,False
+2020-02-13,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,rhuval oil for joint pain,11,2,7.34,0,0.0,0.18181818181818182,3.67,0.0,,0.0,True
+2020-02-13,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,sandhi sudha ayurvedic joint pain relief oil,34,3,36.98333333333333,0,0.0,0.08823529411764706,12.327777777777776,0.0,,0.0,True
+2020-02-13,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,biotique sunscreen spf 50,33,1,18.7,0,0.0,0.030303030303030304,18.7,0.0,,0.0,True
+2020-02-13,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,evver uv guard,3,1,1.0,0,0.0,0.3333333333333333,1.0,0.0,,0.0,True
+2020-02-13,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,lakme sunscreen spf 50,110,1,18.82,0,0.0,0.00909090909090909,18.82,0.0,,0.0,True
+2020-02-13,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,matte sunscreen spf 50,1,1,13.55,0,0.0,1.0,13.55,0.0,,0.0,True
+2020-02-13,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,plum sunscreen spf 50 for dry skin,1,1,18.26,0,0.0,1.0,18.26,0.0,,0.0,True
+2020-02-13,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,spf 50,439,1,23.89,0,0.0,0.002277904328018223,23.89,0.0,,0.0,True
+2020-02-13,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,sunscreen,2838,6,19.66,1,295.76,0.0021141649048625794,3.276666666666667,0.16666666666666666,0.06647281579659184,15.043743641912512,False
+2020-02-13,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,sunscreen cream,742,1,27.69,0,0.0,0.0013477088948787063,27.69,0.0,,0.0,True
+2020-02-13,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,sunscreen spf 50,547,1,18.13,0,0.0,0.0018281535648994515,18.13,0.0,,0.0,True
+2020-02-13,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,sunscreen spf 50 500ml,2,1,18.37,0,0.0,0.5,18.37,0.0,,0.0,True
+2020-02-13,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,sunscreen spf 50 for oily skin,14,1,16.67,0,0.0,0.07142857142857142,16.67,0.0,,0.0,True
+2020-02-13,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,uvavo sunscreen spf 50,5,1,16.16,1,373.73,0.2,16.16,1.0,0.0432397720279346,23.126856435643564,False
+2020-02-13,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,w2 sunscreen spf 50,1,1,18.23,0,0.0,1.0,18.23,0.0,,0.0,True
+2020-02-14,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,legs pain relief oil,5,1,17.83,1,605.36,0.2,17.83,1.0,0.02945354830183692,33.951766685361754,False
+2020-02-14,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,pain relief oil,88,1,26.94,0,0.0,0.011363636363636364,26.94,0.0,,0.0,True
+2020-02-14,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,pain relief oils,366,1,57.65,0,0.0,0.00273224043715847,57.65,0.0,,0.0,True
+2020-02-14,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,joint pain relief oil gout&arthritis,1,1,44.16,0,0.0,1.0,44.16,0.0,,0.0,True
+2020-02-14,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,massage oil for muscle pain relief,1,1,42.57,0,0.0,1.0,42.57,0.0,,0.0,True
+2020-02-14,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,pain relief massage oil,16,1,14.56,0,0.0,0.0625,14.56,0.0,,0.0,True
+2020-02-14,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,rhuval oil,41,8,2.07625,3,908.04,0.1951219512195122,0.25953125,0.375,0.0022865182150566053,437.34617700180615,False
+2020-02-14,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,rhuval oil for joint pain,22,7,5.301428571428572,3,1513.4,0.3181818181818182,0.7573469387755102,0.42857142857142855,0.003502992316260454,285.470223659391,False
+2020-02-14,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,bioderma sunscreen spf 50,4,1,18.46,0,0.0,0.25,18.46,0.0,,0.0,True
+2020-02-14,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,colorescience sunforgettable brush-on sunscreen spf 50,1,1,18.58,0,0.0,1.0,18.58,0.0,,0.0,True
+2020-02-14,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,evver sunscreen,4,3,3.4333333333333336,0,0.0,0.75,1.1444444444444446,0.0,,0.0,True
+2020-02-14,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,evver uv guard,7,1,1.0,0,0.0,0.14285714285714285,1.0,0.0,,0.0,True
+2020-02-14,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,solasafe sunscreen spf 50 gel,90,1,18.73,0,0.0,0.011111111111111112,18.73,0.0,,0.0,True
+2020-02-14,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,sunscreen,3014,13,20.25153846153846,0,0.0,0.0043132050431320505,1.5578106508875738,0.0,,0.0,True
+2020-02-14,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,sunscreen spf 50,488,3,21.03333333333333,0,0.0,0.006147540983606557,7.01111111111111,0.0,,0.0,True
+2020-02-14,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,sunscreen spf 50 for oily skin,19,1,18.73,0,0.0,0.05263157894736842,18.73,0.0,,0.0,True
+2020-02-14,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,sunscreens,104,2,18.715,0,0.0,0.019230769230769232,9.3575,0.0,,0.0,True
+2020-02-15,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Pain Relief Oil || SP || Automatic || 22nd Nov'19,pain for women,1,1,12.96,0,0.0,1.0,12.96,0.0,,0.0,True
+2020-02-15,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Pain Relief Oil || SP || Automatic || 22nd Nov'19,ruhval oil,1,1,2.0,0,0.0,1.0,2.0,0.0,,0.0,True
+2020-02-15,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,back pain oils,128,1,25.18,0,0.0,0.0078125,25.18,0.0,,0.0,True
+2020-02-15,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,opigesic pain oil,28,1,40.68,0,0.0,0.03571428571428571,40.68,0.0,,0.0,True
+2020-02-15,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,pain relief oil,122,1,43.47,0,0.0,0.00819672131147541,43.47,0.0,,0.0,True
+2020-02-15,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,pain relief oils,397,3,42.11666666666667,0,0.0,0.007556675062972292,14.03888888888889,0.0,,0.0,True
+2020-02-15,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,rumakart pain oil,3,1,15.36,0,0.0,0.3333333333333333,15.36,0.0,,0.0,True
+2020-02-15,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,star pain oil,4,1,3.36,0,0.0,0.25,3.36,0.0,,0.0,True
+2020-02-15,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,rhuval oil,30,14,1.7664285714285717,5,1816.08,0.4666666666666667,0.12617346938775512,0.35714285714285715,0.0009726601093721487,1028.1083704003233,False
+2020-02-15,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,rhuval oil for joint pain,5,1,1.79,0,0.0,0.2,1.79,0.0,,0.0,True
+2020-02-15,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,broad spectrum sunscreen spf 50,3,1,18.19,0,0.0,0.3333333333333333,18.19,0.0,,0.0,True
+2020-02-15,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,evver uv guard,3,2,1.0,1,887.28,0.6666666666666666,0.5,0.5,0.001127039942295555,887.28,False
+2020-02-15,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,lass natural sunscreen spf 50,6,1,15.12,0,0.0,0.16666666666666666,15.12,0.0,,0.0,True
+2020-02-15,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,neutrogena sunscreen spf 50 for dry skin,1,1,18.47,0,0.0,1.0,18.47,0.0,,0.0,True
+2020-02-15,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,solasafe sunscreen spf 50 gel,102,1,18.02,0,0.0,0.00980392156862745,18.02,0.0,,0.0,True
+2020-02-15,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,st.botanica sunscreen spf 50,1,1,17.27,0,0.0,1.0,17.27,0.0,,0.0,True
+2020-02-15,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,sunscreen,3206,4,19.855,0,0.0,0.0012476606363069245,4.96375,0.0,,0.0,True
+2020-02-15,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,sunscreen +++,2,1,20.34,0,0.0,0.5,20.34,0.0,,0.0,True
+2020-02-15,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,sunscreen spf 50,563,2,19.095,1,295.76,0.003552397868561279,9.5475,0.5,0.06456248309440087,15.488871432312123,False
+2020-02-15,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,sunscreen spf 50 100ml,3,1,17.88,0,0.0,0.3333333333333333,17.88,0.0,,0.0,True
+2020-02-15,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,sunscreen spf 50 for oily skin,26,1,18.76,0,0.0,0.038461538461538464,18.76,0.0,,0.0,True
+2020-02-16,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Pain Relief Oil || SP || Automatic || 22nd Nov'19,b007bbv7jy,64,1,11.33,0,0.0,0.015625,11.33,0.0,,0.0,True
+2020-02-16,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Pain Relief Oil || SP || Automatic || 22nd Nov'19,b07wl74lwt,7,1,13.21,0,0.0,0.14285714285714285,13.21,0.0,,0.0,True
+2020-02-16,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Pain Relief Oil || SP || Automatic || 22nd Nov'19,best oil for knee,1,1,4.04,0,0.0,1.0,4.04,0.0,,0.0,True
+2020-02-16,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Pain Relief Oil || SP || Automatic || 22nd Nov'19,oil for arthritis,1,1,13.03,0,0.0,1.0,13.03,0.0,,0.0,True
+2020-02-16,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Pain Relief Oil || SP || Automatic || 22nd Nov'19,pain relief for knees,20,1,11.64,0,0.0,0.05,11.64,0.0,,0.0,True
+2020-02-16,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Pain Relief Oil || SP || Automatic || 22nd Nov'19,rhuval oil 100ml,1,1,2.8,1,1210.72,1.0,2.8,1.0,0.002312673450508788,432.40000000000003,False
+2020-02-16,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,legs pain oil,3,1,12.58,0,0.0,0.3333333333333333,12.58,0.0,,0.0,True
+2020-02-16,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,pain relief oil,139,1,39.84,0,0.0,0.007194244604316547,39.84,0.0,,0.0,True
+2020-02-16,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,herbal joint pain relief oil,1,1,18.0,0,0.0,1.0,18.0,0.0,,0.0,True
+2020-02-16,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,kalonji oil joint pain,2,1,26.67,2,908.04,0.5,26.67,2.0,0.029370952821461613,34.047244094488185,False
+2020-02-16,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,rhuval oil,27,6,1.3416666666666668,2,605.36,0.2222222222222222,0.22361111111111112,0.3333333333333333,0.002216312056737589,451.2,False
+2020-02-16,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,rhuval oil for joint pain,10,3,4.133333333333334,1,302.68,0.3,1.377777777777778,0.3333333333333333,0.01365578608871856,73.2290322580645,False
+2020-02-16,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,avene sunscreen spf 50,77,1,15.61,0,0.0,0.012987012987012988,15.61,0.0,,0.0,True
+2020-02-16,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,evver sunscreen,2,2,1.0,0,0.0,1.0,0.5,0.0,,0.0,True
+2020-02-16,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,evver uv guard,1,1,1.0,0,0.0,1.0,1.0,0.0,,0.0,True
+2020-02-16,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,lakme sunscreen spf 50 gel,6,1,16.29,0,0.0,0.16666666666666666,16.29,0.0,,0.0,True
+2020-02-16,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,solasafe sunscreen spf 50 gel,296,2,17.56,0,0.0,0.006756756756756757,8.78,0.0,,0.0,True
+2020-02-16,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,spf 50,84,1,25.47,0,0.0,0.011904761904761904,25.47,0.0,,0.0,True
+2020-02-16,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,sunscreen,5734,12,20.043333333333333,0,0.0,0.0020927799093128706,1.6702777777777778,0.0,,0.0,True
+2020-02-16,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,sunscreen cream,134,1,27.43,0,0.0,0.007462686567164179,27.43,0.0,,0.0,True
+2020-02-16,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,sunscreen spf 50,1214,3,20.61,0,0.0,0.002471169686985173,6.87,0.0,,0.0,True
+2020-02-17,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Pain Relief Oil || SP || Automatic || 22nd Nov'19,muscle oil,2,1,10.59,0,0.0,0.5,10.59,0.0,,0.0,True
+2020-02-17,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Pain Relief Oil || SP || Automatic || 22nd Nov'19,tiger balm neck shoulder,3,1,10.63,0,0.0,0.3333333333333333,10.63,0.0,,0.0,True
+2020-02-17,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,dr ortho oil,778,1,7.81,0,0.0,0.0012853470437017994,7.81,0.0,,0.0,True
+2020-02-17,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,knee joint pain relief,2,1,24.66,0,0.0,0.5,24.66,0.0,,0.0,True
+2020-02-17,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,maharaja knee pain oil,2,1,28.93,0,0.0,0.5,28.93,0.0,,0.0,True
+2020-02-17,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,muscle pain relief oil,125,1,30.58,0,0.0,0.008,30.58,0.0,,0.0,True
+2020-02-17,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,muscle relief oil lavender,2,1,9.46,0,0.0,0.5,9.46,0.0,,0.0,True
+2020-02-17,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,orthoherb tablets and oil for joint pain,5,1,16.91,0,0.0,0.2,16.91,0.0,,0.0,True
+2020-02-17,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,pain relief oil,116,1,29.92,0,0.0,0.008620689655172414,29.92,0.0,,0.0,True
+2020-02-17,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,pain relief oils,429,2,42.96,0,0.0,0.004662004662004662,21.48,0.0,,0.0,True
+2020-02-17,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,painkiller oil for joint pain,4,2,29.23,0,0.0,0.5,14.615,0.0,,0.0,True
+2020-02-17,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,snehal pain oil,4,1,12.21,0,0.0,0.25,12.21,0.0,,0.0,True
+2020-02-17,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,best joint pain relief products,8,1,28.24,0,0.0,0.125,28.24,0.0,,0.0,True
+2020-02-17,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,knee pain relief products,30,1,22.44,0,0.0,0.03333333333333333,22.44,0.0,,0.0,True
+2020-02-17,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,rhuval oil,40,9,3.018888888888889,2,908.04,0.225,0.3354320987654321,0.2222222222222222,0.003324621039699671,300.7861612072138,False
+2020-02-17,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,rhuval oil for joint pain,7,3,5.4433333333333325,1,302.68,0.42857142857142855,1.814444444444444,0.3333333333333333,0.017983789260385002,55.60563380281691,False
+2020-02-17,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,stretch oil joint pain relief oil,4,1,25.05,0,0.0,0.25,25.05,0.0,,0.0,True
+2020-02-17,Sunscreen || SP || Automatic || 22nd Nov'19,Sunscreen || SP || Automatic || 22nd Nov'19,men sunscreen,81,1,12.9,0,0.0,0.012345679012345678,12.9,0.0,,0.0,True
+2020-02-17,Sunscreen || SP || Automatic || 22nd Nov'19,Sunscreen || SP || Automatic || 22nd Nov'19,sunscreen cream,58,2,18.605,0,0.0,0.034482758620689655,9.3025,0.0,,0.0,True
+2020-02-17,Sunscreen || SP || Automatic || 22nd Nov'19,Sunscreen || SP || Automatic || 22nd Nov'19,sunscreen for mens,10,1,14.12,0,0.0,0.1,14.12,0.0,,0.0,True
+2020-02-17,Sunscreen || SP || Automatic || 22nd Nov'19,Sunscreen || SP || Automatic || 22nd Nov'19,uv sunscreen,6,1,17.32,0,0.0,0.16666666666666666,17.32,0.0,,0.0,True
+2020-02-17,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,evver sunscreen,3,1,1.0,1,295.76,0.3333333333333333,1.0,1.0,0.003381119826886665,295.76,False
+2020-02-17,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,evver uv guard,1,1,1.0,0,0.0,1.0,1.0,0.0,,0.0,True
+2020-02-17,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,lass sunscreen spf 50,2,1,18.97,0,0.0,0.5,18.97,0.0,,0.0,True
+2020-02-17,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,neutrogena sunscreen spf 50,71,1,17.52,0,0.0,0.014084507042253521,17.52,0.0,,0.0,True
+2020-02-17,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,neutrogena sunscreen spf 50 30 mleyebrow pencil,1,1,15.59,0,0.0,1.0,15.59,0.0,,0.0,True
+2020-02-17,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,nutrogena sunscreen spf 50,3,1,17.75,0,0.0,0.3333333333333333,17.75,0.0,,0.0,True
+2020-02-17,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,solasafe sunscreen spf 50 gel,414,1,16.85,0,0.0,0.0024154589371980675,16.85,0.0,,0.0,True
+2020-02-17,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,spf 50,181,1,22.8,0,0.0,0.0055248618784530384,22.8,0.0,,0.0,True
+2020-02-17,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,sunscreen,6259,12,19.12333333333333,1,295.76,0.0019172391755871545,1.5936111111111109,0.08333333333333333,0.06465828148949598,15.465922956248912,False
+2020-02-17,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,sunscreen cream,138,1,26.66,0,0.0,0.007246376811594203,26.66,0.0,,0.0,True
+2020-02-17,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,sunscreen spf 50,1024,4,20.47,0,0.0,0.00390625,5.1175,0.0,,0.0,True
+2020-02-17,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,sunstop sunscreen spf 50,51,1,11.98,0,0.0,0.0196078431372549,11.98,0.0,,0.0,True
+2020-02-18,Night Cream || SP || Automatic || 22nd Nov'19,Night Cream || SP || Automatic || 22nd Nov'19,anti aging night cream for women,1,1,11.58,0,0.0,1.0,11.58,0.0,,0.0,True
+2020-02-18,Night Cream || SP || Automatic || 22nd Nov'19,Night Cream || SP || Automatic || 22nd Nov'19,night cream for women,9,1,11.61,0,0.0,0.1111111111111111,11.61,0.0,,0.0,True
+2020-02-18,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Pain Relief Oil || SP || Automatic || 22nd Nov'19,instant pain relief,2,1,3.29,0,0.0,0.5,3.29,0.0,,0.0,True
+2020-02-18,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,joint pain relief oil,7,1,39.34,1,265.18,0.14285714285714285,39.34,1.0,0.14835206274983032,6.740721911540416,False
+2020-02-18,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,opigesic pain oil,30,1,20.46,0,0.0,0.03333333333333333,20.46,0.0,,0.0,True
+2020-02-18,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,pain oil,44,1,24.64,0,0.0,0.022727272727272728,24.64,0.0,,0.0,True
+2020-02-18,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,pain oil herbal,2,1,39.43,0,0.0,0.5,39.43,0.0,,0.0,True
+2020-02-18,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,pain relief oil,69,1,29.38,0,0.0,0.014492753623188406,29.38,0.0,,0.0,True
+2020-02-18,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,pain relief oils,652,1,31.54,0,0.0,0.0015337423312883436,31.54,0.0,,0.0,True
+2020-02-18,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,rhuval oil,30,11,1.901818181818182,3,908.04,0.36666666666666664,0.1728925619834711,0.2727272727272727,0.0020944211508503834,477.45889101338423,False
+2020-02-18,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,rhuval oil for joint pain,11,4,5.825,1,302.68,0.36363636363636365,1.45625,0.25,0.01924474692744813,51.96223175965665,False
+2020-02-18,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,wintergreen oil for joint pain,1,1,46.32,0,0.0,1.0,46.32,0.0,,0.0,True
+2020-02-18,Sunscreen || SP || Automatic || 22nd Nov'19,Sunscreen || SP || Automatic || 22nd Nov'19,b079kdhc3c,5,1,3.81,0,0.0,0.2,3.81,0.0,,0.0,True
+2020-02-18,Sunscreen || SP || Automatic || 22nd Nov'19,Sunscreen || SP || Automatic || 22nd Nov'19,gel sunscreen,40,4,21.7025,0,0.0,0.1,5.425625,0.0,,0.0,True
+2020-02-18,Sunscreen || SP || Automatic || 22nd Nov'19,Sunscreen || SP || Automatic || 22nd Nov'19,spf 50 sunscreen for men,355,6,15.435,0,0.0,0.016901408450704224,2.5725000000000002,0.0,,0.0,True
+2020-02-18,Sunscreen || SP || Automatic || 22nd Nov'19,Sunscreen || SP || Automatic || 22nd Nov'19,sunscreen,51,1,22.31,0,0.0,0.0196078431372549,22.31,0.0,,0.0,True
+2020-02-18,Sunscreen || SP || Automatic || 22nd Nov'19,Sunscreen || SP || Automatic || 22nd Nov'19,sunscreen 100 spf,7,1,10.13,0,0.0,0.14285714285714285,10.13,0.0,,0.0,True
+2020-02-18,Sunscreen || SP || Automatic || 22nd Nov'19,Sunscreen || SP || Automatic || 22nd Nov'19,sunscreen for men,277,6,20.215,0,0.0,0.021660649819494584,3.3691666666666666,0.0,,0.0,True
+2020-02-18,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,aroma magic sunscreen spf 50,56,1,15.64,0,0.0,0.017857142857142856,15.64,0.0,,0.0,True
+2020-02-18,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,darmalogist sunscreen spf 50 lotion,3,1,16.8,0,0.0,0.3333333333333333,16.8,0.0,,0.0,True
+2020-02-18,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,evver sunscreen,1,1,1.0,1,591.52,1.0,1.0,1.0,0.0016905599134433326,591.52,False
+2020-02-18,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,sunscreen,5366,5,18.666,0,0.0,0.0009317927692881103,3.7332,0.0,,0.0,True
+2020-02-18,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,sunscreen spf 50 for oily skin,38,1,16.31,0,0.0,0.02631578947368421,16.31,0.0,,0.0,True
+2020-02-19,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Pain Relief Oil || SP || Automatic || 22nd Nov'19,b078tm4z1l,6,1,6.45,1,302.68,0.16666666666666666,6.45,1.0,0.021309633936830975,46.927131782945736,False
+2020-02-19,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Pain Relief Oil || SP || Automatic || 22nd Nov'19,back spasm,1,1,3.83,0,0.0,1.0,3.83,0.0,,0.0,True
+2020-02-19,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Pain Relief Oil || SP || Automatic || 22nd Nov'19,muscle massage oil,5,1,11.4,0,0.0,0.2,11.4,0.0,,0.0,True
+2020-02-19,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Pain Relief Oil || SP || Automatic || 22nd Nov'19,pain relief for knees,18,1,13.62,0,0.0,0.05555555555555555,13.62,0.0,,0.0,True
+2020-02-19,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,ankle pain oil,2,1,22.56,0,0.0,0.5,22.56,0.0,,0.0,True
+2020-02-19,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,anveya muscle relief oil,9,1,41.35,0,0.0,0.1111111111111111,41.35,0.0,,0.0,True
+2020-02-19,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,dr ortho oil 120ml,3,1,45.79,0,0.0,0.3333333333333333,45.79,0.0,,0.0,True
+2020-02-19,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,knee oil,72,1,26.33,0,0.0,0.013888888888888888,26.33,0.0,,0.0,True
+2020-02-19,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,organic muscle relief oil,2,1,43.35,0,0.0,0.5,43.35,0.0,,0.0,True
+2020-02-19,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,pain relief oil,46,1,30.89,0,0.0,0.021739130434782608,30.89,0.0,,0.0,True
+2020-02-19,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,pain relief oils,623,3,40.553333333333335,0,0.0,0.004815409309791332,13.517777777777779,0.0,,0.0,True
+2020-02-19,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,joint pain relief oil,35,0,0.0,1,302.68,0.0,,,0.0,,False
+2020-02-19,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,rhuval oil,47,6,1.231666666666667,3,908.04,0.1276595744680851,0.2052777777777778,0.5,0.001356401333274599,737.2449255751013,False
+2020-02-19,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,rhuval oil for joint pain,9,2,6.8,2,908.04,0.2222222222222222,3.4,1.0,0.007488656887361791,133.53529411764706,False
+2020-02-19,Sunscreen || SP || Automatic || 22nd Nov'19,Sunscreen || SP || Automatic || 22nd Nov'19,b00ntiddeu,7,1,3.93,0,0.0,0.14285714285714285,3.93,0.0,,0.0,True
+2020-02-19,Sunscreen || SP || Automatic || 22nd Nov'19,Sunscreen || SP || Automatic || 22nd Nov'19,b075zrpdhb,2,1,12.16,0,0.0,0.5,12.16,0.0,,0.0,True
+2020-02-19,Sunscreen || SP || Automatic || 22nd Nov'19,Sunscreen || SP || Automatic || 22nd Nov'19,gel sunscreen,29,2,20.655,0,0.0,0.06896551724137931,10.3275,0.0,,0.0,True
+2020-02-19,Sunscreen || SP || Automatic || 22nd Nov'19,Sunscreen || SP || Automatic || 22nd Nov'19,hair oil for men,33,1,14.99,0,0.0,0.030303030303030304,14.99,0.0,,0.0,True
+2020-02-19,Sunscreen || SP || Automatic || 22nd Nov'19,Sunscreen || SP || Automatic || 22nd Nov'19,spf 50 sunscreen for men,417,5,15.74,0,0.0,0.011990407673860911,3.148,0.0,,0.0,True
+2020-02-19,Sunscreen || SP || Automatic || 22nd Nov'19,Sunscreen || SP || Automatic || 22nd Nov'19,sun cream for men,10,1,13.37,0,0.0,0.1,13.37,0.0,,0.0,True
+2020-02-19,Sunscreen || SP || Automatic || 22nd Nov'19,Sunscreen || SP || Automatic || 22nd Nov'19,sunscreen,132,3,20.9,0,0.0,0.022727272727272728,6.966666666666666,0.0,,0.0,True
+2020-02-19,Sunscreen || SP || Automatic || 22nd Nov'19,Sunscreen || SP || Automatic || 22nd Nov'19,sunscreen for men,211,5,17.05,1,295.76,0.023696682464454975,3.41,0.2,0.05764809304841764,17.346627565982402,False
+2020-02-19,Sunscreen || SP || Automatic || 22nd Nov'19,Sunscreen || SP || Automatic || 22nd Nov'19,sunscreen gel,2,1,14.72,0,0.0,0.5,14.72,0.0,,0.0,True
+2020-02-19,Sunscreen || SP || Automatic || 22nd Nov'19,Sunscreen || SP || Automatic || 22nd Nov'19,sunscreen pa++++,1,1,18.84,0,0.0,1.0,18.84,0.0,,0.0,True
+2020-02-19,Sunscreen || SP || Automatic || 22nd Nov'19,Sunscreen || SP || Automatic || 22nd Nov'19,sunscreen spf 100,9,1,20.0,0,0.0,0.1111111111111111,20.0,0.0,,0.0,True
+2020-02-19,Sunscreen || SP || Automatic || 22nd Nov'19,Sunscreen || SP || Automatic || 22nd Nov'19,sunscreen spf 50 pa+++,3,1,20.0,0,0.0,0.3333333333333333,20.0,0.0,,0.0,True
+2020-02-19,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,avon sunscreen spf 50,26,2,17.9,1,295.76,0.07692307692307693,8.95,0.5,0.0605220449012713,16.52290502793296,False
+2020-02-19,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,lotus sunscreen spf 50 matte gel 50g,94,1,18.98,0,0.0,0.010638297872340425,18.98,0.0,,0.0,True
+2020-02-19,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,mamaearth sunscreen spf 50 for dry skin,1,1,18.18,0,0.0,1.0,18.18,0.0,,0.0,True
+2020-02-19,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,neutrogena sunscreen spf 50,165,1,12.17,0,0.0,0.006060606060606061,12.17,0.0,,0.0,True
+2020-02-19,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,solasafe sunscreen spf 50 gel,484,1,18.55,0,0.0,0.002066115702479339,18.55,0.0,,0.0,True
+2020-02-19,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,spf 50,251,2,26.045,1,295.76,0.00796812749003984,13.0225,0.5,0.08806126589126319,11.355730466500287,False
+2020-02-19,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,sunscreen,4105,6,20.676666666666662,0,0.0,0.00146163215590743,3.4461111111111102,0.0,,0.0,True
+2020-02-19,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,sunscreen cream,211,1,25.39,0,0.0,0.004739336492890996,25.39,0.0,,0.0,True
+2020-02-19,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,sunscreen spf 50,850,3,17.403333333333332,0,0.0,0.0035294117647058825,5.801111111111111,0.0,,0.0,True
+2020-02-19,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,sunscreen spf 50 n no parabean,1,1,18.21,0,0.0,1.0,18.21,0.0,,0.0,True
+2020-02-19,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,uvedge sunscreen spf 50,13,1,17.46,0,0.0,0.07692307692307693,17.46,0.0,,0.0,True
+2020-02-20,Night Cream || SP || Automatic || 22nd Nov'19,Night Cream || SP || Automatic || 22nd Nov'19,anti aging cream for women,10,1,7.96,0,0.0,0.1,7.96,0.0,,0.0,True
+2020-02-20,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Pain Relief Oil || SP || Automatic || 22nd Nov'19,oil for back pain relief,3,1,10.72,0,0.0,0.3333333333333333,10.72,0.0,,0.0,True
+2020-02-20,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Pain Relief Oil || SP || Automatic || 22nd Nov'19,rhuval oil,18,1,1.0,0,0.0,0.05555555555555555,1.0,0.0,,0.0,True
+2020-02-20,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,bankaja kasthuri muscle pain relief,1,1,9.07,0,0.0,1.0,9.07,0.0,,0.0,True
+2020-02-20,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,muscle pain relief,16,1,33.27,0,0.0,0.0625,33.27,0.0,,0.0,True
+2020-02-20,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,oil for joints pain,1,1,21.57,0,0.0,1.0,21.57,0.0,,0.0,True
+2020-02-20,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,opigesic pain oil,6,1,33.93,0,0.0,0.16666666666666666,33.93,0.0,,0.0,True
+2020-02-20,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,orthoherb tablets and oil for joint pain,2,1,17.57,0,0.0,0.5,17.57,0.0,,0.0,True
+2020-02-20,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,pain relief oil,86,1,23.22,0,0.0,0.011627906976744186,23.22,0.0,,0.0,True
+2020-02-20,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,pain relief oils,454,1,31.39,0,0.0,0.0022026431718061676,31.39,0.0,,0.0,True
+2020-02-20,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,rhuval oil,48,15,2.646,8,3521.44,0.3125,0.1764,0.5333333333333333,0.0007513971557090281,1330.854119425548,False
+2020-02-20,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,rhuval oil for joint pain,2,2,2.97,1,302.68,1.0,1.485,0.5,0.009812343068587288,101.91245791245791,False
+2020-02-20,Sunscreen || SP || Automatic || 22nd Nov'19,Sunscreen || SP || Automatic || 22nd Nov'19,b00v73jjvk,4,1,1.0,0,0.0,0.25,1.0,0.0,,0.0,True
+2020-02-20,Sunscreen || SP || Automatic || 22nd Nov'19,Sunscreen || SP || Automatic || 22nd Nov'19,b07sr32yjp,2,1,3.67,0,0.0,0.5,3.67,0.0,,0.0,True
+2020-02-20,Sunscreen || SP || Automatic || 22nd Nov'19,Sunscreen || SP || Automatic || 22nd Nov'19,night cream for men,1,1,15.91,0,0.0,1.0,15.91,0.0,,0.0,True
+2020-02-20,Sunscreen || SP || Automatic || 22nd Nov'19,Sunscreen || SP || Automatic || 22nd Nov'19,spf 100,9,1,14.44,0,0.0,0.1111111111111111,14.44,0.0,,0.0,True
+2020-02-20,Sunscreen || SP || Automatic || 22nd Nov'19,Sunscreen || SP || Automatic || 22nd Nov'19,spf 50 sunscreen for men,234,4,20.195,0,0.0,0.017094017094017096,5.04875,0.0,,0.0,True
+2020-02-20,Sunscreen || SP || Automatic || 22nd Nov'19,Sunscreen || SP || Automatic || 22nd Nov'19,sunscreen for men,183,7,20.027142857142856,0,0.0,0.03825136612021858,2.8610204081632653,0.0,,0.0,True
+2020-02-20,Sunscreen || SP || Automatic || 22nd Nov'19,Sunscreen || SP || Automatic || 22nd Nov'19,sunscreen for mens,16,1,16.53,0,0.0,0.0625,16.53,0.0,,0.0,True
+2020-02-20,Sunscreen || SP || Automatic || 22nd Nov'19,Sunscreen || SP || Automatic || 22nd Nov'19,uv cream spf 50 sunscreen,2,1,17.83,0,0.0,0.5,17.83,0.0,,0.0,True
+2020-02-20,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,aroma magic sunscreen spf 50,44,1,18.51,0,0.0,0.022727272727272728,18.51,0.0,,0.0,True
+2020-02-20,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,evver uv guard,0,0,0.0,1,295.76,,,,0.0,,False
+2020-02-20,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,solasafe sunscreen spf 50,8,1,17.67,0,0.0,0.125,17.67,0.0,,0.0,True
+2020-02-20,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,solasafe sunscreen spf 50 gel,408,3,17.526666666666667,0,0.0,0.007352941176470588,5.842222222222222,0.0,,0.0,True
+2020-02-20,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,spf 50,694,2,36.82,0,0.0,0.002881844380403458,18.41,0.0,,0.0,True
+2020-02-20,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,sunscreen,2990,4,19.795,1,295.76,0.0013377926421404682,4.94875,0.25,0.06692926697322153,14.941146754230864,False
+2020-02-20,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,sunscreen spf 50,300,1,6.91,0,0.0,0.0033333333333333335,6.91,0.0,,0.0,True
+2020-02-20,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,sunscreen spf 50 skin litning,1,1,15.73,0,0.0,1.0,15.73,0.0,,0.0,True
+2020-02-21,Hair Oil || SP || Generic || 21st feb'20,Hair Oil || SP || Generic || 21st feb'20,bhringraj oil for hair growth,44,1,47.19,0,0.0,0.022727272727272728,47.19,0.0,,0.0,True
+2020-02-21,Hair Oil || SP || Generic || 21st feb'20,Hair Oil || SP || Generic || 21st feb'20,biotiqe bhringraj hair oil,120,1,34.12,0,0.0,0.008333333333333333,34.12,0.0,,0.0,True
+2020-02-21,Hair Oil || SP || Generic || 21st feb'20,Hair Oil || SP || Generic || 21st feb'20,hair oil,6787,7,79.11,0,0.0,0.0010313835273316634,11.301428571428572,0.0,,0.0,True
+2020-02-21,Hair Oil || SP || Generic || 21st feb'20,Hair Oil || SP || Generic || 21st feb'20,hair oils,1147,4,44.62,0,0.0,0.0034873583260680036,11.155,0.0,,0.0,True
+2020-02-21,Hair Oil || SP || Generic || 21st feb'20,Hair Oil || SP || Generic || 21st feb'20,vitamin e oil,443,1,21.97,0,0.0,0.002257336343115124,21.97,0.0,,0.0,True
+2020-02-21,Hair Oil || SP|| Automatic || 17th Feb'20,Hair Oil || SP|| Automatic || 17th Feb'20,b072jtmpld,15,1,13.0,0,0.0,0.06666666666666667,13.0,0.0,,0.0,True
+2020-02-21,Hair Oil || SP|| Automatic || 17th Feb'20,Hair Oil || SP|| Automatic || 17th Feb'20,brahmi oil for hair,55,1,16.55,0,0.0,0.01818181818181818,16.55,0.0,,0.0,True
+2020-02-21,Hair Oil || SP|| Automatic || 17th Feb'20,Hair Oil || SP|| Automatic || 17th Feb'20,hair and care oil,133,1,22.82,0,0.0,0.007518796992481203,22.82,0.0,,0.0,True
+2020-02-21,Hair Oil || SP|| Automatic || 17th Feb'20,Hair Oil || SP|| Automatic || 17th Feb'20,hair oil for hair fall and dandruff,4,1,53.66,0,0.0,0.25,53.66,0.0,,0.0,True
+2020-02-21,Night Cream || SP || Automatic || 22nd Nov'19,Night Cream || SP || Automatic || 22nd Nov'19,age in cream,1,1,62.4,0,0.0,1.0,62.4,0.0,,0.0,True
+2020-02-21,Night Cream || SP || Automatic || 22nd Nov'19,Night Cream || SP || Automatic || 22nd Nov'19,anti aging cream for women,461,1,35.01,0,0.0,0.0021691973969631237,35.01,0.0,,0.0,True
+2020-02-21,Night Cream || SP || Automatic || 22nd Nov'19,Night Cream || SP || Automatic || 22nd Nov'19,anti aging night cream for women,45,1,26.49,0,0.0,0.022222222222222223,26.49,0.0,,0.0,True
+2020-02-21,Night Cream || SP || Automatic || 22nd Nov'19,Night Cream || SP || Automatic || 22nd Nov'19,anti wrinkle cream for women,16,1,27.47,0,0.0,0.0625,27.47,0.0,,0.0,True
+2020-02-21,Night Cream || SP || Automatic || 22nd Nov'19,Night Cream || SP || Automatic || 22nd Nov'19,cream honey to,5,1,12.97,0,0.0,0.2,12.97,0.0,,0.0,True
+2020-02-21,Night Cream || SP || Automatic || 22nd Nov'19,Night Cream || SP || Automatic || 22nd Nov'19,night cream for women,833,5,30.894,1,660.17,0.006002400960384154,6.1788,0.2,0.046797037126800674,21.36887421505794,False
+2020-02-21,Night Cream || SP || Automatic || 22nd Nov'19,Night Cream || SP || Automatic || 22nd Nov'19,night cream for women anti aging,24,1,23.21,0,0.0,0.041666666666666664,23.21,0.0,,0.0,True
+2020-02-21,Night Cream || SP || Generic || 24th Nov'19,Night Cream || SP || Generic || 24th Nov'19,night cream,3315,3,40.35666666666666,0,0.0,0.0009049773755656109,13.45222222222222,0.0,,0.0,True
+2020-02-21,Night Cream || SP || Generic || 24th Nov'19,Night Cream || SP || Generic || 24th Nov'19,night creams,1044,1,55.11,0,0.0,0.0009578544061302681,55.11,0.0,,0.0,True
+2020-02-21,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Pain Relief Oil || SP || Automatic || 22nd Nov'19,pain massage,1,1,12.48,0,0.0,1.0,12.48,0.0,,0.0,True
+2020-02-21,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Pain Relief Oil || SP || Automatic || 22nd Nov'19,phygen oil,2,1,1.0,0,0.0,0.5,1.0,0.0,,0.0,True
+2020-02-21,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,dr ortho oil,659,1,52.05,0,0.0,0.0015174506828528073,52.05,0.0,,0.0,True
+2020-02-21,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,ortho oil,203,1,56.52,0,0.0,0.0049261083743842365,56.52,0.0,,0.0,True
+2020-02-21,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,himalaya pain relief massage oil,1,1,35.25,0,0.0,1.0,35.25,0.0,,0.0,True
+2020-02-21,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,rhuval oil,14,5,1.6940000000000002,3,1210.72,0.35714285714285715,0.33880000000000005,0.6,0.001399167437557817,714.7107438016528,False
+2020-02-21,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,rhuval oil for joint pain,3,2,9.89,1,302.68,0.6666666666666666,4.945,0.5,0.03267477203647417,30.604651162790695,False
+2020-02-21,Sunscreen || SP || Automatic || 22nd Nov'19,Sunscreen || SP || Automatic || 22nd Nov'19,100 spf sunscreen,7,1,17.82,0,0.0,0.14285714285714285,17.82,0.0,,0.0,True
+2020-02-21,Sunscreen || SP || Automatic || 22nd Nov'19,Sunscreen || SP || Automatic || 22nd Nov'19,cream sun protection,5,1,14.45,0,0.0,0.2,14.45,0.0,,0.0,True
+2020-02-21,Sunscreen || SP || Automatic || 22nd Nov'19,Sunscreen || SP || Automatic || 22nd Nov'19,mens sunscreen,193,6,14.748333333333331,0,0.0,0.031088082901554404,2.458055555555555,0.0,,0.0,True
+2020-02-21,Sunscreen || SP || Automatic || 22nd Nov'19,Sunscreen || SP || Automatic || 22nd Nov'19,spf 50 sunscreen for men,55,2,14.935,0,0.0,0.03636363636363636,7.4675,0.0,,0.0,True
+2020-02-21,Sunscreen || SP || Automatic || 22nd Nov'19,Sunscreen || SP || Automatic || 22nd Nov'19,sunscreen cream for men,18,1,14.47,0,0.0,0.05555555555555555,14.47,0.0,,0.0,True
+2020-02-21,Sunscreen || SP || Automatic || 22nd Nov'19,Sunscreen || SP || Automatic || 22nd Nov'19,sunscreen for men,116,2,20.8,0,0.0,0.017241379310344827,10.4,0.0,,0.0,True
+2020-02-21,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,evver uv guard,3,2,1.0,0,0.0,0.6666666666666666,0.5,0.0,,0.0,True
+2020-02-21,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,jovees sunscreen spf 50,14,1,30.51,0,0.0,0.07142857142857142,30.51,0.0,,0.0,True
+2020-02-21,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,lakme sunscreen spf 50,937,1,23.25,0,0.0,0.0010672358591248667,23.25,0.0,,0.0,True
+2020-02-21,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,oriflame sunscreen spf 50,18,1,16.87,0,0.0,0.05555555555555555,16.87,0.0,,0.0,True
+2020-02-21,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,solasafe sunscreen spf 50 gel,824,1,20.25,0,0.0,0.0012135922330097086,20.25,0.0,,0.0,True
+2020-02-21,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,sunban sunscreen spf 50,10,1,24.07,0,0.0,0.1,24.07,0.0,,0.0,True
+2020-02-21,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,sunscreen,10783,48,30.061666666666667,5,1774.56,0.00445145135862005,0.6262847222222222,0.10416666666666667,0.016940349532654105,59.030659200532234,False
+2020-02-21,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,sunscreen creams,6,1,33.42,0,0.0,0.16666666666666666,33.42,0.0,,0.0,True
+2020-02-21,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,sunscreen spf 50,904,1,24.18,0,0.0,0.0011061946902654867,24.18,0.0,,0.0,True
+2020-02-21,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,sunscreen spf 50 for dry skin,8,1,21.39,1,295.76,0.125,21.39,1.0,0.07232215309710577,13.827021972884525,False
+2020-02-21,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,sunscreen spf 50 oil free,1,1,29.8,0,0.0,1.0,29.8,0.0,,0.0,True
+2020-02-22,Hair Oil || SP || Generic || 21st feb'20,Hair Oil || SP || Generic || 21st feb'20,bhringraj oil for hair,2363,1,41.7,0,0.0,0.00042319085907744394,41.7,0.0,,0.0,True
+2020-02-22,Hair Oil || SP || Generic || 21st feb'20,Hair Oil || SP || Generic || 21st feb'20,bhringraj oil for hair dabar,0,0,0.0,1,311.61,,,,0.0,,False
+2020-02-22,Hair Oil || SP || Generic || 21st feb'20,Hair Oil || SP || Generic || 21st feb'20,bhringraj oil for hair growth,9,1,86.68,0,0.0,0.1111111111111111,86.68,0.0,,0.0,True
+2020-02-22,Hair Oil || SP || Generic || 21st feb'20,Hair Oil || SP || Generic || 21st feb'20,hair oil,6042,10,73.29299999999999,0,0.0,0.0016550810989738498,7.329299999999999,0.0,,0.0,True
+2020-02-22,Hair Oil || SP || Generic || 21st feb'20,Hair Oil || SP || Generic || 21st feb'20,hair oils,605,1,12.23,0,0.0,0.001652892561983471,12.23,0.0,,0.0,True
+2020-02-22,Hair Oil || SP || Generic || 21st feb'20,Hair Oil || SP || Generic || 21st feb'20,on and on hair oil,451,3,75.15333333333334,0,0.0,0.0066518847006651885,25.051111111111112,0.0,,0.0,True
+2020-02-22,Hair Oil || SP || Generic || 21st feb'20,Hair Oil || SP || Generic || 21st feb'20,sunflower bhringraj oil for hair,5,1,44.01,0,0.0,0.2,44.01,0.0,,0.0,True
+2020-02-22,Hair Oil || SP|| Automatic || 17th Feb'20,Hair Oil || SP|| Automatic || 17th Feb'20,b00ztyanpe,2,1,22.66,0,0.0,0.5,22.66,0.0,,0.0,True
+2020-02-22,Hair Oil || SP|| Automatic || 17th Feb'20,Hair Oil || SP|| Automatic || 17th Feb'20,b07kj2hzlz,103,1,29.46,0,0.0,0.009708737864077669,29.46,0.0,,0.0,True
+2020-02-22,Hair Oil || SP|| Automatic || 17th Feb'20,Hair Oil || SP|| Automatic || 17th Feb'20,b083f1cymx,56,1,25.25,0,0.0,0.017857142857142856,25.25,0.0,,0.0,True
+2020-02-22,Hair Oil || SP|| Automatic || 17th Feb'20,Hair Oil || SP|| Automatic || 17th Feb'20,bhringraj oil,79,1,28.91,0,0.0,0.012658227848101266,28.91,0.0,,0.0,True
+2020-02-22,Hair Oil || SP|| Automatic || 17th Feb'20,Hair Oil || SP|| Automatic || 17th Feb'20,bhringraj oil for hair,1202,1,40.52,0,0.0,0.0008319467554076539,40.52,0.0,,0.0,True
+2020-02-22,Hair Oil || SP|| Automatic || 17th Feb'20,Hair Oil || SP|| Automatic || 17th Feb'20,hair oil,1391,1,26.24,0,0.0,0.0007189072609633358,26.24,0.0,,0.0,True
+2020-02-22,Hair Oil || SP|| Automatic || 17th Feb'20,Hair Oil || SP|| Automatic || 17th Feb'20,oil dandruff,2,1,20.53,0,0.0,0.5,20.53,0.0,,0.0,True
+2020-02-22,Hair Oil || SP|| Automatic || 17th Feb'20,Hair Oil || SP|| Automatic || 17th Feb'20,oil for hair fall and dandruff,2,1,49.62,0,0.0,0.5,49.62,0.0,,0.0,True
+2020-02-22,Night Cream || SP || Automatic || 22nd Nov'19,Night Cream || SP || Automatic || 22nd Nov'19,anti aging night cream for women,18,1,27.23,0,0.0,0.05555555555555555,27.23,0.0,,0.0,True
+2020-02-22,Night Cream || SP || Automatic || 22nd Nov'19,Night Cream || SP || Automatic || 22nd Nov'19,anti wrinkles cream for women,38,1,26.92,0,0.0,0.02631578947368421,26.92,0.0,,0.0,True
+2020-02-22,Night Cream || SP || Automatic || 22nd Nov'19,Night Cream || SP || Automatic || 22nd Nov'19,b00it0q9oy,59,1,27.09,0,0.0,0.01694915254237288,27.09,0.0,,0.0,True
+2020-02-22,Night Cream || SP || Automatic || 22nd Nov'19,Night Cream || SP || Automatic || 22nd Nov'19,b00reg0ul2,135,1,39.29,0,0.0,0.007407407407407408,39.29,0.0,,0.0,True
+2020-02-22,Night Cream || SP || Automatic || 22nd Nov'19,Night Cream || SP || Automatic || 22nd Nov'19,b077yzslcx,46,1,26.62,0,0.0,0.021739130434782608,26.62,0.0,,0.0,True
+2020-02-22,Night Cream || SP || Automatic || 22nd Nov'19,Night Cream || SP || Automatic || 22nd Nov'19,b08121c2bt,2,1,2.89,0,0.0,0.5,2.89,0.0,,0.0,True
+2020-02-22,Night Cream || SP || Automatic || 22nd Nov'19,Night Cream || SP || Automatic || 22nd Nov'19,cream for women,494,2,23.445,0,0.0,0.004048582995951417,11.7225,0.0,,0.0,True
+2020-02-22,Night Cream || SP || Automatic || 22nd Nov'19,Night Cream || SP || Automatic || 22nd Nov'19,night cream,17,1,71.43,0,0.0,0.058823529411764705,71.43,0.0,,0.0,True
+2020-02-22,Night Cream || SP || Automatic || 22nd Nov'19,Night Cream || SP || Automatic || 22nd Nov'19,night cream for women,724,5,33.266000000000005,0,0.0,0.006906077348066298,6.653200000000001,0.0,,0.0,True
+2020-02-22,Night Cream || SP || Generic || 24th Nov'19,Night Cream || SP || Generic || 24th Nov'19,anti aging cream,185,1,42.54,0,0.0,0.005405405405405406,42.54,0.0,,0.0,True
+2020-02-22,Night Cream || SP || Generic || 24th Nov'19,Night Cream || SP || Generic || 24th Nov'19,anti wrinkle cream,95,1,7.83,0,0.0,0.010526315789473684,7.83,0.0,,0.0,True
+2020-02-22,Night Cream || SP || Generic || 24th Nov'19,Night Cream || SP || Generic || 24th Nov'19,night cream,2790,9,44.26444444444444,0,0.0,0.0032258064516129032,4.918271604938272,0.0,,0.0,True
+2020-02-22,Night Cream || SP || Generic || 24th Nov'19,Night Cream || SP || Generic || 24th Nov'19,night creams,549,1,31.66,0,0.0,0.0018214936247723133,31.66,0.0,,0.0,True
+2020-02-22,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Pain Relief Oil || SP || Automatic || 22nd Nov'19,b07ytxfk92,2,1,13.02,0,0.0,0.5,13.02,0.0,,0.0,True
+2020-02-22,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,back pain oils,294,1,49.83,0,0.0,0.003401360544217687,49.83,0.0,,0.0,True
+2020-02-22,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,dr ortho oil,716,2,37.0,0,0.0,0.002793296089385475,18.5,0.0,,0.0,True
+2020-02-22,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,muscles pain relief,4,1,23.22,0,0.0,0.25,23.22,0.0,,0.0,True
+2020-02-22,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,ortho oil,375,1,80.94,0,0.0,0.0026666666666666666,80.94,0.0,,0.0,True
+2020-02-22,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,safe shop joint pain oil,11,1,69.24,0,0.0,0.09090909090909091,69.24,0.0,,0.0,True
+2020-02-22,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,joint pain relief machine in 300,1,1,22.58,0,0.0,1.0,22.58,0.0,,0.0,True
+2020-02-22,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,knee pain relief products,33,1,25.89,0,0.0,0.030303030303030304,25.89,0.0,,0.0,True
+2020-02-22,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,lenium joint pain relief oil,1,1,14.91,0,0.0,1.0,14.91,0.0,,0.0,True
+2020-02-22,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,rhuval oil,20,6,1.1883333333333332,2,605.36,0.3,0.19805555555555554,0.3333333333333333,0.001963019250253293,509.41935483870975,False
+2020-02-22,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,rhuval oil for joint pain,10,1,3.71,0,0.0,0.1,3.71,0.0,,0.0,True
+2020-02-22,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,turpentine oil for joint pain,4,1,8.55,0,0.0,0.25,8.55,0.0,,0.0,True
+2020-02-22,Sunscreen || SP || Automatic || 22nd Nov'19,Sunscreen || SP || Automatic || 22nd Nov'19,b00g7rtyt8,29,1,4.36,0,0.0,0.034482758620689655,4.36,0.0,,0.0,True
+2020-02-22,Sunscreen || SP || Automatic || 22nd Nov'19,Sunscreen || SP || Automatic || 22nd Nov'19,b00reg1soa,1,1,14.18,0,0.0,1.0,14.18,0.0,,0.0,True
+2020-02-22,Sunscreen || SP || Automatic || 22nd Nov'19,Sunscreen || SP || Automatic || 22nd Nov'19,b0811zn1tl,1,1,1.0,0,0.0,1.0,1.0,0.0,,0.0,True
+2020-02-22,Sunscreen || SP || Automatic || 22nd Nov'19,Sunscreen || SP || Automatic || 22nd Nov'19,evver sunscreen,2,1,1.0,1,295.76,0.5,1.0,1.0,0.003381119826886665,295.76,False
+2020-02-22,Sunscreen || SP || Automatic || 22nd Nov'19,Sunscreen || SP || Automatic || 22nd Nov'19,mens sunscreen,285,2,17.675,0,0.0,0.007017543859649123,8.8375,0.0,,0.0,True
+2020-02-22,Sunscreen || SP || Automatic || 22nd Nov'19,Sunscreen || SP || Automatic || 22nd Nov'19,sunscreen for men,132,2,16.74,0,0.0,0.015151515151515152,8.37,0.0,,0.0,True
+2020-02-22,Sunscreen || SP || Automatic || 22nd Nov'19,Sunscreen || SP || Automatic || 22nd Nov'19,sunscreen spf 100,7,1,20.0,0,0.0,0.14285714285714285,20.0,0.0,,0.0,True
+2020-02-22,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,aveeno baby continuous protection sunscreen spf 50,3,1,26.6,1,295.76,0.3333333333333333,26.6,1.0,0.08993778739518529,11.118796992481203,False
+2020-02-22,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,evver uv guard,3,3,1.0,2,887.28,1.0,0.3333333333333333,0.6666666666666666,0.001127039942295555,887.28,False
+2020-02-22,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,lakme sunscreen spf 50,1149,1,28.35,0,0.0,0.0008703220191470844,28.35,0.0,,0.0,True
+2020-02-22,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,neutrogena sunscreen spf 50,175,1,24.59,0,0.0,0.005714285714285714,24.59,0.0,,0.0,True
+2020-02-22,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,nutrogena sunscreen spf 50,1158,2,28.705,1,295.76,0.0017271157167530224,14.3525,0.5,0.09705504463078171,10.303431457934158,False
+2020-02-22,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,puva sunscreen spf 50,2,1,28.46,0,0.0,0.5,28.46,0.0,,0.0,True
+2020-02-22,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,solasafe sunscreen spf 50 gel,684,1,19.84,0,0.0,0.0014619883040935672,19.84,0.0,,0.0,True
+2020-02-22,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,spf 50,482,2,26.33,0,0.0,0.004149377593360996,13.165,0.0,,0.0,True
+2020-02-22,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,sunscreen,6919,43,29.492093023255816,2,591.52,0.006214770920653274,0.6858626284478097,0.046511627906976744,0.04985815022865806,20.056901337370675,False
+2020-02-22,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,sunscreen cream,102,1,21.48,0,0.0,0.00980392156862745,21.48,0.0,,0.0,True
+2020-02-22,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,sunscreen spf 50 aloe vera,2,2,25.44,0,0.0,1.0,12.72,0.0,,0.0,True
+2020-02-22,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,sunscreen spf 50 international brand,3,1,29.05,0,0.0,0.3333333333333333,29.05,0.0,,0.0,True
+2020-02-22,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,sunscreen spf 50 lakme,5,1,28.76,0,0.0,0.2,28.76,0.0,,0.0,True
+2020-02-22,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,sunstop sunscreen spf 50,63,1,29.95,0,0.0,0.015873015873015872,29.95,0.0,,0.0,True
+2020-02-22,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,uvedge sunscreen spf 50 gel,17,1,27.42,0,0.0,0.058823529411764705,27.42,0.0,,0.0,True
+2020-02-22,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,vlcc sunscreen spf 50,92,1,29.77,0,0.0,0.010869565217391304,29.77,0.0,,0.0,True
+2020-02-23,Hair Oil || SP || Generic || 21st feb'20,Hair Oil || SP || Generic || 21st feb'20,bhringraj oil,181,2,43.47,1,311.61,0.011049723756906077,21.735,0.5,0.13950129970155,7.168391994478951,False
+2020-02-23,Hair Oil || SP || Generic || 21st feb'20,Hair Oil || SP || Generic || 21st feb'20,bhringraj oil for hair,2370,1,29.46,0,0.0,0.0004219409282700422,29.46,0.0,,0.0,True
+2020-02-23,Hair Oil || SP || Generic || 21st feb'20,Hair Oil || SP || Generic || 21st feb'20,bhringraj oil for hair dabar,1,1,31.62,0,0.0,1.0,31.62,0.0,,0.0,True
+2020-02-23,Hair Oil || SP || Generic || 21st feb'20,Hair Oil || SP || Generic || 21st feb'20,hair oil,11151,9,71.3488888888889,0,0.0,0.0008071025020177562,7.927654320987655,0.0,,0.0,True
+2020-02-23,Hair Oil || SP || Generic || 21st feb'20,Hair Oil || SP || Generic || 21st feb'20,hair oils,770,3,57.153333333333336,0,0.0,0.003896103896103896,19.051111111111112,0.0,,0.0,True
+2020-02-23,Hair Oil || SP || Generic || 21st feb'20,Hair Oil || SP || Generic || 21st feb'20,on and on hair oil,751,2,63.945,0,0.0,0.002663115845539281,31.9725,0.0,,0.0,True
+2020-02-23,Hair Oil || SP || Generic || 21st feb'20,Hair Oil || SP || Generic || 21st feb'20,on&on hair oil,31,1,76.79,0,0.0,0.03225806451612903,76.79,0.0,,0.0,True
+2020-02-23,Hair Oil || SP || Generic || 21st feb'20,Hair Oil || SP || Generic || 21st feb'20,pure bhringraj oil for hair growth,11,1,58.96,0,0.0,0.09090909090909091,58.96,0.0,,0.0,True
+2020-02-23,Hair Oil || SP || Generic || 21st feb'20,Hair Oil || SP || Generic || 21st feb'20,vitamin e oil,471,1,28.36,0,0.0,0.0021231422505307855,28.36,0.0,,0.0,True
+2020-02-23,Hair Oil || SP|| Automatic || 17th Feb'20,Hair Oil || SP|| Automatic || 17th Feb'20,b07419xwnm,1,1,1.0,0,0.0,1.0,1.0,0.0,,0.0,True
+2020-02-23,Hair Oil || SP|| Automatic || 17th Feb'20,Hair Oil || SP|| Automatic || 17th Feb'20,b07dtbbthy,6,1,29.13,0,0.0,0.16666666666666666,29.13,0.0,,0.0,True
+2020-02-23,Hair Oil || SP|| Automatic || 17th Feb'20,Hair Oil || SP|| Automatic || 17th Feb'20,b07g8463ty,10,1,16.22,0,0.0,0.1,16.22,0.0,,0.0,True
+2020-02-23,Hair Oil || SP|| Automatic || 17th Feb'20,Hair Oil || SP|| Automatic || 17th Feb'20,b07h8j8s4g,2,1,25.67,0,0.0,0.5,25.67,0.0,,0.0,True
+2020-02-23,Hair Oil || SP|| Automatic || 17th Feb'20,Hair Oil || SP|| Automatic || 17th Feb'20,b07jlp5j13,243,1,29.19,0,0.0,0.00411522633744856,29.19,0.0,,0.0,True
+2020-02-23,Hair Oil || SP|| Automatic || 17th Feb'20,Hair Oil || SP|| Automatic || 17th Feb'20,b07rdnndxn,600,2,31.13,0,0.0,0.0033333333333333335,15.565,0.0,,0.0,True
+2020-02-23,Hair Oil || SP|| Automatic || 17th Feb'20,Hair Oil || SP|| Automatic || 17th Feb'20,b07t3f455t,34,1,27.99,0,0.0,0.029411764705882353,27.99,0.0,,0.0,True
+2020-02-23,Hair Oil || SP|| Automatic || 17th Feb'20,Hair Oil || SP|| Automatic || 17th Feb'20,b07y369ylh,142,1,27.99,0,0.0,0.007042253521126761,27.99,0.0,,0.0,True
+2020-02-23,Hair Oil || SP|| Automatic || 17th Feb'20,Hair Oil || SP|| Automatic || 17th Feb'20,b082x5h9ss,2,1,29.0,0,0.0,0.5,29.0,0.0,,0.0,True
+2020-02-23,Hair Oil || SP|| Automatic || 17th Feb'20,Hair Oil || SP|| Automatic || 17th Feb'20,b083qfy9nq,58,1,23.78,0,0.0,0.017241379310344827,23.78,0.0,,0.0,True
+2020-02-23,Hair Oil || SP|| Automatic || 17th Feb'20,Hair Oil || SP|| Automatic || 17th Feb'20,hair care,60,1,29.53,0,0.0,0.016666666666666666,29.53,0.0,,0.0,True
+2020-02-23,Hair Oil || SP|| Automatic || 17th Feb'20,Hair Oil || SP|| Automatic || 17th Feb'20,hair oil,2,1,29.89,0,0.0,0.5,29.89,0.0,,0.0,True
+2020-02-23,Night Cream || SP || Automatic || 22nd Nov'19,Night Cream || SP || Automatic || 22nd Nov'19,anti aging cream for women,270,1,38.64,0,0.0,0.003703703703703704,38.64,0.0,,0.0,True
+2020-02-23,Night Cream || SP || Automatic || 22nd Nov'19,Night Cream || SP || Automatic || 22nd Nov'19,anti wrinkles cream for women,36,1,40.0,0,0.0,0.027777777777777776,40.0,0.0,,0.0,True
+2020-02-23,Night Cream || SP || Automatic || 22nd Nov'19,Night Cream || SP || Automatic || 22nd Nov'19,b00enzt7pm,21,1,34.62,0,0.0,0.047619047619047616,34.62,0.0,,0.0,True
+2020-02-23,Night Cream || SP || Automatic || 22nd Nov'19,Night Cream || SP || Automatic || 22nd Nov'19,b07g8xfcr3,80,1,38.55,0,0.0,0.0125,38.55,0.0,,0.0,True
+2020-02-23,Night Cream || SP || Automatic || 22nd Nov'19,Night Cream || SP || Automatic || 22nd Nov'19,b07v24qsn1,42,1,35.69,0,0.0,0.023809523809523808,35.69,0.0,,0.0,True
+2020-02-23,Night Cream || SP || Automatic || 22nd Nov'19,Night Cream || SP || Automatic || 22nd Nov'19,cream for women,232,2,67.44,0,0.0,0.008620689655172414,33.72,0.0,,0.0,True
+2020-02-23,Night Cream || SP || Automatic || 22nd Nov'19,Night Cream || SP || Automatic || 22nd Nov'19,night cream for women,664,6,37.44833333333333,0,0.0,0.009036144578313253,6.241388888888888,0.0,,0.0,True
+2020-02-23,Night Cream || SP || Automatic || 22nd Nov'19,Night Cream || SP || Automatic || 22nd Nov'19,rich cream,4,1,38.06,0,0.0,0.25,38.06,0.0,,0.0,True
+2020-02-23,Night Cream || SP || Generic || 24th Nov'19,Night Cream || SP || Generic || 24th Nov'19,anti aging cream,97,1,40.44,0,0.0,0.010309278350515464,40.44,0.0,,0.0,True
+2020-02-23,Night Cream || SP || Generic || 24th Nov'19,Night Cream || SP || Generic || 24th Nov'19,night cream,1932,4,51.15,0,0.0,0.002070393374741201,12.7875,0.0,,0.0,True
+2020-02-23,Night Cream || SP || Generic || 24th Nov'19,Night Cream || SP || Generic || 24th Nov'19,nights cream,6,1,44.87,0,0.0,0.16666666666666666,44.87,0.0,,0.0,True
+2020-02-23,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,joint and muscle pain oil,9,1,102.23,0,0.0,0.1111111111111111,102.23,0.0,,0.0,True
+2020-02-23,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,muscles pain relief,8,1,26.81,0,0.0,0.125,26.81,0.0,,0.0,True
+2020-02-23,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,opigesic pain oil,13,1,37.42,0,0.0,0.07692307692307693,37.42,0.0,,0.0,True
+2020-02-23,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,pain relief oils,205,1,62.23,0,0.0,0.004878048780487805,62.23,0.0,,0.0,True
+2020-02-23,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,rhuval oil,15,2,1.975,1,605.36,0.13333333333333333,0.9875,0.5,0.0032625214748248977,306.5113924050633,False
+2020-02-23,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,rhuval oil for joint pain,7,2,7.59,2,605.36,0.2857142857142857,3.795,1.0,0.012537993920972644,79.75757575757576,False
+2020-02-23,Sunscreen || SP || Automatic || 22nd Nov'19,Sunscreen || SP || Automatic || 22nd Nov'19,b07r2d6k61,1,1,5.38,0,0.0,1.0,5.38,0.0,,0.0,True
+2020-02-23,Sunscreen || SP || Automatic || 22nd Nov'19,Sunscreen || SP || Automatic || 22nd Nov'19,uv sunscreen,2,1,16.47,0,0.0,0.5,16.47,0.0,,0.0,True
+2020-02-23,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,evver sunscreen,8,4,1.1125,1,295.76,0.5,0.278125,0.25,0.0037614958074114148,265.85168539325844,False
+2020-02-23,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,lakme sunscreen spf 50,589,2,23.86,0,0.0,0.003395585738539898,11.93,0.0,,0.0,True
+2020-02-23,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,lotus sunscreen spf 50 matte gel 50g,183,1,21.76,0,0.0,0.00546448087431694,21.76,0.0,,0.0,True
+2020-02-23,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,neutrogena sunscreen spf 50,219,1,25.46,0,0.0,0.0045662100456621,25.46,0.0,,0.0,True
+2020-02-23,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,nutrogena sunscreen spf 50,1095,1,29.74,0,0.0,0.0009132420091324201,29.74,0.0,,0.0,True
+2020-02-23,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,solasafe sunscreen spf 50 gel,774,1,6.0,0,0.0,0.0012919896640826874,6.0,0.0,,0.0,True
+2020-02-23,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,sunbless sunscreen spf 50 cream,12,1,30.43,0,0.0,0.08333333333333333,30.43,0.0,,0.0,True
+2020-02-23,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,sunscreen,9783,22,28.58636363636364,0,0.0,0.0022487989369314116,1.2993801652892563,0.0,,0.0,True
+2020-02-23,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,sunscreen spf 50,325,1,7.47,0,0.0,0.003076923076923077,7.47,0.0,,0.0,True
+2020-02-23,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,sunscreen spf 50 groviva,2,1,30.33,0,0.0,0.5,30.33,0.0,,0.0,True
+2020-02-23,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,sunscreens,601,1,29.28,0,0.0,0.0016638935108153079,29.28,0.0,,0.0,True
+2020-02-24,Hair Oil || SP || Generic || 21st feb'20,Hair Oil || SP || Generic || 21st feb'20,hair oil,3212,11,85.17,0,0.0,0.003424657534246575,7.742727272727273,0.0,,0.0,True
+2020-02-24,Hair Oil || SP || Generic || 21st feb'20,Hair Oil || SP || Generic || 21st feb'20,hair oils,5116,30,37.719,1,311.61,0.005863956215793589,1.2573,0.03333333333333333,0.12104553769134495,8.26135369442456,False
+2020-02-24,Hair Oil || SP || Generic || 21st feb'20,Hair Oil || SP || Generic || 21st feb'20,mamaearth bhringraj oil,1,1,72.46,0,0.0,1.0,72.46,0.0,,0.0,True
+2020-02-24,Hair Oil || SP|| Automatic || 17th Feb'20,Hair Oil || SP|| Automatic || 17th Feb'20,arandi oil,61,1,44.9,0,0.0,0.01639344262295082,44.9,0.0,,0.0,True
+2020-02-24,Hair Oil || SP|| Automatic || 17th Feb'20,Hair Oil || SP|| Automatic || 17th Feb'20,b07m9xqprn,9,1,37.82,0,0.0,0.1111111111111111,37.82,0.0,,0.0,True
+2020-02-24,Hair Oil || SP|| Automatic || 17th Feb'20,Hair Oil || SP|| Automatic || 17th Feb'20,brahmi oil,39,2,39.365,0,0.0,0.05128205128205128,19.6825,0.0,,0.0,True
+2020-02-24,Hair Oil || SP|| Automatic || 17th Feb'20,Hair Oil || SP|| Automatic || 17th Feb'20,hair oil,817,1,28.86,0,0.0,0.0012239902080783353,28.86,0.0,,0.0,True
+2020-02-24,Hair Oil || SP|| Automatic || 17th Feb'20,Hair Oil || SP|| Automatic || 17th Feb'20,hair oil for dandruff,8,1,41.55,0,0.0,0.125,41.55,0.0,,0.0,True
+2020-02-24,Hair Oil || SP|| Automatic || 17th Feb'20,Hair Oil || SP|| Automatic || 17th Feb'20,hair oil for hair fall,9,1,46.61,0,0.0,0.1111111111111111,46.61,0.0,,0.0,True
+2020-02-24,Night Cream || SP || Automatic || 22nd Nov'19,Night Cream || SP || Automatic || 22nd Nov'19,anti aging cream for women,352,3,28.28,0,0.0,0.008522727272727272,9.426666666666668,0.0,,0.0,True
+2020-02-24,Night Cream || SP || Automatic || 22nd Nov'19,Night Cream || SP || Automatic || 22nd Nov'19,anti wrinkle,12,1,59.59,0,0.0,0.08333333333333333,59.59,0.0,,0.0,True
+2020-02-24,Night Cream || SP || Automatic || 22nd Nov'19,Night Cream || SP || Automatic || 22nd Nov'19,night cream for women,908,3,53.55,0,0.0,0.003303964757709251,17.849999999999998,0.0,,0.0,True
+2020-02-24,Night Cream || SP || Automatic || 22nd Nov'19,Night Cream || SP || Automatic || 22nd Nov'19,saffron oil,43,1,18.01,0,0.0,0.023255813953488372,18.01,0.0,,0.0,True
+2020-02-24,Night Cream || SP || Automatic || 22nd Nov'19,Night Cream || SP || Automatic || 22nd Nov'19,wrinkle cream,20,1,39.86,0,0.0,0.05,39.86,0.0,,0.0,True
+2020-02-24,Night Cream || SP || Generic || 24th Nov'19,Night Cream || SP || Generic || 24th Nov'19,anti aging cream,147,1,36.84,0,0.0,0.006802721088435374,36.84,0.0,,0.0,True
+2020-02-24,Night Cream || SP || Generic || 24th Nov'19,Night Cream || SP || Generic || 24th Nov'19,night cream,1980,5,47.796,0,0.0,0.0025252525252525255,9.5592,0.0,,0.0,True
+2020-02-24,Night Cream || SP || Generic || 24th Nov'19,Night Cream || SP || Generic || 24th Nov'19,night creams,371,2,37.54,0,0.0,0.005390835579514825,18.77,0.0,,0.0,True
+2020-02-24,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,arogyam knee oil,1,1,35.55,0,0.0,1.0,35.55,0.0,,0.0,True
+2020-02-24,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,back pain oils,59,1,60.0,0,0.0,0.01694915254237288,60.0,0.0,,0.0,True
+2020-02-24,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,extreme pain oil,1,1,40.77,0,0.0,1.0,40.77,0.0,,0.0,True
+2020-02-24,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,joint and muscle pain ointment,1,1,19.65,0,0.0,1.0,19.65,0.0,,0.0,True
+2020-02-24,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,dr.ortho oil for joint pain,6,1,26.63,0,0.0,0.16666666666666666,26.63,0.0,,0.0,True
+2020-02-24,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,rhuval oil,16,2,1.26,1,302.68,0.125,0.63,0.5,0.004162812210915819,240.22222222222223,False
+2020-02-24,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,rhuval oil for joint pain,3,1,9.42,0,0.0,0.3333333333333333,9.42,0.0,,0.0,True
+2020-02-24,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,stretch oil joint pain relief oil,12,1,22.41,0,0.0,0.08333333333333333,22.41,0.0,,0.0,True
+2020-02-24,Sunscreen || SP || Automatic || 22nd Nov'19,Sunscreen || SP || Automatic || 22nd Nov'19,mens sunscreen,4,1,10.62,0,0.0,0.25,10.62,0.0,,0.0,True
+2020-02-24,Sunscreen || SP || Automatic || 22nd Nov'19,Sunscreen || SP || Automatic || 22nd Nov'19,sunscreen lotion,16,1,10.72,0,0.0,0.0625,10.72,0.0,,0.0,True
+2020-02-24,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,evver uv guard,2,2,1.095,0,0.0,1.0,0.5475,0.0,,0.0,True
+2020-02-24,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,keya seth sunscreen spf 50,6,1,26.93,0,0.0,0.16666666666666666,26.93,0.0,,0.0,True
+2020-02-24,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,lotus sunscreen spf 50,150,1,21.07,0,0.0,0.006666666666666667,21.07,0.0,,0.0,True
+2020-02-24,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,lotus sunscreen spf 50 matte gel 50g,188,1,21.0,0,0.0,0.005319148936170213,21.0,0.0,,0.0,True
+2020-02-24,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,medicated sunscreen spf 50,14,1,29.72,0,0.0,0.07142857142857142,29.72,0.0,,0.0,True
+2020-02-24,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,skinaffairs sunscreen spf 50,9,1,29.54,0,0.0,0.1111111111111111,29.54,0.0,,0.0,True
+2020-02-24,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,spf 50,105,1,33.64,0,0.0,0.009523809523809525,33.64,0.0,,0.0,True
+2020-02-24,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,sunscreen,9863,9,27.274444444444445,0,0.0,0.0009125012673628713,3.0304938271604938,0.0,,0.0,True
+2020-02-24,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,sunscreen spf 50 for dry skin,13,1,26.88,0,0.0,0.07692307692307693,26.88,0.0,,0.0,True
+2020-02-24,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,sunscreen spf 50 for women,38,1,29.36,0,0.0,0.02631578947368421,29.36,0.0,,0.0,True
+2020-02-24,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,sunscreen spf 50 uva/ uvb,1,1,29.28,1,295.76,1.0,29.28,1.0,0.09899918853124155,10.101092896174862,False
+2020-02-24,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,sunscreen spf 50 waterproof 8 our protection,1,1,23.84,1,295.76,1.0,23.84,1.0,0.08060589667297809,12.406040268456376,False
+2020-02-24,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,sunscreens,474,1,11.92,0,0.0,0.002109704641350211,11.92,0.0,,0.0,True
+2020-02-25,Hair Oil || SP || Generic || 21st feb'20,Hair Oil || SP || Generic || 21st feb'20,bhringraj oil for hair,1079,6,53.295,0,0.0,0.005560704355885079,8.8825,0.0,,0.0,True
+2020-02-25,Hair Oil || SP || Generic || 21st feb'20,Hair Oil || SP || Generic || 21st feb'20,bhringraj oil for hair growth,17,1,44.75,0,0.0,0.058823529411764705,44.75,0.0,,0.0,True
+2020-02-25,Hair Oil || SP || Generic || 21st feb'20,Hair Oil || SP || Generic || 21st feb'20,hair oil,5974,18,64.13555555555556,0,0.0,0.003013056578506863,3.5630864197530863,0.0,,0.0,True
+2020-02-25,Hair Oil || SP || Generic || 21st feb'20,Hair Oil || SP || Generic || 21st feb'20,hair oils,2853,15,39.244,0,0.0,0.005257623554153523,2.6162666666666667,0.0,,0.0,True
+2020-02-25,Hair Oil || SP || Generic || 21st feb'20,Hair Oil || SP || Generic || 21st feb'20,on&on hair oil,61,1,50.49,0,0.0,0.01639344262295082,50.49,0.0,,0.0,True
+2020-02-25,Hair Oil || SP || Generic || 21st feb'20,Hair Oil || SP || Generic || 21st feb'20,vitamin e oil,342,1,26.48,0,0.0,0.0029239766081871343,26.48,0.0,,0.0,True
+2020-02-25,Hair Oil || SP || Generic || 21st feb'20,Hair Oil || SP || Generic || 21st feb'20,vitamin e oil for hair,52,1,29.95,0,0.0,0.019230769230769232,29.95,0.0,,0.0,True
+2020-02-25,Hair Oil || SP|| Automatic || 17th Feb'20,Hair Oil || SP|| Automatic || 17th Feb'20,b01mtclxi4,38,1,26.24,0,0.0,0.02631578947368421,26.24,0.0,,0.0,True
+2020-02-25,Hair Oil || SP|| Automatic || 17th Feb'20,Hair Oil || SP|| Automatic || 17th Feb'20,b07b7nsllp,101,1,24.71,0,0.0,0.009900990099009901,24.71,0.0,,0.0,True
+2020-02-25,Hair Oil || SP|| Automatic || 17th Feb'20,Hair Oil || SP|| Automatic || 17th Feb'20,b07dtmf8sc,17,1,19.78,0,0.0,0.058823529411764705,19.78,0.0,,0.0,True
+2020-02-25,Hair Oil || SP|| Automatic || 17th Feb'20,Hair Oil || SP|| Automatic || 17th Feb'20,b07pv5v8dy,64,1,25.51,0,0.0,0.015625,25.51,0.0,,0.0,True
+2020-02-25,Hair Oil || SP|| Automatic || 17th Feb'20,Hair Oil || SP|| Automatic || 17th Feb'20,b07pxtjgnv,17,1,21.58,0,0.0,0.058823529411764705,21.58,0.0,,0.0,True
+2020-02-25,Hair Oil || SP|| Automatic || 17th Feb'20,Hair Oil || SP|| Automatic || 17th Feb'20,b07xz8w1jy,2,1,29.33,0,0.0,0.5,29.33,0.0,,0.0,True
+2020-02-25,Hair Oil || SP|| Automatic || 17th Feb'20,Hair Oil || SP|| Automatic || 17th Feb'20,b0835584rp,31,1,12.65,0,0.0,0.03225806451612903,12.65,0.0,,0.0,True
+2020-02-25,Hair Oil || SP|| Automatic || 17th Feb'20,Hair Oil || SP|| Automatic || 17th Feb'20,bhringraj oil for hair,317,4,41.685,0,0.0,0.012618296529968454,10.42125,0.0,,0.0,True
+2020-02-25,Hair Oil || SP|| Automatic || 17th Feb'20,Hair Oil || SP|| Automatic || 17th Feb'20,evver hair oil,1,1,14.33,0,0.0,1.0,14.33,0.0,,0.0,True
+2020-02-25,Hair Oil || SP|| Automatic || 17th Feb'20,Hair Oil || SP|| Automatic || 17th Feb'20,hair bhringraj oil,4,1,27.85,0,0.0,0.25,27.85,0.0,,0.0,True
+2020-02-25,Hair Oil || SP|| Automatic || 17th Feb'20,Hair Oil || SP|| Automatic || 17th Feb'20,hair fall oil,65,4,31.6025,0,0.0,0.06153846153846154,7.900625,0.0,,0.0,True
+2020-02-25,Hair Oil || SP|| Automatic || 17th Feb'20,Hair Oil || SP|| Automatic || 17th Feb'20,hair oil,576,1,27.46,0,0.0,0.001736111111111111,27.46,0.0,,0.0,True
+2020-02-25,Hair Oil || SP|| Automatic || 17th Feb'20,Hair Oil || SP|| Automatic || 17th Feb'20,oil for hair fall and dandruff,5,1,24.65,0,0.0,0.2,24.65,0.0,,0.0,True
+2020-02-25,Hair Oil || SP|| Automatic || 17th Feb'20,Hair Oil || SP|| Automatic || 17th Feb'20,vitamin a hair oil,12,2,30.42,0,0.0,0.16666666666666666,15.21,0.0,,0.0,True
+2020-02-25,Hair Oil || SP|| Automatic || 17th Feb'20,Hair Oil || SP|| Automatic || 17th Feb'20,vitamin a oil,9,1,31.82,0,0.0,0.1111111111111111,31.82,0.0,,0.0,True
+2020-02-25,Hair Oil || SP|| Automatic || 17th Feb'20,Hair Oil || SP|| Automatic || 17th Feb'20,vitamin e hair oil,25,1,28.4,0,0.0,0.04,28.4,0.0,,0.0,True
+2020-02-25,Hair Oil || SP|| Automatic || 17th Feb'20,Hair Oil || SP|| Automatic || 17th Feb'20,vitamin e oil for hair,17,1,31.35,0,0.0,0.058823529411764705,31.35,0.0,,0.0,True
+2020-02-25,Hair Oil || SP|| Automatic || 17th Feb'20,Hair Oil || SP|| Automatic || 17th Feb'20,with white,1,1,6.18,0,0.0,1.0,6.18,0.0,,0.0,True
+2020-02-25,Night Cream || SP || Automatic || 22nd Nov'19,Night Cream || SP || Automatic || 22nd Nov'19,anti aging cream for women,274,1,25.35,0,0.0,0.0036496350364963502,25.35,0.0,,0.0,True
+2020-02-25,Night Cream || SP || Automatic || 22nd Nov'19,Night Cream || SP || Automatic || 22nd Nov'19,b00s4r0mgi,21,1,5.03,0,0.0,0.047619047619047616,5.03,0.0,,0.0,True
+2020-02-25,Night Cream || SP || Automatic || 22nd Nov'19,Night Cream || SP || Automatic || 22nd Nov'19,b01c42i1qg,50,1,23.03,0,0.0,0.02,23.03,0.0,,0.0,True
+2020-02-25,Night Cream || SP || Automatic || 22nd Nov'19,Night Cream || SP || Automatic || 22nd Nov'19,b07kyphqzs,18,1,29.26,0,0.0,0.05555555555555555,29.26,0.0,,0.0,True
+2020-02-25,Night Cream || SP || Automatic || 22nd Nov'19,Night Cream || SP || Automatic || 22nd Nov'19,b07pvq5q8z,46,1,17.31,0,0.0,0.021739130434782608,17.31,0.0,,0.0,True
+2020-02-25,Night Cream || SP || Automatic || 22nd Nov'19,Night Cream || SP || Automatic || 22nd Nov'19,b07rw5vqly,20,1,45.4,0,0.0,0.05,45.4,0.0,,0.0,True
+2020-02-25,Night Cream || SP || Automatic || 22nd Nov'19,Night Cream || SP || Automatic || 22nd Nov'19,beauty cream for women,72,1,12.99,0,0.0,0.013888888888888888,12.99,0.0,,0.0,True
+2020-02-25,Night Cream || SP || Automatic || 22nd Nov'19,Night Cream || SP || Automatic || 22nd Nov'19,cream for women,295,1,17.86,0,0.0,0.003389830508474576,17.86,0.0,,0.0,True
+2020-02-25,Night Cream || SP || Automatic || 22nd Nov'19,Night Cream || SP || Automatic || 22nd Nov'19,night cream for women,318,3,47.653333333333336,0,0.0,0.009433962264150943,15.884444444444446,0.0,,0.0,True
+2020-02-25,Night Cream || SP || Generic || 24th Nov'19,Night Cream || SP || Generic || 24th Nov'19,anti aging night cream,71,1,16.96,0,0.0,0.014084507042253521,16.96,0.0,,0.0,True
+2020-02-25,Night Cream || SP || Generic || 24th Nov'19,Night Cream || SP || Generic || 24th Nov'19,anti- aging cream,4,1,10.66,0,0.0,0.25,10.66,0.0,,0.0,True
+2020-02-25,Night Cream || SP || Generic || 24th Nov'19,Night Cream || SP || Generic || 24th Nov'19,evver night cream,1,1,69.95,0,0.0,1.0,69.95,0.0,,0.0,True
+2020-02-25,Night Cream || SP || Generic || 24th Nov'19,Night Cream || SP || Generic || 24th Nov'19,night cream,1295,5,34.624,0,0.0,0.003861003861003861,6.9248,0.0,,0.0,True
+2020-02-25,Night Cream || SP || Generic || 24th Nov'19,Night Cream || SP || Generic || 24th Nov'19,night creams,969,3,22.59,0,0.0,0.0030959752321981426,7.53,0.0,,0.0,True
+2020-02-25,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,dr ortho oil,582,1,10.84,0,0.0,0.001718213058419244,10.84,0.0,,0.0,True
+2020-02-25,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,pain relief oils,311,1,55.5,0,0.0,0.003215434083601286,55.5,0.0,,0.0,True
+2020-02-25,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,safe shop joint pain oil 100ml,2,1,77.49,0,0.0,0.5,77.49,0.0,,0.0,True
+2020-02-25,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,massage oil for joint pain relief,1,1,36.45,0,0.0,1.0,36.45,0.0,,0.0,True
+2020-02-25,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,rhuval oil,55,11,1.7945454545454544,1,302.68,0.2,0.16314049586776858,0.09090909090909091,0.005928853754940711,168.66666666666669,False
+2020-02-25,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,rhuval oil for joint pain,15,4,6.93,0,0.0,0.26666666666666666,1.7325,0.0,,0.0,True
+2020-02-25,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,wintergreen oil for joint pain,5,1,37.29,0,0.0,0.2,37.29,0.0,,0.0,True
+2020-02-25,Sunscreen || SP || Automatic || 22nd Nov'19,Sunscreen || SP || Automatic || 22nd Nov'19,b078x8fx9g,3,1,1.21,0,0.0,0.3333333333333333,1.21,0.0,,0.0,True
+2020-02-25,Sunscreen || SP || Automatic || 22nd Nov'19,Sunscreen || SP || Automatic || 22nd Nov'19,b07vp5jfrb,3,1,4.02,0,0.0,0.3333333333333333,4.02,0.0,,0.0,True
+2020-02-25,Sunscreen || SP || Automatic || 22nd Nov'19,Sunscreen || SP || Automatic || 22nd Nov'19,sunscreen lotion,73,1,15.3,0,0.0,0.0136986301369863,15.3,0.0,,0.0,True
+2020-02-25,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,aroma magic sunscreen spf 50,77,1,30.33,0,0.0,0.012987012987012988,30.33,0.0,,0.0,True
+2020-02-25,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,avene sunscreen spf 50,176,1,23.82,0,0.0,0.005681818181818182,23.82,0.0,,0.0,True
+2020-02-25,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,avon sunscreen spf 50,47,1,25.58,0,0.0,0.02127659574468085,25.58,0.0,,0.0,True
+2020-02-25,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,cetaphil sunscreen spf 50,259,1,26.07,0,0.0,0.003861003861003861,26.07,0.0,,0.0,True
+2020-02-25,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,clinique sunscreen spf 50,40,1,25.74,0,0.0,0.025,25.74,0.0,,0.0,True
+2020-02-25,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,derma sunscreen spf 50,18,1,28.81,0,0.0,0.05555555555555555,28.81,0.0,,0.0,True
+2020-02-25,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,evver uv guard,1,1,1.0,0,0.0,1.0,1.0,0.0,,0.0,True
+2020-02-25,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,greenberry organic sunscreen spf 50,6,1,29.84,0,0.0,0.16666666666666666,29.84,0.0,,0.0,True
+2020-02-25,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,khadi sunscreen spf 50,68,1,29.7,0,0.0,0.014705882352941176,29.7,0.0,,0.0,True
+2020-02-25,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,lass naturals sunscreen spf 50,2,1,25.8,0,0.0,0.5,25.8,0.0,,0.0,True
+2020-02-25,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,lotus sunscreen spf 50 matte gel 50g,222,1,27.24,0,0.0,0.0045045045045045045,27.24,0.0,,0.0,True
+2020-02-25,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,mamaearth sunscreen spf 50,248,1,28.31,0,0.0,0.004032258064516129,28.31,0.0,,0.0,True
+2020-02-25,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,medicated sunscreen spf 50,9,1,22.65,0,0.0,0.1111111111111111,22.65,0.0,,0.0,True
+2020-02-25,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,oriflame sunscreen spf 50,32,1,20.22,0,0.0,0.03125,20.22,0.0,,0.0,True
+2020-02-25,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,solasafe sunscreen spf 50,658,3,27.82333333333333,0,0.0,0.004559270516717325,9.274444444444443,0.0,,0.0,True
+2020-02-25,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,solasafe sunscreen spf 50 gel,794,1,18.15,0,0.0,0.0012594458438287153,18.15,0.0,,0.0,True
+2020-02-25,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,sunscreen,12050,25,25.7168,0,0.0,0.002074688796680498,1.028672,0.0,,0.0,True
+2020-02-25,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,sunscreen spf 50 for women,25,1,25.04,0,0.0,0.04,25.04,0.0,,0.0,True
+2020-02-25,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,vlcc sunscreen spf 50,210,1,23.19,0,0.0,0.004761904761904762,23.19,0.0,,0.0,True
+2020-02-26,Hair Oil || SP || Generic || 21st feb'20,Hair Oil || SP || Generic || 21st feb'20,bhringraj oil for hair,1237,8,46.23625,0,0.0,0.0064672594987873885,5.77953125,0.0,,0.0,True
+2020-02-26,Hair Oil || SP || Generic || 21st feb'20,Hair Oil || SP || Generic || 21st feb'20,hair oil,5329,21,61.35809523809524,0,0.0,0.003940701820228936,2.921814058956916,0.0,,0.0,True
+2020-02-26,Hair Oil || SP || Generic || 21st feb'20,Hair Oil || SP || Generic || 21st feb'20,hair oils,2021,6,45.83833333333333,0,0.0,0.0029688273132112814,7.639722222222222,0.0,,0.0,True
+2020-02-26,Hair Oil || SP || Generic || 21st feb'20,Hair Oil || SP || Generic || 21st feb'20,khadi bhringraj oil for hair growth,10,1,25.95,0,0.0,0.1,25.95,0.0,,0.0,True
+2020-02-26,Hair Oil || SP || Generic || 21st feb'20,Hair Oil || SP || Generic || 21st feb'20,on & on bhringraj hair oil,3,1,34.34,0,0.0,0.3333333333333333,34.34,0.0,,0.0,True
+2020-02-26,Hair Oil || SP || Generic || 21st feb'20,Hair Oil || SP || Generic || 21st feb'20,on in on hair oil,6,1,55.69,0,0.0,0.16666666666666666,55.69,0.0,,0.0,True
+2020-02-26,Hair Oil || SP || Generic || 21st feb'20,Hair Oil || SP || Generic || 21st feb'20,sri sri bhringraj hair oil,2,1,21.28,0,0.0,0.5,21.28,0.0,,0.0,True
+2020-02-26,Hair Oil || SP || Generic || 21st feb'20,Hair Oil || SP || Generic || 21st feb'20,vitamin e oil for hair,51,1,26.89,0,0.0,0.0196078431372549,26.89,0.0,,0.0,True
+2020-02-26,Hair Oil || SP|| Automatic || 17th Feb'20,Hair Oil || SP|| Automatic || 17th Feb'20,b00zty85bi,3,1,27.8,0,0.0,0.3333333333333333,27.8,0.0,,0.0,True
+2020-02-26,Hair Oil || SP|| Automatic || 17th Feb'20,Hair Oil || SP|| Automatic || 17th Feb'20,b07t9sjyl6,103,1,26.87,0,0.0,0.009708737864077669,26.87,0.0,,0.0,True
+2020-02-26,Hair Oil || SP|| Automatic || 17th Feb'20,Hair Oil || SP|| Automatic || 17th Feb'20,brahmi oil,60,2,27.475,0,0.0,0.03333333333333333,13.7375,0.0,,0.0,True
+2020-02-26,Hair Oil || SP|| Automatic || 17th Feb'20,Hair Oil || SP|| Automatic || 17th Feb'20,hair care,140,1,43.26,0,0.0,0.007142857142857143,43.26,0.0,,0.0,True
+2020-02-26,Hair Oil || SP|| Automatic || 17th Feb'20,Hair Oil || SP|| Automatic || 17th Feb'20,hair fall oil,95,1,46.03,0,0.0,0.010526315789473684,46.03,0.0,,0.0,True
+2020-02-26,Hair Oil || SP|| Automatic || 17th Feb'20,Hair Oil || SP|| Automatic || 17th Feb'20,hair oil to prevent hair fall,3,1,25.65,0,0.0,0.3333333333333333,25.65,0.0,,0.0,True
+2020-02-26,Hair Oil || SP|| Automatic || 17th Feb'20,Hair Oil || SP|| Automatic || 17th Feb'20,oil for dandruff and hair fall,5,1,29.24,0,0.0,0.2,29.24,0.0,,0.0,True
+2020-02-26,Hair Oil || SP|| Automatic || 17th Feb'20,Hair Oil || SP|| Automatic || 17th Feb'20,on &on hair fall oil,2,1,40.07,0,0.0,0.5,40.07,0.0,,0.0,True
+2020-02-26,Hair Oil || SP|| Automatic || 17th Feb'20,Hair Oil || SP|| Automatic || 17th Feb'20,vitamin a oil,8,1,27.98,0,0.0,0.125,27.98,0.0,,0.0,True
+2020-02-26,Night Cream || SP || Automatic || 22nd Nov'19,Night Cream || SP || Automatic || 22nd Nov'19,b07nql1n1h,5,1,16.7,0,0.0,0.2,16.7,0.0,,0.0,True
+2020-02-26,Night Cream || SP || Automatic || 22nd Nov'19,Night Cream || SP || Automatic || 22nd Nov'19,cream for women,197,1,17.4,0,0.0,0.005076142131979695,17.4,0.0,,0.0,True
+2020-02-26,Night Cream || SP || Generic || 24th Nov'19,Night Cream || SP || Generic || 24th Nov'19,anti aging cream,62,1,32.84,0,0.0,0.016129032258064516,32.84,0.0,,0.0,True
+2020-02-26,Night Cream || SP || Generic || 24th Nov'19,Night Cream || SP || Generic || 24th Nov'19,evver night cream,3,1,73.62,0,0.0,0.3333333333333333,73.62,0.0,,0.0,True
+2020-02-26,Night Cream || SP || Generic || 24th Nov'19,Night Cream || SP || Generic || 24th Nov'19,night creams,373,1,9.32,0,0.0,0.002680965147453083,9.32,0.0,,0.0,True
+2020-02-26,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,back pain oils,72,1,26.95,0,0.0,0.013888888888888888,26.95,0.0,,0.0,True
+2020-02-26,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,body pain oil,6,1,24.2,0,0.0,0.16666666666666666,24.2,0.0,,0.0,True
+2020-02-26,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,old pain oil,1,1,9.52,0,0.0,1.0,9.52,0.0,,0.0,True
+2020-02-26,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,joint pain relief medicines,1,1,31.96,0,0.0,1.0,31.96,0.0,,0.0,True
+2020-02-26,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,rhuval oil,29,10,1.402,2,605.36,0.3448275862068966,0.1402,0.2,0.0023159772697238005,431.7831669044223,False
+2020-02-26,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,rhuval oil for joint pain,3,2,3.105,0,0.0,0.6666666666666666,1.5525,0.0,,0.0,True
+2020-02-26,Sunscreen || SP || Automatic || 22nd Nov'19,Sunscreen || SP || Automatic || 22nd Nov'19,sunscreen lotion,62,1,10.66,0,0.0,0.016129032258064516,10.66,0.0,,0.0,True
+2020-02-26,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,biotique sandalwood sunscreen spf 50,17,1,20.32,0,0.0,0.058823529411764705,20.32,0.0,,0.0,True
+2020-02-26,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,biotique sunscreen spf 50 sandalwood,67,1,25.53,0,0.0,0.014925373134328358,25.53,0.0,,0.0,True
+2020-02-26,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,cetaphil sunscreen spf 50,211,2,25.925,0,0.0,0.009478672985781991,12.9625,0.0,,0.0,True
+2020-02-26,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,evver sunscreen,2,2,1.155,1,295.76,1.0,0.5775,0.5,0.0039051934000540983,256.0692640692641,False
+2020-02-26,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,good vibes sunscreen spf 50,31,1,30.61,0,0.0,0.03225806451612903,30.61,0.0,,0.0,True
+2020-02-26,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,khadi sunscreen spf 50 pa+++,5,1,22.58,0,0.0,0.2,22.58,0.0,,0.0,True
+2020-02-26,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,lotus sunscreen spf 50 matte gel 50g,255,1,21.09,0,0.0,0.00392156862745098,21.09,0.0,,0.0,True
+2020-02-26,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,mamaearth sunscreen spf 50,213,2,23.41,0,0.0,0.009389671361502348,11.705,0.0,,0.0,True
+2020-02-26,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,neutrogena sunscreen spf 50,283,3,23.25,0,0.0,0.01060070671378092,7.75,0.0,,0.0,True
+2020-02-26,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,physical sunscreen spf 50,2,1,23.26,1,295.76,0.5,23.26,1.0,0.07864484717338384,12.715391229578675,False
+2020-02-26,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,plum sunscreen spf 50,57,1,24.25,0,0.0,0.017543859649122806,24.25,0.0,,0.0,True
+2020-02-26,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,reef sunscreen spf 50,4,1,29.49,0,0.0,0.25,29.49,0.0,,0.0,True
+2020-02-26,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,solasafe sunscreen spf 50 gel,750,2,16.76,0,0.0,0.0026666666666666666,8.38,0.0,,0.0,True
+2020-02-26,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,sunblock sunscreen spf 50,2,1,27.38,0,0.0,0.5,27.38,0.0,,0.0,True
+2020-02-26,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,sungrace sunscreen spf 50,7,1,20.55,0,0.0,0.14285714285714285,20.55,0.0,,0.0,True
+2020-02-26,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,sunscreen,9744,16,28.095,1,295.76,0.0016420361247947454,1.7559375,0.0625,0.09499256153638085,10.527140060508987,False
+2020-02-26,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,uv doux sunscreen spf 50,25,1,29.0,0,0.0,0.04,29.0,0.0,,0.0,True
+2020-02-26,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,vichy sunscreen spf 50,21,1,28.4,0,0.0,0.047619047619047616,28.4,0.0,,0.0,True
+2020-02-26,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,waterproof sunscreen spf 50,4,1,22.56,0,0.0,0.25,22.56,0.0,,0.0,True
+2020-02-27,Hair Oil || SP || Generic || 21st feb'20,Hair Oil || SP || Generic || 21st feb'20,bhringraj hair oil,244,1,37.98,0,0.0,0.004098360655737705,37.98,0.0,,0.0,True
+2020-02-27,Hair Oil || SP || Generic || 21st feb'20,Hair Oil || SP || Generic || 21st feb'20,bhringraj oil for hair,796,1,39.63,0,0.0,0.001256281407035176,39.63,0.0,,0.0,True
+2020-02-27,Hair Oil || SP || Generic || 21st feb'20,Hair Oil || SP || Generic || 21st feb'20,bhringraj oil for hair growth,46,1,99.21,0,0.0,0.021739130434782608,99.21,0.0,,0.0,True
+2020-02-27,Hair Oil || SP || Generic || 21st feb'20,Hair Oil || SP || Generic || 21st feb'20,brahmi bhringraj oil,3,1,59.53,0,0.0,0.3333333333333333,59.53,0.0,,0.0,True
+2020-02-27,Hair Oil || SP || Generic || 21st feb'20,Hair Oil || SP || Generic || 21st feb'20,dabur bhringraj oil for hair,12,1,37.08,0,0.0,0.08333333333333333,37.08,0.0,,0.0,True
+2020-02-27,Hair Oil || SP || Generic || 21st feb'20,Hair Oil || SP || Generic || 21st feb'20,hair oil,4792,24,54.53083333333333,1,311.61,0.005008347245409015,2.272118055555555,0.041666666666666664,0.1749970582886728,5.714381771780492,False
+2020-02-27,Hair Oil || SP || Generic || 21st feb'20,Hair Oil || SP || Generic || 21st feb'20,hair oils,1255,3,40.18,0,0.0,0.002390438247011952,13.393333333333333,0.0,,0.0,True
+2020-02-27,Hair Oil || SP || Generic || 21st feb'20,Hair Oil || SP || Generic || 21st feb'20,on and on hair oil,569,2,57.72,0,0.0,0.0035149384885764497,28.86,0.0,,0.0,True
+2020-02-27,Hair Oil || SP || Generic || 21st feb'20,Hair Oil || SP || Generic || 21st feb'20,organic bhringraj hair oil,3,1,61.6,0,0.0,0.3333333333333333,61.6,0.0,,0.0,True
+2020-02-27,Hair Oil || SP|| Automatic || 17th Feb'20,Hair Oil || SP|| Automatic || 17th Feb'20,scalp oil,7,1,37.11,0,0.0,0.14285714285714285,37.11,0.0,,0.0,True
+2020-02-27,Hair Oil || SP|| Automatic || 17th Feb'20,Hair Oil || SP|| Automatic || 17th Feb'20,white hair,12,1,43.97,0,0.0,0.08333333333333333,43.97,0.0,,0.0,True
+2020-02-27,Night Cream || SP || Automatic || 22nd Nov'19,Night Cream || SP || Automatic || 22nd Nov'19,anti aging cream for women,136,2,17.605,0,0.0,0.014705882352941176,8.8025,0.0,,0.0,True
+2020-02-27,Night Cream || SP || Automatic || 22nd Nov'19,Night Cream || SP || Automatic || 22nd Nov'19,b01d1ge7m6,1,1,29.8,0,0.0,1.0,29.8,0.0,,0.0,True
+2020-02-27,Night Cream || SP || Automatic || 22nd Nov'19,Night Cream || SP || Automatic || 22nd Nov'19,b0791ktxbp,2,1,29.5,0,0.0,0.5,29.5,0.0,,0.0,True
+2020-02-27,Night Cream || SP || Automatic || 22nd Nov'19,Night Cream || SP || Automatic || 22nd Nov'19,creams for women,4,1,19.45,0,0.0,0.25,19.45,0.0,,0.0,True
+2020-02-27,Night Cream || SP || Automatic || 22nd Nov'19,Night Cream || SP || Automatic || 22nd Nov'19,night cream for women,98,3,17.99,0,0.0,0.030612244897959183,5.996666666666666,0.0,,0.0,True
+2020-02-27,Night Cream || SP || Automatic || 22nd Nov'19,Night Cream || SP || Automatic || 22nd Nov'19,night cream in women,1,1,5.97,0,0.0,1.0,5.97,0.0,,0.0,True
+2020-02-27,Night Cream || SP || Generic || 24th Nov'19,Night Cream || SP || Generic || 24th Nov'19,anti aging creams,88,1,27.85,0,0.0,0.011363636363636364,27.85,0.0,,0.0,True
+2020-02-27,Night Cream || SP || Generic || 24th Nov'19,Night Cream || SP || Generic || 24th Nov'19,anti-aging creams,18,1,61.34,0,0.0,0.05555555555555555,61.34,0.0,,0.0,True
+2020-02-27,Night Cream || SP || Generic || 24th Nov'19,Night Cream || SP || Generic || 24th Nov'19,evver night cream,3,1,58.62,0,0.0,0.3333333333333333,58.62,0.0,,0.0,True
+2020-02-27,Night Cream || SP || Generic || 24th Nov'19,Night Cream || SP || Generic || 24th Nov'19,night creams,387,1,37.89,0,0.0,0.002583979328165375,37.89,0.0,,0.0,True
+2020-02-27,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Pain Relief Oil || SP || Automatic || 22nd Nov'19,b0182i1coy,3,1,13.79,0,0.0,0.3333333333333333,13.79,0.0,,0.0,True
+2020-02-27,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Pain Relief Oil || SP || Automatic || 22nd Nov'19,pain relief,53,1,7.41,0,0.0,0.018867924528301886,7.41,0.0,,0.0,True
+2020-02-27,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,body pain oil,7,1,67.57,0,0.0,0.14285714285714285,67.57,0.0,,0.0,True
+2020-02-27,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,pain relief oil,19,1,25.27,0,0.0,0.05263157894736842,25.27,0.0,,0.0,True
+2020-02-27,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,massage oil for joint pain,5,1,40.27,0,0.0,0.2,40.27,0.0,,0.0,True
+2020-02-27,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,osteoarthritis knee pain relief,2,1,25.26,1,302.68,0.5,25.26,1.0,0.08345447337121713,11.98258115597783,False
+2020-02-27,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,rhuval oil,26,9,1.9811111111111108,2,605.36,0.34615384615384615,0.22012345679012343,0.2222222222222222,0.0032726164779818797,305.5659001682558,False
+2020-02-27,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,rhuval oil for joint pain,12,5,10.322,0,0.0,0.4166666666666667,2.0644,0.0,,0.0,True
+2020-02-27,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,wintergreen oil for joint pain,10,1,11.24,0,0.0,0.1,11.24,0.0,,0.0,True
+2020-02-27,Sunscreen || SP || Automatic || 22nd Nov'19,Sunscreen || SP || Automatic || 22nd Nov'19,uv sunscreen,2,1,16.1,0,0.0,0.5,16.1,0.0,,0.0,True
+2020-02-27,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,aroma sunscreen spf 50,4,1,23.46,0,0.0,0.25,23.46,0.0,,0.0,True
+2020-02-27,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,biotique bio sandalwood sunscreen spf 50,13,1,27.63,0,0.0,0.07692307692307693,27.63,0.0,,0.0,True
+2020-02-27,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,cetaphil sunscreen spf 50,201,1,20.83,0,0.0,0.004975124378109453,20.83,0.0,,0.0,True
+2020-02-27,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,evver uv guard,1,1,1.0,0,0.0,1.0,1.0,0.0,,0.0,True
+2020-02-27,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,lakme sunscreen spf 50,567,1,26.54,0,0.0,0.001763668430335097,26.54,0.0,,0.0,True
+2020-02-27,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,lotus sunscreen spf 50 matte gel 50g,222,1,19.74,0,0.0,0.0045045045045045045,19.74,0.0,,0.0,True
+2020-02-27,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,mamaearth sunscreen spf 50,269,3,28.66,0,0.0,0.011152416356877323,9.553333333333333,0.0,,0.0,True
+2020-02-27,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,neutrogena sunscreen spf 50,866,1,25.74,0,0.0,0.0011547344110854503,25.74,0.0,,0.0,True
+2020-02-27,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,organic sunscreen spf 50,5,1,28.35,0,0.0,0.2,28.35,0.0,,0.0,True
+2020-02-27,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,oriflame sunscreen spf 50,26,1,19.59,0,0.0,0.038461538461538464,19.59,0.0,,0.0,True
+2020-02-27,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,roop mantra sunscreen spf 50,4,1,25.89,0,0.0,0.25,25.89,0.0,,0.0,True
+2020-02-27,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,solasafe sunscreen spf 50,17,1,23.15,0,0.0,0.058823529411764705,23.15,0.0,,0.0,True
+2020-02-27,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,spf 50,466,1,35.51,0,0.0,0.002145922746781116,35.51,0.0,,0.0,True
+2020-02-27,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,sunbless sunscreen spf 50,45,1,22.58,0,0.0,0.022222222222222223,22.58,0.0,,0.0,True
+2020-02-27,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,sungrace sunscreen spf 50,1,1,19.82,0,0.0,1.0,19.82,0.0,,0.0,True
+2020-02-27,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,sunscreen,11685,22,26.03909090909091,2,887.28,0.0018827556696619598,1.183595041322314,0.09090909090909091,0.02934709551561053,34.074922319589426,False
+2020-02-27,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,sunscreen spf 50,850,1,22.8,0,0.0,0.001176470588235294,22.8,0.0,,0.0,True
+2020-02-27,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,sunscreen spf 50 for oily skin,29,1,27.46,0,0.0,0.034482758620689655,27.46,0.0,,0.0,True
+2020-02-27,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,sunscreen spf 50 gel,50,1,30.16,0,0.0,0.02,30.16,0.0,,0.0,True
+2020-02-27,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,sunstop sunscreen spf 50,181,2,24.3,0,0.0,0.011049723756906077,12.15,0.0,,0.0,True
+2020-02-27,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,tjori sahay organic sunscreen spf 50,1,1,29.88,0,0.0,1.0,29.88,0.0,,0.0,True
+2020-02-27,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,vlcc sunscreen spf 50,237,1,30.34,0,0.0,0.004219409282700422,30.34,0.0,,0.0,True
+2020-02-28,Face Wash || SP || Auto || 21st Feb'20,Face Wash || SP || Auto || 21st Feb'20,b07pyfj8nq,1,1,1.17,2,532.2,1.0,1.17,2.0,0.0021984216459977448,454.8717948717949,False
+2020-02-28,Face Wash || SP || Auto || 21st Feb'20,Face Wash || SP || Auto || 21st Feb'20,essentium phygen,2,1,1.0,0,0.0,0.5,1.0,0.0,,0.0,True
+2020-02-28,Hair Oil || SP || Generic || 21st feb'20,Hair Oil || SP || Generic || 21st feb'20,bhringraj oil,1365,1,40.85,0,0.0,0.0007326007326007326,40.85,0.0,,0.0,True
+2020-02-28,Hair Oil || SP || Generic || 21st feb'20,Hair Oil || SP || Generic || 21st feb'20,biotique bhringraj oil for hair growth,7,1,66.53,0,0.0,0.14285714285714285,66.53,0.0,,0.0,True
+2020-02-28,Hair Oil || SP || Generic || 21st feb'20,Hair Oil || SP || Generic || 21st feb'20,dabur bhringraj oil for hair,8,1,21.6,0,0.0,0.125,21.6,0.0,,0.0,True
+2020-02-28,Hair Oil || SP || Generic || 21st feb'20,Hair Oil || SP || Generic || 21st feb'20,galway bhringraj oil for hair,6,1,76.05,0,0.0,0.16666666666666666,76.05,0.0,,0.0,True
+2020-02-28,Hair Oil || SP || Generic || 21st feb'20,Hair Oil || SP || Generic || 21st feb'20,hair oil,52,1,82.96,0,0.0,0.019230769230769232,82.96,0.0,,0.0,True
+2020-02-28,Night Cream || SP || Automatic || 22nd Nov'19,Night Cream || SP || Automatic || 22nd Nov'19,b00wm0rgks,4,1,20.98,1,660.17,0.25,20.98,1.0,0.031779693109350624,31.46663489037178,False
+2020-02-28,Night Cream || SP || Automatic || 22nd Nov'19,Night Cream || SP || Automatic || 22nd Nov'19,b07gcfmr4h,9,2,13.075,0,0.0,0.2222222222222222,6.5375,0.0,,0.0,True
+2020-02-28,Night Cream || SP || Automatic || 22nd Nov'19,Night Cream || SP || Automatic || 22nd Nov'19,b07pyfj8nq,98,1,26.51,0,0.0,0.01020408163265306,26.51,0.0,,0.0,True
+2020-02-28,Night Cream || SP || Automatic || 22nd Nov'19,Night Cream || SP || Automatic || 22nd Nov'19,b07z3j3sd1,1,1,20.48,0,0.0,1.0,20.48,0.0,,0.0,True
+2020-02-28,Night Cream || SP || Automatic || 22nd Nov'19,Night Cream || SP || Automatic || 22nd Nov'19,night cream for women,199,2,20.57,1,660.17,0.010050251256281407,10.285,0.5,0.031158640956117367,32.093825960136115,False
+2020-02-28,Night Cream || SP || Generic || 24th Nov'19,Night Cream || SP || Generic || 24th Nov'19,anti aging creams,410,2,32.115,0,0.0,0.004878048780487805,16.0575,0.0,,0.0,True
+2020-02-28,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Pain Relief Oil || SP || Automatic || 22nd Nov'19,rhuval oil roll on,1,1,9.13,0,0.0,1.0,9.13,0.0,,0.0,True
+2020-02-28,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,arthritis oil,5,1,17.15,0,0.0,0.2,17.15,0.0,,0.0,True
+2020-02-28,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,astro pain oil,1,1,52.46,0,0.0,1.0,52.46,0.0,,0.0,True
+2020-02-28,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,austro pain oil,19,1,33.84,1,302.68,0.05263157894736842,33.84,1.0,0.11180124223602485,8.944444444444443,False
+2020-02-28,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,badal pain oil,4,1,75.9,0,0.0,0.25,75.9,0.0,,0.0,True
+2020-02-28,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,cue 9 joint pain oil,1,1,62.0,0,0.0,1.0,62.0,0.0,,0.0,True
+2020-02-28,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,knee pain relief oil,40,1,21.89,0,0.0,0.025,21.89,0.0,,0.0,True
+2020-02-28,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,pain oil,71,1,54.34,0,0.0,0.014084507042253521,54.34,0.0,,0.0,True
+2020-02-28,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,pain relief oils,586,2,61.335,0,0.0,0.0034129692832764505,30.6675,0.0,,0.0,True
+2020-02-28,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,waist pain oil,2,1,68.85,1,302.68,0.5,68.85,1.0,0.22746795295361436,4.396223674655047,False
+2020-02-28,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,osteoarthritis knee pain relief,3,1,14.33,0,0.0,0.3333333333333333,14.33,0.0,,0.0,True
+2020-02-28,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,pain relief massage oil for man,1,1,32.23,0,0.0,1.0,32.23,0.0,,0.0,True
+2020-02-28,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,rhuval oil,62,15,2.292666666666667,6,2118.76,0.24193548387096775,0.15284444444444445,0.4,0.0010820794552788737,924.1465542308811,False
+2020-02-28,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,rhuval oil for joint pain,21,4,9.3375,2,854.46,0.19047619047619047,2.334375,0.5,0.010927954497577417,91.50843373493976,False
+2020-02-28,Sunscreen || SP || Automatic || 22nd Nov'19,Sunscreen || SP || Automatic || 22nd Nov'19,pa ++++sunscreen,2,1,19.38,0,0.0,0.5,19.38,0.0,,0.0,True
+2020-02-28,Sunscreen || SP || Automatic || 22nd Nov'19,Sunscreen || SP || Automatic || 22nd Nov'19,sunscreen lotion,102,3,12.686666666666667,0,0.0,0.029411764705882353,4.228888888888889,0.0,,0.0,True
+2020-02-28,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,biotique sunscreen spf 50,298,1,25.46,0,0.0,0.003355704697986577,25.46,0.0,,0.0,True
+2020-02-28,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,cetaphil sunscreen spf 50,247,1,20.71,0,0.0,0.004048582995951417,20.71,0.0,,0.0,True
+2020-02-28,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,ekran soft sunscreen spf 50,72,1,29.73,0,0.0,0.013888888888888888,29.73,0.0,,0.0,True
+2020-02-28,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,evver sunscreen,4,1,2.73,3,2384.74,0.25,2.73,3.0,0.0011447788857485513,873.5311355311354,False
+2020-02-28,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,evver uv guard,1,1,1.0,0,0.0,1.0,1.0,0.0,,0.0,True
+2020-02-28,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,greenberry sunscreen spf 50,7,1,26.1,0,0.0,0.14285714285714285,26.1,0.0,,0.0,True
+2020-02-28,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,innisfree sunscreen spf 50,17,1,25.62,0,0.0,0.058823529411764705,25.62,0.0,,0.0,True
+2020-02-28,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,lakme sunscreen spf 50,513,2,28.4,0,0.0,0.003898635477582846,14.2,0.0,,0.0,True
+2020-02-28,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,lass natural sunscreen spf 50,2,1,26.28,0,0.0,0.5,26.28,0.0,,0.0,True
+2020-02-28,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,mamaearth sunscreen spf 50,325,1,27.08,0,0.0,0.003076923076923077,27.08,0.0,,0.0,True
+2020-02-28,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,medicated sunscreen spf 50,5,2,24.12,0,0.0,0.4,12.06,0.0,,0.0,True
+2020-02-28,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,mineral sunscreen spf 50,7,1,28.89,0,0.0,0.14285714285714285,28.89,0.0,,0.0,True
+2020-02-28,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,neutrogena sunscreen spf 50,1313,1,24.09,0,0.0,0.0007616146230007616,24.09,0.0,,0.0,True
+2020-02-28,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,sunscreen,12937,18,25.642777777777777,2,532.2,0.0013913581201205844,1.4245987654320986,0.1111111111111111,0.048182596350578304,20.754381783911434,False
+2020-02-28,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,sunscreen cream,3000,1,40.27,0,0.0,0.0003333333333333333,40.27,0.0,,0.0,True
+2020-02-28,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,sunscreen spf 50 pa+++,20,1,28.63,0,0.0,0.05,28.63,0.0,,0.0,True
+2020-02-28,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,sunscreen spf 50 vlcc,239,2,30.115,0,0.0,0.008368200836820083,15.0575,0.0,,0.0,True
+2020-02-28,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,sunscreen spf 50 with braodspectrum for oily skin,1,1,29.38,0,0.0,1.0,29.38,0.0,,0.0,True
+2020-02-28,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,sunscreen spf 50 with broadspectrum for oily skin,1,1,30.04,0,0.0,1.0,30.04,0.0,,0.0,True
+2020-02-28,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,wow sunscreen spf 50,76,1,30.24,0,0.0,0.013157894736842105,30.24,0.0,,0.0,True
+2020-02-29,Face Wash || SP || Auto || 21st Feb'20,Face Wash || SP || Auto || 21st Feb'20,"essentium phygen evver curcumin face wash, 100ml",1,1,25.6,0,0.0,1.0,25.6,0.0,,0.0,True
+2020-02-29,Hair Oil || SP || Generic || 21st feb'20,Hair Oil || SP || Generic || 21st feb'20,bhringraj oil,480,1,48.11,0,0.0,0.0020833333333333333,48.11,0.0,,0.0,True
+2020-02-29,Hair Oil || SP || Generic || 21st feb'20,Hair Oil || SP || Generic || 21st feb'20,bhringraj oil for hair,506,1,42.83,0,0.0,0.001976284584980237,42.83,0.0,,0.0,True
+2020-02-29,Hair Oil || SP || Generic || 21st feb'20,Hair Oil || SP || Generic || 21st feb'20,bhringraj oil for hair growth faster cold pressed,1,1,89.72,0,0.0,1.0,89.72,0.0,,0.0,True
+2020-02-29,Night Cream || SP || Automatic || 22nd Nov'19,Night Cream || SP || Automatic || 22nd Nov'19,anti aging cream for women,53,1,26.64,0,0.0,0.018867924528301886,26.64,0.0,,0.0,True
+2020-02-29,Night Cream || SP || Automatic || 22nd Nov'19,Night Cream || SP || Automatic || 22nd Nov'19,night cream for women,128,1,20.53,0,0.0,0.0078125,20.53,0.0,,0.0,True
+2020-02-29,Night Cream || SP || Automatic || 22nd Nov'19,Night Cream || SP || Automatic || 22nd Nov'19,skin cream,4,1,6.03,0,0.0,0.25,6.03,0.0,,0.0,True
+2020-02-29,Night Cream || SP || Generic || 24th Nov'19,Night Cream || SP || Generic || 24th Nov'19,anti aging creams,69,1,11.49,0,0.0,0.014492753623188406,11.49,0.0,,0.0,True
+2020-02-29,Night Cream || SP || Generic || 24th Nov'19,Night Cream || SP || Generic || 24th Nov'19,anti aging night cream..,8,2,30.835,0,0.0,0.25,15.4175,0.0,,0.0,True
+2020-02-29,Night Cream || SP || Generic || 24th Nov'19,Night Cream || SP || Generic || 24th Nov'19,night cream,488,1,38.53,0,0.0,0.0020491803278688526,38.53,0.0,,0.0,True
+2020-02-29,Night Cream || SP || Generic || 24th Nov'19,Night Cream || SP || Generic || 24th Nov'19,night creams,259,1,7.7,0,0.0,0.003861003861003861,7.7,0.0,,0.0,True
+2020-02-29,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Pain Relief Oil || SP || Automatic || 22nd Nov'19,b079wl1cxc,2,1,5.77,0,0.0,0.5,5.77,0.0,,0.0,True
+2020-02-29,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Pain Relief Oil || SP || Automatic || 22nd Nov'19,b07b7nsllp,195,1,12.64,0,0.0,0.005128205128205128,12.64,0.0,,0.0,True
+2020-02-29,Pain Relief Oil || SP || Automatic || 22nd Nov'19,Pain Relief Oil || SP || Automatic || 22nd Nov'19,oils for knee pain,1,1,9.51,0,0.0,1.0,9.51,0.0,,0.0,True
+2020-02-29,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,austro pain oil,22,1,21.65,0,0.0,0.045454545454545456,21.65,0.0,,0.0,True
+2020-02-29,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,ooty pain oil,211,1,24.93,0,0.0,0.004739336492890996,24.93,0.0,,0.0,True
+2020-02-29,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,opigesic pain oil,53,1,43.45,0,0.0,0.018867924528301886,43.45,0.0,,0.0,True
+2020-02-29,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,ortho oil,67,1,20.0,0,0.0,0.014925373134328358,20.0,0.0,,0.0,True
+2020-02-29,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,pain relief oils,506,1,62.96,1,302.68,0.001976284584980237,62.96,1.0,0.20800845777719043,4.807496823379924,False
+2020-02-29,Pain relief Oil || SP || Generic || 22nd Nov'19,Pain relief Oil || SP || Generic || 22nd Nov'19,pain relieving oil,385,1,87.97,0,0.0,0.0025974025974025974,87.97,0.0,,0.0,True
+2020-02-29,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,arthritis knee pain relief,4,1,51.81,0,0.0,0.25,51.81,0.0,,0.0,True
+2020-02-29,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,knee pain relief oil,22,1,44.68,0,0.0,0.045454545454545456,44.68,0.0,,0.0,True
+2020-02-29,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,rhuval oil,23,3,1.3733333333333333,2,605.36,0.13043478260869565,0.4577777777777778,0.6666666666666666,0.002268622527641954,440.7961165048544,False
+2020-02-29,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,rhuval oil for joint pain,5,1,7.92,1,302.68,0.2,7.92,1.0,0.02616624818289943,38.217171717171716,False
+2020-02-29,Pain relief Oil || SP || Generic-New || 18th Jan'19,Pain relief Oil || SP || Generic-New || 18th Jan'19,sandhi sudha ayurvedic joint pain relief oil,18,1,15.3,0,0.0,0.05555555555555555,15.3,0.0,,0.0,True
+2020-02-29,Sunscreen || SP || Automatic || 22nd Nov'19,Sunscreen || SP || Automatic || 22nd Nov'19,b00umtdba0,3,1,3.86,0,0.0,0.3333333333333333,3.86,0.0,,0.0,True
+2020-02-29,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,aroma magic sunscreen spf 50,75,1,28.01,0,0.0,0.013333333333333334,28.01,0.0,,0.0,True
+2020-02-29,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,aveeno baby continuous protection sunscreen spf 50,2,1,29.89,0,0.0,0.5,29.89,0.0,,0.0,True
+2020-02-29,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,avene sunscreen spf 50,103,1,27.06,0,0.0,0.009708737864077669,27.06,0.0,,0.0,True
+2020-02-29,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,bioderma sunscreen spf 50,13,1,29.25,0,0.0,0.07692307692307693,29.25,0.0,,0.0,True
+2020-02-29,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,biore sunscreen spf 50,4,1,30.59,0,0.0,0.25,30.59,0.0,,0.0,True
+2020-02-29,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,biotique sandalwood sunscreen spf 50,22,1,25.02,0,0.0,0.045454545454545456,25.02,0.0,,0.0,True
+2020-02-29,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,biotique sunscreen spf 50,282,1,25.72,0,0.0,0.0035460992907801418,25.72,0.0,,0.0,True
+2020-02-29,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,ekran soft sunscreen spf 50,66,1,24.82,0,0.0,0.015151515151515152,24.82,0.0,,0.0,True
+2020-02-29,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,evver sunscreen,7,2,2.43,0,0.0,0.2857142857142857,1.215,0.0,,0.0,True
+2020-02-29,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,lakme sunscreen spf 50,590,1,30.39,0,0.0,0.001694915254237288,30.39,0.0,,0.0,True
+2020-02-29,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,lotus sunscreen spf 50,332,1,24.65,0,0.0,0.0030120481927710845,24.65,0.0,,0.0,True
+2020-02-29,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,lotus sunscreen spf 50 matte gel 50g,270,1,24.76,0,0.0,0.003703703703703704,24.76,0.0,,0.0,True
+2020-02-29,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,mamaearth sunscreen spf 50,230,1,29.46,0,0.0,0.004347826086956522,29.46,0.0,,0.0,True
+2020-02-29,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,netrogena sunscreen spf 50,77,1,26.07,0,0.0,0.012987012987012988,26.07,0.0,,0.0,True
+2020-02-29,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,neutrogena sunscreen spf 50,1482,3,26.996666666666663,0,0.0,0.0020242914979757085,8.998888888888887,0.0,,0.0,True
+2020-02-29,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,nivea sunscreen spf 50 pa++,2,1,23.19,1,295.76,0.5,23.19,1.0,0.07840816878550176,12.753773178094004,False
+2020-02-29,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,oriflame sunscreen spf 50,40,3,23.87333333333333,0,0.0,0.075,7.957777777777777,0.0,,0.0,True
+2020-02-29,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,solasafe sunscreen spf 50 gel,800,3,20.45,0,0.0,0.00375,6.816666666666666,0.0,,0.0,True
+2020-02-29,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,spf 50,855,2,35.13,0,0.0,0.0023391812865497076,17.565,0.0,,0.0,True
+2020-02-29,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,suncross sunscreen spf 50,371,1,28.72,0,0.0,0.0026954177897574125,28.72,0.0,,0.0,True
+2020-02-29,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,sunscreen,11096,31,28.9541935483871,1,295.76,0.0027937995674116797,0.9340062434963581,0.03225806451612903,0.09789759787796558,10.214755230731521,False
+2020-02-29,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,sunscreen cream,359,3,37.38333333333333,0,0.0,0.008356545961002786,12.46111111111111,0.0,,0.0,True
+2020-02-29,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,sunscreen spf 50,356,2,25.07,0,0.0,0.0056179775280898875,12.535,0.0,,0.0,True
+2020-02-29,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,sunscreen spf 50 gel,110,1,26.0,1,295.76,0.00909090909090909,26.0,1.0,0.0879091154990533,11.375384615384615,False
+2020-02-29,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,uvavo sunscreen spf 50,25,1,27.98,0,0.0,0.04,27.98,0.0,,0.0,True
+2020-02-29,Sunscreen || SP || Generic || 24th Nov'19,Sunscreen || SP || Generic || 24th Nov'19,vlcc sunscreen spf 50,313,1,26.04,0,0.0,0.003194888178913738,26.04,0.0,,0.0,True
