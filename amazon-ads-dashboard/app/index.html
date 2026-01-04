@@ -1,0 +1,569 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Amazon Ads Dashboard (SP) — Modern Starter</title>
+  <meta name="description" content="Modern Amazon Ads dashboard starter (HTML/CSS/JS). Built for CTR, CPC, CVR, ACOS, ROAS, shares, zero-sales flags, spikes." />
+
+  <style>
+    /* ---------- Reset (minimal) ---------- */
+    *, *::before, *::after { box-sizing: border-box; }
+    html, body { height: 100%; }
+    body { margin: 0; font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji","Segoe UI Emoji"; }
+    img { max-width: 100%; display: block; }
+    button, input { font: inherit; }
+    a { color: inherit; text-decoration: none; }
+
+    /* ---------- Theme ---------- */
+    :root{
+      --bg: #0b1020;
+      --panel: rgba(255,255,255,0.06);
+      --panel-2: rgba(255,255,255,0.10);
+      --text: rgba(255,255,255,0.92);
+      --muted: rgba(255,255,255,0.62);
+      --muted-2: rgba(255,255,255,0.45);
+      --border: rgba(255,255,255,0.10);
+      --shadow: 0 14px 30px rgba(0,0,0,0.35);
+      --radius: 18px;
+      --radius-sm: 12px;
+      --pad: 18px;
+
+      --good: #2ef2a4;
+      --warn: #ffcc66;
+      --bad: #ff5c7a;
+      --accent: #7c5cff; /* modern purple */
+      --accent-2: #2dd4bf; /* teal */
+    }
+
+    /* ---------- Layout ---------- */
+    .app {
+      min-height: 100%;
+      background:
+        radial-gradient(900px 380px at 12% 12%, rgba(124,92,255,0.35), transparent 60%),
+        radial-gradient(800px 340px at 85% 12%, rgba(45,212,191,0.25), transparent 60%),
+        radial-gradient(900px 420px at 35% 100%, rgba(255,92,122,0.10), transparent 60%),
+        var(--bg);
+      color: var(--text);
+      display: grid;
+      grid-template-columns: 280px 1fr;
+    }
+
+    .sidebar {
+      border-right: 1px solid var(--border);
+      padding: 18px;
+      position: sticky;
+      top: 0;
+      height: 100vh;
+      overflow: auto;
+      backdrop-filter: blur(10px);
+    }
+
+    .brand {
+      display: flex;
+      gap: 12px;
+      align-items: center;
+      padding: 10px 10px;
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      background: linear-gradient(180deg, rgba(255,255,255,0.07), rgba(255,255,255,0.03));
+      box-shadow: var(--shadow);
+    }
+    .brand img { width: 40px; height: 40px; }
+    .brand .title { font-weight: 700; letter-spacing: 0.2px; }
+    .brand .sub { font-size: 12px; color: var(--muted); margin-top: 2px; }
+
+    .nav {
+      margin-top: 16px;
+      display: grid;
+      gap: 8px;
+    }
+    .nav a{
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 10px 12px;
+      border-radius: 14px;
+      border: 1px solid transparent;
+      color: var(--muted);
+      background: transparent;
+    }
+    .nav a img { width: 18px; height: 18px; opacity: 0.95; }
+    .nav a.active{
+      color: var(--text);
+      border-color: rgba(124,92,255,0.45);
+      background: rgba(124,92,255,0.12);
+    }
+    .nav a:hover{
+      border-color: var(--border);
+      background: rgba(255,255,255,0.04);
+      color: var(--text);
+    }
+
+    .sidebar .note {
+      margin-top: 18px;
+      padding: 14px;
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      background: rgba(255,255,255,0.04);
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.4;
+    }
+
+    .main {
+      padding: 20px;
+      display: grid;
+      grid-template-rows: auto 1fr;
+      gap: 14px;
+    }
+
+    .topbar {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 12px;
+      align-items: center;
+    }
+
+    .topbar .left h1{
+      font-size: 18px;
+      margin: 0;
+      letter-spacing: 0.2px;
+    }
+    .topbar .left p{
+      margin: 6px 0 0;
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .controls {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+    }
+
+    .pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 10px 12px;
+      border: 1px solid var(--border);
+      background: rgba(255,255,255,0.04);
+      border-radius: 999px;
+      color: var(--muted);
+      font-size: 13px;
+    }
+    .pill strong{ color: var(--text); font-weight: 600; }
+
+    .btn {
+      cursor: pointer;
+      border: 1px solid rgba(124,92,255,0.45);
+      background: rgba(124,92,255,0.14);
+      color: var(--text);
+      padding: 10px 12px;
+      border-radius: 999px;
+      font-weight: 600;
+      font-size: 13px;
+      transition: transform 0.05s ease, background 0.15s ease;
+    }
+    .btn:hover { background: rgba(124,92,255,0.20); }
+    .btn:active { transform: translateY(1px); }
+
+    .grid {
+      display: grid;
+      gap: 14px;
+      grid-template-columns: 1.2fr 0.8fr;
+      align-items: start;
+    }
+
+    .panel {
+      border: 1px solid var(--border);
+      background: rgba(255,255,255,0.04);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      overflow: hidden;
+    }
+
+    .panel .hd{
+      padding: 14px 16px;
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+    }
+    .panel .hd h2{ margin: 0; font-size: 14px; letter-spacing: 0.2px; }
+    .panel .hd .meta{ color: var(--muted); font-size: 12px; }
+
+    .panel .bd{ padding: 16px; }
+
+    .kpis{
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 12px;
+    }
+    .card{
+      border: 1px solid var(--border);
+      background: linear-gradient(180deg, rgba(255,255,255,0.06), rgba(255,255,255,0.03));
+      border-radius: var(--radius);
+      padding: 14px;
+      min-height: 92px;
+      display: grid;
+      gap: 6px;
+    }
+    .card .label{ color: var(--muted); font-size: 12px; }
+    .card .value{ font-size: 20px; font-weight: 800; letter-spacing: 0.2px; }
+    .card .hint{ color: var(--muted-2); font-size: 12px; }
+
+    .badges{
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 10px;
+    }
+    .badge{
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 8px 10px;
+      border-radius: 999px;
+      font-size: 12px;
+      border: 1px solid var(--border);
+      background: rgba(255,255,255,0.03);
+      color: var(--muted);
+    }
+    .badge img{ width: 16px; height: 16px; }
+    .badge.good{ border-color: rgba(46,242,164,0.35); background: rgba(46,242,164,0.10); color: rgba(255,255,255,0.88); }
+    .badge.warn{ border-color: rgba(255,204,102,0.35); background: rgba(255,204,102,0.10); color: rgba(255,255,255,0.88); }
+    .badge.bad{ border-color: rgba(255,92,122,0.45); background: rgba(255,92,122,0.10); color: rgba(255,255,255,0.92); }
+
+    .chartBox{
+      height: 300px;
+      border: 1px dashed rgba(255,255,255,0.18);
+      border-radius: var(--radius);
+      background: rgba(255,255,255,0.02);
+      display: grid;
+      place-items: center;
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .tableWrap{
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      overflow: hidden;
+      background: rgba(255,255,255,0.03);
+    }
+    table{
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 13px;
+    }
+    th, td{
+      padding: 10px 12px;
+      border-bottom: 1px solid rgba(255,255,255,0.08);
+      text-align: left;
+      vertical-align: middle;
+    }
+    th{ color: var(--muted); font-weight: 600; background: rgba(255,255,255,0.03); }
+    tr:hover td{ background: rgba(255,255,255,0.03); }
+    .right{ text-align: right; }
+    .mono{ font-variant-numeric: tabular-nums; font-feature-settings: "tnum"; }
+
+    .page { display: none; }
+    .page.active { display: block; }
+
+    @media (max-width: 980px){
+      .app{ grid-template-columns: 1fr; }
+      .sidebar{ position: relative; height: auto; }
+      .grid{ grid-template-columns: 1fr; }
+      .kpis{ grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    }
+    @media (max-width: 520px){
+      .kpis{ grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="app">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <div class="brand">
+        <img src="assets/logo.svg" alt="Dashboard logo" />
+        <div>
+          <div class="title">Ads Dashboard</div>
+          <div class="sub">Sponsored Products • Starter</div>
+        </div>
+      </div>
+
+      <nav class="nav" aria-label="Primary">
+        <a href="#overview" class="active" data-page="overview">
+          <img src="assets/icons/dashboard.svg" alt="" aria-hidden="true" />
+          Overview
+        </a>
+        <a href="#drilldown" data-page="drilldown">
+          <img src="assets/icons/filter.svg" alt="" aria-hidden="true" />
+          Drilldown
+        </a>
+        <a href="#recommendations" data-page="recommendations">
+          <img src="assets/icons/bolt.svg" alt="" aria-hidden="true" />
+          Recommendations
+        </a>
+      </nav>
+
+      <div class="note">
+        <strong style="color:rgba(255,255,255,0.9)">New advertiser mode:</strong><br />
+        Start with <b>Overview</b>, then open <b>Drilldown</b> to find waste (spend with zero sales) and spikes.
+      </div>
+    </aside>
+
+    <!-- Main -->
+    <main class="main">
+      <header class="topbar">
+        <div class="left">
+          <h1 id="pageTitle">Overview</h1>
+          <p id="pageSubtitle">KPIs • shares • zero-sales spend • spike detection</p>
+        </div>
+
+        <div class="controls">
+          <div class="pill" title="Data source status">
+            Data: <strong id="dataStatus">Local</strong>
+          </div>
+          <div class="pill" title="Date range in the loaded dataset">
+            Range: <strong id="dateRange">—</strong>
+          </div>
+          <button class="btn" id="btnRefresh" type="button">Refresh</button>
+        </div>
+      </header>
+
+      <!-- Pages -->
+      <section class="page active" id="page-overview">
+        <div class="grid">
+          <div class="panel">
+            <div class="hd">
+              <h2>Key Metrics</h2>
+              <div class="meta">Campaign daily • aggregated</div>
+            </div>
+            <div class="bd">
+              <div class="kpis" id="kpiGrid">
+                <!-- Filled by JS -->
+              </div>
+
+              <div class="badges" id="overviewBadges">
+                <!-- Filled by JS -->
+              </div>
+            </div>
+          </div>
+
+          <div class="panel">
+            <div class="hd">
+              <h2>Today’s Alerts</h2>
+              <div class="meta">quick actions</div>
+            </div>
+            <div class="bd">
+              <div class="tableWrap">
+                <table>
+                  <thead>
+                    <tr>
+                      <th>Type</th>
+                      <th>What it means</th>
+                      <th class="right">Count</th>
+                    </tr>
+                  </thead>
+                  <tbody id="alertTableBody">
+                    <!-- Filled by JS -->
+                  </tbody>
+                </table>
+              </div>
+              <div style="margin-top:10px; color:var(--muted); font-size:12px;">
+                Tip: start with <b>Spend with zero sales</b> and <b>Spikes</b>.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="panel" style="margin-top:14px;">
+          <div class="hd">
+            <h2>Trends</h2>
+            <div class="meta">cost • sales • ROAS • ACOS</div>
+          </div>
+          <div class="bd">
+            <div class="chartBox" id="trendChart">
+              Chart placeholder (we’ll connect real charts next)
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="page" id="page-drilldown">
+        <div class="panel">
+          <div class="hd">
+            <h2>Drilldown</h2>
+            <div class="meta">Targeting • Search Terms • Placement • ASIN</div>
+          </div>
+          <div class="bd">
+            <div class="chartBox">
+              Drilldown placeholder (tables + filters next)
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="page" id="page-recommendations">
+        <div class="panel">
+          <div class="hd">
+            <h2>Recommendations</h2>
+            <div class="meta">CatBoost outputs • waste risk • scale winners</div>
+          </div>
+          <div class="bd">
+            <div class="chartBox">
+              Recommendations placeholder (model hookup next)
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script>
+    // --------- Tiny, safe utilities ----------
+    const fmt = {
+      num: (v) => {
+        const n = Number(v);
+        if (!Number.isFinite(n)) return "—";
+        return n.toLocaleString(undefined, { maximumFractionDigits: 2 });
+      },
+      money: (v, currency = "INR") => {
+        const n = Number(v);
+        if (!Number.isFinite(n)) return "—";
+        return n.toLocaleString(undefined, { style: "currency", currency, maximumFractionDigits: 2 });
+      },
+      pct: (v) => {
+        const n = Number(v);
+        if (!Number.isFinite(n)) return "—";
+        return (n * 100).toFixed(2) + "%";
+      }
+    };
+
+    // --------- Minimal SPA navigation ----------
+    const pages = {
+      overview: document.getElementById("page-overview"),
+      drilldown: document.getElementById("page-drilldown"),
+      recommendations: document.getElementById("page-recommendations"),
+    };
+
+    const titles = {
+      overview: ["Overview", "KPIs • shares • zero-sales spend • spike detection"],
+      drilldown: ["Drilldown", "Find waste and winners by targeting/search term/placement/product"],
+      recommendations: ["Recommendations", "Model-driven actions (waste risk + scale winners)"],
+    };
+
+    function setActivePage(key){
+      for (const k of Object.keys(pages)) {
+        pages[k].classList.toggle("active", k === key);
+      }
+      document.querySelectorAll(".nav a").forEach(a => {
+        a.classList.toggle("active", a.dataset.page === key);
+      });
+      const [t, sub] = titles[key] || ["Dashboard", ""];
+      document.getElementById("pageTitle").textContent = t;
+      document.getElementById("pageSubtitle").textContent = sub;
+      window.location.hash = key;
+    }
+
+    document.querySelectorAll(".nav a").forEach(a => {
+      a.addEventListener("click", (e) => {
+        e.preventDefault();
+        setActivePage(a.dataset.page);
+      });
+    });
+
+    // --------- Demo data (will be replaced by real backend fetch) ----------
+    const demo = {
+      dateRange: "2020-02-01 → 2020-02-29",
+      kpis: [
+        { label: "Spend", value: 14053.22, hint: "Total cost", type: "money" },
+        { label: "Sales", value: 71129.81, hint: "Attributed sales", type: "money" },
+        { label: "ROAS", value: 5.06, hint: "Sales / Spend", type: "num" },
+        { label: "ACOS", value: 0.20, hint: "Spend / Sales", type: "pct" },
+        { label: "CTR", value: 0.0087, hint: "Clicks / Impressions", type: "pct" },
+        { label: "CVR", value: 0.12, hint: "Orders / Clicks", type: "pct" },
+      ],
+      alerts: [
+        { type: "Zero-sales spend", what: "Spend happened but no sales", count: 27 },
+        { type: "Spend spike", what: "Cost jumped vs last 7 days", count: 3 },
+        { type: "Sales spike", what: "Sales jumped vs last 7 days", count: 4 },
+      ],
+      badges: [
+        { kind: "warn", text: "27 items: spend with zero sales" },
+        { kind: "good", text: "ROAS healthy overall" },
+        { kind: "warn", text: "3 cost spikes detected" },
+      ]
+    };
+
+    function renderKpis(){
+      const grid = document.getElementById("kpiGrid");
+      grid.innerHTML = "";
+      const currency = "INR";
+      for (const k of demo.kpis) {
+        const el = document.createElement("div");
+        el.className = "card";
+        const val =
+          k.type === "money" ? fmt.money(k.value, currency) :
+          k.type === "pct" ? fmt.pct(k.value) :
+          fmt.num(k.value);
+
+        el.innerHTML = `
+          <div class="label">${k.label}</div>
+          <div class="value mono">${val}</div>
+          <div class="hint">${k.hint}</div>
+        `;
+        grid.appendChild(el);
+      }
+    }
+
+    function renderBadges(){
+      const wrap = document.getElementById("overviewBadges");
+      wrap.innerHTML = "";
+      for (const b of demo.badges) {
+        const el = document.createElement("div");
+        el.className = `badge ${b.kind}`;
+        el.innerHTML = `<img src="assets/icons/bolt.svg" alt="" aria-hidden="true" /> ${b.text}`;
+        wrap.appendChild(el);
+      }
+    }
+
+    function renderAlerts(){
+      const body = document.getElementById("alertTableBody");
+      body.innerHTML = "";
+      for (const a of demo.alerts) {
+        const tr = document.createElement("tr");
+        tr.innerHTML = `
+          <td>${a.type}</td>
+          <td style="color: var(--muted);">${a.what}</td>
+          <td class="right mono">${fmt.num(a.count)}</td>
+        `;
+        body.appendChild(tr);
+      }
+    }
+
+    function refresh(){
+      document.getElementById("dataStatus").textContent = "Local";
+      document.getElementById("dateRange").textContent = demo.dateRange;
+      renderKpis();
+      renderBadges();
+      renderAlerts();
+    }
+
+    document.getElementById("btnRefresh").addEventListener("click", refresh);
+
+    // Boot
+    const initialPage = (window.location.hash || "#overview").replace("#", "");
+    setActivePage(["overview","drilldown","recommendations"].includes(initialPage) ? initialPage : "overview");
+    refresh();
+  </script>
+</body>
+</html>
