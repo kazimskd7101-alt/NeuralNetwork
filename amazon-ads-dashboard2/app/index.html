@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>PPC Command Center — Amazon Ads</title>
+  <meta name="description" content="Modern Amazon Ads PPC dashboard (SP) with KPIs, spikes, share gap, drilldowns and next-move actions." />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+  <div class="app-shell">
+    <aside class="sidebar">
+      <div class="brand">
+        <div class="brand-mark">⚡</div>
+        <div class="brand-text">
+          <div class="brand-name">PPC Command Center</div>
+          <div class="brand-sub">Sponsored Products (SP)</div>
+        </div>
+      </div>
+
+      <nav class="nav">
+        <button class="nav-item active" data-route="overview"><span class="dot"></span> Overview</button>
+        <button class="nav-item" data-route="drilldowns"><span class="dot"></span> Drilldowns</button>
+        <button class="nav-item" data-route="actions"><span class="dot"></span> Action Center</button>
+        <button class="nav-item" data-route="health"><span class="dot"></span> Data Health</button>
+      </nav>
+
+      <div class="sidebar-footer">
+        <div class="pill">
+          <span class="pill-label">Mode</span>
+          <button id="themeToggle" class="pill-button" type="button">Dark</button>
+        </div>
+
+        <div class="hint">
+          <div class="hint-title">New advertiser?</div>
+          <div class="hint-text">
+            Start in <b>Overview</b>, then open <b>Action Center</b> for your next move.
+          </div>
+        </div>
+      </div>
+    </aside>
+
+    <main class="main">
+      <header class="topbar">
+        <div class="topbar-left">
+          <div class="headline">
+            <div class="h-title">Your PPC in one view</div>
+            <div class="h-sub" id="rangeLabel">Loading data…</div>
+          </div>
+        </div>
+
+        <div class="topbar-right">
+          <div class="control">
+            <label for="dateStart">From</label>
+            <input id="dateStart" type="date" />
+          </div>
+          <div class="control">
+            <label for="dateEnd">To</label>
+            <input id="dateEnd" type="date" />
+          </div>
+
+          <div class="control control-wide">
+            <label for="campaignSelect">Campaigns</label>
+            <select id="campaignSelect" multiple size="1" aria-label="Campaign selection"></select>
+            <div class="mini">
+              <label class="chk">
+                <input type="checkbox" id="allCampaigns" checked />
+                <span>All</span>
+              </label>
+            </div>
+          </div>
+
+          <div class="control">
+            <label for="zeroSpendThreshold">Zero-sales spend</label>
+            <input id="zeroSpendThreshold" type="number" min="0" step="0.5" value="1" />
+            <div class="mini muted">threshold</div>
+          </div>
+
+          <button id="applyBtn" class="btn primary" type="button">Apply</button>
+        </div>
+      </header>
+
+      <section id="toast" class="toast hidden"></section>
+
+      <!-- OVERVIEW -->
+      <section class="page active" id="page-overview">
+        <div class="grid kpi-grid">
+          <div class="card kpi"><div class="kpi-title">Spend</div><div class="kpi-value" id="kpiSpend">—</div><div class="kpi-sub" id="kpiSpendSub">—</div></div>
+          <div class="card kpi"><div class="kpi-title">Sales</div><div class="kpi-value" id="kpiSales">—</div><div class="kpi-sub" id="kpiSalesSub">—</div></div>
+          <div class="card kpi"><div class="kpi-title">ROAS</div><div class="kpi-value" id="kpiRoas">—</div><div class="kpi-sub" id="kpiRoasSub">—</div></div>
+          <div class="card kpi"><div class="kpi-title">ACOS</div><div class="kpi-value" id="kpiAcos">—</div><div class="kpi-sub" id="kpiAcosSub">—</div></div>
+          <div class="card kpi"><div class="kpi-title">CTR</div><div class="kpi-value" id="kpiCtr">—</div><div class="kpi-sub" id="kpiCtrSub">—</div></div>
+          <div class="card kpi"><div class="kpi-title">CPC</div><div class="kpi-value" id="kpiCpc">—</div><div class="kpi-sub" id="kpiCpcSub">—</div></div>
+          <div class="card kpi"><div class="kpi-title">CVR</div><div class="kpi-value" id="kpiCvr">—</div><div class="kpi-sub" id="kpiCvrSub">—</div></div>
+          <div class="card kpi"><div class="kpi-title">Zero-sales spend</div><div class="kpi-value" id="kpiZeroSpend">—</div><div class="kpi-sub" id="kpiZeroSpendSub">—</div></div>
+        </div>
+
+        <div class="grid charts-grid">
+          <div class="card">
+            <div class="card-head">
+              <div>
+                <div class="card-title">Trend</div>
+                <div class="card-sub">Spend, Sales, ROAS over time (spike markers included)</div>
+              </div>
+              <div class="card-actions">
+                <button class="btn subtle" id="downloadOverview" type="button">Download summary CSV</button>
+              </div>
+            </div>
+            <div class="chart" id="chartTrend"></div>
+          </div>
+
+          <div class="card">
+            <div class="card-head">
+              <div>
+                <div class="card-title">Spend share vs Sales share</div>
+                <div class="card-sub">“Share gap” shows under/over-funded campaigns</div>
+              </div>
+            </div>
+            <div class="chart" id="chartShare"></div>
+          </div>
+
+          <div class="card">
+            <div class="card-head">
+              <div>
+                <div class="card-title">Efficiency map</div>
+                <div class="card-sub">CPC vs CVR (bubble size = spend)</div>
+              </div>
+            </div>
+            <div class="chart" id="chartScatter"></div>
+          </div>
+
+          <div class="card">
+            <div class="card-head">
+              <div>
+                <div class="card-title">Top issues</div>
+                <div class="card-sub">Fast triage list for new advertisers</div>
+              </div>
+            </div>
+            <div class="table-wrap">
+              <table class="table" id="tableIssues">
+                <thead>
+                  <tr>
+                    <th>Type</th><th>Entity</th><th>Impact</th><th>Why</th><th>Next move</th>
+                  </tr>
+                </thead>
+                <tbody></tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- DRILLDOWNS -->
+      <section class="page" id="page-drilldowns">
+        <div class="grid">
+          <div class="card">
+            <div class="card-head">
+              <div>
+                <div class="card-title">Drilldowns</div>
+                <div class="card-sub">Find where performance is coming from — or leaking</div>
+              </div>
+              <div class="card-actions">
+                <select id="drillLevel" class="select">
+                  <option value="targeting">Targeting</option>
+                  <option value="searchterm">Search Terms</option>
+                  <option value="placement">Placement</option>
+                  <option value="product">Products</option>
+                </select>
+                <label class="chk">
+                  <input type="checkbox" id="onlyZeroSales" />
+                  <span>Only zero-sales spend</span>
+                </label>
+                <button class="btn subtle" id="downloadDrill" type="button">Download table CSV</button>
+              </div>
+            </div>
+
+            <div class="table-wrap">
+              <table class="table" id="tableDrill">
+                <thead><tr id="drillHeaderRow"></tr></thead>
+                <tbody></tbody>
+              </table>
+            </div>
+            <div class="muted pad-top">
+              Tip: Sort by <b>cost</b> to find waste fast, then open Action Center for recommended next moves.
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ACTION CENTER -->
+      <section class="page" id="page-actions">
+        <div class="grid">
+          <div class="card">
+            <div class="card-head">
+              <div>
+                <div class="card-title">Action Center</div>
+                <div class="card-sub">Do the next best move — now</div>
+              </div>
+              <div class="card-actions">
+                <button class="btn primary" id="refreshActions" type="button">Rebuild actions</button>
+              </div>
+            </div>
+            <div class="actions-grid" id="actionsGrid"></div>
+          </div>
+
+          <div class="card">
+            <div class="card-head">
+              <div>
+                <div class="card-title">Beginner playbook</div>
+                <div class="card-sub">A simple sequence that works</div>
+              </div>
+            </div>
+            <ol class="playbook">
+              <li><b>Stop leaks:</b> Remove or negate search terms spending with zero sales.</li>
+              <li><b>Fix share gap:</b> Shift budget toward campaigns where sales share &gt; spend share.</li>
+              <li><b>Control CPC:</b> Lower bids where CPC is high and CVR is low.</li>
+              <li><b>Scale winners:</b> Increase budgets where ROAS is consistently strong.</li>
+              <li><b>Investigate spikes:</b> Large spend spikes without sales spikes = problem.</li>
+            </ol>
+          </div>
+        </div>
+      </section>
+
+      <!-- DATA HEALTH -->
+      <section class="page" id="page-health">
+        <div class="grid">
+          <div class="card">
+            <div class="card-head">
+              <div>
+                <div class="card-title">Data Health</div>
+                <div class="card-sub">Check files, columns, date ranges, and common data issues</div>
+              </div>
+            </div>
+            <div id="healthPanel" class="health"></div>
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <div class="muted">Built for clarity: fewer tabs, stronger decisions.</div>
+      </footer>
+    </main>
+  </div>
+
+  <!-- Vendors via CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/dayjs@1.11.10/dayjs.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/echarts@5.5.1/dist/echarts.min.js"></script>
+
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>
