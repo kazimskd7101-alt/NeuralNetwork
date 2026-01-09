@@ -1,11 +1,14 @@
 import { DATA_FILES, DEFAULTS } from "./config.js";
-import { loadCsv, normalizeRows } from "./dataLoader.js";
+import { loadCsv, normalizeRows, loadBusinessReport } from "./dataLoader.js";
+
 import {
   addKpis, addZeroSalesFlag, filterByRange,
   computeSharesForRange, sumTotals, safeDiv, fmtDateLocal
 } from "./metrics.js";
+
 import { buildIssuesAndActions } from "./recommendations.js";
 import { renderTrendChart, renderShareChart, renderScatter } from "./charts.js";
+
 import {
   wireNav, toast, setTheme, setRangeLabel, fillCampaignSelect, getSelectedCampaignIds,
   setKpis, renderIssuesTable, renderActions, renderHealth, renderDrillTable
@@ -13,6 +16,10 @@ import {
 
 let DATA = null;
 let isLight = false;
+
+/* -----------------------------
+   Helpers
+-------------------------------- */
 
 function parseDateInput(id) {
   const v = document.getElementById(id).value;
@@ -22,9 +29,9 @@ function parseDateInput(id) {
 }
 
 function setDefaultDates(totalDaily) {
-  const rows = [...totalDaily].sort((a,b)=>a.date-b.date);
+  const rows = [...totalDaily].sort((a, b) => a.date - b.date);
   const min = rows[0]?.date;
-  const max = rows[rows.length-1]?.date;
+  const max = rows[rows.length - 1]?.date;
   document.getElementById("dateStart").value = min ? fmtDateLocal(min) : "";
   document.getElementById("dateEnd").value = max ? fmtDateLocal(max) : "";
 }
@@ -61,9 +68,12 @@ function buildHealthReport(dataObj) {
     const ok = rows.length > 0;
     let detail = ok ? `Rows: ${rows.length}` : "Missing or empty";
 
+    // Add date range only if rows have real Date objects
     if (ok && rows[0]?.date instanceof Date) {
-      const dates = rows.map(r => r.date).filter(Boolean).sort((a,b)=>a-b);
-      detail += ` · Range: ${fmtDateLocal(dates[0])} → ${fmtDateLocal(dates[dates.length-1])}`;
+      const dates = rows.map(r => r.date).filter(Boolean).sort((a, b) => a - b);
+      if (dates.length) {
+        detail += ` · Range: ${fmtDateLocal(dates[0])} → ${fmtDateLocal(dates[dates.length - 1])}`;
+      }
     }
 
     items.push({ name, ok, detail });
@@ -71,41 +81,27 @@ function buildHealthReport(dataObj) {
   return items;
 }
 
-/* Optional business report loader */
-async function tryLoadBusinessReport() {
-  try {
-    const br = await loadCsv(DATA_FILES.businessDaily);
-    const rows = normalizeRows(br);
+/**
+ * Business Report is usually "Sales & Traffic by Child Item" (ASIN summary),
+ * not daily. So we summarize totals across rows.
+ */
+function summarizeBusinessReport(rows) {
+  const totals = rows.reduce((a, r) => {
+    a.sales += Number(r.sales || 0);
+    a.sessions += Number(r.sessions || 0);
+    a.units += Number(r.units || 0);
+    a.orderItems += Number(r.orderItems || 0);
+    return a;
+  }, { sales: 0, sessions: 0, units: 0, orderItems: 0 });
 
-    // Try to map common Amazon Business Report columns
-    // We compute daily totals only.
-    // You can rename columns later; this mapper is safe.
-    const mapped = rows.map(r => {
-      const out = { ...r };
+  const unitSessionPct = totals.sessions > 0 ? (totals.units / totals.sessions) : null;
 
-      // common possible column names
-      const totalSales =
-        r.total_sales ?? r["Ordered Product Sales"] ?? r["ordered_product_sales"] ?? r["sales"] ?? null;
-
-      out.total_sales = (typeof totalSales === "number") ? totalSales : Number(totalSales ?? 0);
-
-      return out;
-    }).filter(r => r.date && Number.isFinite(r.total_sales));
-
-    if (!mapped.length) return null;
-
-    // Aggregate by date
-    const byDate = new Map();
-    for (const r of mapped) {
-      const k = fmtDateLocal(r.date);
-      if (!byDate.has(k)) byDate.set(k, { date: r.date, total_sales: 0 });
-      byDate.get(k).total_sales += Number(r.total_sales || 0);
-    }
-    return Array.from(byDate.values()).sort((a,b)=>a.date-b.date);
-  } catch {
-    return null;
-  }
+  return { ...totals, unitSessionPct };
 }
+
+/* -----------------------------
+   Init
+-------------------------------- */
 
 async function init() {
   wireNav();
@@ -120,9 +116,17 @@ async function init() {
   try {
     toast("Loading datasets…");
 
+    // Business report is optional but recommended
+    const businessPromise = loadBusinessReport().catch(() => []);
+
     const [
-      campaign, total, targeting, searchterm, placement, product,
-      businessDaily
+      campaign,
+      total,
+      targeting,
+      searchterm,
+      placement,
+      product,
+      businessReport
     ] = await Promise.all([
       loadCsv(DATA_FILES.campaignDaily),
       loadCsv(DATA_FILES.totalDaily),
@@ -130,7 +134,7 @@ async function init() {
       loadCsv(DATA_FILES.searchtermDaily),
       loadCsv(DATA_FILES.placementDaily),
       loadCsv(DATA_FILES.productDaily),
-      tryLoadBusinessReport(), // optional
+      businessPromise
     ]);
 
     const campaignDaily = addZeroSalesFlag(addKpis(normalizeRows(campaign)), DEFAULTS.zeroSalesSpendThreshold);
@@ -140,7 +144,15 @@ async function init() {
     const placementDaily = addZeroSalesFlag(addKpis(normalizeRows(placement)), DEFAULTS.zeroSalesSpendThreshold);
     const productDaily = addZeroSalesFlag(addKpis(normalizeRows(product)), DEFAULTS.zeroSalesSpendThreshold);
 
-    DATA = { campaignDaily, totalDaily, targetingDaily, searchtermDaily, placementDaily, productDaily, businessDaily };
+    DATA = {
+      campaignDaily,
+      totalDaily,
+      targetingDaily,
+      searchtermDaily,
+      placementDaily,
+      productDaily,
+      businessReport: Array.isArray(businessReport) ? businessReport : []
+    };
 
     // campaign dropdown
     const campaigns = Array.from(
@@ -150,10 +162,11 @@ async function init() {
           campaign_name: String(r.campaign_name ?? r.campaign_id ?? ""),
         }])
       ).values()
-    ).sort((a,b)=>a.campaign_name.localeCompare(b.campaign_name));
+    ).sort((a, b) => a.campaign_name.localeCompare(b.campaign_name));
 
     const selectEl = document.getElementById("campaignSelect");
     fillCampaignSelect(selectEl, campaigns);
+
     setDefaultDates(totalDaily);
 
     const allChk = document.getElementById("allCampaigns");
@@ -169,14 +182,23 @@ async function init() {
     document.getElementById("onlyZeroSales").addEventListener("change", () => applyFiltersAndRender(true));
     document.getElementById("refreshActions").addEventListener("click", () => applyFiltersAndRender(true));
 
-    // Downloads are in your older build; keep if present
+    // Optional downloads (if your HTML has these IDs)
     const dlO = document.getElementById("downloadOverview");
     if (dlO) dlO.addEventListener("click", () => downloadOverviewCsv());
 
     const dlD = document.getElementById("downloadDrill");
     if (dlD) dlD.addEventListener("click", () => downloadDrillCsv());
 
-    renderHealth(buildHealthReport(DATA));
+    renderHealth(buildHealthReport({
+      campaignDaily: DATA.campaignDaily,
+      totalDaily: DATA.totalDaily,
+      targetingDaily: DATA.targetingDaily,
+      searchtermDaily: DATA.searchtermDaily,
+      placementDaily: DATA.placementDaily,
+      productDaily: DATA.productDaily,
+      businessReport: DATA.businessReport
+    }));
+
     toast("Loaded. Apply filters to explore.");
     applyFiltersAndRender(true);
   } catch (err) {
@@ -186,7 +208,11 @@ async function init() {
   }
 }
 
-function applyFiltersAndRender(silent=false) {
+/* -----------------------------
+   Main Render
+-------------------------------- */
+
+function applyFiltersAndRender(silent = false) {
   if (!DATA) return;
 
   const start = parseDateInput("dateStart");
@@ -201,7 +227,7 @@ function applyFiltersAndRender(silent=false) {
   const placementDaily = addZeroSalesFlag([...DATA.placementDaily], threshold);
   const productDaily = addZeroSalesFlag([...DATA.productDaily], threshold);
 
-  // Range
+  // Range filter
   const campaignR = filterByRange(campaignDaily, start, end);
   const totalR = filterByRange(totalDaily, start, end);
   const targetingR = filterByRange(targetingDaily, start, end);
@@ -209,7 +235,7 @@ function applyFiltersAndRender(silent=false) {
   const placementR = filterByRange(placementDaily, start, end);
   const productR = filterByRange(productDaily, start, end);
 
-  // Campaign filter
+  // Campaign list (for selection)
   const campaigns = Array.from(
     new Map(
       campaignDaily.map(r => [String(r.campaign_id ?? r.campaign_name ?? ""), {
@@ -228,30 +254,54 @@ function applyFiltersAndRender(silent=false) {
   const placementRC = filterByCampaign(placementR, selectedIds);
   const productRC = filterByCampaign(productR, selectedIds);
 
-  // KPIs
-  const totals = sumTotals(campaignRC);
-  const ctr = totals.impressions ? totals.clicks / totals.impressions : null;
-  const cpc = totals.clicks ? totals.cost / totals.clicks : null;
-  const cvr = totals.clicks ? totals.orders / totals.clicks : null;
-  const acos = totals.sales ? totals.cost / totals.sales : null;
-  const roas = totals.cost ? totals.sales / totals.cost : null;
+  // ✅ Ads totals (selected campaigns)
+  const adTotals = sumTotals(campaignRC);
 
-  // Optional business (TACoS + Organic)
-  let tacos = null;
-  let organicSales = null;
-  if (Array.isArray(DATA.businessDaily) && DATA.businessDaily.length) {
-    const bR = filterByRange(DATA.businessDaily, start, end);
-    const totalSalesAll = bR.reduce((a,r)=>a+(r.total_sales||0),0);
-    tacos = safeDiv(totals.cost, totalSalesAll);
-    organicSales = totalSalesAll - totals.sales;
-  }
+  const ctr = adTotals.impressions ? adTotals.clicks / adTotals.impressions : null;
+  const cpc = adTotals.clicks ? adTotals.cost / adTotals.clicks : null;
+  const cvr = adTotals.clicks ? adTotals.orders / adTotals.clicks : null;
+  const acos = adTotals.sales ? adTotals.cost / adTotals.sales : null;
+  const roas = adTotals.cost ? adTotals.sales / adTotals.cost : null;
 
+  // ✅ CPA (ads) = spend / orders
+  const cpa = safeDiv(adTotals.cost, adTotals.orders);
+
+  // ✅ Retail totals from Business Report (NOT campaign-filterable)
+  const retail = summarizeBusinessReport(DATA.businessReport || []);
+  const retailSales = retail.sales || 0;
+
+  // TACoS and Ad Sales Share only make sense for ALL campaigns
+  const allChk = document.getElementById("allCampaigns").checked;
+  const isAllSelected = allChk || (selectedIds.length === campaigns.length);
+
+  const tacos = isAllSelected ? safeDiv(adTotals.cost, retailSales) : null;
+  const adSalesShare = isAllSelected ? safeDiv(adTotals.sales, retailSales) : null;
+  const organicSales = isAllSelected ? (retailSales - (adTotals.sales || 0)) : null;
+
+  // ✅ Send EVERYTHING to UI
   setKpis({
-    spend: totals.cost,
-    sales: totals.sales,
-    roas, acos, ctr, cpc, cvr,
-    zeroSalesSpend: totals.zeroSalesSpend,
-    tacos, organicSales
+    // Ads KPIs (existing)
+    spend: adTotals.cost,
+    sales: adTotals.sales,
+    roas,
+    acos,
+    ctr,
+    cpc,
+    cvr,
+    zeroSalesSpend: adTotals.zeroSalesSpend,
+
+    // Business Report KPIs (new)
+    retailSales: retail.sales,
+    retailOrderItems: retail.orderItems,
+    retailUnits: retail.units,
+    retailSessions: retail.sessions,
+    unitSessionPct: retail.unitSessionPct,
+
+    tacos,
+    adSalesShare,
+    organicSales,
+
+    cpa
   });
 
   setRangeLabel(start, end, selectedIds.length);
@@ -288,20 +338,23 @@ function applyFiltersAndRender(silent=false) {
 
   renderDrillTable({ level, rows: drillRows, onlyZeroSales: onlyZero });
 
-  // ✅ Fix: ensure charts are correct size after render
+  // ✅ Ensure charts are correct size after render
   resizeCharts();
 
   if (!silent) toast("Applied filters.");
 }
 
-/* Downloads (safe, optional) */
+/* -----------------------------
+   Downloads (safe, optional)
+-------------------------------- */
+
 function downloadCsv(filename, rows, columns) {
   const header = columns.join(",");
   const lines = rows.map(r => columns.map(c => {
     const v = r[c];
     if (v == null) return "";
     if (v instanceof Date) return fmtDateLocal(v);
-    const s = String(v).replaceAll('"','""');
+    const s = String(v).replaceAll('"', '""');
     return `"${s}"`;
   }).join(","));
   const csv = [header, ...lines].join("\n");
@@ -317,9 +370,10 @@ function downloadCsv(filename, rows, columns) {
 function downloadOverviewCsv() {
   const start = parseDateInput("dateStart");
   const end = parseDateInput("dateEnd");
-  const rows = filterByRange(DATA.totalDaily, start, end).sort((a,b)=>a.date-b.date);
-  const cols = ["date","impressions","clicks","cost","orders","sales","ctr","cpc","cvr","acos","roas","cost_spike","sales_spike","roas_spike","acos_spike"];
-  downloadCsv("overview_total_daily.csv", rows, cols.filter(c => c in (rows[0]||{})));
+  const rows = filterByRange(DATA.totalDaily, start, end).sort((a, b) => a.date - b.date);
+  const cols = ["date", "impressions", "clicks", "cost", "orders", "sales", "ctr", "cpc", "cvr", "acos", "roas",
+    "cost_spike", "sales_spike", "roas_spike", "acos_spike"];
+  downloadCsv("overview_total_daily.csv", rows, cols.filter(c => c in (rows[0] || {})));
 }
 
 function downloadDrillCsv() {
@@ -334,13 +388,13 @@ function downloadDrillCsv() {
   if (level === "product") rows = filterByRange(DATA.productDaily, start, end);
 
   const colsByLevel = {
-    targeting: ["date","campaign_name","target","match_type","targeting_type","cost","sales","orders","clicks","impressions","roas","acos","cpc","cvr","zero_sales_spend_flag"],
-    searchterm: ["date","campaign_name","search_term","cost","sales","orders","clicks","impressions","roas","acos","cpc","cvr","zero_sales_spend_flag"],
-    placement: ["date","campaign_name","placement","cost","sales","orders","clicks","impressions","roas","acos","cpc","cvr","zero_sales_spend_flag"],
-    product: ["date","campaign_name","asin","sku","cost","sales","orders","clicks","impressions","roas","acos","cpc","cvr","zero_sales_spend_flag"],
+    targeting: ["date", "campaign_name", "target", "match_type", "targeting_type", "cost", "sales", "orders", "clicks", "impressions", "roas", "acos", "cpc", "cvr", "zero_sales_spend_flag"],
+    searchterm: ["date", "campaign_name", "search_term", "cost", "sales", "orders", "clicks", "impressions", "roas", "acos", "cpc", "cvr", "zero_sales_spend_flag"],
+    placement: ["date", "campaign_name", "placement", "cost", "sales", "orders", "clicks", "impressions", "roas", "acos", "cpc", "cvr", "zero_sales_spend_flag"],
+    product: ["date", "campaign_name", "asin", "sku", "cost", "sales", "orders", "clicks", "impressions", "roas", "acos", "cpc", "cvr", "zero_sales_spend_flag"],
   };
 
-  downloadCsv(`drill_${level}.csv`, rows, colsByLevel[level].filter(c => c in (rows[0]||{})));
+  downloadCsv(`drill_${level}.csv`, rows, colsByLevel[level].filter(c => c in (rows[0] || {})));
 }
 
 init();
