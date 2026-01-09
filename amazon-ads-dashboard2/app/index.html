@@ -251,3 +251,79 @@
   <script type="module" src="js/main.js"></script>
 </body>
 </html>
+<!-- Retail Snapshot (Business Report) -->
+<section class="panel" id="retailPanel">
+  <div class="panelHead">
+    <h2>Retail Snapshot (Business Report)</h2>
+    <p>Total sales + sessions from Business Report (used for TACoS).</p>
+  </div>
+
+  <div class="kpiGrid">
+    <div class="kpiCard">
+      <div class="kpiLabel">Total Sales (Retail)</div>
+      <div class="kpiValue" id="kpiRetailSales">—</div>
+      <div class="kpiHint">Ordered Product Sales</div>
+    </div>
+
+    <div class="kpiCard">
+      <div class="kpiLabel">Total Order Items</div>
+      <div class="kpiValue" id="kpiRetailOrders">—</div>
+      <div class="kpiHint">Total Order Items</div>
+    </div>
+
+    <div class="kpiCard">
+      <div class="kpiLabel">Units Ordered</div>
+      <div class="kpiValue" id="kpiRetailUnits">—</div>
+      <div class="kpiHint">Units Ordered</div>
+    </div>
+
+    <div class="kpiCard">
+      <div class="kpiLabel">Sessions</div>
+      <div class="kpiValue" id="kpiRetailSessions">—</div>
+      <div class="kpiHint">Sessions - Total</div>
+    </div>
+
+    <div class="kpiCard">
+      <div class="kpiLabel">Unit Session %</div>
+      <div class="kpiValue" id="kpiUnitSessionPct">—</div>
+      <div class="kpiHint">Units / Sessions</div>
+    </div>
+
+    <div class="kpiCard">
+      <div class="kpiLabel">TACoS</div>
+      <div class="kpiValue" id="kpiTacos">—</div>
+      <div class="kpiHint">Ad Spend / Total Sales</div>
+    </div>
+
+    <div class="kpiCard">
+      <div class="kpiLabel">Ad Sales Share</div>
+      <div class="kpiValue" id="kpiAdSalesShare">—</div>
+      <div class="kpiHint">Ad Sales / Total Sales</div>
+    </div>
+  </div>
+
+  <div class="card" style="margin-top:14px;">
+    <div class="cardHead">
+      <h3>Top ASINs (Retail)</h3>
+      <p>Biggest products by retail sales, sessions and conversion.</p>
+    </div>
+
+    <div class="tableWrap">
+      <table class="table" id="retailTable">
+        <thead>
+          <tr>
+            <th>ASIN</th>
+            <th>SKU</th>
+            <th>Sales</th>
+            <th>Sessions</th>
+            <th>Session %</th>
+            <th>Units</th>
+            <th>Unit Session %</th>
+          </tr>
+        </thead>
+        <tbody id="retailTableBody"></tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
