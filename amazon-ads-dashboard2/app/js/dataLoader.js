@@ -1,158 +1,121 @@
-// CSV loader + light normalization.
-// Uses PapaParse (global Papa) + dayjs (global dayjs).
+// app/js/dataLoader.js
+// CSV loader + row normalizer + Business Report mapper
 
-export function parseDate(val) {
-  if (val === null || val === undefined) return null;
-  const s = String(val).trim();
-  if (!s) return null;
-
-  // Supports "YYYY-MM-DD" or "YYYY-MM-DD HH:mm:ss"
-  const d = dayjs(s);
-  return d.isValid() ? d.toDate() : null;
-}
-
-export function toNum(v) {
-  if (v === null || v === undefined) return 0;
-  const s = String(v).trim();
-  if (s === "") return 0;
-  const cleaned = s.replace(/[^0-9.\-]/g, "");
-  const n = Number(cleaned);
-  return Number.isFinite(n) ? n : 0;
-}
-
-export async function loadCsv(url) {
-  const res = await fetch(url, { cache: "no-store" });
-  if (!res.ok) throw new Error(`Failed to fetch ${url}: ${res.status} ${res.statusText}`);
+export async function loadCsv(path) {
+  const res = await fetch(path);
+  if (!res.ok) throw new Error(`Failed to load ${path} (${res.status})`);
   const text = await res.text();
 
-  return new Promise((resolve, reject) => {
-    Papa.parse(text, {
-      header: true,
-      skipEmptyLines: true,
-      dynamicTyping: false,
-      complete: (results) => {
-        if (results.errors && results.errors.length) {
-          reject(new Error(`CSV parse error in ${url}: ${results.errors[0].message}`));
-          return;
-        }
-        resolve(results.data);
-      },
-      error: (err) => reject(err),
-    });
+  const parsed = Papa.parse(text, {
+    header: true,
+    skipEmptyLines: true,
   });
+
+  if (parsed.errors?.length) {
+    console.warn("PapaParse warnings:", parsed.errors.slice(0, 3));
+  }
+  return parsed.data || [];
+}
+
+function toNum(v) {
+  if (v == null) return null;
+  if (typeof v === "number") return Number.isFinite(v) ? v : null;
+  const s = String(v).trim();
+  if (!s) return null;
+  const n = Number(s.replaceAll(",", ""));
+  return Number.isFinite(n) ? n : null;
+}
+
+function toDate(v) {
+  if (!v) return null;
+  const d = new Date(v);
+  return Number.isNaN(d.getTime()) ? null : d;
 }
 
 export function normalizeRows(rows) {
-  return rows
-    .map((r) => {
-      const out = { ...r };
+  // your processed daily CSVs already have clean column names:
+  // date, impressions, clicks, cost, orders, sales, campaign_id, campaign_name, etc.
+  return (rows || []).map(r => {
+    const out = { ...r };
 
-      if ("date" in out) out.date = parseDate(out.date);
+    // date -> Date
+    if (out.date != null) out.date = toDate(out.date);
 
-      // common numeric fields
-      [
-        "impressions","clicks","cost","orders","sales",
-        "ctr","cpc","cvr","acos","roas",
-        "spend_share","sales_share","share_gap",
-        "total_sales","ad_sales","ad_spend","tacos","organic_sales"
-      ].forEach((k) => {
-        if (k in out) out[k] = toNum(out[k]);
-      });
-
-      // spikes can be "True"/"False"/1/0
-      Object.keys(out).forEach((k) => {
-        if (k.endsWith("_spike")) {
-          const v = out[k];
-          out[k] = (v === true || v === "True" || v === "true" || v === 1 || v === "1");
-        }
-      });
-
-      return out;
-    })
-    .filter((r) => r.date instanceof Date && !Number.isNaN(r.date.getTime()));
-}
-import { DATA_FILES } from "./config.js";
-
-/* Robust CSV parser (handles commas inside quotes) */
-function parseCSV(text) {
-  text = text.replace(/^\uFEFF/, ""); // remove BOM if present
-  const rows = [];
-  let row = [];
-  let field = "";
-  let inQuotes = false;
-
-  for (let i = 0; i < text.length; i++) {
-    const c = text[i];
-    const next = text[i + 1];
-
-    if (c === '"' && inQuotes && next === '"') { field += '"'; i++; continue; }
-    if (c === '"') { inQuotes = !inQuotes; continue; }
-
-    if (c === "," && !inQuotes) { row.push(field); field = ""; continue; }
-    if ((c === "\n" || c === "\r") && !inQuotes) {
-      if (c === "\r" && next === "\n") i++;
-      row.push(field);
-      rows.push(row);
-      row = [];
-      field = "";
-      continue;
+    // numeric metrics -> number
+    for (const k of ["impressions","clicks","cost","orders","sales"]) {
+      if (out[k] != null) {
+        const n = toNum(out[k]);
+        out[k] = n == null ? 0 : n;
+      }
     }
-    field += c;
-  }
-  if (field.length || row.length) { row.push(field); rows.push(row); }
-  return rows;
+
+    // normalize some strings (optional)
+    if (out.match_type != null) out.match_type = String(out.match_type).toLowerCase();
+    if (out.targeting_type != null) out.targeting_type = String(out.targeting_type).toLowerCase();
+
+    return out;
+  }).filter(r => r.date instanceof Date || r.date == null);
 }
 
-function csvToObjects(text) {
-  const rows = parseCSV(text);
-  if (!rows.length) return [];
-  const headers = rows[0].map(h => h.trim());
-  const out = [];
-  for (let i = 1; i < rows.length; i++) {
-    const obj = {};
-    const r = rows[i];
-    for (let j = 0; j < headers.length; j++) obj[headers[j]] = (r[j] ?? "").trim();
-    out.push(obj);
-  }
-  return out;
-}
+/* ---------------- BUSINESS REPORT ---------------- */
 
-function toInt(v) {
-  if (v == null) return 0;
-  const s = String(v).replace(/,/g, "").replace(/[^\d.-]/g, "").trim();
-  const n = Number(s);
-  return Number.isFinite(n) ? Math.round(n) : 0;
-}
-
-function toMoney(v) {
-  if (v == null) return 0;
-  const s = String(v).replace(/,/g, "").replace(/[$]/g, "").trim();
-  const n = Number(s);
-  return Number.isFinite(n) ? n : 0;
-}
-
-function toPct(v) {
+function parseMoney(v) {
   if (v == null) return null;
-  const s = String(v).replace("%", "").trim();
-  const n = Number(s);
-  return Number.isFinite(n) ? (n / 100) : null; // return 0..1
+  const s = String(v).trim();
+  if (!s) return null;
+  // "$41,025.16" -> 41025.16
+  const cleaned = s.replaceAll("$", "").replaceAll(",", "");
+  const n = Number(cleaned);
+  return Number.isFinite(n) ? n : null;
 }
 
-export async function loadBusinessReport() {
-  const res = await fetch(DATA_FILES.businessReport);
-  if (!res.ok) throw new Error(`Failed to load ${DATA_FILES.businessReport} (${res.status})`);
-  const text = await res.text();
-  const raw = csvToObjects(text);
+function parseIntLoose(v) {
+  if (v == null) return null;
+  const s = String(v).trim();
+  if (!s) return null;
+  const cleaned = s.replaceAll(",", "");
+  const n = Number(cleaned);
+  return Number.isFinite(n) ? Math.trunc(n) : null;
+}
 
-  // Standardize rows
-  return raw.map(r => ({
-    asin: (r["(Child) ASIN"] || "").trim(),
-    sku: (r["SKU"] || "").trim(),
-    title: (r["Title"] || "").trim(),
-    sessions: toInt(r["Sessions - Total"]),
-    units: toInt(r["Units Ordered"]),
-    orderItems: toInt(r["Total Order Items"]),
-    sales: toMoney(r["Ordered Product Sales"]),
-    unitSessionPct_raw: toPct(r["Unit Session Percentage"]) // optional
-  })).filter(x => x.asin || x.sku || x.title);
+function parsePct(v) {
+  if (v == null) return null;
+  const s = String(v).trim();
+  if (!s) return null;
+  // "26.89%" -> 0.2689
+  const cleaned = s.replaceAll("%", "").replaceAll(",", "");
+  const n = Number(cleaned);
+  return Number.isFinite(n) ? (n / 100) : null;
+}
+
+export async function loadBusinessReport(path) {
+  // This file is NOT daily; it’s a “range report” by ASIN/SKU.
+  // We still load it and use it for totals + top ASINs table.
+  const raw = await loadCsv(path);
+
+  const rows = raw.map(r => {
+    const asin = r["(Child) ASIN"] ?? r["Child ASIN"] ?? r["ASIN"] ?? null;
+    const sku = r["SKU"] ?? null;
+
+    const sales = parseMoney(r["Ordered Product Sales"] ?? r["Sales"] ?? r["Ordered Product Sales - B2B"]);
+    const sessions = parseIntLoose(r["Sessions - Total"] ?? r["Sessions"]);
+    const units = parseIntLoose(r["Units Ordered"] ?? r["Units"]);
+    const orderItems = parseIntLoose(r["Total Order Items"] ?? r["Orders"]);
+
+    const sessionPct = parsePct(r["Session Percentage - Total"]);
+    const unitSessionPct = parsePct(r["Unit Session Percentage"]);
+
+    return {
+      asin: asin ? String(asin).trim() : null,
+      sku: sku ? String(sku).trim() : null,
+      sales: sales ?? 0,
+      sessions: sessions ?? 0,
+      units: units ?? 0,
+      orderItems: orderItems ?? 0,
+      sessionPct: sessionPct,         // fraction 0..1
+      unitSessionPct: unitSessionPct, // fraction 0..1
+    };
+  }).filter(r => (r.asin || r.sku) && Number.isFinite(r.sales));
+
+  return rows;
 }
