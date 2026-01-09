@@ -5,6 +5,7 @@ export const DATA_FILES = {
   searchtermDaily: "data/searchterm_daily.csv",
   placementDaily: "data/placement_daily.csv",
   productDaily: "data/ad_product_daily.csv",
+  businessReport: "data/business_report.csv",
 
   // optional
   businessDaily: "data/business_report_daily.csv",
