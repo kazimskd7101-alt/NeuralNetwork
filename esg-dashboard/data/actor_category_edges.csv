@@ -1,0 +1,414 @@
+report_id,company,actor_category,ESG_block,theme_tag,weight
+CN001,Alibaba,Business Partners,E,emissions_reduction,2
+CN001,Alibaba,Business Partners,G,ESG_governance,1
+CN001,Alibaba,NGO,S,diversity_inclusion,1
+CN001,Alibaba,NGO,S,training_education,1
+CN002,ANT Group,Business Partners,Cross-cutting,innovation_green_tech,1
+CN002,ANT Group,Government,Cross-cutting,innovation_green_tech,2
+CN002,ANT Group,Government,E,emissions_reduction,1
+CN002,ANT Group,NGO,Cross-cutting,innovation_green_tech,1
+CN002,ANT Group,NGO,E,emissions_reduction,2
+CN002,ANT Group,NGO,S,diversity_inclusion,1
+CN002,ANT Group,Society,Cross-cutting,innovation_green_tech,1
+CN002,ANT Group,Society,E,emissions_reduction,1
+CN003,ANTA Sports Products Ltd,Business Partners,E,energy_efficiency,1
+CN003,ANTA Sports Products Ltd,Business Partners,G,ESG_governance,1
+CN003,ANTA Sports Products Ltd,Government,G,compliance_anti_corruption,1
+CN003,ANTA Sports Products Ltd,NGO,Cross-cutting,partnerships_general,1
+CN003,ANTA Sports Products Ltd,NGO,S,community_development,1
+CN003,ANTA Sports Products Ltd,NGO,S,diversity_inclusion,1
+CN004,AUO,Business Partners,Cross-cutting,innovation_green_tech,1
+CN004,AUO,Business Partners,E,biodiversity_ecosystems,1
+CN004,AUO,Business Partners,E,emissions_reduction,1
+CN004,AUO,Business Partners,G,ESG_governance,1
+CN004,AUO,Business Partners,G,stakeholder_engagement,1
+CN004,AUO,Business Partners,S,training_education,1
+CN005,Baidu,Business Partners,E,biodiversity_ecosystems,1
+CN005,Baidu,Business Partners,S,community_development,1
+CN005,Baidu,Business Partners,S,training_education,2
+CN005,Baidu,Government,E,biodiversity_ecosystems,1
+CN005,Baidu,NGO,G,ESG_governance,1
+CN006,Bank of China,Business Partners,E,emissions_reduction,1
+CN006,Bank of China,Business Partners,G,board_structure,1
+CN006,Bank of China,Business Partners,G,risk_management,1
+CN006,Bank of China,Business Partners,S,employee_health_safety,1
+CN006,Bank of China,Government,S,training_education,1
+CN006,Bank of China,NGO,S,training_education,1
+CN007,BYD,Business Partners,E,emissions_reduction,1
+CN007,BYD,Business Partners,E,energy_efficiency,2
+CN007,BYD,Business Partners,G,compliance_anti_corruption,1
+CN007,BYD,Government,Cross-cutting,innovation_green_tech,1
+CN007,BYD,NGO,E,emissions_reduction,1
+CN007,BYD,NGO,S,training_education,2
+CN008,CATL,Business Partners,Cross-cutting,innovation_green_tech,1
+CN008,CATL,Business Partners,E,emissions_reduction,1
+CN008,CATL,Business Partners,G,stakeholder_engagement,1
+CN008,CATL,Business Partners,G,transparency_reporting,1
+CN008,CATL,Government,E,waste_circularity,1
+CN008,CATL,Government,G,stakeholder_engagement,1
+CN008,CATL,Government,S,training_education,1
+CN008,CATL,NGO,E,emissions_reduction,1
+CN009,CCB,Business Partners,Cross-cutting,innovation_green_tech,2
+CN009,CCB,Business Partners,G,ESG_governance,1
+CN009,CCB,Business Partners,S,customer_privacy_security,1
+CN009,CCB,Government,Cross-cutting,innovation_green_tech,1
+CN009,CCB,Government,E,climate_risk_strategy,1
+CN010,Chery Auto,Business Partners,E,water_management,1
+CN010,Chery Auto,Business Partners,S,community_development,1
+CN010,Chery Auto,Business Partners,S,employee_health_safety,1
+CN010,Chery Auto,Government,S,community_development,1
+CN010,Chery Auto,NGO,G,ESG_governance,1
+CN011,limited company incorporated in the People’s Republic of China) 股份代號 Stock Code: 1606 ( 於中華人民共和國註冊成立的股份有限公司) 環境、社會及管治報告,Business Partners,E,emissions_reduction,1
+CN011,limited company incorporated in the People’s Republic of China) 股份代號 Stock Code: 1606 ( 於中華人民共和國註冊成立的股份有限公司) 環境、社會及管治報告,Business Partners,G,compliance_anti_corruption,1
+CN011,limited company incorporated in the People’s Republic of China) 股份代號 Stock Code: 1606 ( 於中華人民共和國註冊成立的股份有限公司) 環境、社會及管治報告,Business Partners,S,employee_health_safety,1
+CN011,limited company incorporated in the People’s Republic of China) 股份代號 Stock Code: 1606 ( 於中華人民共和國註冊成立的股份有限公司) 環境、社會及管治報告,Business Partners,S,training_education,1
+CN011,limited company incorporated in the People’s Republic of China) 股份代號 Stock Code: 1606 ( 於中華人民共和國註冊成立的股份有限公司) 環境、社會及管治報告,Government,E,emissions_reduction,1
+CN011,limited company incorporated in the People’s Republic of China) 股份代號 Stock Code: 1606 ( 於中華人民共和國註冊成立的股份有限公司) 環境、社會及管治報告,Government,S,training_education,1
+CN011,limited company incorporated in the People’s Republic of China) 股份代號 Stock Code: 1606 ( 於中華人民共和國註冊成立的股份有限公司) 環境、社會及管治報告,NGO,S,employee_health_safety,1
+CN011,limited company incorporated in the People’s Republic of China) 股份代號 Stock Code: 1606 ( 於中華人民共和國註冊成立的股份有限公司) 環境、社會及管治報告,Society,S,community_development,1
+CN012,"China Merchants Bank Co., Ltd.",Business Partners,Cross-cutting,innovation_green_tech,2
+CN012,"China Merchants Bank Co., Ltd.",Business Partners,E,emissions_reduction,1
+CN012,"China Merchants Bank Co., Ltd.",Government,G,compliance_anti_corruption,1
+CN012,"China Merchants Bank Co., Ltd.",Government,G,stakeholder_engagement,1
+CN012,"China Merchants Bank Co., Ltd.",NGO,G,stakeholder_engagement,1
+CN013,China Merchants Port Holdings Company,Business Partners,E,emissions_reduction,1
+CN013,China Merchants Port Holdings Company,Business Partners,S,diversity_inclusion,1
+CN013,China Merchants Port Holdings Company,Business Partners,S,training_education,1
+CN013,China Merchants Port Holdings Company,Government,E,climate_risk_strategy,1
+CN013,China Merchants Port Holdings Company,Government,S,customer_privacy_security,1
+CN013,China Merchants Port Holdings Company,Government,S,training_education,1
+CN013,China Merchants Port Holdings Company,NGO,G,ESG_governance,1
+CN013,China Merchants Port Holdings Company,NGO,G,compliance_anti_corruption,1
+CN013,China Merchants Port Holdings Company,NGO,S,diversity_inclusion,1
+CN014,China Shenhua Energy,Business Partners,Cross-cutting,innovation_green_tech,1
+CN014,China Shenhua Energy,Business Partners,S,training_education,1
+CN014,China Shenhua Energy,Government,Cross-cutting,innovation_green_tech,1
+CN014,China Shenhua Energy,Government,E,biodiversity_ecosystems,1
+CN014,China Shenhua Energy,Government,E,emissions_reduction,1
+CN014,China Shenhua Energy,Government,G,compliance_anti_corruption,1
+CN014,China Shenhua Energy,Government,G,risk_management,1
+CN014,China Shenhua Energy,Government,S,training_education,1
+CN014,China Shenhua Energy,Society,Cross-cutting,innovation_green_tech,1
+CN015,China State Construction,Business Partners,G,ESG_governance,1
+CN015,China State Construction,Business Partners,S,employee_health_safety,1
+CN015,China State Construction,Business Partners,S,training_education,1
+CN015,China State Construction,Government,G,ESG_governance,2
+CN015,China State Construction,Government,S,employee_health_safety,1
+CN015,China State Construction,NGO,G,ESG_governance,1
+CN017,able Development of CHINT Materiality Assessment Corporate ESG Governance Arrangements 01 02 03 05 13 17 CHINT 01 CHINT,Business Partners,G,ESG_governance,2
+CN017,able Development of CHINT Materiality Assessment Corporate ESG Governance Arrangements 01 02 03 05 13 17 CHINT 01 CHINT,Government,E,pollution_control,1
+CN017,able Development of CHINT Materiality Assessment Corporate ESG Governance Arrangements 01 02 03 05 13 17 CHINT 01 CHINT,Government,G,ESG_governance,1
+CN017,able Development of CHINT Materiality Assessment Corporate ESG Governance Arrangements 01 02 03 05 13 17 CHINT 01 CHINT,NGO,G,ESG_governance,1
+CN017,able Development of CHINT Materiality Assessment Corporate ESG Governance Arrangements 01 02 03 05 13 17 CHINT 01 CHINT,NGO,S,community_development,1
+CN017,able Development of CHINT Materiality Assessment Corporate ESG Governance Arrangements 01 02 03 05 13 17 CHINT 01 CHINT,NGO,S,diversity_inclusion,1
+CN017,able Development of CHINT Materiality Assessment Corporate ESG Governance Arrangements 01 02 03 05 13 17 CHINT 01 CHINT,NGO,S,training_education,1
+CN017,able Development of CHINT Materiality Assessment Corporate ESG Governance Arrangements 01 02 03 05 13 17 CHINT 01 CHINT,Society,S,training_education,1
+CN018,CITIC,Business Partners,Cross-cutting,innovation_green_tech,1
+CN018,CITIC,Business Partners,E,emissions_reduction,2
+CN018,CITIC,Business Partners,G,compliance_anti_corruption,1
+CN018,CITIC,NGO,Cross-cutting,innovation_green_tech,1
+CN018,CITIC,NGO,E,waste_circularity,1
+CN020,CNGR,Business Partners,Cross-cutting,innovation_green_tech,1
+CN020,CNGR,Business Partners,Cross-cutting,partnerships_general,1
+CN020,CNGR,Business Partners,E,biodiversity_ecosystems,2
+CN020,CNGR,Business Partners,G,board_structure,1
+CN020,CNGR,Government,S,labor_rights,1
+CN020,CNGR,NGO,E,biodiversity_ecosystems,1
+CN021,COSCO Shipping,Business Partners,E,emissions_reduction,1
+CN021,COSCO Shipping,Business Partners,G,stakeholder_engagement,1
+CN021,COSCO Shipping,Business Partners,G,supply_chain_governance,1
+CN021,COSCO Shipping,Government,E,pollution_control,1
+CN021,COSCO Shipping,Government,G,stakeholder_engagement,1
+CN022,CRRC,Business Partners,Cross-cutting,innovation_green_tech,1
+CN022,CRRC,Business Partners,E,renewable_energy,1
+CN022,CRRC,Business Partners,G,ESG_governance,1
+CN022,CRRC,Business Partners,G,stakeholder_engagement,1
+CN022,CRRC,Business Partners,S,diversity_inclusion,1
+CN022,CRRC,Government,G,board_structure,1
+CN022,CRRC,NGO,Cross-cutting,innovation_green_tech,1
+CN023,Stock code: 600900.SH,Business Partners,G,ESG_governance,1
+CN023,Stock code: 600900.SH,Government,Cross-cutting,innovation_green_tech,1
+CN024,ENN Natural Gas Co,Business Partners,Cross-cutting,innovation_green_tech,1
+CN024,ENN Natural Gas Co,Business Partners,G,compliance_anti_corruption,2
+CN024,ENN Natural Gas Co,Government,G,compliance_anti_corruption,2
+CN024,ENN Natural Gas Co,NGO,E,emissions_reduction,3
+CN024,ENN Natural Gas Co,NGO,S,labor_rights,1
+CN025,1 ESQUEL,Business Partners,Cross-cutting,partnerships_general,1
+CN025,1 ESQUEL,Business Partners,G,stakeholder_engagement,1
+CN025,1 ESQUEL,Business Partners,S,training_education,1
+CN025,1 ESQUEL,NGO,S,training_education,4
+CN026,rds Index 183 ESG Reporting Guide Index 189 Readers Feedback Form 192 Assurance Statement 193 About This Report 003 004,Business Partners,Cross-cutting,SDG_alignment,1
+CN026,rds Index 183 ESG Reporting Guide Index 189 Readers Feedback Form 192 Assurance Statement 193 About This Report 003 004,Business Partners,E,emissions_reduction,1
+CN026,rds Index 183 ESG Reporting Guide Index 189 Readers Feedback Form 192 Assurance Statement 193 About This Report 003 004,Business Partners,G,ESG_governance,1
+CN026,rds Index 183 ESG Reporting Guide Index 189 Readers Feedback Form 192 Assurance Statement 193 About This Report 003 004,Business Partners,S,responsible_products,1
+CN026,rds Index 183 ESG Reporting Guide Index 189 Readers Feedback Form 192 Assurance Statement 193 About This Report 003 004,Government,G,ESG_governance,1
+CN026,rds Index 183 ESG Reporting Guide Index 189 Readers Feedback Form 192 Assurance Statement 193 About This Report 003 004,Government,S,responsible_products,1
+CN026,rds Index 183 ESG Reporting Guide Index 189 Readers Feedback Form 192 Assurance Statement 193 About This Report 003 004,NGO,Cross-cutting,SDG_alignment,3
+CN026,rds Index 183 ESG Reporting Guide Index 189 Readers Feedback Form 192 Assurance Statement 193 About This Report 003 004,NGO,Cross-cutting,innovation_green_tech,2
+CN026,rds Index 183 ESG Reporting Guide Index 189 Readers Feedback Form 192 Assurance Statement 193 About This Report 003 004,NGO,E,emissions_reduction,1
+CN026,rds Index 183 ESG Reporting Guide Index 189 Readers Feedback Form 192 Assurance Statement 193 About This Report 003 004,NGO,G,ESG_governance,1
+CN027,Foxconn Industrial Internet,Business Partners,E,emissions_reduction,1
+CN027,Foxconn Industrial Internet,Business Partners,S,labor_rights,1
+CN027,Foxconn Industrial Internet,NGO,Cross-cutting,SDG_alignment,2
+CN027,Foxconn Industrial Internet,NGO,E,emissions_reduction,2
+CN027,Foxconn Industrial Internet,NGO,G,risk_management,1
+CN028,GCL,Business Partners,E,emissions_reduction,1
+CN028,GCL,Business Partners,E,waste_circularity,1
+CN028,GCL,Business Partners,G,board_structure,1
+CN028,GCL,Business Partners,G,supply_chain_governance,1
+CN028,GCL,NGO,E,biodiversity_ecosystems,1
+CN029,"and cooperation, happy reading! Giovanni Cariolato President & CEO Global Display Solutions Letter to Stakeholders 7 6 _",Business Partners,Cross-cutting,innovation_green_tech,1
+CN029,"and cooperation, happy reading! Giovanni Cariolato President & CEO Global Display Solutions Letter to Stakeholders 7 6 _",Business Partners,G,ESG_governance,1
+CN029,"and cooperation, happy reading! Giovanni Cariolato President & CEO Global Display Solutions Letter to Stakeholders 7 6 _",Business Partners,G,supply_chain_governance,2
+CN029,"and cooperation, happy reading! Giovanni Cariolato President & CEO Global Display Solutions Letter to Stakeholders 7 6 _",Business Partners,S,employee_health_safety,1
+CN029,"and cooperation, happy reading! Giovanni Cariolato President & CEO Global Display Solutions Letter to Stakeholders 7 6 _",Government,E,energy_efficiency,1
+CN029,"and cooperation, happy reading! Giovanni Cariolato President & CEO Global Display Solutions Letter to Stakeholders 7 6 _",Government,G,compliance_anti_corruption,1
+CN030,GEM Co.,Business Partners,Cross-cutting,innovation_green_tech,1
+CN030,GEM Co.,Business Partners,Cross-cutting,partnerships_general,1
+CN030,GEM Co.,Government,G,stakeholder_engagement,1
+CN030,GEM Co.,NGO,Cross-cutting,innovation_green_tech,1
+CN030,GEM Co.,NGO,E,emissions_reduction,1
+CN031,Glodon,Business Partners,E,emissions_reduction,1
+CN031,Glodon,Business Partners,G,stakeholder_engagement,2
+CN031,Glodon,Business Partners,S,community_development,1
+CN031,Glodon,Government,Cross-cutting,innovation_green_tech,2
+CN031,Glodon,Government,G,stakeholder_engagement,2
+CN031,Glodon,Government,S,community_development,1
+CN031,Glodon,Government,S,training_education,1
+CN031,Glodon,Society,Cross-cutting,innovation_green_tech,1
+CN031,Glodon,Society,S,training_education,1
+CN032,Gree,Business Partners,Cross-cutting,partnerships_general,1
+CN032,Gree,Business Partners,E,renewable_energy,1
+CN032,Gree,Business Partners,S,training_education,1
+CN032,Gree,Government,Cross-cutting,innovation_green_tech,1
+CN032,Gree,Government,E,renewable_energy,1
+CN033,Guangdong Investment Limited,Business Partners,E,emissions_reduction,1
+CN033,Guangdong Investment Limited,Business Partners,G,compliance_anti_corruption,1
+CN033,Guangdong Investment Limited,Business Partners,G,stakeholder_engagement,1
+CN033,Guangdong Investment Limited,Business Partners,G,supply_chain_governance,1
+CN033,Guangdong Investment Limited,Business Partners,S,employee_health_safety,1
+CN033,Guangdong Investment Limited,Government,S,training_education,1
+CN034,"Jan 1 – Dec 31, 2024",Business Partners,Cross-cutting,innovation_green_tech,3
+CN034,"Jan 1 – Dec 31, 2024",Business Partners,E,biodiversity_ecosystems,1
+CN034,"Jan 1 – Dec 31, 2024",Business Partners,G,stakeholder_engagement,1
+CN034,"Jan 1 – Dec 31, 2024",Business Partners,S,employee_health_safety,1
+CN034,"Jan 1 – Dec 31, 2024",NGO,Cross-cutting,innovation_green_tech,1
+CN035,Stock Codes: 11 (HKD counter) and 80011 (RMB counter),Business Partners,Cross-cutting,innovation_green_tech,4
+CN035,Stock Codes: 11 (HKD counter) and 80011 (RMB counter),Business Partners,E,emissions_reduction,1
+CN035,Stock Codes: 11 (HKD counter) and 80011 (RMB counter),Business Partners,S,training_education,1
+CN036,Hengtong Optic Electric,Business Partners,G,supply_chain_governance,1
+CN036,Hengtong Optic Electric,Business Partners,S,disaster_relief,1
+CN036,Hengtong Optic Electric,Government,E,pollution_control,1
+CN036,Hengtong Optic Electric,Government,G,transparency_reporting,1
+CN036,Hengtong Optic Electric,NGO,E,emissions_reduction,2
+CN037,Hengyi,Business Partners,Cross-cutting,partnerships_general,1
+CN037,Hengyi,Business Partners,E,emissions_reduction,2
+CN037,Hengyi,Business Partners,E,energy_efficiency,1
+CN037,Hengyi,Business Partners,G,supply_chain_governance,1
+CN037,Hengyi,NGO,E,emissions_reduction,1
+CN038,Hisense,NGO,E,emissions_reduction,1
+CN038,Hisense,NGO,G,compliance_anti_corruption,3
+CN038,Hisense,NGO,S,training_education,2
+CN039,Honor,Business Partners,Cross-cutting,innovation_green_tech,2
+CN039,Honor,Business Partners,E,emissions_reduction,2
+CN039,Honor,Business Partners,G,compliance_anti_corruption,1
+CN039,Honor,Business Partners,S,training_education,1
+CN039,Honor,Government,E,emissions_reduction,2
+CN039,Honor,NGO,E,emissions_reduction,1
+CN040,nment Social 93 106 115 122 133 65 80 89 38 41 44 50 56 1 1 21 27 02 03 Industrial and Commercial Bank of China Limited,Business Partners,E,water_management,1
+CN040,nment Social 93 106 115 122 133 65 80 89 38 41 44 50 56 1 1 21 27 02 03 Industrial and Commercial Bank of China Limited,Business Partners,G,stakeholder_engagement,1
+CN040,nment Social 93 106 115 122 133 65 80 89 38 41 44 50 56 1 1 21 27 02 03 Industrial and Commercial Bank of China Limited,Business Partners,S,training_education,1
+CN040,nment Social 93 106 115 122 133 65 80 89 38 41 44 50 56 1 1 21 27 02 03 Industrial and Commercial Bank of China Limited,Government,G,risk_management,1
+CN040,nment Social 93 106 115 122 133 65 80 89 38 41 44 50 56 1 1 21 27 02 03 Industrial and Commercial Bank of China Limited,Government,G,stakeholder_engagement,1
+CN040,nment Social 93 106 115 122 133 65 80 89 38 41 44 50 56 1 1 21 27 02 03 Industrial and Commercial Bank of China Limited,Government,S,training_education,1
+CN040,nment Social 93 106 115 122 133 65 80 89 38 41 44 50 56 1 1 21 27 02 03 Industrial and Commercial Bank of China Limited,NGO,E,energy_efficiency,1
+CN040,nment Social 93 106 115 122 133 65 80 89 38 41 44 50 56 1 1 21 27 02 03 Industrial and Commercial Bank of China Limited,NGO,G,ESG_governance,1
+CN041,iFlyTEK,Business Partners,Cross-cutting,innovation_green_tech,1
+CN041,iFlyTEK,Business Partners,E,biodiversity_ecosystems,1
+CN041,iFlyTEK,Business Partners,G,transparency_reporting,1
+CN041,iFlyTEK,Government,Cross-cutting,innovation_green_tech,1
+CN041,iFlyTEK,Government,S,training_education,1
+CN041,iFlyTEK,NGO,Cross-cutting,innovation_green_tech,1
+CN042,Inovance,Business Partners,Cross-cutting,partnerships_general,1
+CN042,Inovance,Business Partners,G,supply_chain_governance,1
+CN042,Inovance,Business Partners,S,employee_health_safety,1
+CN042,Inovance,Business Partners,S,training_education,1
+CN042,Inovance,NGO,E,emissions_reduction,2
+CN043,JA SOLAR SUSTAINABILITY AND,Business Partners,E,emissions_reduction,2
+CN043,JA SOLAR SUSTAINABILITY AND,Business Partners,E,renewable_energy,1
+CN043,JA SOLAR SUSTAINABILITY AND,Business Partners,G,transparency_reporting,1
+CN043,JA SOLAR SUSTAINABILITY AND,Government,E,emissions_reduction,2
+CN043,JA SOLAR SUSTAINABILITY AND,NGO,E,emissions_reduction,1
+CN044,Jinko Solar,Business Partners,E,renewable_energy,1
+CN044,Jinko Solar,Government,E,renewable_energy,1
+CN044,Jinko Solar,Government,G,stakeholder_engagement,1
+CN044,Jinko Solar,NGO,E,emissions_reduction,1
+CN044,Jinko Solar,NGO,S,labor_rights,1
+CN045,Kweichow Moutai Co,Business Partners,G,compliance_anti_corruption,1
+CN045,Kweichow Moutai Co,Business Partners,S,training_education,1
+CN045,Kweichow Moutai Co,Government,G,compliance_anti_corruption,1
+CN045,Kweichow Moutai Co,NGO,E,climate_risk_strategy,1
+CN045,Kweichow Moutai Co,NGO,S,community_development,1
+CN046,Lenovo,Business Partners,Cross-cutting,innovation_green_tech,2
+CN046,Lenovo,Business Partners,Cross-cutting,partnerships_general,1
+CN046,Lenovo,Business Partners,G,transparency_reporting,1
+CN046,Lenovo,Business Partners,S,employee_health_safety,1
+CN046,Lenovo,Government,Cross-cutting,innovation_green_tech,1
+CN046,Lenovo,NGO,Cross-cutting,innovation_green_tech,1
+CN046,Lenovo,NGO,E,water_management,2
+CN047,LINGYI iTECH (GUANGDONG) COMPANY,Business Partners,E,emissions_reduction,1
+CN047,LINGYI iTECH (GUANGDONG) COMPANY,Business Partners,E,renewable_energy,1
+CN047,LINGYI iTECH (GUANGDONG) COMPANY,Business Partners,G,supply_chain_governance,3
+CN047,LINGYI iTECH (GUANGDONG) COMPANY,Business Partners,S,training_education,1
+CN047,LINGYI iTECH (GUANGDONG) COMPANY,Government,E,emissions_reduction,1
+CN048,LONGI,Business Partners,E,emissions_reduction,1
+CN048,LONGI,Business Partners,G,ESG_governance,1
+CN048,LONGI,NGO,E,renewable_energy,1
+CN049,LUXSHAREICT,Business Partners,Cross-cutting,innovation_green_tech,1
+CN049,LUXSHAREICT,Business Partners,Cross-cutting,partnerships_general,1
+CN049,LUXSHAREICT,Business Partners,E,emissions_reduction,1
+CN049,LUXSHAREICT,Government,G,board_structure,1
+CN050,Meituan,Business Partners,Cross-cutting,innovation_green_tech,3
+CN050,Meituan,Business Partners,E,biodiversity_ecosystems,1
+CN050,Meituan,Business Partners,G,supply_chain_governance,1
+CN050,Meituan,Government,G,supply_chain_governance,1
+CN050,Meituan,NGO,Cross-cutting,innovation_green_tech,1
+CN050,Meituan,NGO,G,supply_chain_governance,1
+CN050,Meituan,NGO,S,training_education,1
+CN051,Mengniu Dairy,Business Partners,E,emissions_reduction,2
+CN051,Mengniu Dairy,Business Partners,S,community_development,1
+CN051,Mengniu Dairy,Government,G,supply_chain_governance,1
+CN051,Mengniu Dairy,NGO,Cross-cutting,partnerships_general,1
+CN051,Mengniu Dairy,NGO,S,community_development,1
+CN051,Mengniu Dairy,NGO,S,training_education,2
+CN053,"treet, Jiangbei New District, Nanjing, Jiangsu Province, China Postal Code: 210035 01 02 Nanjing Iron & Steel Co., Ltd.",Business Partners,E,emissions_reduction,1
+CN053,"treet, Jiangbei New District, Nanjing, Jiangsu Province, China Postal Code: 210035 01 02 Nanjing Iron & Steel Co., Ltd.",Business Partners,S,community_development,1
+CN053,"treet, Jiangbei New District, Nanjing, Jiangsu Province, China Postal Code: 210035 01 02 Nanjing Iron & Steel Co., Ltd.",Government,E,emissions_reduction,1
+CN053,"treet, Jiangbei New District, Nanjing, Jiangsu Province, China Postal Code: 210035 01 02 Nanjing Iron & Steel Co., Ltd.",Government,G,board_structure,1
+CN053,"treet, Jiangbei New District, Nanjing, Jiangsu Province, China Postal Code: 210035 01 02 Nanjing Iron & Steel Co., Ltd.",Government,S,diversity_inclusion,1
+CN054,PICC,Business Partners,Cross-cutting,innovation_green_tech,2
+CN054,PICC,Business Partners,G,board_structure,1
+CN054,PICC,Business Partners,S,training_education,2
+CN054,PICC,Government,Cross-cutting,innovation_green_tech,1
+CN054,PICC,Government,S,training_education,2
+CN054,PICC,NGO,G,board_structure,1
+CN054,PICC,NGO,S,training_education,1
+CN054,PICC,Society,Cross-cutting,innovation_green_tech,1
+CN054,PICC,Society,S,training_education,1
+CN055,PING AN,Business Partners,Cross-cutting,partnerships_general,1
+CN055,PING AN,Business Partners,E,emissions_reduction,1
+CN055,PING AN,NGO,Cross-cutting,innovation_green_tech,1
+CN055,PING AN,NGO,Cross-cutting,partnerships_general,4
+CN055,PING AN,NGO,S,training_education,1
+CN056,Power Construction Corporation of China,Business Partners,S,responsible_products,1
+CN056,Power Construction Corporation of China,Government,E,emissions_reduction,1
+CN056,Power Construction Corporation of China,NGO,E,renewable_energy,1
+CN057,Sany,Business Partners,E,emissions_reduction,1
+CN057,Sany,Business Partners,G,board_structure,1
+CN057,Sany,Business Partners,G,compliance_anti_corruption,1
+CN057,Sany,Business Partners,G,supply_chain_governance,1
+CN057,Sany,Government,E,emissions_reduction,1
+CN057,Sany,NGO,Cross-cutting,innovation_green_tech,1
+CN057,Sany,NGO,E,emissions_reduction,1
+CN057,Sany,NGO,G,supply_chain_governance,1
+CN057,Sany,NGO,S,community_development,1
+CN058,SF Holding,Business Partners,E,emissions_reduction,1
+CN058,SF Holding,Business Partners,G,ESG_governance,1
+CN058,SF Holding,Business Partners,G,supply_chain_governance,1
+CN058,SF Holding,Business Partners,S,responsible_products,1
+CN058,SF Holding,Government,E,emissions_reduction,2
+CN058,SF Holding,NGO,Cross-cutting,partnerships_general,1
+CN058,SF Holding,NGO,E,emissions_reduction,1
+CN059,Shenzhen International Holding Limited,Business Partners,Cross-cutting,partnerships_general,1
+CN059,Shenzhen International Holding Limited,Business Partners,E,emissions_reduction,1
+CN059,Shenzhen International Holding Limited,Business Partners,S,training_education,1
+CN059,Shenzhen International Holding Limited,Government,S,training_education,1
+CN059,Shenzhen International Holding Limited,NGO,G,supply_chain_governance,1
+CN060,Sungrow,Business Partners,Cross-cutting,innovation_green_tech,1
+CN060,Sungrow,Business Partners,E,emissions_reduction,2
+CN060,Sungrow,Business Partners,G,stakeholder_engagement,1
+CN060,Sungrow,NGO,S,training_education,1
+CN061,Sunny Optical Technology,Business Partners,Cross-cutting,innovation_green_tech,1
+CN061,Sunny Optical Technology,Business Partners,E,emissions_reduction,3
+CN061,Sunny Optical Technology,Government,S,disaster_relief,1
+CN061,Sunny Optical Technology,NGO,S,disaster_relief,1
+CN062,Sunwoda,Business Partners,Cross-cutting,innovation_green_tech,1
+CN062,Sunwoda,Business Partners,E,emissions_reduction,1
+CN062,Sunwoda,Business Partners,G,supply_chain_governance,1
+CN062,Sunwoda,Business Partners,S,employee_health_safety,1
+CN062,Sunwoda,Government,E,emissions_reduction,1
+CN062,Sunwoda,NGO,Cross-cutting,partnerships_general,1
+CN062,Sunwoda,NGO,E,emissions_reduction,2
+CN063,Taishin Holding,Business Partners,E,green_supply_chain,1
+CN063,Taishin Holding,Business Partners,G,transparency_reporting,1
+CN063,Taishin Holding,Business Partners,S,training_education,2
+CN063,Taishin Holding,Government,E,biodiversity_ecosystems,1
+CN064,TCL Technology Group,Business Partners,Cross-cutting,innovation_green_tech,1
+CN064,TCL Technology Group,Business Partners,G,compliance_anti_corruption,1
+CN064,TCL Technology Group,Business Partners,S,diversity_inclusion,1
+CN064,TCL Technology Group,NGO,Cross-cutting,innovation_green_tech,1
+CN064,TCL Technology Group,NGO,E,renewable_energy,1
+CN064,TCL Technology Group,NGO,S,community_development,2
+CN064,TCL Technology Group,NGO,S,diversity_inclusion,1
+CN065,Tencent,Business Partners,Cross-cutting,innovation_green_tech,2
+CN065,Tencent,Business Partners,E,emissions_reduction,1
+CN065,Tencent,Business Partners,G,stakeholder_engagement,1
+CN065,Tencent,Government,Cross-cutting,innovation_green_tech,1
+CN065,Tencent,Government,E,emissions_reduction,1
+CN065,Tencent,Government,G,stakeholder_engagement,1
+CN065,Tencent,NGO,E,emissions_reduction,1
+CN065,Tencent,NGO,E,water_management,1
+CN065,Tencent,NGO,G,stakeholder_engagement,1
+CN065,Tencent,NGO,S,customer_privacy_security,1
+CN065,Tencent,Society,Cross-cutting,innovation_green_tech,1
+CN066,TPV,Business Partners,Cross-cutting,innovation_green_tech,1
+CN066,TPV,Business Partners,E,emissions_reduction,1
+CN066,TPV,Business Partners,G,supply_chain_governance,1
+CN066,TPV,Business Partners,S,community_development,1
+CN066,TPV,Government,E,emissions_reduction,1
+CN066,TPV,Government,S,community_development,1
+CN067,Vanke,Business Partners,G,supply_chain_governance,1
+CN067,Vanke,Business Partners,S,community_development,1
+CN067,Vanke,Government,S,community_development,1
+CN067,Vanke,NGO,Cross-cutting,partnerships_general,1
+CN067,Vanke,NGO,E,biodiversity_ecosystems,2
+CN067,Vanke,NGO,G,stakeholder_engagement,1
+CN068,WuXi AppTec,Business Partners,E,water_management,1
+CN068,WuXi AppTec,Business Partners,G,transparency_reporting,1
+CN068,WuXi AppTec,Business Partners,S,community_development,2
+CN068,WuXi AppTec,Business Partners,S,customer_privacy_security,1
+CN068,WuXi AppTec,Government,E,water_management,1
+CN068,WuXi AppTec,Government,G,stakeholder_engagement,1
+CN068,WuXi AppTec,Government,S,customer_privacy_security,1
+CN068,WuXi AppTec,NGO,Cross-cutting,innovation_green_tech,1
+CN068,WuXi AppTec,NGO,E,water_management,1
+CN069,XCMG,Business Partners,Cross-cutting,innovation_green_tech,1
+CN069,XCMG,Business Partners,E,emissions_reduction,1
+CN069,XCMG,Business Partners,S,disaster_relief,1
+CN069,XCMG,Government,Cross-cutting,innovation_green_tech,1
+CN069,XCMG,Government,G,compliance_anti_corruption,1
+CN069,XCMG,NGO,E,water_management,2
+CN070,Xiaomi,Business Partners,E,biodiversity_ecosystems,1
+CN070,Xiaomi,NGO,Cross-cutting,innovation_green_tech,1
+CN070,Xiaomi,NGO,E,biodiversity_ecosystems,1
+CN070,Xiaomi,NGO,E,emissions_reduction,1
+CN070,Xiaomi,NGO,G,board_structure,1
+CN070,Xiaomi,NGO,S,labor_rights,1
+CN071,"Zhejiang Huayou Cobalt Co., Ltd.",Government,E,emissions_reduction,1
+CN071,"Zhejiang Huayou Cobalt Co., Ltd.",NGO,Cross-cutting,SDG_alignment,1
+CN071,"Zhejiang Huayou Cobalt Co., Ltd.",NGO,Cross-cutting,innovation_green_tech,2
+CN071,"Zhejiang Huayou Cobalt Co., Ltd.",NGO,E,waste_circularity,1
+CN071,"Zhejiang Huayou Cobalt Co., Ltd.",NGO,G,risk_management,1
+CN071,"Zhejiang Huayou Cobalt Co., Ltd.",NGO,S,training_education,1
+CN072,Zijin,Business Partners,Cross-cutting,innovation_green_tech,1
+CN072,Zijin,Business Partners,E,renewable_energy,1
+CN072,Zijin,Business Partners,G,board_structure,1
+CN072,Zijin,Government,E,renewable_energy,1
+CN072,Zijin,NGO,E,renewable_energy,1
+CN072,Zijin,NGO,E,water_management,1
+CN073,ZTE Corporation,Business Partners,Cross-cutting,partnerships_general,1
+CN073,ZTE Corporation,Business Partners,E,emissions_reduction,1
+CN073,ZTE Corporation,Government,Cross-cutting,partnerships_general,1
+CN073,ZTE Corporation,NGO,S,diversity_inclusion,1
+CN073,ZTE Corporation,NGO,S,employee_health_safety,1
+CN073,ZTE Corporation,NGO,S,training_education,1
