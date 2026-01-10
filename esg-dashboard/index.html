@@ -1,0 +1,503 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>China ESG Collaboration Dashboard (73 Reports)</title>
+  <meta name="description" content="Objective, evidence-grounded ESG initiative extraction and collaboration mapping across 73 Chinese company ESG reports." />
+
+  <link rel="stylesheet" href="./styles.css" />
+
+  <!-- CSV parsing -->
+  <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
+
+  <!-- Charts -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+
+  <!-- Tabulator (modern table, no jQuery) -->
+  <link href="https://cdn.jsdelivr.net/npm/tabulator-tables@6.2.1/dist/css/tabulator.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/tabulator-tables@6.2.1/dist/js/tabulator.min.js"></script>
+
+  <!-- D3 for network graphs -->
+  <script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script>
+</head>
+
+<body>
+  <div id="app">
+    <!-- Top Bar -->
+    <header class="topbar">
+      <div class="topbar-left">
+        <div class="brand">
+          <div class="brand-mark">ESG</div>
+          <div class="brand-text">
+            <div class="brand-title">China ESG Collaboration Dashboard</div>
+            <div class="brand-sub">73 ESG/Sustainability PDFs → objective, evidence-grounded dataset</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="topbar-right">
+        <button class="btn ghost" id="btnTheme" title="Toggle theme">Theme</button>
+        <a class="btn ghost" href="./data/company_master.csv" download>Download Company CSV</a>
+        <a class="btn ghost" href="./data/initiatives.csv" download>Download Initiatives CSV</a>
+        <a class="btn ghost" href="./data/scores.csv" download>Download Scores CSV</a>
+      </div>
+    </header>
+
+    <!-- Layout -->
+    <div class="layout">
+      <!-- Sidebar Filters -->
+      <aside class="sidebar">
+        <div class="panel">
+          <div class="panel-title">Filters</div>
+
+          <label class="field">
+            <span>Company (report_id)</span>
+            <select id="fCompany"></select>
+          </label>
+
+          <label class="field">
+            <span>Sector</span>
+            <select id="fSector"></select>
+          </label>
+
+          <label class="field">
+            <span>Year</span>
+            <select id="fYear"></select>
+          </label>
+
+          <label class="field">
+            <span>Ownership</span>
+            <select id="fOwnership"></select>
+          </label>
+
+          <div class="hr"></div>
+
+          <label class="field">
+            <span>Initiatives: ESG Block</span>
+            <select id="fBlock"></select>
+          </label>
+
+          <label class="field">
+            <span>Theme Tag</span>
+            <select id="fTheme"></select>
+          </label>
+
+          <label class="field">
+            <span>Collaboration Type</span>
+            <select id="fCollabType"></select>
+          </label>
+
+          <label class="field">
+            <span>Driver (Primary)</span>
+            <select id="fDriver"></select>
+          </label>
+
+          <label class="field">
+            <span>Confidence</span>
+            <select id="fConfidence"></select>
+          </label>
+
+          <div class="actions">
+            <button class="btn" id="btnApply">Apply</button>
+            <button class="btn ghost" id="btnReset">Reset</button>
+          </div>
+
+          <div class="hint">
+            Evidence links work if you place PDFs under <code>/pdfs/</code> using the same file names.
+          </div>
+        </div>
+
+        <div class="panel">
+          <div class="panel-title">Corpus Snapshot</div>
+          <div class="kpi-list">
+            <div class="kpi">
+              <div class="kpi-label">Reports</div>
+              <div class="kpi-value" id="kReports">—</div>
+            </div>
+            <div class="kpi">
+              <div class="kpi-label">Initiatives</div>
+              <div class="kpi-value" id="kInitiatives">—</div>
+            </div>
+            <div class="kpi">
+              <div class="kpi-label">Collaboration cases</div>
+              <div class="kpi-value" id="kCollab">—</div>
+            </div>
+            <div class="kpi">
+              <div class="kpi-label">Named actor edges</div>
+              <div class="kpi-value" id="kNamedEdges">—</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="panel">
+          <div class="panel-title">Navigation</div>
+          <nav class="tabs" id="tabs">
+            <button class="tab active" data-tab="overview">Overview</button>
+            <button class="tab" data-tab="company">Company</button>
+            <button class="tab" data-tab="initiatives">Initiatives</button>
+            <button class="tab" data-tab="network">Network</button>
+            <button class="tab" data-tab="eda">EDA</button>
+            <button class="tab" data-tab="method">Method</button>
+          </nav>
+        </div>
+      </aside>
+
+      <!-- Main -->
+      <main class="main">
+        <!-- OVERVIEW -->
+        <section class="tabview active" id="tab-overview">
+          <div class="grid2">
+            <div class="card">
+              <div class="card-head">
+                <div>
+                  <div class="card-title">Score Summary (0–3)</div>
+                  <div class="card-sub">Mean scores for the current filter scope</div>
+                </div>
+                <div class="pill" id="scopePill">Scope: All</div>
+              </div>
+              <div class="chart-wrap">
+                <canvas id="chartRadar"></canvas>
+              </div>
+              <div class="mini-row">
+                <div class="mini">
+                  <div class="mini-label">Avg E</div>
+                  <div class="mini-value" id="mE">—</div>
+                </div>
+                <div class="mini">
+                  <div class="mini-label">Avg S</div>
+                  <div class="mini-value" id="mS">—</div>
+                </div>
+                <div class="mini">
+                  <div class="mini-label">Avg G</div>
+                  <div class="mini-value" id="mG">—</div>
+                </div>
+                <div class="mini">
+                  <div class="mini-label">Avg Evidence Density</div>
+                  <div class="mini-value" id="mED">—</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-head">
+                <div>
+                  <div class="card-title">Interaction Profile</div>
+                  <div class="card-sub">Gov / NGO / Society / Partners + Collaboration Intensity</div>
+                </div>
+                <button class="btn ghost small" id="btnExportScope">Export scope initiatives</button>
+              </div>
+              <div class="chart-wrap">
+                <canvas id="chartInteractions"></canvas>
+              </div>
+              <div class="note">
+                This is computed from <code>scores.csv</code> and initiative evidence. No guessing.
+              </div>
+            </div>
+          </div>
+
+          <div class="grid3">
+            <div class="card">
+              <div class="card-head">
+                <div>
+                  <div class="card-title">Top Themes (Initiatives)</div>
+                  <div class="card-sub">Click a bar to filter initiatives</div>
+                </div>
+              </div>
+              <div class="chart-wrap">
+                <canvas id="chartThemes"></canvas>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-head">
+                <div>
+                  <div class="card-title">Drivers (Primary)</div>
+                  <div class="card-sub">As stated in report evidence</div>
+                </div>
+              </div>
+              <div class="chart-wrap">
+                <canvas id="chartDrivers"></canvas>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-head">
+                <div>
+                  <div class="card-title">Collaboration Types</div>
+                  <div class="card-sub">Distribution of collaboration cases</div>
+                </div>
+              </div>
+              <div class="chart-wrap">
+                <canvas id="chartCollabTypes"></canvas>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-head">
+              <div>
+                <div class="card-title">Top Companies (by collaboration intensity)</div>
+                <div class="card-sub">From <code>scores.csv</code>. Click row to jump to Company tab.</div>
+              </div>
+            </div>
+            <div id="tableTopCompanies"></div>
+          </div>
+        </section>
+
+        <!-- COMPANY -->
+        <section class="tabview" id="tab-company">
+          <div class="grid2">
+            <div class="card">
+              <div class="card-head">
+                <div>
+                  <div class="card-title">Company Profile</div>
+                  <div class="card-sub">From <code>company_master.csv</code> + <code>scores.csv</code></div>
+                </div>
+                <div class="pill" id="companyPill">No company selected</div>
+              </div>
+
+              <div class="profile" id="companyProfile">
+                <div class="profile-empty">Select a company using the left filter (Company).</div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-head">
+                <div>
+                  <div class="card-title">Company Scorecard</div>
+                  <div class="card-sub">ESG + interaction scores (0–3)</div>
+                </div>
+                <button class="btn ghost small" id="btnOpenCompanyPDF">Open report (if available)</button>
+              </div>
+
+              <div class="chart-wrap">
+                <canvas id="chartCompanyRadar"></canvas>
+              </div>
+
+              <div class="chart-wrap sm">
+                <canvas id="chartCompanyInteractions"></canvas>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-head">
+              <div>
+                <div class="card-title">Company Initiatives (Evidence-linked)</div>
+                <div class="card-sub">Exact file + pages + excerpt (max 2 sentences)</div>
+              </div>
+              <button class="btn ghost small" id="btnExportCompany">Export company initiatives CSV</button>
+            </div>
+            <div id="tableCompanyInitiatives"></div>
+          </div>
+        </section>
+
+        <!-- INITIATIVES -->
+        <section class="tabview" id="tab-initiatives">
+          <div class="card">
+            <div class="card-head">
+              <div>
+                <div class="card-title">Initiative Explorer</div>
+                <div class="card-sub">Search, filter, sort, export. Every row has evidence.</div>
+              </div>
+              <div class="row">
+                <button class="btn ghost small" id="btnExportInitiatives">Export current table</button>
+                <button class="btn ghost small" id="btnClearThemeFilter">Clear theme filter</button>
+              </div>
+            </div>
+            <div id="tableInitiatives"></div>
+          </div>
+        </section>
+
+        <!-- NETWORK -->
+        <section class="tabview" id="tab-network">
+          <div class="grid2">
+            <div class="card">
+              <div class="card-head">
+                <div>
+                  <div class="card-title">Actor Category Network</div>
+                  <div class="card-sub">Company ↔ Government/NGO/Society/Business Partners (weights = initiative counts)</div>
+                </div>
+                <div class="row">
+                  <select id="netThemeSelect" class="select small"></select>
+                  <button class="btn ghost small" id="btnNetReset">Reset view</button>
+                </div>
+              </div>
+              <div class="net-wrap">
+                <svg id="svgCategoryNet" width="100%" height="520"></svg>
+              </div>
+              <div class="note">
+                Source: <code>actor_category_edges.csv</code>. Evidence remains in <code>initiatives.csv</code>.
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-head">
+                <div>
+                  <div class="card-title">Named Actor Network</div>
+                  <div class="card-sub">Only where actor names are explicitly stated</div>
+                </div>
+                <div class="row">
+                  <select id="netActorTypeSelect" class="select small"></select>
+                  <button class="btn ghost small" id="btnNamedNetReset">Reset view</button>
+                </div>
+              </div>
+              <div class="net-wrap">
+                <svg id="svgNamedNet" width="100%" height="520"></svg>
+              </div>
+              <div class="note">
+                Source: <code>actor_name_edges.csv</code>. Names appear only when explicit in reports.
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- EDA -->
+        <section class="tabview" id="tab-eda">
+          <div class="grid3">
+            <div class="card">
+              <div class="card-head">
+                <div>
+                  <div class="card-title">Score Distributions</div>
+                  <div class="card-sub">E / S / G frequency (0–3)</div>
+                </div>
+              </div>
+              <div class="chart-wrap">
+                <canvas id="chartDistESG"></canvas>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-head">
+                <div>
+                  <div class="card-title">Sector Averages</div>
+                  <div class="card-sub">Avg ESG + collaboration intensity by sector</div>
+                </div>
+              </div>
+              <div class="chart-wrap">
+                <canvas id="chartSectorAvg"></canvas>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-head">
+                <div>
+                  <div class="card-title">Correlation Heatmap</div>
+                  <div class="card-sub">Scores vs. interactions vs. evidence density</div>
+                </div>
+              </div>
+              <div class="heatmap" id="heatmapCorr"></div>
+            </div>
+          </div>
+
+          <div class="grid2">
+            <div class="card">
+              <div class="card-head">
+                <div>
+                  <div class="card-title">Initiatives by ESG Block</div>
+                  <div class="card-sub">Counts (filter-aware)</div>
+                </div>
+              </div>
+              <div class="chart-wrap">
+                <canvas id="chartBlocks"></canvas>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-head">
+                <div>
+                  <div class="card-title">KPIs & Evidence Density</div>
+                  <div class="card-sub">Quant metrics count vs evidence density</div>
+                </div>
+              </div>
+              <div class="chart-wrap">
+                <canvas id="chartKPIvsEvidence"></canvas>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-head">
+              <div>
+                <div class="card-title">EDA Table (company-level)</div>
+                <div class="card-sub">Sortable. Use this to find strong cases for thesis tables.</div>
+              </div>
+              <button class="btn ghost small" id="btnExportEDA">Export EDA table</button>
+            </div>
+            <div id="tableEDA"></div>
+          </div>
+        </section>
+
+        <!-- METHOD -->
+        <section class="tabview" id="tab-method">
+          <div class="card">
+            <div class="card-head">
+              <div>
+                <div class="card-title">Method & Locked Rules</div>
+                <div class="card-sub">Dashboard shows only what is grounded in the PDFs via extracted evidence.</div>
+              </div>
+            </div>
+
+            <div class="method">
+              <h3>Core research focus (locked)</h3>
+              <p>
+                Intersectional collaboration for sustainable development in BRICS+ countries (starting with China).
+                We examine <strong>how Chinese companies implement ESG initiatives</strong>, <strong>why they do it now</strong>,
+                and <strong>how institutional agents</strong> (state, society, NGOs, business partners) drive or enable ESG.
+              </p>
+
+              <h3>Evidence rule</h3>
+              <ul>
+                <li>Every initiative row includes: <code>evidence_file_name</code>, <code>evidence_page_numbers</code>, and an excerpt (≤ 2 sentences).</li>
+                <li>If not found: values should be “not stated / not found” in the dataset and shown as such here.</li>
+              </ul>
+
+              <h3>Scoring rubric (0–3)</h3>
+              <div class="code">
+0 = not mentioned / extremely minimal
+1 = mentioned but vague, no concrete examples or KPIs
+2 = multiple concrete examples OR at least some KPIs
+3 = strong detail: multiple initiatives + KPIs + structured disclosure
+
+Collaboration intensity:
+0 = no collaboration mentioned
+1 = collaboration implied but not specific
+2 = at least 2 specific collaboration initiatives with evidence
+3 = frequent collaboration across multiple ESG blocks with clear partners/actors
+
+Evidence density:
+0 = mostly narrative, no KPIs
+1 = a few numbers scattered
+2 = multiple KPI sections / tables
+3 = KPI-rich across E/S/G with targets and outcomes
+              </div>
+
+              <h3>Data sources</h3>
+              <ul>
+                <li><code>company_master.csv</code> (1 row per report)</li>
+                <li><code>initiatives.csv</code> (1 row per initiative/case)</li>
+                <li><code>scores.csv</code> (numeric indicators 0–3 + KPI counts)</li>
+                <li><code>actor_category_edges.csv</code> (edges for category network mapping)</li>
+                <li><code>actor_name_edges.csv</code> (named actors where explicitly stated)</li>
+              </ul>
+
+              <div class="hint">
+                If you add future BRICS country corpora, keep the schema identical and the dashboard will compare them cleanly.
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+          <div>Built for reproducible ESG research (evidence-grounded, no guessing).</div>
+          <div class="muted">Place CSVs in <code>/data/</code> and PDFs (optional) in <code>/pdfs/</code>.</div>
+        </footer>
+      </main>
+    </div>
+  </div>
+
+  <script src="./app.js"></script>
+</body>
+</html>
