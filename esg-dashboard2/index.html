@@ -1,0 +1,492 @@
+<!-- index.html -->
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="color-scheme" content="dark" />
+  <title>ESG Collaboration EDA Dashboard</title>
+  <link rel="icon" href="data:," />
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+  <link rel="preconnect" href="https://unpkg.com" crossorigin>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="app-header">
+    <div class="brand">
+      <div class="brand-mark" aria-hidden="true"></div>
+      <div class="brand-text">
+        <div class="brand-title">ESG Collaboration</div>
+        <div class="brand-subtitle">EDA dashboard · transparent · reproducible</div>
+      </div>
+    </div>
+
+    <nav class="tabs" aria-label="Primary">
+      <a class="tab" href="#overview" data-tab="overview" aria-current="page">Overview</a>
+      <a class="tab" href="#companies" data-tab="companies">Companies</a>
+      <a class="tab" href="#initiatives" data-tab="initiatives">Initiatives</a>
+      <a class="tab" href="#network" data-tab="network">Network</a>
+      <a class="tab" href="#methods" data-tab="methods">Methods</a>
+    </nav>
+
+    <div class="header-actions">
+      <button id="btnResetAll" class="btn btn-ghost" type="button" aria-label="Reset all filters">
+        Reset
+      </button>
+      <button id="btnHelp" class="btn btn-ghost" type="button" aria-label="Open methods">
+        Methods
+      </button>
+    </div>
+  </header>
+
+  <section id="globalFilters" class="filters" aria-label="Global filters">
+    <div class="filters-row">
+      <div class="filters-left">
+        <div class="field">
+          <label for="fCompany">Company</label>
+          <select id="fCompany" aria-label="Filter by company"></select>
+        </div>
+
+        <div class="field">
+          <label for="fSector">Sector</label>
+          <select id="fSector" aria-label="Filter by sector"></select>
+        </div>
+
+        <div class="field">
+          <label for="fOwnership">Ownership</label>
+          <select id="fOwnership" aria-label="Filter by ownership type"></select>
+        </div>
+
+        <div class="field">
+          <label for="fYear">Year</label>
+          <select id="fYear" aria-label="Filter by report year"></select>
+        </div>
+
+        <div class="field">
+          <label for="fESG">ESG block</label>
+          <select id="fESG" aria-label="Filter by ESG block"></select>
+        </div>
+
+        <div class="field">
+          <label for="fTheme">Theme</label>
+          <select id="fTheme" aria-label="Filter by theme tag"></select>
+        </div>
+
+        <div class="field">
+          <label for="fCollab">Collab type</label>
+          <select id="fCollab" aria-label="Filter by collaboration type"></select>
+        </div>
+
+        <div class="field">
+          <label for="fCluster">Cluster</label>
+          <select id="fCluster" aria-label="Filter by cluster"></select>
+        </div>
+      </div>
+
+      <div class="filters-right">
+        <div class="chips" id="activeChips" aria-label="Active filters"></div>
+      </div>
+    </div>
+
+    <div class="filters-meta">
+      <div class="status" id="statusLine" role="status" aria-live="polite">
+        Loading data…
+      </div>
+      <div class="meta-actions">
+        <button id="btnResetFilters" class="btn btn-primary" type="button">
+          Reset filters
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <main id="main" class="main" tabindex="-1">
+    <!-- Loading / error banners -->
+    <div id="errorBanner" class="banner banner-error hidden" role="alert">
+      <div class="banner-title">Couldn’t load data</div>
+      <div class="banner-body" id="errorText">Please check file paths and try again.</div>
+    </div>
+
+    <!-- Sections -->
+    <section id="overview" class="section" data-section="overview" aria-label="Overview">
+      <div class="section-head">
+        <div>
+          <h1>Overview</h1>
+          <p class="muted">A research-grade snapshot of ESG initiatives and cross-sector collaboration.</p>
+        </div>
+      </div>
+
+      <div class="grid kpis" aria-label="Key performance indicators">
+        <div class="card kpi">
+          <div class="kpi-label">Companies</div>
+          <div class="kpi-value" id="kpiCompanies">—</div>
+          <div class="kpi-sub" id="kpiCompaniesSub">Filtered</div>
+          <div class="skeleton sk-kpi"></div>
+        </div>
+        <div class="card kpi">
+          <div class="kpi-label">Initiatives</div>
+          <div class="kpi-value" id="kpiInitiatives">—</div>
+          <div class="kpi-sub" id="kpiInitiativesSub">Filtered</div>
+          <div class="skeleton sk-kpi"></div>
+        </div>
+        <div class="card kpi">
+          <div class="kpi-label">Avg E / S / G</div>
+          <div class="kpi-value mono" id="kpiESG">—</div>
+          <div class="kpi-sub">From scores.csv</div>
+          <div class="skeleton sk-kpi"></div>
+        </div>
+        <div class="card kpi">
+          <div class="kpi-label">Collab intensity</div>
+          <div class="kpi-value" id="kpiCollab">—</div>
+          <div class="kpi-sub">Avg</div>
+          <div class="skeleton sk-kpi"></div>
+        </div>
+        <div class="card kpi">
+          <div class="kpi-label">Evidence density</div>
+          <div class="kpi-value" id="kpiEvidence">—</div>
+          <div class="kpi-sub">Avg</div>
+          <div class="skeleton sk-kpi"></div>
+        </div>
+      </div>
+
+      <div class="grid two">
+        <div class="card">
+          <div class="card-head">
+            <h2>Collaboration composition</h2>
+            <div class="hint">Actor-category weights aggregated</div>
+          </div>
+          <div class="card-body">
+            <canvas id="chartComposition" height="160" aria-label="Collaboration composition chart"></canvas>
+            <div class="empty hidden" id="emptyComposition">
+              No category edge data for the current filters.
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-head">
+            <h2>Distributions</h2>
+            <div class="hint">ESG + collaboration intensity</div>
+          </div>
+          <div class="card-body stack">
+            <canvas id="chartESGDist" height="140" aria-label="ESG distribution chart"></canvas>
+            <canvas id="chartCollabDist" height="140" aria-label="Collaboration intensity distribution chart"></canvas>
+            <div class="empty hidden" id="emptyDists">
+              Not enough scored data for the current filters.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="grid two">
+        <div class="card">
+          <div class="card-head">
+            <h2>Correlation mini-view</h2>
+            <div class="hint">ESG vs collaboration intensity</div>
+          </div>
+          <div class="card-body">
+            <canvas id="chartCorr" height="170" aria-label="Correlation chart"></canvas>
+            <div class="mini" id="corrText">—</div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-head">
+            <h2>Theme overview</h2>
+            <div class="hint">From theme_counts.csv (click to filter)</div>
+          </div>
+          <div class="card-body">
+            <canvas id="chartThemes" height="170" aria-label="Theme counts chart"></canvas>
+            <div class="empty hidden" id="emptyThemes">
+              No theme counts available.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="companies" class="section hidden" data-section="companies" aria-label="Companies">
+      <div class="section-head">
+        <div>
+          <h1>Companies</h1>
+          <p class="muted">Explore company-level patterns. Click a row for a drill-down.</p>
+        </div>
+        <div class="section-actions">
+          <div class="search">
+            <label class="sr-only" for="companySearch">Search companies</label>
+            <input id="companySearch" type="search" placeholder="Search company, sector, ownership…" autocomplete="off" />
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-head">
+          <h2>Company table</h2>
+          <div class="hint" id="companiesMeta">—</div>
+        </div>
+        <div class="card-body">
+          <div class="table-wrap" role="region" aria-label="Companies table" tabindex="0">
+            <table class="table" id="companiesTable">
+              <thead>
+                <tr>
+                  <th data-sort="company_name_english">Company</th>
+                  <th data-sort="industry_sector">Sector</th>
+                  <th data-sort="ownership_type">Ownership</th>
+                  <th data-sort="year_of_report">Year</th>
+                  <th class="num" data-sort="E_score">E</th>
+                  <th class="num" data-sort="S_score">S</th>
+                  <th class="num" data-sort="G_score">G</th>
+                  <th class="num" data-sort="collaboration_intensity">Collab</th>
+                  <th class="num" data-sort="evidence_density">Evidence</th>
+                </tr>
+              </thead>
+              <tbody id="companiesTbody">
+                <!-- injected -->
+              </tbody>
+            </table>
+          </div>
+
+          <div class="pager">
+            <button class="btn btn-ghost" id="companiesPrev" type="button" aria-label="Previous page">Prev</button>
+            <div class="pager-meta" id="companiesPagerMeta">—</div>
+            <button class="btn btn-ghost" id="companiesNext" type="button" aria-label="Next page">Next</button>
+          </div>
+
+          <div class="empty hidden" id="emptyCompanies">
+            No companies match the current filters.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="initiatives" class="section hidden" data-section="initiatives" aria-label="Initiatives">
+      <div class="section-head">
+        <div>
+          <h1>Initiatives</h1>
+          <p class="muted">Search, filter, and inspect initiative evidence (public-safe by default).</p>
+        </div>
+        <div class="section-actions">
+          <div class="search">
+            <label class="sr-only" for="initiativeSearch">Search initiatives</label>
+            <input id="initiativeSearch" type="search" placeholder="Search title, driver, collab, cluster…" autocomplete="off" />
+          </div>
+        </div>
+      </div>
+
+      <div class="grid two">
+        <div class="card">
+          <div class="card-head">
+            <h2>Clusters</h2>
+            <div class="hint">Click a bar to filter by cluster</div>
+          </div>
+          <div class="card-body">
+            <canvas id="chartClusters" height="190" aria-label="Cluster sizes chart"></canvas>
+            <div class="empty hidden" id="emptyClusters">
+              No cluster summary available.
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-head">
+            <h2>Collaboration types</h2>
+            <div class="hint">Click to filter</div>
+          </div>
+          <div class="card-body">
+            <canvas id="chartCollabTypes" height="190" aria-label="Collaboration types chart"></canvas>
+            <div class="empty hidden" id="emptyCollabTypes">
+              No initiatives for the current filters.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-head">
+          <h2>Initiatives table</h2>
+          <div class="hint" id="initiativesMeta">—</div>
+        </div>
+        <div class="card-body">
+          <div class="table-wrap" role="region" aria-label="Initiatives table" tabindex="0">
+            <table class="table" id="initiativesTable">
+              <thead>
+                <tr>
+                  <th data-sort="company_name_english">Company</th>
+                  <th data-sort="ESG_block">ESG</th>
+                  <th data-sort="theme_tag">Theme</th>
+                  <th data-sort="collaboration_type">Collab type</th>
+                  <th data-sort="driver_primary">Driver</th>
+                  <th data-sort="cluster_keywords">Cluster</th>
+                  <th data-sort="confidence">Conf.</th>
+                  <th data-sort="evidence" title="Shows file name + page(s)">Evidence</th>
+                </tr>
+              </thead>
+              <tbody id="initiativesTbody"></tbody>
+            </table>
+          </div>
+
+          <div class="pager">
+            <button class="btn btn-ghost" id="initiativesPrev" type="button" aria-label="Previous page">Prev</button>
+            <div class="pager-meta" id="initiativesPagerMeta">—</div>
+            <button class="btn btn-ghost" id="initiativesNext" type="button" aria-label="Next page">Next</button>
+          </div>
+
+          <div class="empty hidden" id="emptyInitiatives">
+            No initiatives match the current filters.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="network" class="section hidden" data-section="network" aria-label="Network">
+      <div class="section-head">
+        <div>
+          <h1>Network</h1>
+          <p class="muted">Interactive collaboration graph. Use filters + Top N to keep it smooth.</p>
+        </div>
+        <div class="section-actions">
+          <div class="segmented" role="group" aria-label="Network mode">
+            <button id="netModeCategory" class="seg active" type="button">Category</button>
+            <button id="netModeActor" class="seg" type="button">Named actors</button>
+          </div>
+          <button id="btnFit" class="btn btn-ghost" type="button">Fit view</button>
+          <button id="btnStabilize" class="btn btn-ghost" type="button">Stabilize</button>
+        </div>
+      </div>
+
+      <div class="grid two">
+        <div class="card">
+          <div class="card-head">
+            <h2>Graph</h2>
+            <div class="hint" id="netHint">Category edges (company ↔ actor category)</div>
+          </div>
+          <div class="card-body">
+            <div id="networkCanvas" class="network" role="img" aria-label="Network graph"></div>
+            <div class="empty hidden" id="emptyNetwork">
+              No network edges match the current filters.
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-head">
+            <h2>Controls</h2>
+            <div class="hint">Keep the graph responsive</div>
+          </div>
+          <div class="card-body stack">
+            <div class="field">
+              <label for="topNEdges">Top N edges</label>
+              <input id="topNEdges" type="range" min="50" max="800" value="250" />
+              <div class="mini" id="topNEdgesLabel">250</div>
+            </div>
+
+            <div class="divider"></div>
+
+            <div class="legend" aria-label="Legend">
+              <div class="legend-item"><span class="dot dot-company"></span>Company</div>
+              <div class="legend-item"><span class="dot dot-actor"></span>Actor / category</div>
+              <div class="legend-item"><span class="dot dot-edge"></span>Edge thickness = weight</div>
+            </div>
+
+            <div class="divider"></div>
+
+            <div class="mini muted">
+              Tip: Click a node to apply a filter (company or theme where available).
+            </div>
+
+            <div class="mini" id="netStats">—</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="methods" class="section hidden" data-section="methods" aria-label="Methods">
+      <div class="section-head">
+        <div>
+          <h1>Methods</h1>
+          <p class="muted">What the fields mean, how this dashboard stays transparent, and how to reproduce results.</p>
+        </div>
+      </div>
+
+      <div class="grid two">
+        <div class="card">
+          <div class="card-head">
+            <h2>Extraction & structure</h2>
+            <div class="hint">High-level workflow</div>
+          </div>
+          <div class="card-body prose">
+            <ul>
+              <li><strong>Input:</strong> ESG reports → extracted into structured CSVs.</li>
+              <li><strong>Initiatives:</strong> each row represents an ESG initiative with metadata (ESG block, theme, collaboration type), and public-safe evidence references (file + page).</li>
+              <li><strong>Scores:</strong> company-level E/S/G scores + collaboration intensity and evidence density.</li>
+              <li><strong>Network:</strong> actor-category edges and named actor edges capture collaboration relationships with weights.</li>
+              <li><strong>Clustering & similarity:</strong> initiatives include cluster IDs/keywords and similar-initiative fields (precomputed). This dashboard can also fall back to lightweight similarity in-browser.</li>
+            </ul>
+            <p class="muted">
+              Reproducibility: this site reads only CSVs in <code>/data</code>. No hidden backend.
+            </p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-head">
+            <h2>Public-safe evidence policy</h2>
+            <div class="hint">Default: minimal quoting</div>
+          </div>
+          <div class="card-body prose">
+            <ul>
+              <li>Evidence is shown as <strong>file name + page(s)</strong>.</li>
+              <li>If an excerpt column exists, it is always <strong>truncated to 180 characters</strong> and never displayed by default.</li>
+              <li>For public GitHub Pages, do <strong>not</strong> publish private/raw excerpts.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-head">
+          <h2>Data dictionary (detected columns)</h2>
+          <div class="hint">This table adapts to your CSV schema</div>
+        </div>
+        <div class="card-body">
+          <div class="table-wrap" role="region" aria-label="Data dictionary" tabindex="0">
+            <table class="table">
+              <thead>
+                <tr>
+                  <th>Dataset</th>
+                  <th>Column</th>
+                  <th>Description</th>
+                </tr>
+              </thead>
+              <tbody id="dictTbody"></tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Right-side drawer -->
+  <aside id="drawer" class="drawer hidden" aria-label="Details panel" aria-hidden="true">
+    <div class="drawer-backdrop" id="drawerBackdrop" tabindex="-1" aria-hidden="true"></div>
+    <div class="drawer-panel" role="dialog" aria-modal="true" aria-labelledby="drawerTitle">
+      <div class="drawer-head">
+        <div>
+          <div class="drawer-kicker" id="drawerKicker">Details</div>
+          <div class="drawer-title" id="drawerTitle">—</div>
+          <div class="drawer-sub" id="drawerSub">—</div>
+        </div>
+        <button id="drawerClose" class="btn btn-ghost" type="button" aria-label="Close details panel">Close</button>
+      </div>
+      <div class="drawer-body" id="drawerBody">
+        <!-- injected -->
+      </div>
+    </div>
+  </aside>
+
+  <!-- CDNs -->
+  <script src="https://cdn.jsdeli
