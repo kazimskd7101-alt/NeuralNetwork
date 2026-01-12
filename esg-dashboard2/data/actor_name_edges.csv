@@ -1,0 +1,153 @@
+report_id,company,actor_name,actor_type,theme_tag,evidence_page_numbers
+CN001,Alibaba,Alibaba Foundation,NGO,training_education,17
+CN002,ANT Group,China Foundation,NGO,diversity_inclusion,35
+CN002,ANT Group,Development Foundation,NGO,diversity_inclusion,35
+CN002,ANT Group,Ministry of Agriculture and Rural A,Government,innovation_green_tech,38
+CN002,ANT Group,People's Government of Ping,Government,innovation_green_tech,39
+CN002,ANT Group,Ant Group partnered with Peking University,Academic,innovation_green_tech,45
+CN003,ANTA Sports Products Ltd,Hemin Foundation,NGO,partnerships_general,32
+CN006,Bank of China,Ministry of Education of China,Government,training_education,3
+CN006,Bank of China,Palace Museum and the Sina Yangfan Charity Foundation of the China Siyuan Foundation,NGO,training_education,47
+CN008,CATL,Ministry of Education,Government,training_education,59
+CN010,Chery Auto,UN Global Compact Shortlisted in,NGO,ESG_governance,6
+CN014,China Shenhua Energy,Ministry of Ecology and Environment,Government,emissions_reduction,46
+CN014,China Shenhua Energy,Ministry of Ecology and Environment,Government,biodiversity_ecosystems,55
+CN015,China State Construction,Tsinghua University,Academic,renewable_energy,38
+CN015,China State Construction,Tsinghua University,Academic,training_education,75
+CN017,able Development of CHINT Materiality Assessment Corporate ESG Governance Arrangements 01 02 03 05 13 17 CHINT 01 CHINT,UN Global Compact organization held the launching ceremony of the,NGO,community_development,10
+CN017,able Development of CHINT Materiality Assessment Corporate ESG Governance Arrangements 01 02 03 05 13 17 CHINT 01 CHINT,UNOATION OF C,NGO,training_education,74
+CN017,able Development of CHINT Materiality Assessment Corporate ESG Governance Arrangements 01 02 03 05 13 17 CHINT 01 CHINT,UNGC,NGO,diversity_inclusion,12
+CN017,able Development of CHINT Materiality Assessment Corporate ESG Governance Arrangements 01 02 03 05 13 17 CHINT 01 CHINT,UNGC,NGO,ESG_governance,13
+CN020,CNGR,UN Convention on Biological Diversity,NGO,biodiversity_ecosystems,65
+CN020,CNGR,UN Convention to Combat Desertification,NGO,biodiversity_ecosystems,65
+CN020,CNGR,CNGR Partners with the School of Law at Guizhou University,Academic,biodiversity_ecosystems,69
+CN020,CNGR,CNGR and the School of Law at Guizhou University,Academic,biodiversity_ecosystems,69
+CN022,CRRC,National Natural Science Foundation,NGO,innovation_green_tech,37
+CN024,ENN Natural Gas Co,Laying the Foundation,NGO,emissions_reduction,13
+CN024,ENN Natural Gas Co,Laying the Foundation,NGO,emissions_reduction,19
+CN024,ENN Natural Gas Co,Laying the Foundation,NGO,emissions_reduction,20
+CN024,ENN Natural Gas Co,UN Global Compact Principles The UN Global Compact is a strategic policy initiativ,NGO,labor_rights,63
+CN025,1 ESQUEL,Beijing Zhongyi Art Foundation,NGO,training_education,48
+CN025,1 ESQUEL,Xinjiang Dilinar Cultural and Art Exchange Development Foundation,NGO,training_education,48
+CN025,1 ESQUEL,YL Yang Foundation,NGO,training_education,49
+CN026,rds Index 183 ESG Reporting Guide Index 189 Readers Feedback Form 192 Assurance Statement 193 About This Report 003 004,UN Global Compact in August,NGO,SDG_alignment,50
+CN026,rds Index 183 ESG Reporting Guide Index 189 Readers Feedback Form 192 Assurance Statement 193 About This Report 003 004,UN Global Compact in August,NGO,SDG_alignment,74
+CN026,rds Index 183 ESG Reporting Guide Index 189 Readers Feedback Form 192 Assurance Statement 193 About This Report 003 004,Fosun Foundation,NGO,innovation_green_tech,80
+CN027,Foxconn Industrial Internet,UN SDGs,NGO,emissions_reduction,2
+CN027,Foxconn Industrial Internet,UN Sustainable Development Goals,NGO,SDG_alignment,4
+CN027,Foxconn Industrial Internet,UNGC,NGO,SDG_alignment,4
+CN027,Foxconn Industrial Internet,UN SDGs,NGO,SDG_alignment,25
+CN027,Foxconn Industrial Internet,UN SDGs,NGO,risk_management,19
+CN028,GCL,SEE Foundation,NGO,biodiversity_ecosystems,31
+CN028,GCL,China University,Academic,training_education,47
+CN028,GCL,Jiangsu University,Academic,training_education,47
+CN030,GEM Co.,Central South University,Academic,training_education,41
+CN030,GEM Co.,Program was held simultaneously in Central South University,Academic,training_education,41
+CN031,Glodon,Ministry of Science and Technology,Government,innovation_green_tech,9
+CN031,Glodon,Ministry of Finance of the People,Government,training_education,12
+CN032,Gree,Ministry of Industry and Information Technology,Government,renewable_energy,28
+CN032,Gree,Class of Special Courses Key Universities and Enterprises Exchange Meeting University,Academic,innovation_green_tech,61
+CN032,Gree,Student Innovation Practice Camp University,Academic,innovation_green_tech,61
+CN032,Gree,Plan for Promoting Employee Mental Health Services by the Guangdong Provincial Federation of Trade Unions,Other,innovation_green_tech,64
+CN034,"Jan 1 – Dec 31, 2024",Hoover Foundation,NGO,innovation_green_tech,73
+CN037,Hengyi,Donghua University,Academic,employee_health_safety,9
+CN037,Hengyi,Zhejiang University,Academic,employee_health_safety,9
+CN037,Hengyi,Donghua University,Academic,partnerships_general,41
+CN037,Hengyi,Zhejiang Sci-Tech University,Academic,partnerships_general,41
+CN037,Hengyi,Zhejiang University,Academic,partnerships_general,41
+CN038,Hisense,Collaborating and Empowering to Create Diversified Value Strengthen the Foundation,NGO,compliance_anti_corruption,71
+CN038,Hisense,Hisense established the HVAC Academy at Tashkent International University,Academic,training_education,78
+CN039,Honor,UNIDO,NGO,emissions_reduction,6
+CN039,Honor,China Ageing Development Foundation,NGO,emissions_reduction,7
+CN039,Honor,UNIDO ITPO Beijing,NGO,innovation_green_tech,46
+CN040,nment Social 93 106 115 122 133 65 80 89 38 41 44 50 56 1 1 21 27 02 03 Industrial and Commercial Bank of China Limited,UN Development Technology Finance Pension Finance Digital Finance Serving the Real,NGO,energy_efficiency,20
+CN041,iFlyTEK,West China Hospital affiliated to Sichuan University,Academic,innovation_green_tech,18
+CN041,iFlyTEK,Tsinghua University,Academic,innovation_green_tech,26
+CN041,iFlyTEK,Ministry of Education as a benchmarks for digital transformation,Government,training_education,15
+CN042,Inovance,UN SDGs Sustainability and Corporate Governance,NGO,emissions_reduction,12
+CN043,JA SOLAR SUSTAINABILITY AND,Ministry of Industry and Information Technology Industry Development and Promotion Center of,Government,emissions_reduction,23
+CN043,JA SOLAR SUSTAINABILITY AND,Ministry of Industry and Information Technology National Energy Administration PV Evolution L,Government,emissions_reduction,23
+CN043,JA SOLAR SUSTAINABILITY AND,Hefei University,Academic,training_education,51
+CN043,JA SOLAR SUSTAINABILITY AND,Huazhong University,Academic,training_education,51
+CN043,JA SOLAR SUSTAINABILITY AND,Xiamen University,Academic,training_education,51
+CN044,Jinko Solar,UN Guiding Principles on Business and Human Rights,NGO,labor_rights,26
+CN044,Jinko Solar,UNGPs,NGO,labor_rights,26
+CN044,Jinko Solar,Ministry of Finance of the People,Government,stakeholder_engagement,8
+CN045,Kweichow Moutai Co,Jiangnan University,Academic,pollution_control,23
+CN045,Kweichow Moutai Co,China Foundation,NGO,community_development,64
+CN046,Lenovo,UN Global Compact Forward Faster initiative to accelerate private sector action to,NGO,water_management,22
+CN046,Lenovo,UN CEO Water Mandate,NGO,water_management,28
+CN046,Lenovo,UN G,NGO,water_management,28
+CN047,LINGYI iTECH (GUANGDONG) COMPANY,China University,Academic,training_education,75
+CN047,LINGYI iTECH (GUANGDONG) COMPANY,Fuzhou University,Academic,training_education,75
+CN047,LINGYI iTECH (GUANGDONG) COMPANY,Guangzhou University,Academic,training_education,75
+CN047,LINGYI iTECH (GUANGDONG) COMPANY,Wuhan University,Academic,training_education,75
+CN048,LONGI,UN Refugee Agency,NGO,renewable_energy,5
+CN048,LONGI,UNHCR,NGO,renewable_energy,5
+CN048,LONGI,UNHCR,NGO,emissions_reduction,25
+CN048,LONGI,Paper in the Nature In collaboration with Jiangsu University,Academic,renewable_energy,59
+CN048,LONGI,Science and Technology and Curtin University,Academic,renewable_energy,59
+CN048,LONGI,Fudan University,Academic,partnerships_general,62
+CN048,LONGI,National University,Academic,partnerships_general,62
+CN048,LONGI,Zgejiang University,Academic,partnerships_general,62
+CN050,Meituan,Beijing was jointly developed by the Beijing Meituan Charity Foundation,NGO,innovation_green_tech,15
+CN050,Meituan,Chinese Academy of Sciences Shanghai University,Academic,training_education,26
+CN050,Meituan,Sichuan University Zhejiang University of Technology South China University,Academic,training_education,26
+CN050,Meituan,Technology Nanjing University,Academic,training_education,26
+CN051,Mengniu Dairy,Mengniu partnered with One Foundation,NGO,community_development,31
+CN051,Mengniu Dairy,Mengniu Student Milk and the Mengniu Foundation,NGO,training_education,32
+CN051,Mengniu Dairy,China Space Foundation,NGO,training_education,33
+CN051,Mengniu Dairy,Beijing TA Foundation,NGO,partnerships_general,35
+CN053,"treet, Jiangbei New District, Nanjing, Jiangsu Province, China Postal Code: 210035 01 02 Nanjing Iron & Steel Co., Ltd.",Joint Training Program for Outstanding Engineers with Southeast University,Academic,emissions_reduction,40
+CN053,"treet, Jiangbei New District, Nanjing, Jiangsu Province, China Postal Code: 210035 01 02 Nanjing Iron & Steel Co., Ltd.",Nanjing Municipal Federation of Trade Unions,Other,diversity_inclusion,56
+CN054,PICC,Ministry of Agri,Government,innovation_green_tech,4
+CN055,PING AN,Ping An and the China Youth Development Foundation,NGO,training_education,10
+CN055,PING AN,China Youth Development Foundation,NGO,partnerships_general,13
+CN055,PING AN,Hunan Youth Development Foundation,NGO,partnerships_general,13
+CN055,PING AN,Ping An and the China Youth Development Foundation,NGO,partnerships_general,13
+CN055,PING AN,China Foundation,NGO,innovation_green_tech,78
+CN055,PING AN,Huazhong Agricultural University,Academic,innovation_green_tech,78
+CN055,PING AN,Ping An Annuity and Ling Feng Foundation,NGO,partnerships_general,79
+CN056,Power Construction Corporation of China,Party Committee Secretary of China Three Gorges University,Academic,board_structure,37
+CN056,Power Construction Corporation of China,President of Three Gorges University,Academic,board_structure,37
+CN057,Sany,SANY Foundation,NGO,community_development,48
+CN057,Sany,SANY Foundation,NGO,innovation_green_tech,48
+CN058,SF Holding,Ministry of Ecology and Environment,Government,emissions_reduction,23
+CN058,SF Holding,SF Foundation,NGO,partnerships_general,33
+CN058,SF Holding,SF Foundation has cooperated with the China Green Carbon Foundation,NGO,emissions_reduction,33
+CN059,Shenzhen International Holding Limited,Strategic Cooperation Agreement with the Research Institute of Tsinghua University,Academic,ESG_governance,8
+CN059,Shenzhen International Holding Limited,Liguang Pile Foundation,NGO,supply_chain_governance,40
+CN060,Sungrow,Hefei University,Academic,renewable_energy,33
+CN061,Sunny Optical Technology,Yuyao College of the Open University,Academic,transparency_reporting,41
+CN062,Sunwoda,Ministry of Industry and I,Government,emissions_reduction,9
+CN062,Sunwoda,UN Global Compact SDG Ambition Accelerator,NGO,emissions_reduction,16
+CN062,Sunwoda,China Industry- University,Academic,employee_health_safety,25
+CN062,Sunwoda,Guangdong University,Academic,employee_health_safety,25
+CN062,Sunwoda,Sunwoda Foundation,NGO,partnerships_general,65
+CN064,TCL Technology Group,HuaMeng Philanthropic Foundation,NGO,diversity_inclusion,5
+CN064,TCL Technology Group,TCL Charity Foundation,NGO,diversity_inclusion,5
+CN064,TCL Technology Group,TCL Charity Foundation,NGO,community_development,52
+CN064,TCL Technology Group,TCL Charity Foundation,NGO,renewable_energy,53
+CN064,TCL Technology Group,TCL Charity Foundation,NGO,innovation_green_tech,53
+CN065,Tencent,We have partnered with experts from Stanford University and Peking University,Academic,innovation_green_tech,43
+CN065,Tencent,Ministry of Agriculture and Rural Affairs,Government,innovation_green_tech,71
+CN065,Tencent,Many scientists supported by the New Cornerstone Science Foundation,NGO,water_management,74
+CN067,Vanke,Vanke Foundation,NGO,biodiversity_ecosystems,10
+CN067,Vanke,Vanke Foundation,NGO,biodiversity_ecosystems,16
+CN067,Vanke,Vanke Foundation,NGO,stakeholder_engagement,16
+CN067,Vanke,Vanke Foundation,NGO,partnerships_general,67
+CN068,WuXi AppTec,UNGC,NGO,innovation_green_tech,19
+CN069,XCMG,China Foundation,NGO,water_management,55
+CN069,XCMG,XCMG Machinery and the China Foundation,NGO,water_management,55
+CN070,Xiaomi,UN Global Compact,NGO,emissions_reduction,54
+CN070,Xiaomi,UNGC,NGO,emissions_reduction,54
+CN070,Xiaomi,Mangrove Conservation Foundation,NGO,innovation_green_tech,58
+CN070,Xiaomi,UN Guiding Principles on Business and Human Rights,NGO,labor_rights,71
+CN070,Xiaomi,UN Universal Declaration of Human Rights,NGO,labor_rights,71
+CN070,Xiaomi,Leadership of Foundation,NGO,board_structure,7
+CN071,"Zhejiang Huayou Cobalt Co., Ltd.",UN Sustainable Development Goals,NGO,SDG_alignment,20
+CN072,Zijin,UNHG,NGO,water_management,13
+CN073,ZTE Corporation,UN Women,NGO,diversity_inclusion,8
+CN073,ZTE Corporation,UN Global Compact,NGO,training_education,14
+CN073,ZTE Corporation,Empowering Industries Through Innovation and Building the Foundation,NGO,employee_health_safety,27
+CN073,ZTE Corporation,Ministry of Commerce jointly hosted the eighth Conference of Chinese and African Entrepreneur,Government,partnerships_general,34
